@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Teleports>
+    <teleport fromx="2115" fromy="2105" tox="2120" toy="2099" script="Armia/ArmiaToNoaton.lua" />
+    <teleport fromx="2455" fromy="2020" tox="2460" toy="2015" script="Erion/ErionToNoaron.lua" />
+	
+	  <teleport fromx="2479" fromy="1720" tox="2484" toy="1715" script="Arzan/ArzanToNoaton.lua" />
+	  <teleport fromx="1823" fromy="1776" tox="1828" toy="1771" script="Arzan/ArzanToSubMundo1.lua" />
+	  <teleport fromx="2467" fromy="1720" tox="2472" toy="1715" script="Arzan/ArzanToCampoArzan1.lua" />
+	  <teleport fromx="2452" fromy="1720" tox="2455" toy="1715" script="Arzan/ArzanToCampoArzan2.lua" />
+	  
+	  <teleport fromx="1043" fromy="1728" tox="1048" toy="1723" script="Noaton/NoatonToArmia.lua" />
+	  <teleport fromx="1044" fromy="1711" tox="1047" toy="1708" script="Noaton/NoatonToErion.lua" />
+	  <teleport fromx="1043" fromy="1720" tox="1048" toy="1715" script="Noaton/NoatonToAzran.lua" />
+	  <teleport fromx="1310" fromy="1904" tox="1316" toy="1899" script="Noaton/NoatonToKefra.lua" />
+	  <teleport fromx="1050" fromy="1713" tox="1058" toy="1706" script="Noaton/NoatonToGelo.lua" />
+	  <teleport fromx="1047" fromy="1768" tox="1052" toy="1763" script="Noaton/NoatonGuildaToCastle.lua" />
+	  <teleport fromx="2139" fromy="2072" tox="2144" toy="2067" script="Armia/ArmiaToCampoArmia.lua" />
+	  <teleport fromx="2363" fromy="2287" tox="2368" toy="2282" script="Armia/Armia1ToDungeom1.lua" />
+	  <teleport fromx="2667" fromy="2160" tox="2672" toy="2155" script="Armia/Armia2ToDungeom1.lua" />
+	  <teleport fromx="143" fromy="3792" tox="148" toy="3787" script="Dungeom/Dungeom1ToArmia1.lua" />
+	  <teleport fromx="143" fromy="3776" tox="148" toy="3771" script="Dungeom/Dungeom1ToArmia2.lua" />
+	  <teleport fromx="146" fromy="3784" tox="152" toy="3779" script="Dungeom/Dungeom1ToDungeom2.lua" />
+	  <teleport fromx="1003" fromy="4032" tox="1007" toy="4028" script="Dungeom/Dungeom2ToDungeom1.lua" />
+	  <teleport fromx="2451" fromy="1992" tox="2456" toy="1987" script="Erion/ErionToCampoAzran3.lua" />
+	  
+	  <teleport fromx="1171" fromy="4084" tox="1175" toy="4079" script="SubMundo/SubMundo1ToAzran.lua" />
+	  <teleport fromx="1515" fromy="4000" tox="1519" toy="3995" script="SubMundo/SubMundo1ToSubMundo2.lua" />
+	  <teleport fromx="1303" fromy="3820" tox="1308" toy="3815" script="SubMundo/SubMundo2ToSubMundo1.lua" />
+	  
+	  <teleport fromx="1003" fromy="4068" tox="1007" toy="4063" script="Dungeom/Dungeom2bToDungeom1b.lua" />
+	  <teleport fromx="407" fromy="4074" tox="412" toy="4071" script="Dungeom/Dungeom1bToDungeom2b.lua" />
+	  <teleport fromx="1004" fromy="3995" tox="1008" toy="3991" script="Dungeom/Dungeom2cToDungeom1c.lua" />
+	  <teleport fromx="746" fromy="3817" tox="748" toy="3815" script="Dungeom/Dungeom1cToDungeom2c.lua" />
+	  <teleport fromx="679" fromy="4078" tox="684" toy="4075" script="Dungeom/Dungeom2dToDungeom3.lua" />
+	  <teleport fromx="915" fromy="3823" tox="920" toy="3819" script="Dungeom/Dungeom3ToDungeom2d.lua" />
+	  <teleport fromx="743" fromy="3808" tox="748" toy="3803" script="Dungeom/Dungeom1dToDungeom3.lua" />
+	  <teleport fromx="912" fromy="3812" tox="915" toy="3808" script="Dungeom/Dungeom3ToDungeom1d.lua" />
+	  <teleport fromx="932" fromy="3822" tox="935" toy="3820" script="Dungeom/Dungeom3ToDungeom2e.lua" />
+	  <teleport fromx="876" fromy="3875" tox="877" toy="3873" script="Dungeom/Dungeom2eToDungeom3.lua" />
+	  
+	  <teleport fromx="2364" fromy="3927" tox="2367" toy="3924" script="Kefra/HallDoKefraToQuest.lua" />
+	  <teleport fromx="2358" fromy="3895" tox="2371" toy="3890" script="Kefra/Kefra4ToHallDoKefra.lua" />
+	  <teleport fromx="2363" fromy="4076" tox="2368" toy="4071" script="Kefra/KefraToNoaton.lua" />
+	  
+	  <teleport fromx="3648" fromy="3113" tox="3651" toy="3106" script="Gelo/GeloCityToNoatum.lua" />
+	  <teleport fromx="3644" fromy="3089" tox="3651" toy="3082" script="Gelo/GeloCityToGelo1.lua" />
+	  <teleport fromx="3628" fromy="3061" tox="3671" toy="3054" script="Gelo/Gelo1ToGeloCity.lua" />
+	  <teleport fromx="3596" fromy="3041" tox="3599" toy="2974" script="Gelo/Gelo1ToGelo2.lua" />
+	  <teleport fromx="3624" fromy="2961" tox="3627" toy="2954" script="Gelo/Gelo1ToGelo4.lua" />
+	  <teleport fromx="3660" fromy="2961" tox="3663" toy="2954" script="Gelo/Gelo1ToGelo4.lua" />
+	  <teleport fromx="3568" fromy="3041" tox="3571" toy="2969" script="Gelo/Gelo2ToGelo1.lua" />
+	  <teleport fromx="3500" fromy="2961" tox="3515" toy="2954" script="Gelo/Gelo2ToGelo3.lua" />
+	  <teleport fromx="3500" fromy="2934" tox="3515" toy="2927" script="Gelo/Gelo3ToGelo2.lua" />
+	  <teleport fromx="3568" fromy="2913" tox="3571" toy="2842" script="Gelo/Gelo3ToGelo4.lua" />
+	  <teleport fromx="3644" fromy="2833" tox="3667" toy="2828" script="Gelo/Gelo4ToGelo5.lua" />
+	  <teleport fromx="3676" fromy="2837" tox="3683" toy="2828" script="Gelo/Gelo4ToGeloAmald.lua" />
+	  <teleport fromx="3672" fromy="2803" tox="3675" toy="2798" script="Gelo/GeloAmaldToGelo4.lua" />
+	  <teleport fromx="3696" fromy="2889" tox="3699" toy="2871" script="Gelo/Gelo4ToGeloCastle.lua" />
+	  <teleport fromx="3724" fromy="2885" tox="3727" toy="2874" script="Gelo/CeloCastleToGelo4.lua" />
+	  <teleport fromx="3624" fromy="2803" tox="3643" toy="2799" script="Gelo/Gelo5ToGelo4.lua" />
+	  <teleport fromx="3800" fromy="2953" tox="3803" toy="2946" script="Gelo/GeloAmonToGelCastle.lua" />
+	  <teleport fromx="3792" fromy="2933" tox="3795" toy="2926" script="Gelo/GeloCastleToGeloAmon.lua" />
+</Teleports>    

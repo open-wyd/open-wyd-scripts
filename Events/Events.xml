@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Events>
+	<water name="agua-N" script="agua/agua-N.lua" /> 
+	<water name="agua-M" script="agua/agua-M.lua" /> 
+	<water name="agua-A" script="agua/agua-A.lua" /> 
+	<event name="up-level" script="up-level/up-level.lua" />
+</Events>

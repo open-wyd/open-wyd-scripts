@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Itens>
+	<item eventid="131" script="Agua N/Agua-n-s-1.lua" />
+	<item eventid="132" script="Agua N/Agua-n-s-2.lua" />
+	<item eventid="133" script="Agua N/Agua-n-s-3.lua" />
+	<item eventid="134" script="Agua N/Agua-n-s-4.lua" />
+	<item eventid="135" script="Agua N/Agua-n-s-5.lua" />
+	<item eventid="136" script="Agua N/Agua-n-s-6.lua" />
+	<item eventid="137" script="Agua N/Agua-n-s-7.lua" />
+	<item eventid="138" script="Agua N/Agua-n-s-8.lua" />
+	<item eventid="140" script="Agua N/Agua-n-s-boss.lua" />
+	
+	<item eventid="21" script="Agua M/Agua-m-s-1.lua" />
+	<item eventid="22" script="Agua M/Agua-m-s-2.lua" />
+	<item eventid="23" script="Agua M/Agua-m-s-3.lua" />
+	<item eventid="24" script="Agua M/Agua-m-s-4.lua" />
+	<item eventid="25" script="Agua M/Agua-m-s-5.lua" />
+	<item eventid="26" script="Agua M/Agua-m-s-6.lua" />
+	<item eventid="27" script="Agua M/Agua-m-s-7.lua" />
+	<item eventid="28" script="Agua M/Agua-m-s-8.lua" />
+	<item eventid="30" script="Agua M/Agua-m-s-boss.lua" />
+	
+	<item eventid="161" script="Agua A/Agua-a-s-1.lua" />
+	<item eventid="162" script="Agua A/Agua-a-s-2.lua" />
+	<item eventid="163" script="Agua A/Agua-a-s-3.lua" />
+	<item eventid="164" script="Agua A/Agua-a-s-4.lua" />
+	<item eventid="165" script="Agua A/Agua-a-s-5.lua" />
+	<item eventid="166" script="Agua A/Agua-a-s-6.lua" />
+	<item eventid="167" script="Agua A/Agua-a-s-7.lua" />
+	<item eventid="168" script="Agua A/Agua-a-s-8.lua" />
+	<item eventid="170" script="Agua A/Agua-a-s-boss.lua" />
+	
+    <item eventid="100" check_class="0" check_level="1" fromlvl="39" tolvl="99" check_pos="0" fromx="0" fromy="0" tox="0" toy="0" notify="1" message="Level inapropriado para realizar a quest, [Lv 40~100]." script="kaizen/Caixa_da_Sabedoria.lua" />
+	<item eventid="101" check_class="0" check_level="1" fromlvl="109" tolvl="189" check_pos="0" fromx="0" fromy="0" tox="0" toy="0" notify="1" message="Level inapropriado para realizar a quest, [Lv 110~190]." script="kaizen/Lágrima_Angelical.lua" />
+	<item eventid="102" check_class="0" check_level="1" fromlvl="199" tolvl="255" check_pos="0" fromx="0" fromy="0" tox="0" toy="0" notify="1" message="Level inapropriado para realizar a quest, [Lv 200~256]." script="kaizen/Coração_do_Kaizen.lua" />
+	<item eventid="103" check_class="0" check_level="1" fromlvl="269" tolvl="319" check_pos="0" fromx="0" fromy="0" tox="0" toy="0" notify="1" message="Level inapropriado para realizar a quest, [Lv 270~320]." script="kaizen/Olho_de_Sangue.lua" />
+	<item eventid="104" check_class="0" check_level="1" fromlvl="324" tolvl="399" check_pos="0" fromx="0" fromy="0" tox="0" toy="0" notify="1" message="Level inapropriado para realizar a quest, [Lv 325~400]." script="kaizen/Pedra_Espiritual_dos_Elfos.lua" />
+</Itens>

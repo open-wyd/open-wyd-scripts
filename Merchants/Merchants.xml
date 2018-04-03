@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Merchants>
+    <merchant eventid="1" script="up-level/Kaizen_1.lua" />
+	<merchant eventid="2" script="up-level/Kaizen_2.lua" />
+	<merchant eventid="3" script="up-level/Kaizen_3.lua" />
+	<merchant eventid="4" script="up-level/Kaizen_4.lua" />
+	<merchant eventid="5" script="up-level/Kaizen_5.lua" />
+</Merchants>

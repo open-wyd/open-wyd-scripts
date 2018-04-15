@@ -51,6 +51,10 @@ params.find.flag = {
     --T_FULL = T_ID+T_ADD1+T_ADD2+T_ADD3+T_VAL1+T_VAL2+T_VAL3
 };
 
+ITEM_PLACE_EQUIP = 0;
+ITEM_PLACE_CARRY = 1;
+ITEM_PLACE_CARGO = 2;
+
 params.slot.flag = {
 	iSLOT_EQUIP = 1,
     iSLOT_INVENTORY = 2,

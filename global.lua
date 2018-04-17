@@ -4,7 +4,7 @@ LUA_ERROR = -1
 LUA_NO_ERROR = 0
 
 -- skill Condition type
-__sConditionEffect = 0;
+__sConditionAffect = 0;
 __sConditionType = 1;
 
 ms = {
@@ -51,20 +51,22 @@ params.find.flag = {
     --T_FULL = T_ID+T_ADD1+T_ADD2+T_ADD3+T_VAL1+T_VAL2+T_VAL3
 };
 
+EF_AMOUNT = 61
+
 ITEM_PLACE_EQUIP = 0;
 ITEM_PLACE_CARRY = 1;
 ITEM_PLACE_CARGO = 2;
 
 params.slot.flag = {
 	iSLOT_EQUIP = 1,
-    iSLOT_INVENTORY = 2,
+    iSLOT_CARRY = 2,
     iSLOT_STORAGE = 3,
 	
 	SLOT_EQUIP = iLSHIFT(1,0),
-    SLOT_INVENTORY = iLSHIFT(1,1),
-    SLOT_STORAGE = iLSHIFT(1,2),
+    SLOT_CARRY = iLSHIFT(1,1),
+    SLOT_CARGO = iLSHIFT(1,2),
 
-    --SLOT_ALL = SLOT_EQUIP+SLOT_INVENTORY+SLOT_STORAGE
+    --SLOT_ALL = SLOT_EQUIP+SLOT_CARRY+SLOT_CARGO
 };
 
 params.eventTask = {

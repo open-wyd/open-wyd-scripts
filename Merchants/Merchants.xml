@@ -6,5 +6,6 @@
 	<merchant eventid="4" script="up-level/Kaizen_4.lua" />
 	<merchant eventid="5" script="up-level/Kaizen_5.lua" />
 	
+	<merchant eventid="12" script="JEFFI.lua" />
 	<merchant eventid="58" script="Mount_Master.lua" />
 </Merchants>

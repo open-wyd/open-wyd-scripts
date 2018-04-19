@@ -94,6 +94,6 @@ function OnUse(npc, player, confirm)
 		iSend.Carry(player);
 		iSend.Etc(player);
 
-		--iLog("etc,jeffi make lac [".. actionList[0].count .."] ori [".. actionList[1].count .."] name:"..player:getName().." level:"..player:getName());
+		iLog("etc,jeffi make lac [".. actionList[0].total .."] ori [".. actionList[1].total .."] name:"..player:getName().." level:"..player:getName());
 	end
 end

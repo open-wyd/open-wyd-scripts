@@ -2,12 +2,12 @@ function OnUse(npc, player, confirm)
 	
 	local mount = player:getMount();
 	if (mount:isBetween(2330, 2390) == false) then
-		iSend.Say(npc, "VocÍ n„o possui uma montaria valida.");
+		iSend.Say(npc, "Voc√™ n√£o possui uma montaria valida.");
 		return;
 	end
 	
 	if (mount:getValue(0) > 0) then
-		iSend.Say(npc, "A montaria ainda est· viva!");
+		iSend.Say(npc, "A montaria ainda est√° viva!");
 		return;
 	end
 	
@@ -26,6 +26,7 @@ function OnUse(npc, player, confirm)
 	end
 
 	if (price < 0 or price > 2000000000) then
+		iSend.Say(npc, "Houve um erro! Tire uma print e envie ao suporte! Mount_Master.lua#28");
 		iLog("etc, ["..player:getName().."] mount ressurect index:"..mount:getId().." Wrong price:"..price);
 		return;
 	end

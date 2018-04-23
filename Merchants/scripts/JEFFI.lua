@@ -52,7 +52,7 @@ function OnUse(npc, player, confirm)
 		
 		for key, value in pairs(actionList) do
 			
-			local count = value.fItem:findItemID(value.fItemId, 10000);
+			local count = value.fItem:findItemId(value.fItemId, 10000);
 			if(count >= 10) then
 				
 				value.total = math.floor(count / 10);

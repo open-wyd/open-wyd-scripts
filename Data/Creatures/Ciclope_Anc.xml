@@ -4,10 +4,10 @@
 	<special special1="255" special2="1" special3="255" special4="1" />
 	<strategy damage="545" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1600"/>
 	<resistences>
-		<resistence fire="-30" >
+		<resistence fire="-30" />
 	</resistences>
 	<look>
-		<corpse id="234" brightness="0" >
-		<rigth_weapon id="702" brightness="0" >
+		<corpse id="234" brightness="0" />
+		<rigth_weapon id="702" brightness="0" />
 	</look>
 </creature>

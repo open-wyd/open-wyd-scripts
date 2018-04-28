@@ -4,39 +4,39 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="8" magic="0" critical="255" attack_speed="241" move_speed="15" defense="4"/>
 	<look>
-		<corpse id="202" brightness="0" >
+		<corpse id="202" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="0" id="1115">
-			<effect id="105" value="6">
-			<effect id="103" value="4">
+			<effect id="105" value="6"/>
+			<effect id="103" value="4"/>
 		</item>
 		<item rateId="1" id="1127">
-			<effect id="105" value="6">
-			<effect id="241" value="4">
+			<effect id="105" value="6"/>
+			<effect id="241" value="4"/>
 		</item>
 		<item rateId="2" id="1265">
-			<effect id="105" value="6">
-			<effect id="253" value="4">
+			<effect id="105" value="6"/>
+			<effect id="253" value="4"/>
 		</item>
 		<item rateId="3" id="1277">
-			<effect id="105" value="6">
-			<effect id="126" value="5">
+			<effect id="105" value="6"/>
+			<effect id="126" value="5"/>
 		</item>
 		<item rateId="4" id="1406">
-			<effect id="105" value="6">
-			<effect id="129" value="5">
+			<effect id="105" value="6"/>
+			<effect id="129" value="5"/>
 		</item>
 		<item rateId="5" id="1409">
-			<effect id="105" value="6">
-			<effect id="20" value="6">
+			<effect id="105" value="6"/>
+			<effect id="20" value="6"/>
 		</item>
 		<item rateId="6" id="1556">
-			<effect id="105" value="6">
-			<effect id="23" value="6">
+			<effect id="105" value="6"/>
+			<effect id="23" value="6"/>
 		</item>
 		<item rateId="7" id="1559">
-			<effect id="105" value="6">
+			<effect id="105" value="6"/>
 		</item>
 		<item rateId="16" id="420">
 		</item>

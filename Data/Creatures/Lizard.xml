@@ -4,54 +4,54 @@
 	<special special1="126" special2="7" special3="255" special4="7" />
 	<strategy damage="48" magic="0" critical="255" attack_speed="243" move_speed="15" defense="100"/>
 	<look>
-		<corpse id="240" brightness="0" >
+		<corpse id="240" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="0" id="1428">
-			<effect id="101" value="4">
-			<effect id="117" value="4">
+			<effect id="101" value="4"/>
+			<effect id="117" value="4"/>
 		</item>
 		<item rateId="1" id="1141">
-			<effect id="101" value="4">
-			<effect id="129" value="4">
+			<effect id="101" value="4"/>
+			<effect id="129" value="4"/>
 		</item>
 		<item rateId="2" id="1153">
-			<effect id="101" value="4">
-			<effect id="10" value="5">
+			<effect id="101" value="4"/>
+			<effect id="10" value="5"/>
 		</item>
 		<item rateId="3" id="1290">
-			<effect id="101" value="4">
-			<effect id="22" value="5">
+			<effect id="101" value="4"/>
+			<effect id="22" value="5"/>
 		</item>
 		<item rateId="4" id="1302">
-			<effect id="101" value="4">
-			<effect id="146" value="5">
+			<effect id="101" value="4"/>
+			<effect id="146" value="5"/>
 		</item>
 		<item rateId="5" id="1426">
-			<effect id="101" value="4">
-			<effect id="11" value="5">
+			<effect id="101" value="4"/>
+			<effect id="11" value="5"/>
 		</item>
 		<item rateId="6" id="1291">
-			<effect id="101" value="4">
-			<effect id="145" value="5">
+			<effect id="101" value="4"/>
+			<effect id="145" value="5"/>
 		</item>
 		<item rateId="7" id="1425">
-			<effect id="101" value="4">
+			<effect id="101" value="4"/>
 		</item>
 		<item rateId="32" id="1104">
-			<effect id="101" value="4">
-			<effect id="136" value="5">
+			<effect id="101" value="4"/>
+			<effect id="136" value="5"/>
 		</item>
 		<item rateId="33" id="1416">
-			<effect id="101" value="4">
-			<effect id="30" value="6">
+			<effect id="101" value="4"/>
+			<effect id="30" value="6"/>
 		</item>
 		<item rateId="34" id="1566">
-			<effect id="101" value="4">
-			<effect id="230" value="4">
+			<effect id="101" value="4"/>
+			<effect id="230" value="4"/>
 		</item>
 		<item rateId="35" id="1254">
-			<effect id="101" value="4">
+			<effect id="101" value="4"/>
 		</item>
 		<item rateId="61" id="425">
 		</item>

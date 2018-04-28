@@ -4,35 +4,35 @@
 	<special special1="255" special2="1" special3="255" special4="1" />
 	<strategy damage="570" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1010"/>
 	<resistences>
-		<resistence holy="20" >
-		<resistence lightning="20" >
-		<resistence fire="-20" >
-		<resistence ice="-20" >
+		<resistence holy="20" />
+		<resistence lightning="20" />
+		<resistence fire="-20" />
+		<resistence ice="-20" />
 	</resistences>
 	<look>
-		<corpse id="252" brightness="7" >
-		<helmet id="115" brightness="0" >
-		<armor id="253" brightness="0" >
-		<pants id="254" brightness="0" >
-		<glove id="255" brightness="0" >
-		<boots id="256" brightness="0" >
-		<rigth_weapon id="722" brightness="0" >
-		<left_weapon id="722" brightness="0" >
+		<corpse id="252" brightness="7" />
+		<helmet id="115" brightness="0" />
+		<armor id="253" brightness="0" />
+		<pants id="254" brightness="0" />
+		<glove id="255" brightness="0" />
+		<boots id="256" brightness="0" />
+		<rigth_weapon id="722" brightness="0" />
+		<left_weapon id="722" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="8" id="1181">
-			<effect id="103" value="4">
-			<effect id="36" value="5">
+			<effect id="103" value="4"/>
+			<effect id="36" value="5"/>
 		</item>
 		<item rateId="9" id="1316">
-			<effect id="103" value="4">
-			<effect id="163" value="1">
+			<effect id="103" value="4"/>
+			<effect id="163" value="1"/>
 		</item>
 		<item rateId="10" id="419">
-			<effect id="80" value="6">
+			<effect id="80" value="6"/>
 		</item>
 		<item rateId="11" id="1616">
-			<effect id="103" value="4">
+			<effect id="103" value="4"/>
 		</item>
 	</loot>
 </creature>

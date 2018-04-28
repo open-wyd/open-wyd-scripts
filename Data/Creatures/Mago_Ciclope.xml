@@ -4,14 +4,14 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="950" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1900"/>
 	<resistences>
-		<resistence lightning="30" >
-		<resistence fire="-10" >
-		<resistence ice="20" >
+		<resistence lightning="30" />
+		<resistence fire="-10" />
+		<resistence ice="20" />
 	</resistences>
 	<look>
-		<corpse id="243" brightness="0" >
-		<rigth_weapon id="714" brightness="7" >
-		<eventItem id="786" brightness="2" >
+		<corpse id="243" brightness="0" />
+		<rigth_weapon id="714" brightness="7" />
+		<eventItem id="786" brightness="2" />
 	</look>
 	<loot>
 		<item rateId="57" id="3123">

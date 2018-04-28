@@ -4,13 +4,13 @@
 	<special special1="101" special2="1" special3="101" special4="1" />
 	<strategy damage="861" magic="0" critical="255" attack_speed="244" move_speed="15" defense="2500"/>
 	<look>
-		<corpse id="17" brightness="0" >
-		<helmet id="144" brightness="0" >
-		<armor id="145" brightness="0" >
-		<pants id="146" brightness="0" >
-		<glove id="147" brightness="0" >
-		<boots id="148" brightness="0" >
-		<rigth_weapon id="820" brightness="0" >
-		<kingdom id="737" brightness="0" >
+		<corpse id="17" brightness="0" />
+		<helmet id="144" brightness="0" />
+		<armor id="145" brightness="0" />
+		<pants id="146" brightness="0" />
+		<glove id="147" brightness="0" />
+		<boots id="148" brightness="0" />
+		<rigth_weapon id="820" brightness="0" />
+		<kingdom id="737" brightness="0" />
 	</look>
 </creature>

@@ -4,40 +4,40 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="415" magic="0" critical="255" attack_speed="241" move_speed="15" defense="1090"/>
 	<resistences>
-		<resistence fire="-30" >
+		<resistence fire="-30" />
 	</resistences>
 	<look>
-		<corpse id="234" brightness="0" >
-		<rigth_weapon id="702" brightness="0" >
+		<corpse id="234" brightness="0" />
+		<rigth_weapon id="702" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="0" id="412">
-			<effect id="156" value="1">
+			<effect id="156" value="1"/>
 		</item>
 		<item rateId="1" id="412">
 		</item>
 		<item rateId="16" id="413">
 		</item>
 		<item rateId="27" id="807">
-			<effect id="101" value="0">
+			<effect id="101" value="0"/>
 		</item>
 		<item rateId="32" id="1185">
-			<effect id="101" value="0">
-			<effect id="164" value="4">
+			<effect id="101" value="0"/>
+			<effect id="164" value="4"/>
 		</item>
 		<item rateId="33" id="1188">
-			<effect id="101" value="0">
-			<effect id="112" value="4">
+			<effect id="101" value="0"/>
+			<effect id="112" value="4"/>
 		</item>
 		<item rateId="34" id="1136">
-			<effect id="102" value="0">
-			<effect id="100" value="4">
+			<effect id="102" value="0"/>
+			<effect id="100" value="4"/>
 		</item>
 		<item rateId="35" id="1124">
-			<effect id="102" value="0">
+			<effect id="102" value="0"/>
 		</item>
 		<item rateId="48" id="3178">
-			<effect id="106" value="12">
+			<effect id="106" value="12"/>
 		</item>
 		<item rateId="49" id="3178">
 		</item>

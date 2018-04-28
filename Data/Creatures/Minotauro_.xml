@@ -4,9 +4,9 @@
 	<special special1="255" special2="3" special3="255" special4="3" />
 	<strategy damage="891" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1350"/>
 	<resistences>
-		<resistence fire="-30" >
+		<resistence fire="-30" />
 	</resistences>
 	<look>
-		<corpse id="235" brightness="4" >
+		<corpse id="235" brightness="4" />
 	</look>
 </creature>

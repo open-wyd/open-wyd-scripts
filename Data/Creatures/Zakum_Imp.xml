@@ -4,8 +4,8 @@
 	<special special1="255" special2="7" special3="106" special4="2" />
 	<strategy damage="200" magic="0" critical="0" attack_speed="243" move_speed="15" defense="500"/>
 	<look>
-		<corpse id="239" brightness="3" >
-		<rigth_weapon id="702" brightness="0" >
+		<corpse id="239" brightness="3" />
+		<rigth_weapon id="702" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="57" id="410">

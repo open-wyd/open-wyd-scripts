@@ -4,91 +4,91 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="950" magic="0" critical="255" attack_speed="242" move_speed="15" defense="2700"/>
 	<resistences>
-		<resistence holy="10" >
-		<resistence lightning="10" >
-		<resistence fire="10" >
-		<resistence ice="10" >
+		<resistence holy="10" />
+		<resistence lightning="10" />
+		<resistence fire="10" />
+		<resistence ice="10" />
 	</resistences>
 	<look>
-		<corpse id="283" brightness="0" >
-		<rigth_weapon id="728" brightness="0" >
+		<corpse id="283" brightness="0" />
+		<rigth_weapon id="728" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="0" id="412">
-			<effect id="156" value="1">
+			<effect id="156" value="1"/>
 		</item>
 		<item rateId="1" id="412">
-			<effect id="156" value="1">
+			<effect id="156" value="1"/>
 		</item>
 		<item rateId="2" id="412">
 		</item>
 		<item rateId="16" id="413">
-			<effect id="157" value="1">
+			<effect id="157" value="1"/>
 		</item>
 		<item rateId="17" id="413">
-			<effect id="106" value="12">
+			<effect id="106" value="12"/>
 		</item>
 		<item rateId="18" id="3178">
-			<effect id="106" value="12">
+			<effect id="106" value="12"/>
 		</item>
 		<item rateId="19" id="3178">
 		</item>
 		<item rateId="24" id="3189">
-			<effect id="117" value="12">
+			<effect id="117" value="12"/>
 		</item>
 		<item rateId="25" id="3189">
 		</item>
 		<item rateId="27" id="935">
-			<effect id="101" value="0">
-			<effect id="109" value="6">
+			<effect id="101" value="0"/>
+			<effect id="109" value="6"/>
 		</item>
 		<item rateId="28" id="1645">
-			<effect id="101" value="0">
-			<effect id="107" value="6">
+			<effect id="101" value="0"/>
+			<effect id="107" value="6"/>
 		</item>
 		<item rateId="29" id="1643">
-			<effect id="101" value="0">
-			<effect id="113" value="6">
+			<effect id="101" value="0"/>
+			<effect id="113" value="6"/>
 		</item>
 		<item rateId="30" id="1649">
-			<effect id="101" value="0">
-			<effect id="110" value="6">
+			<effect id="101" value="0"/>
+			<effect id="110" value="6"/>
 		</item>
 		<item rateId="31" id="1646">
-			<effect id="101" value="0">
-			<effect id="186" value="4">
+			<effect id="101" value="0"/>
+			<effect id="186" value="4"/>
 		</item>
 		<item rateId="32" id="1210">
-			<effect id="101" value="0">
-			<effect id="184" value="4">
+			<effect id="101" value="0"/>
+			<effect id="184" value="4"/>
 		</item>
 		<item rateId="33" id="1208">
-			<effect id="101" value="0">
-			<effect id="190" value="4">
+			<effect id="101" value="0"/>
+			<effect id="190" value="4"/>
 		</item>
 		<item rateId="34" id="1214">
-			<effect id="101" value="0">
-			<effect id="187" value="4">
+			<effect id="101" value="0"/>
+			<effect id="187" value="4"/>
 		</item>
 		<item rateId="35" id="1211">
-			<effect id="101" value="0">
+			<effect id="101" value="0"/>
 		</item>
 		<item rateId="37" id="825">
-			<effect id="2" value="45">
+			<effect id="2" value="45"/>
 		</item>
 		<item rateId="39" id="810">
-			<effect id="2" value="45">
-			<effect id="72" value="3">
+			<effect id="2" value="45"/>
+			<effect id="72" value="3"/>
 		</item>
 		<item rateId="40" id="840">
-			<effect id="2" value="45">
+			<effect id="2" value="45"/>
 		</item>
 		<item rateId="54" id="1653">
-			<effect id="101" value="0">
-			<effect id="105" value="6">
+			<effect id="101" value="0"/>
+			<effect id="105" value="6"/>
 		</item>
 		<item rateId="55" id="1641">
-			<effect id="101" value="0">
+			<effect id="101" value="0"/>
 		</item>
 	</loot>
 </creature>

@@ -4,9 +4,9 @@
 	<special special1="101" special2="1" special3="101" special4="1" />
 	<strategy damage="65" magic="0" critical="255" attack_speed="240" move_speed="15" defense="60"/>
 	<look>
-		<corpse id="209" brightness="0" >
-		<helmet id="211" brightness="0" >
-		<rigth_weapon id="950" brightness="0" >
+		<corpse id="209" brightness="0" />
+		<helmet id="211" brightness="0" />
+		<rigth_weapon id="950" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="56" id="453">

@@ -4,25 +4,25 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="4000" magic="0" critical="255" attack_speed="245" move_speed="15" defense="4000"/>
 	<resistences>
-		<resistence holy="40" >
-		<resistence lightning="40" >
-		<resistence fire="40" >
-		<resistence ice="40" >
+		<resistence holy="40" />
+		<resistence lightning="40" />
+		<resistence fire="40" />
+		<resistence ice="40" />
 	</resistences>
 	<look>
-		<corpse id="283" brightness="7" >
-		<rigth_weapon id="884" brightness="9" >
-		<eventItem id="786" brightness="4" >
+		<corpse id="283" brightness="7" />
+		<rigth_weapon id="884" brightness="9" />
+		<eventItem id="786" brightness="4" />
 	</look>
 	<loot>
 		<item rateId="8" id="486">
-			<effect id="231" value="1">
+			<effect id="231" value="1"/>
 		</item>
 		<item rateId="9" id="487">
-			<effect id="232" value="1">
+			<effect id="232" value="1"/>
 		</item>
 		<item rateId="10" id="488">
-			<effect id="233" value="1">
+			<effect id="233" value="1"/>
 		</item>
 		<item rateId="11" id="489">
 		</item>

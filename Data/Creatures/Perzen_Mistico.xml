@@ -4,105 +4,105 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="12000" magic="0" critical="0" attack_speed="242" move_speed="31" defense="12563"/>
 	<look>
-		<corpse id="11" brightness="0" >
-		<helmet id="1360" brightness="6" >
-		<armor id="1360" brightness="6" >
-		<pants id="1360" brightness="6" >
-		<glove id="1360" brightness="6" >
-		<boots id="1360" brightness="6" >
-		<rigth_weapon id="2850" brightness="9" >
+		<corpse id="11" brightness="0" />
+		<helmet id="1360" brightness="6" />
+		<armor id="1360" brightness="6" />
+		<pants id="1360" brightness="6" />
+		<glove id="1360" brightness="6" />
+		<boots id="1360" brightness="6" />
+		<rigth_weapon id="2850" brightness="9" />
 	</look>
 	<shopItems>
 		<item pos="0" id="421">
-			<effect id="43" value="2">
-			<effect id="166" value="1">
+			<effect id="43" value="2"/>
+			<effect id="166" value="1"/>
 		</item>
 		<item pos="1" id="422">
-			<effect id="43" value="3">
-			<effect id="167" value="1">
+			<effect id="43" value="3"/>
+			<effect id="167" value="1"/>
 		</item>
 		<item pos="2" id="423">
-			<effect id="43" value="4">
-			<effect id="168" value="1">
+			<effect id="43" value="4"/>
+			<effect id="168" value="1"/>
 		</item>
 		<item pos="3" id="424">
-			<effect id="43" value="5">
-			<effect id="169" value="1">
+			<effect id="43" value="5"/>
+			<effect id="169" value="1"/>
 		</item>
 		<item pos="4" id="425">
-			<effect id="43" value="6">
-			<effect id="170" value="1">
+			<effect id="43" value="6"/>
+			<effect id="170" value="1"/>
 		</item>
 		<item pos="5" id="426">
-			<effect id="43" value="7">
-			<effect id="171" value="1">
+			<effect id="43" value="7"/>
+			<effect id="171" value="1"/>
 		</item>
 		<item pos="6" id="427">
-			<effect id="43" value="8">
-			<effect id="163" value="1">
+			<effect id="43" value="8"/>
+			<effect id="163" value="1"/>
 		</item>
 		<item pos="7" id="419">
-			<effect id="164" value="1">
+			<effect id="164" value="1"/>
 		</item>
 		<item pos="8" id="420">
 		</item>
 		<item pos="27" id="411">
-			<effect id="61" value="10">
-			<effect id="8" value="3">
+			<effect id="61" value="10"/>
+			<effect id="8" value="3"/>
 		</item>
 		<item pos="28" id="776">
-			<effect id="61" value="10">
-			<effect id="188" value="2">
+			<effect id="61" value="10"/>
+			<effect id="188" value="2"/>
 		</item>
 		<item pos="29" id="700">
-			<effect id="192" value="1">
+			<effect id="192" value="1"/>
 		</item>
 		<item pos="30" id="448">
-			<effect id="40" value="12">
+			<effect id="40" value="12"/>
 		</item>
 		<item pos="31" id="3112">
-			<effect id="41" value="12">
+			<effect id="41" value="12"/>
 		</item>
 		<item pos="32" id="3113">
-			<effect id="42" value="12">
+			<effect id="42" value="12"/>
 		</item>
 		<item pos="33" id="3114">
 		</item>
 		<item pos="54" id="1795">
-			<effect id="43" value="1">
-			<effect id="61" value="15">
-			<effect id="4" value="7">
+			<effect id="43" value="1"/>
+			<effect id="61" value="15"/>
+			<effect id="4" value="7"/>
 		</item>
 		<item pos="55" id="1796">
-			<effect id="43" value="1">
-			<effect id="61" value="15">
-			<effect id="5" value="7">
+			<effect id="43" value="1"/>
+			<effect id="61" value="15"/>
+			<effect id="5" value="7"/>
 		</item>
 		<item pos="56" id="1797">
-			<effect id="43" value="1">
-			<effect id="61" value="15">
-			<effect id="6" value="7">
+			<effect id="43" value="1"/>
+			<effect id="61" value="15"/>
+			<effect id="6" value="7"/>
 		</item>
 		<item pos="57" id="1798">
-			<effect id="43" value="1">
-			<effect id="61" value="15">
-			<effect id="7" value="7">
+			<effect id="43" value="1"/>
+			<effect id="61" value="15"/>
+			<effect id="7" value="7"/>
 		</item>
 		<item pos="58" id="1799">
-			<effect id="43" value="1">
-			<effect id="61" value="15">
-			<effect id="8" value="7">
+			<effect id="43" value="1"/>
+			<effect id="61" value="15"/>
+			<effect id="8" value="7"/>
 		</item>
 		<item pos="59" id="1800">
-			<effect id="43" value="1">
-			<effect id="61" value="15">
-			<effect id="43" value="12">
+			<effect id="43" value="1"/>
+			<effect id="61" value="15"/>
+			<effect id="43" value="12"/>
 		</item>
 		<item pos="60" id="3115">
-			<effect id="44" value="12">
+			<effect id="44" value="12"/>
 		</item>
 		<item pos="61" id="3116">
-			<effect id="45" value="12">
+			<effect id="45" value="12"/>
 		</item>
 		<item pos="62" id="3117">
 		</item>

@@ -4,12 +4,12 @@
 	<special special1="40" special2="7" special3="40" special4="7" />
 	<strategy damage="870" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1270"/>
 	<resistences>
-		<resistence holy="10" >
-		<resistence lightning="-10" >
-		<resistence fire="-20" >
-		<resistence ice="20" >
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="20" />
 	</resistences>
 	<look>
-		<corpse id="218" brightness="0" >
+		<corpse id="218" brightness="0" />
 	</look>
 </creature>

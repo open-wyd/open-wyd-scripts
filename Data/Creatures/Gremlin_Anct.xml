@@ -4,16 +4,16 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="150" magic="0" critical="255" attack_speed="241" move_speed="15" defense="260"/>
 	<look>
-		<corpse id="202" brightness="8" >
+		<corpse id="202" brightness="8" />
 	</look>
 	<loot>
 		<item rateId="0" id="3178">
-			<effect id="106" value="12">
+			<effect id="106" value="12"/>
 		</item>
 		<item rateId="1" id="3178">
 		</item>
 		<item rateId="8" id="412">
-			<effect id="156" value="1">
+			<effect id="156" value="1"/>
 		</item>
 		<item rateId="9" id="412">
 		</item>

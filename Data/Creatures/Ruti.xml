@@ -4,69 +4,69 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="500" magic="0" critical="255" attack_speed="241" move_speed="15" defense="500"/>
 	<look>
-		<corpse id="16" brightness="0" >
-		<helmet id="1566" brightness="0" >
-		<armor id="1569" brightness="0" >
-		<pants id="1572" brightness="0" >
-		<glove id="1575" brightness="0" >
-		<boots id="1578" brightness="0" >
+		<corpse id="16" brightness="0" />
+		<helmet id="1566" brightness="0" />
+		<armor id="1569" brightness="0" />
+		<pants id="1572" brightness="0" />
+		<glove id="1575" brightness="0" />
+		<boots id="1578" brightness="0" />
 	</look>
 	<shopItems>
 		<item pos="0" id="685">
-			<effect id="61" value="20">
-			<effect id="179" value="2">
+			<effect id="61" value="20"/>
+			<effect id="179" value="2"/>
 		</item>
 		<item pos="1" id="691">
-			<effect id="61" value="20">
+			<effect id="61" value="20"/>
 		</item>
 		<item pos="3" id="415">
-			<effect id="154" value="1">
+			<effect id="154" value="1"/>
 		</item>
 		<item pos="4" id="410">
-			<effect id="155" value="1">
+			<effect id="155" value="1"/>
 		</item>
 		<item pos="5" id="411">
-			<effect id="61" value="10">
+			<effect id="61" value="10"/>
 		</item>
 		<item pos="27" id="700">
-			<effect id="187" value="2">
+			<effect id="187" value="2"/>
 		</item>
 		<item pos="28" id="699">
-			<effect id="8" value="3">
+			<effect id="8" value="3"/>
 		</item>
 		<item pos="29" id="776">
-			<effect id="61" value="10">
+			<effect id="61" value="10"/>
 		</item>
 		<item pos="34" id="683">
-			<effect id="61" value="70">
-			<effect id="177" value="2">
+			<effect id="61" value="70"/>
+			<effect id="177" value="2"/>
 		</item>
 		<item pos="35" id="689">
-			<effect id="61" value="70">
+			<effect id="61" value="70"/>
 		</item>
 		<item pos="54" id="3140">
-			<effect id="67" value="12">
+			<effect id="67" value="12"/>
 		</item>
 		<item pos="55" id="3139">
-			<effect id="66" value="12">
+			<effect id="66" value="12"/>
 		</item>
 		<item pos="56" id="3138">
-			<effect id="65" value="12">
+			<effect id="65" value="12"/>
 		</item>
 		<item pos="57" id="3137">
-			<effect id="64" value="12">
+			<effect id="64" value="12"/>
 		</item>
 		<item pos="58" id="3136">
-			<effect id="63" value="12">
+			<effect id="63" value="12"/>
 		</item>
 		<item pos="59" id="3135">
 		</item>
 		<item pos="61" id="683">
-			<effect id="61" value="100">
-			<effect id="177" value="2">
+			<effect id="61" value="100"/>
+			<effect id="177" value="2"/>
 		</item>
 		<item pos="62" id="689">
-			<effect id="61" value="100">
+			<effect id="61" value="100"/>
 		</item>
 	</shopItems>
 </creature>

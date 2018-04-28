@@ -4,6 +4,6 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="500" magic="0" critical="255" attack_speed="242" move_speed="15" defense="5000"/>
 	<look>
-		<corpse id="336" brightness="0" >
+		<corpse id="336" brightness="0" />
 	</look>
 </creature>

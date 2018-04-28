@@ -4,11 +4,11 @@
 	<special special1="255" special2="2" special3="105" special4="1" />
 	<strategy damage="190" magic="0" critical="255" attack_speed="242" move_speed="15" defense="200"/>
 	<look>
-		<corpse id="203" brightness="7" >
+		<corpse id="203" brightness="7" />
 	</look>
 	<loot>
 		<item rateId="8" id="1133">
-			<effect id="103" value="4">
+			<effect id="103" value="4"/>
 		</item>
 	</loot>
 </creature>

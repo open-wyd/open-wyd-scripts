@@ -4,80 +4,80 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="5000" magic="0" critical="255" attack_speed="241" move_speed="15" defense="5000"/>
 	<look>
-		<corpse id="61" brightness="0" >
-		<helmet id="13" brightness="0" >
-		<armor id="111" brightness="0" >
-		<pants id="112" brightness="0" >
-		<glove id="113" brightness="0" >
-		<boots id="114" brightness="0" >
+		<corpse id="61" brightness="0" />
+		<helmet id="13" brightness="0" />
+		<armor id="111" brightness="0" />
+		<pants id="112" brightness="0" />
+		<glove id="113" brightness="0" />
+		<boots id="114" brightness="0" />
 	</look>
 	<shopItems>
 		<item pos="0" id="5024">
-			<effect id="163" value="19">
+			<effect id="163" value="19"/>
 		</item>
 		<item pos="1" id="5027">
-			<effect id="161" value="19">
+			<effect id="161" value="19"/>
 		</item>
 		<item pos="2" id="5025">
-			<effect id="162" value="19">
+			<effect id="162" value="19"/>
 		</item>
 		<item pos="3" id="5026">
-			<effect id="164" value="19">
+			<effect id="164" value="19"/>
 		</item>
 		<item pos="4" id="5028">
-			<effect id="165" value="19">
+			<effect id="165" value="19"/>
 		</item>
 		<item pos="5" id="5029">
-			<effect id="166" value="19">
+			<effect id="166" value="19"/>
 		</item>
 		<item pos="6" id="5030">
-			<effect id="167" value="19">
+			<effect id="167" value="19"/>
 		</item>
 		<item pos="7" id="5031">
 		</item>
 		<item pos="27" id="5032">
-			<effect id="169" value="19">
+			<effect id="169" value="19"/>
 		</item>
 		<item pos="28" id="5033">
-			<effect id="170" value="19">
+			<effect id="170" value="19"/>
 		</item>
 		<item pos="29" id="5034">
-			<effect id="171" value="19">
+			<effect id="171" value="19"/>
 		</item>
 		<item pos="30" id="5035">
-			<effect id="172" value="19">
+			<effect id="172" value="19"/>
 		</item>
 		<item pos="31" id="5036">
-			<effect id="173" value="19">
+			<effect id="173" value="19"/>
 		</item>
 		<item pos="32" id="5037">
-			<effect id="174" value="19">
+			<effect id="174" value="19"/>
 		</item>
 		<item pos="33" id="5038">
-			<effect id="175" value="19">
+			<effect id="175" value="19"/>
 		</item>
 		<item pos="34" id="5039">
 		</item>
 		<item pos="54" id="5040">
-			<effect id="178" value="19">
+			<effect id="178" value="19"/>
 		</item>
 		<item pos="55" id="5042">
-			<effect id="177" value="19">
+			<effect id="177" value="19"/>
 		</item>
 		<item pos="56" id="5041">
-			<effect id="179" value="19">
+			<effect id="179" value="19"/>
 		</item>
 		<item pos="57" id="5043">
-			<effect id="180" value="19">
+			<effect id="180" value="19"/>
 		</item>
 		<item pos="58" id="5044">
-			<effect id="181" value="19">
+			<effect id="181" value="19"/>
 		</item>
 		<item pos="59" id="5045">
-			<effect id="182" value="19">
+			<effect id="182" value="19"/>
 		</item>
 		<item pos="60" id="5046">
-			<effect id="183" value="19">
+			<effect id="183" value="19"/>
 		</item>
 		<item pos="61" id="5047">
 		</item>

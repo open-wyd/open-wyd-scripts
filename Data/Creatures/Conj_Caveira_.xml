@@ -4,18 +4,18 @@
 	<special special1="255" special2="1" special3="255" special4="1" />
 	<strategy damage="385" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1010"/>
 	<resistences>
-		<resistence holy="10" >
-		<resistence lightning="-10" >
-		<resistence fire="-20" >
-		<resistence ice="10" >
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="10" />
 	</resistences>
 	<look>
-		<corpse id="271" brightness="0" >
-		<helmet id="272" brightness="0" >
-		<armor id="273" brightness="0" >
-		<pants id="274" brightness="0" >
-		<glove id="275" brightness="0" >
-		<boots id="276" brightness="0" >
-		<rigth_weapon id="726" brightness="0" >
+		<corpse id="271" brightness="0" />
+		<helmet id="272" brightness="0" />
+		<armor id="273" brightness="0" />
+		<pants id="274" brightness="0" />
+		<glove id="275" brightness="0" />
+		<boots id="276" brightness="0" />
+		<rigth_weapon id="726" brightness="0" />
 	</look>
 </creature>

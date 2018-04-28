@@ -4,12 +4,12 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="350" magic="0" critical="255" attack_speed="243" move_speed="15" defense="600"/>
 	<resistences>
-		<resistence fire="-30" >
+		<resistence fire="-30" />
 	</resistences>
 	<look>
-		<corpse id="232" brightness="0" >
-		<rigth_weapon id="731" brightness="0" >
-		<left_weapon id="1915" brightness="0" >
+		<corpse id="232" brightness="0" />
+		<rigth_weapon id="731" brightness="0" />
+		<left_weapon id="1915" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="62" id="3178">

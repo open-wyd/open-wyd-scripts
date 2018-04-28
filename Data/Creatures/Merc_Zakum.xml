@@ -4,29 +4,29 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="340" magic="0" critical="0" attack_speed="245" move_speed="15" defense="8000"/>
 	<look>
-		<corpse id="259" brightness="0" >
+		<corpse id="259" brightness="0" />
 	</look>
 	<shopItems>
 		<item pos="3" id="423">
-			<effect id="175" value="2">
+			<effect id="175" value="2"/>
 		</item>
 		<item pos="4" id="687">
 		</item>
 		<item pos="6" id="681">
-			<effect id="170" value="1">
+			<effect id="170" value="1"/>
 		</item>
 		<item pos="7" id="426">
 		</item>
 		<item pos="31" id="421">
-			<effect id="169" value="1">
+			<effect id="169" value="1"/>
 		</item>
 		<item pos="32" id="425">
 		</item>
 		<item pos="34" id="683">
-			<effect id="166" value="1">
+			<effect id="166" value="1"/>
 		</item>
 		<item pos="35" id="422">
-			<effect id="177" value="2">
+			<effect id="177" value="2"/>
 		</item>
 		<item pos="36" id="689">
 		</item>

@@ -4,95 +4,95 @@
 	<special special1="40" special2="7" special3="40" special4="7" />
 	<strategy damage="714" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1820"/>
 	<resistences>
-		<resistence holy="10" >
-		<resistence lightning="-10" >
-		<resistence fire="-20" >
-		<resistence ice="20" >
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="20" />
 	</resistences>
 	<look>
-		<corpse id="218" brightness="4" >
+		<corpse id="218" brightness="4" />
 	</look>
 	<loot>
 		<item rateId="8" id="49">
 		</item>
 		<item rateId="24" id="1192">
-			<effect id="102" value="3">
-			<effect id="171" value="4">
+			<effect id="102" value="3"/>
+			<effect id="171" value="4"/>
 		</item>
 		<item rateId="25" id="1195">
-			<effect id="102" value="3">
-			<effect id="174" value="4">
+			<effect id="102" value="3"/>
+			<effect id="174" value="4"/>
 		</item>
 		<item rateId="26" id="1198">
-			<effect id="102" value="3">
-			<effect id="177" value="4">
+			<effect id="102" value="3"/>
+			<effect id="177" value="4"/>
 		</item>
 		<item rateId="27" id="1201">
-			<effect id="102" value="3">
-			<effect id="180" value="4">
+			<effect id="102" value="3"/>
+			<effect id="180" value="4"/>
 		</item>
 		<item rateId="28" id="1204">
-			<effect id="102" value="3">
+			<effect id="102" value="3"/>
 		</item>
 		<item rateId="32" id="1327">
-			<effect id="102" value="3">
-			<effect id="50" value="5">
+			<effect id="102" value="3"/>
+			<effect id="50" value="5"/>
 		</item>
 		<item rateId="33" id="1330">
-			<effect id="102" value="3">
-			<effect id="53" value="5">
+			<effect id="102" value="3"/>
+			<effect id="53" value="5"/>
 		</item>
 		<item rateId="34" id="1333">
-			<effect id="102" value="3">
-			<effect id="56" value="5">
+			<effect id="102" value="3"/>
+			<effect id="56" value="5"/>
 		</item>
 		<item rateId="35" id="1336">
-			<effect id="102" value="3">
-			<effect id="59" value="5">
+			<effect id="102" value="3"/>
+			<effect id="59" value="5"/>
 		</item>
 		<item rateId="36" id="1339">
-			<effect id="102" value="3">
+			<effect id="102" value="3"/>
 		</item>
 		<item rateId="40" id="1477">
-			<effect id="102" value="3">
-			<effect id="200" value="5">
+			<effect id="102" value="3"/>
+			<effect id="200" value="5"/>
 		</item>
 		<item rateId="41" id="1480">
-			<effect id="102" value="3">
-			<effect id="203" value="5">
+			<effect id="102" value="3"/>
+			<effect id="203" value="5"/>
 		</item>
 		<item rateId="42" id="1483">
-			<effect id="102" value="3">
-			<effect id="206" value="5">
+			<effect id="102" value="3"/>
+			<effect id="206" value="5"/>
 		</item>
 		<item rateId="43" id="1486">
-			<effect id="102" value="3">
-			<effect id="209" value="5">
+			<effect id="102" value="3"/>
+			<effect id="209" value="5"/>
 		</item>
 		<item rateId="44" id="1489">
-			<effect id="102" value="3">
+			<effect id="102" value="3"/>
 		</item>
 		<item rateId="48" id="1627">
-			<effect id="102" value="3">
-			<effect id="94" value="6">
+			<effect id="102" value="3"/>
+			<effect id="94" value="6"/>
 		</item>
 		<item rateId="49" id="1630">
-			<effect id="102" value="3">
-			<effect id="97" value="6">
+			<effect id="102" value="3"/>
+			<effect id="97" value="6"/>
 		</item>
 		<item rateId="50" id="1633">
-			<effect id="102" value="3">
-			<effect id="100" value="6">
+			<effect id="102" value="3"/>
+			<effect id="100" value="6"/>
 		</item>
 		<item rateId="51" id="1636">
-			<effect id="102" value="3">
-			<effect id="103" value="6">
+			<effect id="102" value="3"/>
+			<effect id="103" value="6"/>
 		</item>
 		<item rateId="52" id="1639">
-			<effect id="102" value="3">
+			<effect id="102" value="3"/>
 		</item>
 		<item rateId="59" id="412">
-			<effect id="157" value="1">
+			<effect id="157" value="1"/>
 		</item>
 		<item rateId="60" id="413">
 		</item>

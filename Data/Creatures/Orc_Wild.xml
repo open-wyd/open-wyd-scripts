@@ -4,15 +4,15 @@
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="550" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1100"/>
 	<resistences>
-		<resistence holy="-20" >
-		<resistence lightning="-20" >
-		<resistence ice="-15" >
+		<resistence holy="-20" />
+		<resistence lightning="-20" />
+		<resistence ice="-15" />
 	</resistences>
 	<look>
-		<corpse id="208" brightness="0" >
-		<helmet id="210" brightness="0" >
-		<rigth_weapon id="907" brightness="0" >
-		<left_weapon id="1707" brightness="0" >
+		<corpse id="208" brightness="0" />
+		<helmet id="210" brightness="0" />
+		<rigth_weapon id="907" brightness="0" />
+		<left_weapon id="1707" brightness="0" />
 	</look>
 	<loot>
 		<item rateId="56" id="3122">

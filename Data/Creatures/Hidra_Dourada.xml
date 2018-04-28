@@ -4,19 +4,19 @@
 	<special special1="40" special2="7" special3="40" special4="7" />
 	<strategy damage="814" magic="0" critical="255" attack_speed="242" move_speed="15" defense="2320"/>
 	<resistences>
-		<resistence holy="10" >
-		<resistence lightning="-10" >
-		<resistence fire="-20" >
-		<resistence ice="20" >
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="20" />
 	</resistences>
 	<look>
-		<corpse id="218" brightness="9" >
+		<corpse id="218" brightness="9" />
 	</look>
 	<loot>
 		<item rateId="56" id="49">
 		</item>
 		<item rateId="59" id="412">
-			<effect id="157" value="1">
+			<effect id="157" value="1"/>
 		</item>
 		<item rateId="60" id="413">
 		</item>

@@ -1,0 +1,22 @@
+<creature name="Virago" level="301" merchant="0" clan="7" class="1" experience="25000" gold="9999" >
+	<health now="24000" max="24000" regen="0" />
+	<status str="6" dex="80" int="100" con="0" />
+	<special special1="151" special2="1" special3="151" special4="1" />
+	<strategy damage="950" magic="0" critical="255" attack_speed="244" move_speed="47" defense="3000"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="17" brightness="0" >
+		<helmet id="144" brightness="0" >
+		<armor id="145" brightness="0" >
+		<pants id="146" brightness="0" >
+		<glove id="147" brightness="0" >
+		<boots id="148" brightness="0" >
+		<rigth_weapon id="820" brightness="0" >
+		<kingdom id="736" brightness="0" >
+	</look>
+</creature>

@@ -1,0 +1,63 @@
+<creature name="Urso_Zumbi" level="88" merchant="0" clan="1" class="1" experience="26000" gold="9999" >
+	<health now="3600" max="3600" regen="0" />
+	<status str="3" dex="50" int="50" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="240" magic="0" critical="255" attack_speed="241" move_speed="15" defense="540"/>
+	<resistences>
+		<resistence fire="-30" >
+	</resistences>
+	<look>
+		<corpse id="291" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="24" id="879">
+			<effect id="2" value="36">
+			<effect id="96" value="3">
+		</item>
+		<item rateId="25" id="864">
+			<effect id="2" value="35">
+			<effect id="81" value="3">
+		</item>
+		<item rateId="26" id="849">
+			<effect id="60" value="16">
+			<effect id="164" value="3">
+		</item>
+		<item rateId="27" id="932">
+			<effect id="102" value="0">
+			<effect id="37" value="3">
+		</item>
+		<item rateId="28" id="805">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="32" id="1146">
+			<effect id="102" value="0">
+			<effect id="134" value="4">
+		</item>
+		<item rateId="33" id="1158">
+			<effect id="102" value="0">
+			<effect id="86" value="4">
+		</item>
+		<item rateId="34" id="1110">
+			<effect id="102" value="0">
+			<effect id="16" value="5">
+		</item>
+		<item rateId="35" id="1296">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="60" id="2304">
+			<effect id="90" value="9">
+		</item>
+		<item rateId="61" id="2394">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

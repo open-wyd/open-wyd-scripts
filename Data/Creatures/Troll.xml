@@ -1,0 +1,90 @@
+<creature name="Troll" level="52" merchant="0" clan="2" class="1" experience="12000" gold="9999" >
+	<health now="1200" max="1200" regen="0" />
+	<status str="4" dex="30" int="50" con="150" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="135" magic="0" critical="255" attack_speed="242" move_speed="15" defense="270"/>
+	<look>
+		<corpse id="212" brightness="0" >
+		<rigth_weapon id="948" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1144">
+			<effect id="102" value="3">
+			<effect id="132" value="4">
+		</item>
+		<item rateId="1" id="1156">
+			<effect id="102" value="3">
+			<effect id="84" value="4">
+		</item>
+		<item rateId="2" id="1108">
+			<effect id="102" value="3">
+			<effect id="52" value="6">
+		</item>
+		<item rateId="3" id="1588">
+			<effect id="102" value="3">
+			<effect id="108" value="4">
+		</item>
+		<item rateId="4" id="1132">
+			<effect id="102" value="3">
+			<effect id="14" value="5">
+		</item>
+		<item rateId="5" id="1294">
+			<effect id="102" value="3">
+			<effect id="26" value="5">
+		</item>
+		<item rateId="6" id="1306">
+			<effect id="102" value="3">
+			<effect id="234" value="4">
+		</item>
+		<item rateId="7" id="1258">
+			<effect id="102" value="3">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="17" id="420">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="18" id="420">
+		</item>
+		<item rateId="27" id="894">
+			<effect id="102" value="0">
+			<effect id="124" value="3">
+		</item>
+		<item rateId="28" id="892">
+			<effect id="102" value="0">
+			<effect id="64" value="3">
+		</item>
+		<item rateId="29" id="832">
+			<effect id="102" value="0">
+			<effect id="79" value="3">
+		</item>
+		<item rateId="30" id="847">
+			<effect id="102" value="0">
+			<effect id="109" value="3">
+		</item>
+		<item rateId="31" id="877">
+			<effect id="102" value="0">
+			<effect id="79" value="4">
+		</item>
+		<item rateId="32" id="1103">
+			<effect id="102" value="5">
+			<effect id="103" value="4">
+		</item>
+		<item rateId="33" id="1127">
+			<effect id="102" value="5">
+			<effect id="91" value="4">
+		</item>
+		<item rateId="34" id="1115">
+			<effect id="102" value="5">
+			<effect id="21" value="5">
+		</item>
+		<item rateId="35" id="1301">
+			<effect id="102" value="5">
+		</item>
+		<item rateId="60" id="697">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

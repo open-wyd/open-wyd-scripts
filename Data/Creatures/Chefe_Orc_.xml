@@ -1,0 +1,75 @@
+<creature name="Chefe_Orc_" level="60" merchant="0" clan="1" class="1" experience="16000" gold="9999" >
+	<health now="6000" max="6000" regen="0" />
+	<status str="5" dex="70" int="90" con="550" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="97" magic="0" critical="255" attack_speed="242" move_speed="15" defense="180"/>
+	<resistences>
+		<resistence holy="-20" >
+		<resistence lightning="-20" >
+	</resistences>
+	<look>
+		<corpse id="208" brightness="0" >
+		<helmet id="210" brightness="0" >
+		<rigth_weapon id="931" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="804">
+			<effect id="100" value="0">
+			<effect id="126" value="3">
+		</item>
+		<item rateId="1" id="894">
+			<effect id="100" value="0">
+			<effect id="66" value="3">
+		</item>
+		<item rateId="2" id="834">
+			<effect id="100" value="0">
+			<effect id="81" value="3">
+		</item>
+		<item rateId="3" id="849">
+			<effect id="100" value="0">
+			<effect id="111" value="3">
+		</item>
+		<item rateId="4" id="879">
+			<effect id="100" value="0">
+		</item>
+		<item rateId="27" id="820">
+			<effect id="100" value="0">
+			<effect id="127" value="3">
+		</item>
+		<item rateId="28" id="895">
+			<effect id="100" value="0">
+			<effect id="67" value="3">
+		</item>
+		<item rateId="29" id="835">
+			<effect id="100" value="0">
+			<effect id="82" value="3">
+		</item>
+		<item rateId="30" id="850">
+			<effect id="100" value="0">
+			<effect id="112" value="3">
+		</item>
+		<item rateId="31" id="880">
+			<effect id="100" value="0">
+			<effect id="164" value="3">
+		</item>
+		<item rateId="32" id="932">
+			<effect id="100" value="0">
+			<effect id="37" value="3">
+		</item>
+		<item rateId="33" id="805">
+			<effect id="100" value="0">
+			<effect id="97" value="3">
+		</item>
+		<item rateId="34" id="865">
+			<effect id="100" value="0">
+			<effect id="52" value="3">
+		</item>
+		<item rateId="35" id="820">
+			<effect id="100" value="0">
+		</item>
+		<item rateId="56" id="469">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

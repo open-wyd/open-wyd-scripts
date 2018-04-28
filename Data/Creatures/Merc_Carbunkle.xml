@@ -1,0 +1,37 @@
+<creature name="Merc_Carbunkle" level="2" merchant="1" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="5000" max="5000" regen="0" />
+	<status str="300" dex="50" int="50" con="-400" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="14" magic="0" critical="255" attack_speed="245" move_speed="15" defense="8000"/>
+	<look>
+		<corpse id="230" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="421">
+			<effect id="169" value="2">
+		</item>
+		<item pos="1" id="681">
+		</item>
+		<item pos="5" id="427">
+		</item>
+		<item pos="30" id="426">
+			<effect id="177" value="2">
+		</item>
+		<item pos="31" id="689">
+		</item>
+		<item pos="33" id="424">
+			<effect id="171" value="2">
+		</item>
+		<item pos="34" id="683">
+		</item>
+		<item pos="54" id="425">
+		</item>
+		<item pos="56" id="422">
+		</item>
+		<item pos="59" id="687">
+			<effect id="167" value="1">
+		</item>
+		<item pos="60" id="423">
+		</item>
+	</shopItems>
+</creature>

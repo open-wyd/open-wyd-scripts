@@ -1,0 +1,103 @@
+<creature name="Troll_Insano_" level="71" merchant="0" clan="1" class="1" experience="20000" gold="9999" >
+	<health now="2100" max="2100" regen="0" />
+	<status str="4" dex="30" int="50" con="150" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="193" magic="0" critical="255" attack_speed="241" move_speed="15" defense="410"/>
+	<look>
+		<corpse id="212" brightness="0" >
+		<rigth_weapon id="703" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1147">
+			<effect id="102" value="0">
+			<effect id="110" value="4">
+		</item>
+		<item rateId="1" id="1134">
+			<effect id="102" value="0">
+			<effect id="4" value="5">
+		</item>
+		<item rateId="2" id="1284">
+			<effect id="102" value="0">
+			<effect id="17" value="5">
+		</item>
+		<item rateId="3" id="1297">
+			<effect id="102" value="0">
+			<effect id="29" value="5">
+		</item>
+		<item rateId="4" id="1309">
+			<effect id="102" value="0">
+			<effect id="166" value="5">
+		</item>
+		<item rateId="5" id="1446">
+			<effect id="102" value="0">
+			<effect id="176" value="5">
+		</item>
+		<item rateId="6" id="1456">
+			<effect id="102" value="0">
+			<effect id="70" value="6">
+		</item>
+		<item rateId="7" id="1606">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="17" id="420">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="18" id="420">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="19" id="420">
+		</item>
+		<item rateId="27" id="864">
+			<effect id="102" value="0">
+			<effect id="51" value="3">
+		</item>
+		<item rateId="28" id="819">
+			<effect id="102" value="0">
+			<effect id="169" value="6">
+		</item>
+		<item rateId="29" id="1705">
+			<effect id="82" value="3">
+		</item>
+		<item rateId="30" id="850">
+			<effect id="101" value="0">
+			<effect id="112" value="3">
+		</item>
+		<item rateId="31" id="880">
+			<effect id="101" value="0">
+			<effect id="119" value="4">
+		</item>
+		<item rateId="32" id="1143">
+			<effect id="102" value="3">
+			<effect id="131" value="4">
+		</item>
+		<item rateId="33" id="1155">
+			<effect id="102" value="3">
+			<effect id="83" value="4">
+		</item>
+		<item rateId="34" id="1107">
+			<effect id="102" value="3">
+			<effect id="107" value="4">
+		</item>
+		<item rateId="35" id="1131">
+			<effect id="102" value="3">
+		</item>
+		<item rateId="40" id="3197">
+			<effect id="125" value="12">
+		</item>
+		<item rateId="41" id="3197">
+			<effect id="125" value="12">
+		</item>
+		<item rateId="42" id="3197">
+		</item>
+		<item rateId="55" id="1587">
+			<effect id="102" value="3">
+		</item>
+		<item rateId="60" id="697">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

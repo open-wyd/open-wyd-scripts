@@ -1,0 +1,56 @@
+<creature name="reiners" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="241" move_speed="15" defense="500"/>
+	<look>
+		<corpse id="59" brightness="0" >
+		<helmet id="1101" brightness="0" >
+		<armor id="1113" brightness="0" >
+		<pants id="122" brightness="0" >
+		<glove id="123" brightness="0" >
+		<boots id="124" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="833">
+		</item>
+		<item pos="2" id="878">
+			<effect id="95" value="3">
+		</item>
+		<item pos="3" id="863">
+			<effect id="35" value="3">
+		</item>
+		<item pos="4" id="803">
+			<effect id="50" value="3">
+		</item>
+		<item pos="5" id="818">
+			<effect id="167" value="6">
+		</item>
+		<item pos="6" id="1703">
+		</item>
+		<item pos="27" id="834">
+		</item>
+		<item pos="29" id="879">
+			<effect id="96" value="3">
+		</item>
+		<item pos="30" id="864">
+			<effect id="36" value="3">
+		</item>
+		<item pos="31" id="804">
+			<effect id="51" value="3">
+		</item>
+		<item pos="32" id="819">
+			<effect id="168" value="6">
+		</item>
+		<item pos="33" id="1704">
+		</item>
+		<item pos="54" id="848">
+		</item>
+		<item pos="56" id="893">
+		</item>
+		<item pos="58" id="849">
+		</item>
+		<item pos="60" id="894">
+		</item>
+	</shopItems>
+</creature>

@@ -1,0 +1,19 @@
+<creature name="Balmus" level="0" merchant="6" clan="3" class="1" experience="9999" gold="0" >
+	<health now="32000" max="32000" regen="0" />
+	<status str="0" dex="255" int="0" con="7" />
+	<special special1="255" special2="0" special3="7" special4="0" />
+	<strategy damage="9000" magic="0" critical="0" attack_speed="240" move_speed="15" defense="0"/>
+	<look>
+		<helmet id="500" brightness="0" >
+		<armor id="9000" brightness="0" >
+		<pants id="9000" brightness="0" >
+		<glove id="5" brightness="0" >
+		<boots id="255" brightness="0" >
+		<rigth_weapon id="60" brightness="0" >
+		<left_weapon id="130" brightness="0" >
+		<acessory id="131" brightness="0" >
+		<amulet id="127" brightness="0" >
+		<orb id="128" brightness="0" >
+		<rock id="129" brightness="0" >
+	</look>
+</creature>

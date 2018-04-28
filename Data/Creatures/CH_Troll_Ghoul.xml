@@ -1,0 +1,133 @@
+<creature name="CH_Troll_Ghoul" level="275" merchant="0" clan="1" class="1" experience="100000" gold="9999" >
+	<health now="23500" max="23500" regen="0" />
+	<status str="4" dex="90" int="75" con="600" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1100" magic="0" critical="255" attack_speed="242" move_speed="15" defense="2800"/>
+	<resistences>
+		<resistence holy="15" >
+		<resistence lightning="15" >
+		<resistence fire="15" >
+		<resistence ice="15" >
+	</resistences>
+	<look>
+		<corpse id="306" brightness="0" >
+		<rigth_weapon id="743" brightness="7" >
+		<kingdom id="738" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1209">
+			<effect id="101" value="0">
+			<effect id="192" value="4">
+		</item>
+		<item rateId="1" id="1216">
+			<effect id="101" value="0">
+			<effect id="64" value="5">
+		</item>
+		<item rateId="2" id="1344">
+			<effect id="101" value="0">
+			<effect id="71" value="5">
+		</item>
+		<item rateId="3" id="1351">
+			<effect id="101" value="0">
+			<effect id="214" value="5">
+		</item>
+		<item rateId="4" id="1494">
+			<effect id="101" value="0">
+			<effect id="221" value="5">
+		</item>
+		<item rateId="5" id="1501">
+			<effect id="101" value="0">
+			<effect id="108" value="6">
+		</item>
+		<item rateId="6" id="1644">
+			<effect id="101" value="0">
+			<effect id="115" value="6">
+		</item>
+		<item rateId="7" id="1651">
+			<effect id="101" value="0">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="17" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="18" id="412">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="19" id="413">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="20" id="413">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="21" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="22" id="3178">
+		</item>
+		<item rateId="24" id="935">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="27" id="902">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="31" id="884">
+			<effect id="2" value="54">
+			<effect id="185" value="4">
+		</item>
+		<item rateId="32" id="1209">
+			<effect id="102" value="0">
+			<effect id="192" value="4">
+		</item>
+		<item rateId="33" id="1216">
+			<effect id="102" value="0">
+			<effect id="64" value="5">
+		</item>
+		<item rateId="34" id="1344">
+			<effect id="102" value="0">
+			<effect id="71" value="5">
+		</item>
+		<item rateId="35" id="1351">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="37" id="910">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="39" id="839">
+			<effect id="2" value="54">
+			<effect id="133" value="3">
+		</item>
+		<item rateId="40" id="901">
+			<effect id="60" value="24">
+		</item>
+		<item rateId="42" id="899">
+			<effect id="60" value="24">
+		</item>
+		<item rateId="44" id="869">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="46" id="824">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="48" id="2404">
+			<effect id="95" value="9">
+		</item>
+		<item rateId="49" id="2399">
+		</item>
+		<item rateId="51" id="854">
+			<effect id="60" value="24">
+		</item>
+		<item rateId="53" id="809">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="59" id="1710">
+			<effect id="10" value="9">
+		</item>
+		<item rateId="60" id="2314">
+			<effect id="5" value="9">
+		</item>
+		<item rateId="61" id="2309">
+		</item>
+	</loot>
+</creature>

@@ -1,0 +1,54 @@
+<creature name="Verdes" level="301" merchant="1" clan="6" class="1" experience="25000" gold="9999" >
+	<health now="29000" max="29000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="15000" magic="0" critical="255" attack_speed="241" move_speed="15" defense="15000"/>
+	<look>
+		<corpse id="16" brightness="0" >
+		<helmet id="139" brightness="0" >
+		<armor id="140" brightness="0" >
+		<pants id="141" brightness="0" >
+		<glove id="142" brightness="0" >
+		<boots id="143" brightness="0" >
+		<eventItem id="769" brightness="9" >
+	</look>
+	<shopItems>
+		<item pos="0" id="683">
+			<effect id="177" value="2">
+		</item>
+		<item pos="1" id="689">
+			<effect id="154" value="1">
+		</item>
+		<item pos="2" id="410">
+			<effect id="155" value="1">
+		</item>
+		<item pos="3" id="411">
+			<effect id="187" value="2">
+		</item>
+		<item pos="4" id="699">
+			<effect id="188" value="2">
+		</item>
+		<item pos="5" id="700">
+			<effect id="185" value="2">
+		</item>
+		<item pos="6" id="697">
+			<effect id="6" value="3">
+		</item>
+		<item pos="7" id="774">
+		</item>
+		<item pos="27" id="776">
+			<effect id="165" value="1">
+		</item>
+		<item pos="28" id="421">
+			<effect id="171" value="1">
+		</item>
+		<item pos="29" id="427">
+		</item>
+		<item pos="54" id="439">
+		</item>
+		<item pos="56" id="440">
+		</item>
+		<item pos="58" id="441">
+		</item>
+	</shopItems>
+</creature>

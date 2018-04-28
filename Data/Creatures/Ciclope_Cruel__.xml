@@ -1,0 +1,16 @@
+<creature name="Ciclope_Cruel__" level="300" merchant="0" clan="1" class="1" experience="85000" gold="9999" >
+	<health now="9500" max="9500" regen="0" />
+	<status str="3" dex="30" int="50" con="300" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="950" magic="0" critical="0" attack_speed="241" move_speed="15" defense="1300"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="234" brightness="5" >
+		<rigth_weapon id="703" brightness="0" >
+	</look>
+</creature>

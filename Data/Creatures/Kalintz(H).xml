@@ -1,0 +1,176 @@
+<creature name="Kalintz(H)" level="380" merchant="0" clan="1" class="1" experience="120000" gold="9999" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="90" int="95" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="2780" magic="0" critical="255" attack_speed="242" move_speed="15" defense="4850"/>
+	<resistences>
+		<resistence holy="15" >
+		<resistence lightning="15" >
+		<resistence fire="15" >
+		<resistence ice="15" >
+	</resistences>
+	<look>
+		<corpse id="376" brightness="0" >
+		<helmet id="377" brightness="0" >
+		<armor id="378" brightness="0" >
+		<pants id="379" brightness="0" >
+		<glove id="380" brightness="0" >
+		<boots id="381" brightness="0" >
+		<rigth_weapon id="1934" brightness="0" >
+		<eventItem id="786" brightness="3" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="2" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="3" id="412">
+		</item>
+		<item rateId="16" id="413">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="17" id="413">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="18" id="413">
+			<effect id="66" value="2">
+		</item>
+		<item rateId="19" id="578">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="20" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="21" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="22" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="23" id="3178">
+			<effect id="135" value="3">
+		</item>
+		<item rateId="24" id="903">
+			<effect id="60" value="6">
+			<effect id="43" value="1">
+			<effect id="88" value="3">
+		</item>
+		<item rateId="25" id="856">
+			<effect id="60" value="6">
+			<effect id="43" value="1">
+			<effect id="58" value="3">
+		</item>
+		<item rateId="26" id="826">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="43" value="3">
+		</item>
+		<item rateId="27" id="811">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="73" value="3">
+		</item>
+		<item rateId="28" id="841">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="103" value="3">
+		</item>
+		<item rateId="29" id="871">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="118" value="3">
+		</item>
+		<item rateId="30" id="886">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="136" value="3">
+		</item>
+		<item rateId="31" id="904">
+			<effect id="60" value="6">
+			<effect id="43" value="1">
+			<effect id="144" value="3">
+		</item>
+		<item rateId="32" id="912">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="169" value="3">
+		</item>
+		<item rateId="33" id="937">
+			<effect id="2" value="9">
+			<effect id="43" value="1">
+			<effect id="112" value="12">
+		</item>
+		<item rateId="34" id="3184">
+			<effect id="112" value="12">
+		</item>
+		<item rateId="35" id="3184">
+		</item>
+		<item rateId="40" id="912">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="169" value="3">
+		</item>
+		<item rateId="41" id="937">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="112" value="12">
+		</item>
+		<item rateId="42" id="3184">
+			<effect id="112" value="12">
+		</item>
+		<item rateId="43" id="3184">
+		</item>
+		<item rateId="48" id="903">
+			<effect id="60" value="8">
+			<effect id="43" value="1">
+			<effect id="88" value="3">
+		</item>
+		<item rateId="49" id="856">
+			<effect id="60" value="8">
+			<effect id="43" value="1">
+			<effect id="58" value="3">
+		</item>
+		<item rateId="50" id="826">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="43" value="3">
+		</item>
+		<item rateId="51" id="811">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="73" value="3">
+		</item>
+		<item rateId="52" id="841">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="103" value="3">
+		</item>
+		<item rateId="53" id="871">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="118" value="3">
+		</item>
+		<item rateId="54" id="886">
+			<effect id="2" value="18">
+			<effect id="43" value="1">
+			<effect id="136" value="3">
+		</item>
+		<item rateId="55" id="904">
+			<effect id="60" value="8">
+			<effect id="43" value="1">
+		</item>
+		<item rateId="60" id="2411">
+			<effect id="102" value="9">
+		</item>
+		<item rateId="61" id="2406">
+			<effect id="19" value="9">
+		</item>
+		<item rateId="62" id="2323">
+		</item>
+	</loot>
+</creature>

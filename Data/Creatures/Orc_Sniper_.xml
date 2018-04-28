@@ -1,0 +1,11 @@
+<creature name="Orc_Sniper_" level="104" merchant="0" clan="1" class="1" experience="17778" gold="19050" >
+	<health now="12000" max="12000" regen="0" />
+	<status str="5" dex="75" int="100" con="400" />
+	<special special1="101" special2="1" special3="101" special4="1" />
+	<strategy damage="280" magic="0" critical="255" attack_speed="243" move_speed="15" defense="550"/>
+	<look>
+		<corpse id="209" brightness="0" >
+		<helmet id="211" brightness="0" >
+		<rigth_weapon id="950" brightness="0" >
+	</look>
+</creature>

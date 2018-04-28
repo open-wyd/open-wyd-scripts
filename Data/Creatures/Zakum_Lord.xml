@@ -1,0 +1,14 @@
+<creature name="Zakum_Lord" level="140" merchant="0" clan="1" class="1" experience="60000" gold="9999" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="30" int="100" con="1050" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="700" magic="0" critical="0" attack_speed="242" move_speed="15" defense="2000"/>
+	<look>
+		<corpse id="258" brightness="0" >
+		<rigth_weapon id="719" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="57" id="410">
+		</item>
+	</loot>
+</creature>

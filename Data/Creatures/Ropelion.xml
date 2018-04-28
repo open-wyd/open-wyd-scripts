@@ -1,0 +1,36 @@
+<creature name="Ropelion" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="241" move_speed="15" defense="500"/>
+	<look>
+		<corpse id="58" brightness="0" >
+		<helmet id="115" brightness="0" >
+		<armor id="116" brightness="0" >
+		<pants id="117" brightness="0" >
+		<glove id="118" brightness="0" >
+		<boots id="119" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="1107">
+		</item>
+		<item pos="2" id="1119">
+		</item>
+		<item pos="4" id="1131">
+		</item>
+		<item pos="6" id="1143">
+		</item>
+		<item pos="8" id="1155">
+		</item>
+		<item pos="27" id="1108">
+		</item>
+		<item pos="29" id="1120">
+		</item>
+		<item pos="31" id="1132">
+		</item>
+		<item pos="33" id="1144">
+		</item>
+		<item pos="35" id="1156">
+		</item>
+	</shopItems>
+</creature>

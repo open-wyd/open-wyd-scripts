@@ -1,0 +1,31 @@
+<creature name="Cav._Kaizen" level="241" merchant="0" clan="1" class="1" experience="61000" gold="9999" >
+	<health now="8100" max="8100" regen="0" />
+	<status str="6" dex="90" int="70" con="950" />
+	<special special1="255" special2="2" special3="255" special4="2" />
+	<strategy damage="608" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1496"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="260" brightness="9" >
+		<helmet id="266" brightness="9" >
+		<armor id="267" brightness="9" >
+		<pants id="268" brightness="9" >
+		<glove id="269" brightness="9" >
+		<boots id="270" brightness="9" >
+		<rigth_weapon id="724" brightness="9" >
+		<kingdom id="738" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="56" id="99">
+		</item>
+		<item rateId="59" id="412">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="60" id="413">
+		</item>
+	</loot>
+</creature>

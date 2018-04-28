@@ -1,0 +1,14 @@
+<creature name="Gargula__" level="355" merchant="0" clan="1" class="1" experience="75000" gold="9999" >
+	<health now="19000" max="19000" regen="0" />
+	<status str="4" dex="90" int="70" con="50" />
+	<special special1="104" special2="1" special3="104" special4="1" />
+	<strategy damage="825" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1990"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-10" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="295" brightness="0" >
+	</look>
+</creature>

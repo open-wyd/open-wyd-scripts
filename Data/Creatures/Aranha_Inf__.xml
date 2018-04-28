@@ -1,0 +1,15 @@
+<creature name="Aranha_Inf__" level="399" merchant="0" clan="1" class="1" experience="95000" gold="9999" >
+	<health now="31000" max="31000" regen="0" />
+	<status str="5" dex="90" int="70" con="60" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1420" magic="0" critical="255" attack_speed="244" move_speed="15" defense="2550"/>
+	<resistences>
+		<resistence holy="5" >
+		<resistence lightning="5" >
+		<resistence fire="5" >
+		<resistence ice="5" >
+	</resistences>
+	<look>
+		<corpse id="352" brightness="0" >
+	</look>
+</creature>

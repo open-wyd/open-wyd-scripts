@@ -1,0 +1,15 @@
+<creature name="Orc_Selvagem" level="128" merchant="0" clan="1" class="1" experience="51000" gold="9999" >
+	<health now="20000" max="20000" regen="0" />
+	<status str="5" dex="58" int="100" con="900" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="400" magic="0" critical="255" attack_speed="242" move_speed="15" defense="650"/>
+	<look>
+		<corpse id="207" brightness="0" >
+		<helmet id="210" brightness="0" >
+		<rigth_weapon id="706" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="56" id="3122">
+		</item>
+	</loot>
+</creature>

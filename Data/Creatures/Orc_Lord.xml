@@ -1,0 +1,66 @@
+<creature name="Orc_Lord" level="65" merchant="0" clan="1" class="1" experience="19000" gold="9999" >
+	<health now="10000" max="10000" regen="0" />
+	<status str="5" dex="70" int="100" con="450" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="119" magic="0" critical="255" attack_speed="243" move_speed="15" defense="200"/>
+	<resistences>
+		<resistence holy="-20" >
+		<resistence lightning="-20" >
+		<resistence ice="-15" >
+	</resistences>
+	<look>
+		<corpse id="208" brightness="0" >
+		<helmet id="210" brightness="0" >
+		<rigth_weapon id="907" brightness="0" >
+		<left_weapon id="1707" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="501">
+			<effect id="246" value="1">
+		</item>
+		<item rateId="1" id="502">
+			<effect id="247" value="1">
+		</item>
+		<item rateId="2" id="503">
+			<effect id="248" value="1">
+		</item>
+		<item rateId="3" id="504">
+			<effect id="249" value="1">
+		</item>
+		<item rateId="4" id="505">
+			<effect id="250" value="1">
+		</item>
+		<item rateId="5" id="506">
+		</item>
+		<item rateId="27" id="557">
+			<effect id="46" value="2">
+		</item>
+		<item rateId="28" id="558">
+			<effect id="44" value="2">
+		</item>
+		<item rateId="29" id="556">
+			<effect id="45" value="2">
+		</item>
+		<item rateId="30" id="557">
+			<effect id="46" value="2">
+		</item>
+		<item rateId="31" id="558">
+			<effect id="139" value="2">
+		</item>
+		<item rateId="32" id="651">
+			<effect id="140" value="2">
+		</item>
+		<item rateId="33" id="652">
+			<effect id="141" value="2">
+		</item>
+		<item rateId="34" id="653">
+			<effect id="139" value="2">
+		</item>
+		<item rateId="35" id="651">
+		</item>
+		<item rateId="57" id="466">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

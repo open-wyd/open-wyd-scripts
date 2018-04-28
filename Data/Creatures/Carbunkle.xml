@@ -1,0 +1,95 @@
+<creature name="Carbunkle" level="65" merchant="0" clan="2" class="1" experience="13000" gold="9999" >
+	<health now="2000" max="2000" regen="0" />
+	<status str="4" dex="80" int="70" con="-250" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="184" magic="0" critical="255" attack_speed="242" move_speed="15" defense="312"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-15" >
+		<resistence fire="-20" >
+		<resistence ice="-10" >
+	</resistences>
+	<look>
+		<corpse id="230" brightness="0" >
+		<rigth_weapon id="701" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1146">
+			<effect id="102" value="0">
+			<effect id="134" value="4">
+		</item>
+		<item rateId="1" id="1158">
+			<effect id="102" value="0">
+			<effect id="86" value="4">
+		</item>
+		<item rateId="2" id="1110">
+			<effect id="102" value="0">
+			<effect id="16" value="5">
+		</item>
+		<item rateId="3" id="1296">
+			<effect id="102" value="0">
+			<effect id="28" value="5">
+		</item>
+		<item rateId="4" id="1308">
+			<effect id="102" value="0">
+			<effect id="236" value="4">
+		</item>
+		<item rateId="5" id="1260">
+			<effect id="102" value="0">
+			<effect id="175" value="5">
+		</item>
+		<item rateId="6" id="1455">
+			<effect id="102" value="0">
+			<effect id="178" value="5">
+		</item>
+		<item rateId="7" id="1458">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="17" id="420">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="18" id="420">
+		</item>
+		<item rateId="27" id="931">
+			<effect id="102" value="0">
+			<effect id="169" value="6">
+		</item>
+		<item rateId="28" id="1705">
+			<effect id="127" value="3">
+		</item>
+		<item rateId="29" id="895">
+			<effect id="102" value="0">
+			<effect id="67" value="3">
+		</item>
+		<item rateId="30" id="835">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="32" id="1106">
+			<effect id="102" value="4">
+			<effect id="93" value="4">
+		</item>
+		<item rateId="33" id="1117">
+			<effect id="102" value="4">
+			<effect id="106" value="4">
+		</item>
+		<item rateId="34" id="1130">
+			<effect id="102" value="4">
+			<effect id="94" value="4">
+		</item>
+		<item rateId="35" id="1118">
+			<effect id="102" value="4">
+		</item>
+		<item rateId="54" id="1574">
+			<effect id="102" value="4">
+			<effect id="34" value="6">
+		</item>
+		<item rateId="55" id="1570">
+			<effect id="102" value="4">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

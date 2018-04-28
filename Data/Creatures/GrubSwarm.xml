@@ -1,0 +1,151 @@
+<creature name="GrubSwarm" level="275" merchant="0" clan="1" class="1" experience="100000" gold="9999" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="60" int="50" con="-1900" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1190" magic="0" critical="255" attack_speed="244" move_speed="15" defense="1520"/>
+	<resistences>
+		<resistence holy="5" >
+		<resistence lightning="5" >
+		<resistence fire="5" >
+		<resistence ice="5" >
+	</resistences>
+	<look>
+		<corpse id="355" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="2" id="412">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="3" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="4" id="3178">
+		</item>
+		<item rateId="16" id="413">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="17" id="413">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="18" id="413">
+		</item>
+		<item rateId="24" id="2181">
+			<effect id="104" value="5">
+			<effect id="134" value="8">
+		</item>
+		<item rateId="25" id="2182">
+			<effect id="104" value="5">
+			<effect id="195" value="8">
+		</item>
+		<item rateId="26" id="2243">
+			<effect id="104" value="5">
+			<effect id="196" value="8">
+		</item>
+		<item rateId="27" id="2244">
+			<effect id="104" value="5">
+			<effect id="174" value="8">
+		</item>
+		<item rateId="28" id="2222">
+			<effect id="104" value="5">
+			<effect id="117" value="3">
+		</item>
+		<item rateId="29" id="885">
+			<effect id="2" value="45">
+			<effect id="42" value="3">
+		</item>
+		<item rateId="30" id="810">
+			<effect id="2" value="45">
+			<effect id="57" value="3">
+		</item>
+		<item rateId="31" id="825">
+			<effect id="2" value="45">
+			<effect id="133" value="8">
+		</item>
+		<item rateId="32" id="2181">
+			<effect id="104" value="5">
+			<effect id="134" value="8">
+		</item>
+		<item rateId="33" id="2182">
+			<effect id="104" value="5">
+			<effect id="195" value="8">
+		</item>
+		<item rateId="34" id="2243">
+			<effect id="104" value="5">
+			<effect id="196" value="8">
+		</item>
+		<item rateId="35" id="2244">
+			<effect id="104" value="5">
+			<effect id="174" value="8">
+		</item>
+		<item rateId="36" id="2222">
+			<effect id="104" value="5">
+			<effect id="87" value="3">
+		</item>
+		<item rateId="37" id="855">
+			<effect id="60" value="20">
+			<effect id="72" value="3">
+		</item>
+		<item rateId="38" id="840">
+			<effect id="2" value="45">
+			<effect id="174" value="6">
+		</item>
+		<item rateId="39" id="1710">
+			<effect id="133" value="8">
+		</item>
+		<item rateId="40" id="2181">
+			<effect id="104" value="5">
+			<effect id="134" value="8">
+		</item>
+		<item rateId="41" id="2182">
+			<effect id="104" value="5">
+			<effect id="195" value="8">
+		</item>
+		<item rateId="42" id="2243">
+			<effect id="104" value="5">
+			<effect id="196" value="8">
+		</item>
+		<item rateId="43" id="2244">
+			<effect id="104" value="5">
+			<effect id="174" value="8">
+		</item>
+		<item rateId="44" id="2222">
+			<effect id="104" value="5">
+		</item>
+		<item rateId="48" id="2404">
+			<effect id="95" value="9">
+		</item>
+		<item rateId="49" id="2399">
+			<effect id="133" value="8">
+		</item>
+		<item rateId="50" id="2181">
+			<effect id="104" value="5">
+			<effect id="134" value="8">
+		</item>
+		<item rateId="51" id="2182">
+			<effect id="104" value="5">
+			<effect id="195" value="8">
+		</item>
+		<item rateId="52" id="2243">
+			<effect id="104" value="5">
+			<effect id="196" value="8">
+		</item>
+		<item rateId="53" id="2244">
+			<effect id="104" value="5">
+			<effect id="174" value="8">
+		</item>
+		<item rateId="54" id="2222">
+			<effect id="104" value="5">
+		</item>
+		<item rateId="60" id="2309">
+			<effect id="10" value="9">
+		</item>
+		<item rateId="61" id="2314">
+		</item>
+	</loot>
+</creature>

@@ -1,0 +1,65 @@
+<creature name="Gargula" level="206" merchant="0" clan="1" class="1" experience="81000" gold="9999" >
+	<health now="14000" max="14000" regen="0" />
+	<status str="4" dex="90" int="70" con="250" />
+	<special special1="104" special2="1" special3="104" special4="1" />
+	<strategy damage="625" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1790"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-10" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="295" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="2" id="412">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="3" id="3178">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="24" id="934">
+			<effect id="2" value="45">
+		</item>
+		<item rateId="26" id="853">
+			<effect id="60" value="20">
+		</item>
+		<item rateId="28" id="838">
+			<effect id="2" value="45">
+		</item>
+		<item rateId="32" id="1193">
+			<effect id="102" value="0">
+			<effect id="175" value="4">
+		</item>
+		<item rateId="33" id="1199">
+			<effect id="102" value="0">
+			<effect id="172" value="4">
+		</item>
+		<item rateId="34" id="1196">
+			<effect id="102" value="0">
+			<effect id="115" value="3">
+		</item>
+		<item rateId="35" id="883">
+			<effect id="2" value="45">
+		</item>
+		<item rateId="38" id="868">
+			<effect id="2" value="45">
+		</item>
+		<item rateId="40" id="898">
+			<effect id="60" value="20">
+		</item>
+		<item rateId="48" id="823">
+			<effect id="2" value="45">
+		</item>
+		<item rateId="50" id="808">
+			<effect id="2" value="45">
+		</item>
+	</loot>
+</creature>

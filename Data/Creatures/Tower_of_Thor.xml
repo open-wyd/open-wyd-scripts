@@ -1,0 +1,16 @@
+<creature name="Tower_of_Thor" level="500" merchant="0" clan="1" class="1" experience="250000" gold="9999" >
+	<health now="32000" max="32000" regen="0" />
+	<status str="0" dex="90" int="100" con="100" />
+	<special special1="128" special2="0" special3="128" special4="0" />
+	<strategy damage="4000" magic="0" critical="255" attack_speed="240" move_speed="15" defense="4000"/>
+	<resistences>
+		<resistence holy="70" >
+		<resistence lightning="70" >
+		<resistence fire="70" >
+		<resistence ice="70" >
+	</resistences>
+	<look>
+		<corpse id="219" brightness="0" >
+		<eventItem id="786" brightness="9" >
+	</look>
+</creature>

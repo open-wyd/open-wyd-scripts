@@ -1,0 +1,52 @@
+<creature name="Martin" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="241" move_speed="15" defense="500"/>
+	<look>
+		<corpse id="305" brightness="0" >
+		<helmet id="120" brightness="0" >
+		<armor id="121" brightness="0" >
+		<pants id="122" brightness="0" >
+		<glove id="123" brightness="0" >
+		<boots id="124" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="415">
+			<effect id="168" value="2">
+		</item>
+		<item pos="1" id="680">
+			<effect id="61" value="5">
+			<effect id="174" value="2">
+		</item>
+		<item pos="2" id="686">
+			<effect id="61" value="5">
+			<effect id="169" value="2">
+		</item>
+		<item pos="3" id="681">
+			<effect id="61" value="10">
+			<effect id="175" value="2">
+		</item>
+		<item pos="4" id="687">
+			<effect id="61" value="10">
+			<effect id="154" value="1">
+		</item>
+		<item pos="5" id="410">
+			<effect id="155" value="1">
+		</item>
+		<item pos="6" id="411">
+			<effect id="61" value="10">
+		</item>
+		<item pos="27" id="400">
+			<effect id="149" value="1">
+		</item>
+		<item pos="28" id="405">
+			<effect id="145" value="1">
+		</item>
+		<item pos="29" id="401">
+			<effect id="150" value="1">
+		</item>
+		<item pos="30" id="406">
+		</item>
+	</shopItems>
+</creature>

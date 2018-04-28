@@ -1,0 +1,9 @@
+<creature name="Aqua_Golem__" level="355" merchant="0" clan="1" class="1" experience="75000" gold="9999" >
+	<health now="23000" max="23000" regen="0" />
+	<status str="3" dex="90" int="75" con="700" />
+	<special special1="255" special2="3" special3="255" special4="7" />
+	<strategy damage="970" magic="0" critical="255" attack_speed="241" move_speed="15" defense="2450"/>
+	<look>
+		<corpse id="309" brightness="0" >
+	</look>
+</creature>

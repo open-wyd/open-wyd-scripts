@@ -1,0 +1,24 @@
+<creature name="Frenzy_Taurs" level="402" merchant="0" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="30" int="70" con="2000" />
+	<special special1="255" special2="6" special3="255" special4="6" />
+	<strategy damage="3700" magic="0" critical="255" attack_speed="244" move_speed="15" defense="3600"/>
+	<look>
+		<corpse id="236" brightness="5" >
+		<rigth_weapon id="709" brightness="0" >
+		<eventItem id="786" brightness="4" >
+	</look>
+	<loot>
+		<item rateId="8" id="412">
+			<effect id="90" value="9">
+		</item>
+		<item rateId="9" id="2394">
+			<effect id="171" value="1">
+		</item>
+		<item rateId="10" id="427">
+			<effect id="233" value="1">
+		</item>
+		<item rateId="11" id="489">
+		</item>
+	</loot>
+</creature>

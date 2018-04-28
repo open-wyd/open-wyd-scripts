@@ -1,0 +1,65 @@
+<creature name="Treant_" level="400" merchant="0" clan="1" class="1" experience="130000" gold="9999" >
+	<health now="31000" max="31000" regen="0" />
+	<status str="5" dex="100" int="100" con="-200" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1280" magic="0" critical="255" attack_speed="242" move_speed="15" defense="3850"/>
+	<resistences>
+		<resistence holy="5" >
+		<resistence lightning="5" >
+		<resistence fire="5" >
+		<resistence ice="5" >
+	</resistences>
+	<look>
+		<corpse id="351" brightness="0" >
+		<rigth_weapon id="748" brightness="0" >
+		<eventItem id="786" brightness="1" >
+	</look>
+	<loot>
+		<item rateId="0" id="2251">
+			<effect id="203" value="8">
+		</item>
+		<item rateId="1" id="2251">
+			<effect id="203" value="8">
+		</item>
+		<item rateId="2" id="2251">
+			<effect id="203" value="8">
+		</item>
+		<item rateId="3" id="2251">
+			<effect id="204" value="8">
+		</item>
+		<item rateId="4" id="2252">
+			<effect id="204" value="8">
+		</item>
+		<item rateId="5" id="2252">
+			<effect id="204" value="8">
+		</item>
+		<item rateId="6" id="2252">
+			<effect id="204" value="8">
+		</item>
+		<item rateId="7" id="2252">
+		</item>
+		<item rateId="16" id="2253">
+			<effect id="205" value="8">
+		</item>
+		<item rateId="17" id="2253">
+			<effect id="205" value="8">
+		</item>
+		<item rateId="18" id="2253">
+			<effect id="205" value="8">
+		</item>
+		<item rateId="19" id="2253">
+			<effect id="206" value="8">
+		</item>
+		<item rateId="20" id="2254">
+			<effect id="206" value="8">
+		</item>
+		<item rateId="21" id="2254">
+			<effect id="206" value="8">
+		</item>
+		<item rateId="22" id="2254">
+			<effect id="206" value="8">
+		</item>
+		<item rateId="23" id="2254">
+		</item>
+	</loot>
+</creature>

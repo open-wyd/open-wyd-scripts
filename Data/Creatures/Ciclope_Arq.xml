@@ -1,0 +1,52 @@
+<creature name="Ciclope_Arq" level="120" merchant="0" clan="2" class="1" experience="49000" gold="9999" >
+	<health now="5200" max="5200" regen="0" />
+	<status str="4" dex="30" int="70" con="100" />
+	<special special1="101" special2="1" special3="101" special4="1" />
+	<strategy damage="103" magic="0" critical="255" attack_speed="242" move_speed="15" defense="840"/>
+	<resistences>
+		<resistence holy="20" >
+		<resistence lightning="-20" >
+		<resistence fire="-10" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="242" brightness="0" >
+		<rigth_weapon id="824" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="27" id="851">
+			<effect id="101" value="0">
+		</item>
+		<item rateId="32" id="1161">
+			<effect id="101" value="0">
+			<effect id="147" value="4">
+		</item>
+		<item rateId="33" id="1171">
+			<effect id="101" value="0">
+			<effect id="123" value="4">
+		</item>
+		<item rateId="34" id="1147">
+			<effect id="102" value="0">
+			<effect id="43" value="5">
+		</item>
+		<item rateId="35" id="1323">
+			<effect id="101" value="0">
+		</item>
+		<item rateId="48" id="3178">
+		</item>
+		<item rateId="54" id="1486">
+			<effect id="101" value="0">
+			<effect id="90" value="6">
+		</item>
+		<item rateId="55" id="1626">
+			<effect id="101" value="0">
+		</item>
+	</loot>
+</creature>

@@ -1,0 +1,21 @@
+<creature name="E-Dracolich" level="94" merchant="0" clan="5" class="1" experience="25000" gold="9999" >
+	<health now="6000" max="6000" regen="0" />
+	<status str="5" dex="100" int="100" con="-800" />
+	<special special1="255" special2="1" special3="106" special4="2" />
+	<strategy damage="300" magic="0" critical="255" attack_speed="242" move_speed="15" defense="450"/>
+	<resistences>
+		<resistence holy="30" >
+		<resistence lightning="-30" >
+		<resistence ice="20" >
+	</resistences>
+	<look>
+		<corpse id="239" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="429">
+			<effect id="177" value="1">
+		</item>
+		<item rateId="1" id="433">
+		</item>
+	</loot>
+</creature>

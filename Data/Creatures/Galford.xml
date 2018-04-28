@@ -1,0 +1,74 @@
+<creature name="Galford" level="2" merchant="1" clan="3" class="0" experience="0" gold="0" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="241" move_speed="15" defense="500"/>
+	<look>
+		<corpse id="58" brightness="0" >
+		<helmet id="115" brightness="0" >
+		<armor id="116" brightness="0" >
+		<pants id="117" brightness="0" >
+		<glove id="118" brightness="0" >
+		<boots id="119" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="831">
+			<effect id="93" value="3">
+		</item>
+		<item pos="1" id="861">
+			<effect id="33" value="3">
+		</item>
+		<item pos="2" id="801">
+			<effect id="48" value="3">
+		</item>
+		<item pos="3" id="816">
+			<effect id="108" value="3">
+		</item>
+		<item pos="4" id="876">
+			<effect id="123" value="3">
+		</item>
+		<item pos="5" id="891">
+			<effect id="165" value="6">
+		</item>
+		<item pos="6" id="1701">
+		</item>
+		<item pos="8" id="446">
+		</item>
+		<item pos="27" id="832">
+			<effect id="94" value="3">
+		</item>
+		<item pos="28" id="862">
+			<effect id="34" value="3">
+		</item>
+		<item pos="29" id="802">
+			<effect id="49" value="3">
+		</item>
+		<item pos="30" id="817">
+			<effect id="109" value="3">
+		</item>
+		<item pos="31" id="877">
+			<effect id="166" value="6">
+		</item>
+		<item pos="32" id="1702">
+		</item>
+		<item pos="34" id="508">
+			<effect id="253" value="1">
+		</item>
+		<item pos="35" id="509">
+		</item>
+		<item pos="54" id="846">
+		</item>
+		<item pos="56" id="847">
+		</item>
+		<item pos="58" id="892">
+		</item>
+		<item pos="60" id="526">
+			<effect id="15" value="2">
+		</item>
+		<item pos="61" id="527">
+			<effect id="16" value="2">
+		</item>
+		<item pos="62" id="528">
+		</item>
+	</shopItems>
+</creature>

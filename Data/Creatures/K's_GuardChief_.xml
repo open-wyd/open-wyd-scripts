@@ -1,0 +1,15 @@
+<creature name="K's_GuardChief_" level="302" merchant="0" clan="8" class="1" experience="25000" gold="9999" >
+	<health now="24000" max="24000" regen="0" />
+	<status str="5" dex="0" int="100" con="300" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1600" magic="0" critical="255" attack_speed="244" move_speed="15" defense="3200"/>
+	<look>
+		<corpse id="305" brightness="0" >
+		<armor id="170" brightness="0" >
+		<pants id="171" brightness="0" >
+		<glove id="172" brightness="0" >
+		<boots id="173" brightness="0" >
+		<rigth_weapon id="733" brightness="0" >
+		<kingdom id="735" brightness="0" >
+	</look>
+</creature>

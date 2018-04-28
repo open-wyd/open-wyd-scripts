@@ -1,0 +1,10 @@
+<creature name="Troll_Cacador" level="300" merchant="0" clan="1" class="1" experience="85000" gold="9999" >
+	<health now="4100" max="4100" regen="0" />
+	<status str="4" dex="30" int="70" con="150" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="210" magic="0" critical="255" attack_speed="242" move_speed="15" defense="595"/>
+	<look>
+		<corpse id="213" brightness="0" >
+		<rigth_weapon id="707" brightness="0" >
+	</look>
+</creature>

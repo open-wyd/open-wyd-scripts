@@ -1,0 +1,19 @@
+<creature name="Serpente" level="15" merchant="0" clan="2" class="1" experience="7000" gold="9999" >
+	<health now="170" max="170" regen="0" />
+	<status str="5" dex="27" int="75" con="300" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="28" magic="0" critical="255" attack_speed="241" move_speed="15" defense="18"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="221" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

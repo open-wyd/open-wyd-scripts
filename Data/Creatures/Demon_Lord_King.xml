@@ -1,0 +1,22 @@
+<creature name="Demon_Lord_King" level="402" merchant="0" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="90" int="100" con="2500" />
+	<special special1="255" special2="7" special3="103" special4="8" />
+	<strategy damage="4100" magic="0" critical="255" attack_speed="245" move_speed="15" defense="4000"/>
+	<resistences>
+		<resistence holy="50" >
+		<resistence lightning="50" >
+		<resistence fire="50" >
+		<resistence ice="50" >
+	</resistences>
+	<look>
+		<corpse id="311" brightness="7" >
+		<helmet id="301" brightness="7" >
+		<armor id="301" brightness="7" >
+		<pants id="301" brightness="7" >
+		<glove id="301" brightness="7" >
+		<boots id="301" brightness="7" >
+		<rigth_weapon id="885" brightness="7" >
+		<eventItem id="786" brightness="4" >
+	</look>
+</creature>

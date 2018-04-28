@@ -1,0 +1,13 @@
+<creature name="Argos_" level="300" merchant="0" clan="1" class="1" experience="80000" gold="9999" >
+	<health now="7000" max="7000" regen="0" />
+	<status str="4" dex="30" int="75" con="0" />
+	<special special1="255" special2="6" special3="255" special4="7" />
+	<strategy damage="400" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1080"/>
+	<resistences>
+		<resistence fire="-10" >
+	</resistences>
+	<look>
+		<corpse id="238" brightness="0" >
+		<rigth_weapon id="739" brightness="0" >
+	</look>
+</creature>

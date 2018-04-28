@@ -1,0 +1,68 @@
+<creature name="Krill_" level="8" merchant="0" clan="1" class="1" experience="7000" gold="9999" >
+	<health now="130" max="130" regen="0" />
+	<status str="4" dex="50" int="50" con="200" />
+	<special special1="255" special2="2" special3="105" special4="1" />
+	<strategy damage="18" magic="0" critical="255" attack_speed="241" move_speed="31" defense="20"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="203" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1103">
+			<effect id="105" value="6">
+			<effect id="115" value="4">
+		</item>
+		<item rateId="1" id="1139">
+			<effect id="105" value="6">
+			<effect id="127" value="4">
+		</item>
+		<item rateId="2" id="1151">
+			<effect id="105" value="6">
+			<effect id="229" value="4">
+		</item>
+		<item rateId="3" id="1253">
+			<effect id="105" value="6">
+			<effect id="9" value="5">
+		</item>
+		<item rateId="4" id="1289">
+			<effect id="105" value="6">
+			<effect id="21" value="5">
+		</item>
+		<item rateId="5" id="1301">
+			<effect id="105" value="6">
+			<effect id="123" value="5">
+		</item>
+		<item rateId="6" id="1403">
+			<effect id="105" value="6">
+			<effect id="132" value="5">
+		</item>
+		<item rateId="7" id="1412">
+			<effect id="105" value="6">
+		</item>
+		<item rateId="16" id="1415">
+			<effect id="105" value="6">
+			<effect id="17" value="6">
+		</item>
+		<item rateId="17" id="1553">
+			<effect id="105" value="6">
+			<effect id="26" value="6">
+		</item>
+		<item rateId="18" id="1562">
+			<effect id="105" value="6">
+			<effect id="29" value="6">
+		</item>
+		<item rateId="19" id="1565">
+			<effect id="105" value="6">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="20" id="420">
+		</item>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

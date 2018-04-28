@@ -1,0 +1,21 @@
+<creature name="Krill_Gigante" level="23" merchant="0" clan="1" class="0" experience="8000" gold="9999" >
+	<health now="2000" max="2000" regen="0" />
+	<status str="4" dex="75" int="100" con="1550" />
+	<special special1="255" special2="2" special3="105" special4="1" />
+	<strategy damage="50" magic="0" critical="0" attack_speed="241" move_speed="15" defense="40"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="204" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="56" id="452">
+		</item>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

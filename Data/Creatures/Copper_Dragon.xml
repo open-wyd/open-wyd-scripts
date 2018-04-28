@@ -1,0 +1,9 @@
+<creature name="Copper_Dragon" level="5" merchant="0" clan="4" class="1" experience="25000" gold="9999" >
+	<health now="15000" max="15000" regen="0" />
+	<status str="6" dex="10" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="50" magic="0" critical="255" attack_speed="243" move_speed="15" defense="50"/>
+	<look>
+		<corpse id="332" brightness="0" >
+	</look>
+</creature>

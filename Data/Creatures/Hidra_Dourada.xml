@@ -1,0 +1,24 @@
+<creature name="Hidra_Dourada" level="300" merchant="0" clan="1" class="1" experience="106000" gold="9999" >
+	<health now="9200" max="9200" regen="0" />
+	<status str="5" dex="90" int="70" con="400" />
+	<special special1="40" special2="7" special3="40" special4="7" />
+	<strategy damage="814" magic="0" critical="255" attack_speed="242" move_speed="15" defense="2320"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+		<resistence ice="20" >
+	</resistences>
+	<look>
+		<corpse id="218" brightness="9" >
+	</look>
+	<loot>
+		<item rateId="56" id="49">
+		</item>
+		<item rateId="59" id="412">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="60" id="413">
+		</item>
+	</loot>
+</creature>

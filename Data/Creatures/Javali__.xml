@@ -1,0 +1,13 @@
+<creature name="Javali__" level="3" merchant="0" clan="0" class="1" experience="4000" gold="9999" >
+	<health now="10" max="10" regen="0" />
+	<status str="5" dex="10" int="50" con="-500" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="20" magic="0" critical="255" attack_speed="242" move_speed="15" defense="15"/>
+	<look>
+		<corpse id="225" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

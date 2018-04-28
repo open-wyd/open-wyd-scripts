@@ -1,0 +1,102 @@
+<creature name="Meio_Orc_" level="43" merchant="0" clan="1" class="1" experience="12000" gold="9999" >
+	<health now="850" max="850" regen="0" />
+	<status str="5" dex="30" int="70" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="100" magic="0" critical="255" attack_speed="242" move_speed="15" defense="200"/>
+	<look>
+		<corpse id="208" brightness="0" >
+		<rigth_weapon id="705" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1143">
+			<effect id="102" value="3">
+			<effect id="131" value="4">
+		</item>
+		<item rateId="1" id="1155">
+			<effect id="102" value="3">
+			<effect id="83" value="4">
+		</item>
+		<item rateId="2" id="1107">
+			<effect id="102" value="3">
+			<effect id="160" value="5">
+		</item>
+		<item rateId="3" id="1440">
+			<effect id="102" value="3">
+			<effect id="13" value="5">
+		</item>
+		<item rateId="4" id="1293">
+			<effect id="102" value="3">
+			<effect id="25" value="5">
+		</item>
+		<item rateId="5" id="1305">
+			<effect id="102" value="3">
+			<effect id="233" value="4">
+		</item>
+		<item rateId="6" id="1257">
+			<effect id="102" value="3">
+			<effect id="163" value="5">
+		</item>
+		<item rateId="7" id="1443">
+			<effect id="102" value="3">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="17" id="420">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="18" id="420">
+		</item>
+		<item rateId="27" id="819">
+			<effect id="102" value="0">
+			<effect id="36" value="3">
+		</item>
+		<item rateId="28" id="804">
+			<effect id="102" value="0">
+			<effect id="94" value="3">
+		</item>
+		<item rateId="29" id="862">
+			<effect id="102" value="0">
+			<effect id="34" value="3">
+		</item>
+		<item rateId="30" id="802">
+			<effect id="102" value="0">
+			<effect id="132" value="5">
+		</item>
+		<item rateId="31" id="1412">
+			<effect id="102" value="5">
+			<effect id="89" value="4">
+		</item>
+		<item rateId="32" id="1113">
+			<effect id="102" value="5">
+			<effect id="126" value="4">
+		</item>
+		<item rateId="33" id="1150">
+			<effect id="102" value="5">
+			<effect id="78" value="4">
+		</item>
+		<item rateId="34" id="1102">
+			<effect id="102" value="5">
+			<effect id="102" value="4">
+		</item>
+		<item rateId="35" id="1126">
+			<effect id="102" value="5">
+		</item>
+		<item rateId="40" id="3197">
+			<effect id="125" value="12">
+		</item>
+		<item rateId="41" id="3197">
+		</item>
+		<item rateId="54" id="1554">
+			<effect id="102" value="5">
+			<effect id="28" value="6">
+		</item>
+		<item rateId="55" id="1564">
+			<effect id="102" value="5">
+		</item>
+		<item rateId="60" id="697">
+		</item>
+		<item rateId="62" id="3178">
+		</item>
+	</loot>
+</creature>

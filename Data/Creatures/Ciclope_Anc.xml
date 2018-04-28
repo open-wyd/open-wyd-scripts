@@ -1,0 +1,13 @@
+<creature name="Ciclope_Anc" level="300" merchant="0" clan="1" class="1" experience="85000" gold="9999" >
+	<health now="10000" max="10000" regen="0" />
+	<status str="6" dex="100" int="100" con="400" />
+	<special special1="255" special2="1" special3="255" special4="1" />
+	<strategy damage="545" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1600"/>
+	<resistences>
+		<resistence fire="-30" >
+	</resistences>
+	<look>
+		<corpse id="234" brightness="0" >
+		<rigth_weapon id="702" brightness="0" >
+	</look>
+</creature>

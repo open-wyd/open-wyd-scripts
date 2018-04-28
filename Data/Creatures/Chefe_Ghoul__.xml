@@ -1,0 +1,12 @@
+<creature name="Chefe_Ghoul__" level="300" merchant="0" clan="1" class="1" experience="85000" gold="9999" >
+	<health now="5100" max="5100" regen="0" />
+	<status str="4" dex="30" int="90" con="1150" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="225" magic="0" critical="255" attack_speed="242" move_speed="15" defense="610"/>
+	<resistences>
+		<resistence fire="-30" >
+	</resistences>
+	<look>
+		<corpse id="229" brightness="0" >
+	</look>
+</creature>

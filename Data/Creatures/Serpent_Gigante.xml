@@ -1,0 +1,13 @@
+<creature name="Serpent_Gigante" level="15" merchant="0" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="170" max="170" regen="0" />
+	<status str="5" dex="27" int="50" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="28" magic="0" critical="255" attack_speed="241" move_speed="15" defense="36"/>
+	<look>
+		<corpse id="221" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

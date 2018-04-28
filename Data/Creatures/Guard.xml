@@ -1,0 +1,15 @@
+<creature name="Guard" level="3" merchant="0" clan="3" class="1" experience="0" gold="0" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="243" move_speed="15" defense="500"/>
+	<look>
+		<corpse id="60" brightness="0" >
+		<helmet id="130" brightness="0" >
+		<armor id="126" brightness="0" >
+		<pants id="127" brightness="0" >
+		<glove id="128" brightness="0" >
+		<boots id="129" brightness="0" >
+		<rigth_weapon id="986" brightness="0" >
+	</look>
+</creature>

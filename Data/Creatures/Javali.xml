@@ -1,0 +1,64 @@
+<creature name="Javali" level="11" merchant="0" clan="2" class="1" experience="7000" gold="9999" >
+	<health now="130" max="130" regen="0" />
+	<status str="5" dex="10" int="50" con="100" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="22" magic="0" critical="255" attack_speed="241" move_speed="15" defense="35"/>
+	<look>
+		<corpse id="216" brightness="0" >
+		<helmet id="217" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1126">
+			<effect id="101" value="5">
+			<effect id="115" value="4">
+		</item>
+		<item rateId="1" id="1139">
+			<effect id="101" value="5">
+			<effect id="90" value="4">
+		</item>
+		<item rateId="2" id="1114">
+			<effect id="101" value="5">
+			<effect id="240" value="4">
+		</item>
+		<item rateId="3" id="1264">
+			<effect id="101" value="5">
+			<effect id="252" value="4">
+		</item>
+		<item rateId="4" id="1276">
+			<effect id="101" value="5">
+			<effect id="9" value="5">
+		</item>
+		<item rateId="5" id="1289">
+			<effect id="101" value="5">
+			<effect id="125" value="5">
+		</item>
+		<item rateId="6" id="1405">
+			<effect id="101" value="5">
+			<effect id="128" value="5">
+		</item>
+		<item rateId="7" id="1408">
+			<effect id="101" value="5">
+		</item>
+		<item rateId="16" id="420">
+		</item>
+		<item rateId="27" id="1702">
+			<effect id="34" value="3">
+		</item>
+		<item rateId="28" id="802">
+			<effect id="101" value="0">
+			<effect id="49" value="3">
+		</item>
+		<item rateId="29" id="817">
+			<effect id="101" value="0">
+			<effect id="94" value="3">
+		</item>
+		<item rateId="30" id="862">
+			<effect id="101" value="0">
+		</item>
+		<item rateId="32" id="1412">
+			<effect id="101" value="5">
+		</item>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

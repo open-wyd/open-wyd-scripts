@@ -1,0 +1,73 @@
+<creature name="Aki" level="2" merchant="1" clan="3" class="1" experience="0" gold="0" >
+	<health now="50" max="50" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="5000" magic="0" critical="255" attack_speed="241" move_speed="15" defense="3000"/>
+	<look>
+		<corpse id="59" brightness="0" >
+		<helmet id="120" brightness="0" >
+		<armor id="121" brightness="0" >
+		<pants id="122" brightness="0" >
+		<glove id="123" brightness="0" >
+		<boots id="124" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="685">
+			<effect id="61" value="20">
+			<effect id="179" value="2">
+		</item>
+		<item pos="1" id="691">
+			<effect id="61" value="20">
+		</item>
+		<item pos="3" id="415">
+			<effect id="154" value="1">
+		</item>
+		<item pos="4" id="410">
+			<effect id="155" value="1">
+		</item>
+		<item pos="5" id="411">
+			<effect id="61" value="10">
+			<effect id="188" value="2">
+		</item>
+		<item pos="6" id="700">
+			<effect id="187" value="2">
+		</item>
+		<item pos="7" id="699">
+			<effect id="8" value="3">
+		</item>
+		<item pos="8" id="776">
+			<effect id="61" value="10">
+		</item>
+		<item pos="27" id="3134">
+			<effect id="61" value="12">
+		</item>
+		<item pos="28" id="3133">
+			<effect id="60" value="12">
+		</item>
+		<item pos="29" id="3132">
+			<effect id="59" value="12">
+		</item>
+		<item pos="30" id="3131">
+			<effect id="58" value="12">
+		</item>
+		<item pos="31" id="3130">
+			<effect id="57" value="12">
+		</item>
+		<item pos="32" id="3129">
+		</item>
+		<item pos="34" id="683">
+			<effect id="61" value="70">
+			<effect id="177" value="2">
+		</item>
+		<item pos="35" id="689">
+			<effect id="61" value="70">
+		</item>
+		<item pos="54" id="683">
+			<effect id="61" value="100">
+			<effect id="177" value="2">
+		</item>
+		<item pos="55" id="689">
+			<effect id="61" value="100">
+		</item>
+	</shopItems>
+</creature>

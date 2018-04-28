@@ -1,0 +1,15 @@
+<creature name="Leaky_Zakum" level="2" merchant="30" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="5000" max="5000" regen="0" />
+	<status str="2" dex="30" int="100" con="-200" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="340" magic="0" critical="0" attack_speed="242" move_speed="15" defense="8000"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="259" brightness="0" >
+	</look>
+</creature>

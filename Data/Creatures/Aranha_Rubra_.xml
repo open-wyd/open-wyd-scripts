@@ -1,0 +1,15 @@
+<creature name="Aranha_Rubra_" level="400" merchant="0" clan="1" class="1" experience="150000" gold="9999" >
+	<health now="27600" max="27600" regen="0" />
+	<status str="5" dex="90" int="90" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1490" magic="0" critical="255" attack_speed="244" move_speed="15" defense="3050"/>
+	<resistences>
+		<resistence holy="5" >
+		<resistence lightning="5" >
+		<resistence fire="5" >
+		<resistence ice="5" >
+	</resistences>
+	<look>
+		<corpse id="353" brightness="0" >
+	</look>
+</creature>

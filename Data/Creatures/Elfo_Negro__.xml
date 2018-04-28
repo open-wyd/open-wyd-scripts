@@ -1,0 +1,20 @@
+<creature name="Elfo_Negro__" level="300" merchant="0" clan="1" class="1" experience="85000" gold="9999" >
+	<health now="3000" max="3000" regen="0" />
+	<status str="6" dex="90" int="90" con="0" />
+	<special special1="123" special2="1" special3="123" special4="1" />
+	<strategy damage="671" magic="0" critical="255" attack_speed="243" move_speed="15" defense="900"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-10" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="284" brightness="0" >
+		<helmet id="284" brightness="0" >
+		<armor id="285" brightness="0" >
+		<pants id="284" brightness="0" >
+		<glove id="284" brightness="0" >
+		<boots id="284" brightness="0" >
+		<rigth_weapon id="729" brightness="0" >
+	</look>
+</creature>

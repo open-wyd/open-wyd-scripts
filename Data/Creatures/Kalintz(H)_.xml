@@ -1,0 +1,23 @@
+<creature name="Kalintz(H)_" level="400" merchant="0" clan="1" class="1" experience="150000" gold="9999" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="90" int="95" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1780" magic="0" critical="255" attack_speed="242" move_speed="15" defense="3850"/>
+	<resistences>
+		<resistence holy="15" >
+		<resistence lightning="15" >
+		<resistence fire="15" >
+		<resistence ice="15" >
+	</resistences>
+	<look>
+		<corpse id="376" brightness="0" >
+		<helmet id="377" brightness="0" >
+		<armor id="378" brightness="0" >
+		<pants id="379" brightness="0" >
+		<glove id="380" brightness="0" >
+		<boots id="381" brightness="0" >
+		<rigth_weapon id="1934" brightness="6" >
+		<eventItem id="786" brightness="0" >
+		<kingdom id="738" brightness="0" >
+	</look>
+</creature>

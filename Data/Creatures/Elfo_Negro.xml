@@ -1,0 +1,77 @@
+<creature name="Elfo_Negro" level="140" merchant="0" clan="1" class="1" experience="64000" gold="9999" >
+	<health now="7500" max="7500" regen="0" />
+	<status str="6" dex="90" int="90" con="50" />
+	<special special1="123" special2="1" special3="123" special4="1" />
+	<strategy damage="423" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1130"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-10" >
+	</resistences>
+	<look>
+		<corpse id="284" brightness="0" >
+		<helmet id="284" brightness="0" >
+		<armor id="285" brightness="0" >
+		<pants id="284" brightness="0" >
+		<glove id="284" brightness="0" >
+		<boots id="284" brightness="0" >
+		<rigth_weapon id="729" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="27" id="837">
+			<effect id="101" value="0">
+			<effect id="84" value="3">
+		</item>
+		<item rateId="28" id="852">
+			<effect id="101" value="0">
+			<effect id="98" value="3">
+		</item>
+		<item rateId="29" id="866">
+			<effect id="102" value="0">
+			<effect id="53" value="3">
+		</item>
+		<item rateId="30" id="821">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="32" id="1176">
+			<effect id="101" value="0">
+			<effect id="162" value="4">
+		</item>
+		<item rateId="33" id="1186">
+			<effect id="101" value="0">
+			<effect id="146" value="4">
+		</item>
+		<item rateId="34" id="1170">
+			<effect id="102" value="0">
+			<effect id="149" value="4">
+		</item>
+		<item rateId="35" id="1173">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="48" id="2396">
+			<effect id="97" value="9">
+		</item>
+		<item rateId="49" id="2401">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="50" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="51" id="3178">
+		</item>
+		<item rateId="54" id="1631">
+			<effect id="101" value="0">
+		</item>
+		<item rateId="60" id="2307">
+			<effect id="8" value="9">
+		</item>
+		<item rateId="61" id="2312">
+		</item>
+	</loot>
+</creature>

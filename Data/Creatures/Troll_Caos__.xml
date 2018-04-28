@@ -1,0 +1,22 @@
+<creature name="Troll_Caos__" level="256" merchant="0" clan="2" class="1" experience="75000" gold="9999" >
+	<health now="18000" max="18000" regen="0" />
+	<status str="4" dex="30" int="50" con="150" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="773" magic="0" critical="255" attack_speed="241" move_speed="15" defense="1650"/>
+	<look>
+		<corpse id="213" brightness="0" >
+		<rigth_weapon id="719" brightness="9" >
+	</look>
+	<loot>
+		<item rateId="7" id="697">
+			<effect id="64" value="2">
+		</item>
+		<item rateId="8" id="576">
+			<effect id="64" value="2">
+		</item>
+		<item rateId="9" id="576">
+		</item>
+		<item rateId="56" id="413">
+		</item>
+	</loot>
+</creature>

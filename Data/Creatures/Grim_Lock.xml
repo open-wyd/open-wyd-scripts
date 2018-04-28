@@ -1,0 +1,65 @@
+<creature name="Grim_Lock" level="183" merchant="0" clan="1" class="1" experience="70000" gold="9999" >
+	<health now="11200" max="11200" regen="0" />
+	<status str="4" dex="90" int="70" con="450" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="565" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1600"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-10" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="294" brightness="0" >
+		<rigth_weapon id="711" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="2" id="3178">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="28" id="823">
+			<effect id="102" value="0">
+			<effect id="40" value="3">
+		</item>
+		<item rateId="29" id="808">
+			<effect id="102" value="0">
+			<effect id="130" value="3">
+		</item>
+		<item rateId="30" id="898">
+			<effect id="102" value="0">
+			<effect id="70" value="3">
+		</item>
+		<item rateId="31" id="838">
+			<effect id="102" value="0">
+			<effect id="169" value="4">
+		</item>
+		<item rateId="32" id="1193">
+			<effect id="101" value="0">
+			<effect id="175" value="4">
+		</item>
+		<item rateId="33" id="1199">
+			<effect id="101" value="0">
+			<effect id="172" value="4">
+		</item>
+		<item rateId="34" id="1196">
+			<effect id="101" value="0">
+			<effect id="157" value="4">
+		</item>
+		<item rateId="35" id="1181">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="54" id="1627">
+			<effect id="102" value="0">
+			<effect id="93" value="6">
+		</item>
+		<item rateId="55" id="1629">
+			<effect id="102" value="0">
+		</item>
+	</loot>
+</creature>

@@ -1,0 +1,22 @@
+<creature name="Anf_Ninja_" level="355" merchant="0" clan="1" class="1" experience="100000" gold="9999" >
+	<health now="8700" max="8700" regen="0" />
+	<status str="6" dex="30" int="90" con="700" />
+	<special special1="255" special2="1" special3="255" special4="1" />
+	<strategy damage="498" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1320"/>
+	<resistences>
+		<resistence holy="20" >
+		<resistence lightning="20" >
+		<resistence fire="-20" >
+		<resistence ice="-20" >
+	</resistences>
+	<look>
+		<corpse id="252" brightness="0" >
+		<helmet id="115" brightness="0" >
+		<armor id="253" brightness="0" >
+		<pants id="254" brightness="0" >
+		<glove id="255" brightness="0" >
+		<boots id="256" brightness="0" >
+		<rigth_weapon id="721" brightness="0" >
+		<left_weapon id="721" brightness="0" >
+	</look>
+</creature>

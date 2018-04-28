@@ -1,0 +1,28 @@
+<creature name="Agmo_Caveira" level="130" merchant="0" clan="2" class="1" experience="70000" gold="9999" >
+	<health now="20000" max="20000" regen="0" />
+	<status str="6" dex="100" int="100" con="750" />
+	<special special1="255" special2="1" special3="255" special4="7" />
+	<strategy damage="360" magic="0" critical="255" attack_speed="242" move_speed="15" defense="620"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="260" brightness="7" >
+		<helmet id="261" brightness="0" >
+		<armor id="262" brightness="0" >
+		<pants id="263" brightness="0" >
+		<glove id="264" brightness="0" >
+		<boots id="265" brightness="0" >
+		<rigth_weapon id="724" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="3178">
+		</item>
+		<item rateId="8" id="1179">
+			<effect id="103" value="4">
+		</item>
+	</loot>
+</creature>

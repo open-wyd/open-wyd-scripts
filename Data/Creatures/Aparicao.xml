@@ -1,0 +1,32 @@
+<creature name="Aparicao" level="84" merchant="0" clan="1" class="1" experience="25000" gold="9999" >
+	<health now="4200" max="4200" regen="0" />
+	<status str="5" dex="60" int="70" con="400" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="165" magic="0" critical="255" attack_speed="242" move_speed="15" defense="356"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="260" brightness="9" >
+		<helmet id="261" brightness="9" >
+		<armor id="262" brightness="9" >
+		<pants id="263" brightness="9" >
+		<glove id="264" brightness="9" >
+		<boots id="265" brightness="9" >
+		<rigth_weapon id="723" brightness="9" >
+		<left_weapon id="725" brightness="9" >
+		<kingdom id="738" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="56" id="97">
+		</item>
+		<item rateId="60" id="413">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="61" id="412">
+		</item>
+	</loot>
+</creature>

@@ -1,0 +1,96 @@
+<creature name="Golem_de_Pedra" level="175" merchant="0" clan="1" class="1" experience="67000" gold="9999" >
+	<health now="10800" max="10800" regen="0" />
+	<status str="3" dex="90" int="50" con="100" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="525" magic="0" critical="255" attack_speed="241" move_speed="15" defense="1480"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence fire="-20" >
+		<resistence ice="-10" >
+	</resistences>
+	<look>
+		<corpse id="297" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1210">
+			<effect id="100" value="0">
+			<effect id="184" value="4">
+		</item>
+		<item rateId="1" id="1208">
+			<effect id="100" value="0">
+			<effect id="190" value="4">
+		</item>
+		<item rateId="2" id="1214">
+			<effect id="100" value="0">
+			<effect id="63" value="5">
+		</item>
+		<item rateId="3" id="1343">
+			<effect id="100" value="0">
+			<effect id="69" value="5">
+		</item>
+		<item rateId="4" id="1349">
+			<effect id="100" value="0">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="17" id="412">
+			<effect id="157" value="1">
+		</item>
+		<item rateId="18" id="413">
+		</item>
+		<item rateId="24" id="805">
+			<effect id="2" value="54">
+			<effect id="52" value="3">
+		</item>
+		<item rateId="25" id="820">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="27" id="934">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="29" id="835">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="32" id="1202">
+			<effect id="101" value="0">
+			<effect id="181" value="4">
+		</item>
+		<item rateId="33" id="1205">
+			<effect id="101" value="0">
+			<effect id="174" value="4">
+		</item>
+		<item rateId="34" id="1198">
+			<effect id="101" value="0">
+			<effect id="171" value="4">
+		</item>
+		<item rateId="35" id="1195">
+			<effect id="101" value="0">
+			<effect id="82" value="3">
+		</item>
+		<item rateId="36" id="850">
+			<effect id="60" value="24">
+		</item>
+		<item rateId="38" id="865">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="40" id="880">
+			<effect id="2" value="54">
+		</item>
+		<item rateId="42" id="895">
+			<effect id="60" value="24">
+		</item>
+		<item rateId="45" id="3178">
+			<effect id="106" value="12">
+		</item>
+		<item rateId="46" id="3178">
+		</item>
+		<item rateId="54" id="1626">
+			<effect id="102" value="0">
+			<effect id="202" value="5">
+		</item>
+		<item rateId="55" id="1482">
+			<effect id="102" value="0">
+		</item>
+	</loot>
+</creature>

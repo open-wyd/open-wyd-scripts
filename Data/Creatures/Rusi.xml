@@ -1,0 +1,30 @@
+<creature name="Rusi" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="241" move_speed="15" defense="500"/>
+	<look>
+		<corpse id="16" brightness="0" >
+		<helmet id="139" brightness="0" >
+		<armor id="140" brightness="0" >
+		<pants id="141" brightness="0" >
+		<glove id="142" brightness="0" >
+		<boots id="143" brightness="0" >
+	</look>
+	<shopItems>
+		<item pos="0" id="685">
+			<effect id="61" value="20">
+			<effect id="179" value="2">
+		</item>
+		<item pos="1" id="691">
+			<effect id="61" value="20">
+			<effect id="154" value="1">
+		</item>
+		<item pos="2" id="410">
+			<effect id="155" value="1">
+		</item>
+		<item pos="3" id="411">
+			<effect id="61" value="10">
+		</item>
+	</shopItems>
+</creature>

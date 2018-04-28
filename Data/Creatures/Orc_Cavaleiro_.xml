@@ -1,0 +1,96 @@
+<creature name="Orc_Cavaleiro_" level="35" merchant="0" clan="1" class="1" experience="9000" gold="9999" >
+	<health now="650" max="650" regen="0" />
+	<status str="5" dex="30" int="70" con="50" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="85" magic="0" critical="255" attack_speed="242" move_speed="15" defense="140"/>
+	<look>
+		<corpse id="207" brightness="0" >
+		<rigth_weapon id="946" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="1129">
+			<effect id="102" value="4">
+		</item>
+		<item rateId="1" id="1280">
+			<effect id="102" value="4">
+			<effect id="93" value="4">
+		</item>
+		<item rateId="2" id="1117">
+			<effect id="102" value="4">
+			<effect id="106" value="4">
+		</item>
+		<item rateId="3" id="1130">
+			<effect id="102" value="4">
+			<effect id="94" value="4">
+		</item>
+		<item rateId="4" id="1118">
+			<effect id="102" value="4">
+			<effect id="242" value="4">
+		</item>
+		<item rateId="5" id="1266">
+			<effect id="102" value="4">
+			<effect id="255" value="4">
+		</item>
+		<item rateId="6" id="1279">
+			<effect id="102" value="4">
+			<effect id="244" value="4">
+		</item>
+		<item rateId="7" id="1268">
+			<effect id="102" value="4">
+		</item>
+		<item rateId="16" id="412">
+			<effect id="164" value="1">
+		</item>
+		<item rateId="17" id="420">
+		</item>
+		<item rateId="27" id="833">
+			<effect id="102" value="0">
+			<effect id="80" value="3">
+		</item>
+		<item rateId="28" id="848">
+			<effect id="102" value="0">
+			<effect id="110" value="3">
+		</item>
+		<item rateId="29" id="878">
+			<effect id="102" value="0">
+			<effect id="163" value="3">
+		</item>
+		<item rateId="30" id="931">
+			<effect id="102" value="0">
+			<effect id="131" value="5">
+		</item>
+		<item rateId="31" id="1411">
+			<effect id="102" value="5">
+			<effect id="113" value="4">
+		</item>
+		<item rateId="32" id="1137">
+			<effect id="102" value="5">
+			<effect id="125" value="4">
+		</item>
+		<item rateId="33" id="1149">
+			<effect id="102" value="5">
+			<effect id="77" value="4">
+		</item>
+		<item rateId="34" id="1101">
+			<effect id="102" value="5">
+			<effect id="114" value="4">
+		</item>
+		<item rateId="35" id="1138">
+			<effect id="102" value="5">
+		</item>
+		<item rateId="54" id="1563">
+			<effect id="102" value="5">
+			<effect id="24" value="6">
+		</item>
+		<item rateId="55" id="1560">
+			<effect id="102" value="5">
+		</item>
+		<item rateId="60" id="697">
+			<effect id="166" value="1">
+		</item>
+		<item rateId="61" id="422">
+		</item>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

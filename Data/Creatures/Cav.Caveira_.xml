@@ -1,0 +1,122 @@
+<creature name="Cav.Caveira_" level="355" merchant="0" clan="1" class="1" experience="80000" gold="9999" >
+	<health now="22100" max="22100" regen="0" />
+	<status str="6" dex="90" int="70" con="550" />
+	<special special1="255" special2="2" special3="255" special4="2" />
+	<strategy damage="1068" magic="0" critical="255" attack_speed="242" move_speed="15" defense="2336"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="260" brightness="0" >
+		<helmet id="266" brightness="0" >
+		<armor id="267" brightness="0" >
+		<pants id="268" brightness="0" >
+		<glove id="269" brightness="0" >
+		<boots id="270" brightness="0" >
+		<rigth_weapon id="724" brightness="9" >
+		<kingdom id="738" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+			<effect id="203" value="8">
+		</item>
+		<item rateId="2" id="2251">
+			<effect id="204" value="8">
+		</item>
+		<item rateId="3" id="2252">
+			<effect id="205" value="8">
+		</item>
+		<item rateId="4" id="2253">
+			<effect id="206" value="8">
+		</item>
+		<item rateId="5" id="2254">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="24" id="591">
+			<effect id="80" value="2">
+		</item>
+		<item rateId="25" id="592">
+			<effect id="81" value="2">
+		</item>
+		<item rateId="26" id="593">
+			<effect id="82" value="2">
+		</item>
+		<item rateId="27" id="594">
+			<effect id="83" value="2">
+		</item>
+		<item rateId="28" id="595">
+			<effect id="123" value="11">
+		</item>
+		<item rateId="29" id="2939">
+			<effect id="102" value="3">
+			<effect id="124" value="11">
+		</item>
+		<item rateId="30" id="2940">
+			<effect id="102" value="3">
+			<effect id="125" value="11">
+		</item>
+		<item rateId="31" id="2941">
+			<effect id="102" value="3">
+			<effect id="9" value="9">
+		</item>
+		<item rateId="32" id="2313">
+			<effect id="5" value="9">
+		</item>
+		<item rateId="33" id="2309">
+			<effect id="126" value="11">
+		</item>
+		<item rateId="34" id="2942">
+			<effect id="102" value="3">
+			<effect id="127" value="11">
+		</item>
+		<item rateId="35" id="2943">
+			<effect id="102" value="3">
+			<effect id="128" value="11">
+		</item>
+		<item rateId="36" id="2944">
+			<effect id="102" value="3">
+			<effect id="129" value="11">
+		</item>
+		<item rateId="37" id="2945">
+			<effect id="102" value="3">
+			<effect id="130" value="11">
+		</item>
+		<item rateId="38" id="2946">
+			<effect id="102" value="3">
+			<effect id="131" value="11">
+		</item>
+		<item rateId="39" id="2947">
+			<effect id="102" value="3">
+			<effect id="4" value="9">
+		</item>
+		<item rateId="40" id="2308">
+			<effect id="10" value="9">
+		</item>
+		<item rateId="41" id="2314">
+			<effect id="132" value="11">
+		</item>
+		<item rateId="42" id="2948">
+			<effect id="102" value="3">
+			<effect id="176" value="6">
+		</item>
+		<item rateId="43" id="1712">
+		</item>
+		<item rateId="48" id="2403">
+			<effect id="94" value="9">
+		</item>
+		<item rateId="49" id="2398">
+		</item>
+		<item rateId="58" id="420">
+			<effect id="66" value="2">
+		</item>
+		<item rateId="59" id="578">
+		</item>
+	</loot>
+</creature>

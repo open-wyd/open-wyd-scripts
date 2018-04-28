@@ -1,0 +1,20 @@
+<creature name="Santa_Carbunkle" level="60" merchant="0" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="10000" max="10000" regen="0" />
+	<status str="5" dex="80" int="70" con="150" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="90" magic="0" critical="255" attack_speed="242" move_speed="15" defense="200"/>
+	<resistences>
+		<resistence holy="-10" >
+		<resistence lightning="-10" >
+		<resistence fire="-15" >
+		<resistence ice="-15" >
+	</resistences>
+	<look>
+		<corpse id="356" brightness="0" >
+		<rigth_weapon id="996" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="8" id="473">
+		</item>
+	</loot>
+</creature>

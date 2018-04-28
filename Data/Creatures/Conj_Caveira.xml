@@ -1,0 +1,64 @@
+<creature name="Conj_Caveira" level="129" merchant="0" clan="1" class="1" experience="54000" gold="9999" >
+	<health now="6400" max="6400" regen="0" />
+	<status str="6" dex="90" int="50" con="200" />
+	<special special1="255" special2="1" special3="255" special4="1" />
+	<strategy damage="385" magic="0" critical="255" attack_speed="243" move_speed="15" defense="1010"/>
+	<resistences>
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+	</resistences>
+	<look>
+		<corpse id="271" brightness="0" >
+		<helmet id="272" brightness="0" >
+		<armor id="273" brightness="0" >
+		<pants id="274" brightness="0" >
+		<glove id="275" brightness="0" >
+		<boots id="276" brightness="0" >
+		<rigth_weapon id="726" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="0" id="412">
+			<effect id="156" value="1">
+		</item>
+		<item rateId="1" id="412">
+		</item>
+		<item rateId="16" id="413">
+		</item>
+		<item rateId="29" id="1633">
+			<effect id="101" value="0">
+			<effect id="101" value="6">
+		</item>
+		<item rateId="30" id="1637">
+			<effect id="101" value="0">
+			<effect id="203" value="5">
+		</item>
+		<item rateId="31" id="1483">
+			<effect id="101" value="0">
+			<effect id="151" value="4">
+		</item>
+		<item rateId="32" id="1175">
+			<effect id="101" value="0">
+			<effect id="144" value="4">
+		</item>
+		<item rateId="33" id="1168">
+			<effect id="101" value="0">
+			<effect id="111" value="4">
+		</item>
+		<item rateId="34" id="1135">
+			<effect id="102" value="0">
+			<effect id="99" value="4">
+		</item>
+		<item rateId="35" id="1123">
+			<effect id="102" value="0">
+		</item>
+		<item rateId="48" id="3178">
+		</item>
+		<item rateId="54" id="1603">
+			<effect id="102" value="0">
+			<effect id="180" value="5">
+		</item>
+		<item rateId="55" id="1460">
+			<effect id="102" value="0">
+		</item>
+	</loot>
+</creature>

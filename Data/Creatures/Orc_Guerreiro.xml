@@ -1,0 +1,17 @@
+<creature name="Orc_Guerreiro" level="40" merchant="0" clan="1" class="1" experience="10000" gold="9999" >
+	<health now="2000" max="2000" regen="0" />
+	<status str="5" dex="58" int="100" con="600" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="80" magic="0" critical="255" attack_speed="242" move_speed="15" defense="80"/>
+	<look>
+		<corpse id="207" brightness="0" >
+		<helmet id="210" brightness="0" >
+		<rigth_weapon id="706" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="56" id="524">
+		</item>
+		<item rateId="63" id="3178">
+		</item>
+	</loot>
+</creature>

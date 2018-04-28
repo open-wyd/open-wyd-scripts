@@ -1,0 +1,17 @@
+<creature name="Wizard" level="301" merchant="0" clan="7" class="1" experience="25000" gold="9999" >
+	<health now="26000" max="26000" regen="0" />
+	<status str="6" dex="80" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1338" magic="0" critical="255" attack_speed="244" move_speed="15" defense="2545"/>
+	<look>
+		<corpse id="17" brightness="0" >
+		<helmet id="13" brightness="0" >
+		<armor id="150" brightness="0" >
+		<pants id="151" brightness="0" >
+		<glove id="147" brightness="0" >
+		<boots id="148" brightness="0" >
+		<rigth_weapon id="902" brightness="0" >
+		<left_weapon id="1707" brightness="0" >
+		<kingdom id="734" brightness="0" >
+	</look>
+</creature>

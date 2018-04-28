@@ -1,0 +1,12 @@
+<creature name="Minotauro_" level="256" merchant="0" clan="2" class="1" experience="75000" gold="9999" >
+	<health now="7000" max="7000" regen="0" />
+	<status str="4" dex="30" int="70" con="0" />
+	<special special1="255" special2="3" special3="255" special4="3" />
+	<strategy damage="891" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1350"/>
+	<resistences>
+		<resistence fire="-30" >
+	</resistences>
+	<look>
+		<corpse id="235" brightness="4" >
+	</look>
+</creature>

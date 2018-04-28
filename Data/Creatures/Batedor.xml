@@ -1,0 +1,20 @@
+<creature name="Batedor" level="80" merchant="4" clan="2" class="1" experience="25000" gold="9999" >
+	<health now="10000" max="10000" regen="0" />
+	<status str="5" dex="100" int="100" con="0" />
+	<special special1="255" special2="1" special3="106" special4="2" />
+	<strategy damage="0" magic="0" critical="0" attack_speed="242" move_speed="175" defense="8000"/>
+	<resistences>
+		<resistence holy="-1" >
+		<resistence lightning="-1" >
+		<resistence fire="-1" >
+		<resistence ice="-1" >
+	</resistences>
+	<look>
+		<corpse id="64" brightness="1" >
+		<armor id="126" brightness="0" >
+		<pants id="127" brightness="0" >
+		<glove id="128" brightness="0" >
+		<boots id="129" brightness="0" >
+		<rigth_weapon id="868" brightness="0" >
+	</look>
+</creature>

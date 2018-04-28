@@ -1,0 +1,20 @@
+<creature name="Troll_Ghoul_" level="399" merchant="0" clan="1" class="1" experience="100000" gold="9999" >
+	<health now="8500" max="8500" regen="0" />
+	<status str="5" dex="90" int="75" con="200" />
+	<special special1="255" special2="6" special3="255" special4="7" />
+	<strategy damage="487" magic="0" critical="255" attack_speed="242" move_speed="15" defense="1260"/>
+	<resistences>
+		<resistence holy="10" >
+		<resistence lightning="-10" >
+		<resistence fire="-20" >
+		<resistence ice="10" >
+	</resistences>
+	<look>
+		<corpse id="306" brightness="0" >
+		<rigth_weapon id="702" brightness="0" >
+	</look>
+	<loot>
+		<item rateId="16" id="413">
+		</item>
+	</loot>
+</creature>

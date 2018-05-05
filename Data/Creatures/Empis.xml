@@ -1,100 +1,141 @@
-<creature name="Empis" level="0" merchant="6" clan="3" class="1" experience="0" gold="-842150656" >
+<creature name="Empis" level="0" merchant="6" clan="3" class="1" experience="3452816640" gold="-842150656" >
 	<health now="32000" max="32000" regen="0" />
 	<status str="0" dex="0" int="0" con="0" />
 	<special special1="0" special2="0" special3="0" special4="0" />
-	<strategy damage="32000" magic="0" critical="0" attack_speed="240" move_speed="15" defense="0"/>
+	<strategy damage="32000" magic="0" critical="0" attack_speed="0" move_speed="0" defense="0"/>
 	<look>
 		<helmet id="32399" brightness="0" />
 		<armor id="32000" brightness="0" />
 		<pants id="32000" brightness="0" />
-		<left_weapon id="654" brightness="0" />
+		<left_weapon id="32399" brightness="0" />
 		<acessory id="32000" brightness="0" />
 		<amulet id="32000" brightness="0" />
-		<eventItem id="32402" brightness="0" />
-		<mount id="7" brightness="0" />
-		<kingdom id="7" brightness="0" />
+		<eventItem id="32399" brightness="0" />
+		<mount id="32000" brightness="0" />
+		<kingdom id="32000" brightness="0" />
 	</look>
 	<shopItems>
-		<item pos="0" id="7">
-		</item>
-		<item pos="3" id="32528">
+		<item pos="3" id="32399">
 			<effect id="6" value="0"/>
 		</item>
 		<item pos="4" id="32000">
+			<effect id="55" value="0"/>
 		</item>
 		<item pos="5" id="32000">
-			<effect id="255" value="0"/>
 		</item>
-		<item pos="6" id="255">
-			<effect id="7" value="0"/>
-		</item>
-		<item pos="9" id="32618">
-			<effect id="6" value="80"/>
+		<item pos="9" id="32399">
+			<effect id="6" value="0"/>
 		</item>
 		<item pos="10" id="32000">
+			<effect id="55" value="0"/>
 		</item>
 		<item pos="11" id="32000">
-			<effect id="255" value="0"/>
 		</item>
-		<item pos="12" id="255">
-			<effect id="7" value="0"/>
-			<effect id="255" value="0"/>
-			<effect id="7" value="0"/>
-		</item>
-		<item pos="13" id="7">
-		</item>
-		<item pos="15" id="9739">
-			<effect id="6" value="80"/>
+		<item pos="15" id="32399">
+			<effect id="6" value="0"/>
 		</item>
 		<item pos="16" id="32000">
+			<effect id="55" value="0"/>
 		</item>
 		<item pos="17" id="32000">
 		</item>
-		<item pos="19" id="255">
+		<item pos="21" id="654">
+			<effect id="6" value="0"/>
+		</item>
+		<item pos="22" id="32000">
+		</item>
+		<item pos="23" id="32000">
+		</item>
+		<item pos="27" id="32402">
+			<effect id="6" value="0"/>
+			<effect id="7" value="0"/>
+		</item>
+		<item pos="28" id="7">
+			<effect id="7" value="0"/>
+		</item>
+		<item pos="29" id="7">
+			<effect id="7" value="0"/>
+		</item>
+		<item pos="30" id="7">
+		</item>
+		<item pos="33" id="32528">
+			<effect id="6" value="0"/>
+		</item>
+		<item pos="34" id="32000">
+		</item>
+		<item pos="35" id="32000">
+			<effect id="255" value="0"/>
+		</item>
+		<item pos="36" id="255">
+			<effect id="7" value="0"/>
+		</item>
+		<item pos="39" id="32618">
+			<effect id="6" value="80"/>
+		</item>
+		<item pos="40" id="32000">
+		</item>
+		<item pos="41" id="32000">
+			<effect id="255" value="0"/>
+		</item>
+		<item pos="42" id="255">
+			<effect id="7" value="0"/>
+			<effect id="255" value="0"/>
+			<effect id="7" value="0"/>
+		</item>
+		<item pos="43" id="7">
+		</item>
+		<item pos="45" id="9739">
+			<effect id="6" value="80"/>
+		</item>
+		<item pos="46" id="32000">
+		</item>
+		<item pos="47" id="32000">
+		</item>
+		<item pos="49" id="255">
 			<effect id="7" value="0"/>
 			<effect id="2" value="0"/>
 		</item>
-		<item pos="20" id="2">
+		<item pos="50" id="2">
 			<effect id="43" value="0"/>
 			<effect id="244" value="1"/>
 			<effect id="244" value="1"/>
 		</item>
-		<item pos="21" id="500">
+		<item pos="51" id="500">
 			<effect id="6" value="1"/>
 			<effect id="40" value="35"/>
 		</item>
-		<item pos="22" id="9000">
+		<item pos="52" id="9000">
 			<effect id="40" value="35"/>
 		</item>
-		<item pos="23" id="9000">
+		<item pos="53" id="9000">
 			<effect id="5" value="0"/>
 		</item>
-		<item pos="24" id="5">
+		<item pos="54" id="5">
 			<effect id="100" value="0"/>
 			<effect id="255" value="0"/>
 		</item>
-		<item pos="25" id="255">
+		<item pos="55" id="255">
 			<effect id="7" value="0"/>
 			<effect id="255" value="0"/>
 			<effect id="7" value="0"/>
 			<effect id="60" value="0"/>
 		</item>
-		<item pos="26" id="60">
+		<item pos="56" id="60">
 			<effect id="130" value="0"/>
 		</item>
-		<item pos="27" id="130">
+		<item pos="57" id="130">
 			<effect id="131" value="0"/>
 		</item>
-		<item pos="28" id="131">
+		<item pos="58" id="131">
 			<effect id="127" value="0"/>
 		</item>
-		<item pos="29" id="127">
+		<item pos="59" id="127">
 			<effect id="128" value="0"/>
 		</item>
-		<item pos="30" id="128">
+		<item pos="60" id="128">
 			<effect id="129" value="0"/>
 		</item>
-		<item pos="31" id="129">
+		<item pos="61" id="129">
 		</item>
 	</shopItems>
 </creature>

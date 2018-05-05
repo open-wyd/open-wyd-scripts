@@ -2,7 +2,7 @@
 	<health now="15000" max="15000" regen="0" />
 	<status str="4" dex="80" int="70" con="700" />
 	<special special1="255" special2="7" special3="255" special4="7" />
-	<strategy damage="12000" magic="0" critical="0" attack_speed="242" move_speed="31" defense="12563"/>
+	<strategy damage="12000" magic="0" critical="0" attack_speed="16" move_speed="2" defense="12563"/>
 	<look>
 		<corpse id="21" brightness="0" />
 		<helmet id="1510" brightness="6" />

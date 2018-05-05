@@ -2,7 +2,7 @@
 	<health now="5200" max="5200" regen="0" />
 	<status str="4" dex="30" int="70" con="100" />
 	<special special1="101" special2="1" special3="101" special4="1" />
-	<strategy damage="103" magic="0" critical="255" attack_speed="242" move_speed="15" defense="840"/>
+	<strategy damage="103" magic="0" critical="255" attack_speed="0" move_speed="2" defense="840"/>
 	<resistences>
 		<resistence holy="20" />
 		<resistence lightning="-20" />

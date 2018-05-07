@@ -148,4 +148,4 @@
 	<spell id="244" skillPoint="255" targetType="0" manaSpent="0" delay="0" range="0" instanceType="0" instanceValue="0" tickType="0" tickValue="0" affectType="40" affectValue="0" affectTime="0" action="24.0.0.24.0.0.0.0" instanceAttribute="0" tickAttribute="0" aggressive="0" maxTarget="0" bParty="0" affectResist="0" passive="1"/>
 	<spell id="245" skillPoint="355" targetType="0" manaSpent="0" delay="0" range="0" instanceType="0" instanceValue="0" tickType="0" tickValue="0" affectType="0" affectValue="0" affectTime="0" action="24.0.0.24.0.0.0.0" instanceAttribute="0" tickAttribute="0" aggressive="0" maxTarget="0" bParty="0" affectResist="0" passive="1"/>
 	<spell id="246" skillPoint="350" targetType="1" manaSpent="300" delay="96" range="1" instanceType="0" instanceValue="0" tickType="0" tickValue="0" affectType="47" affectValue="100" affectTime="2" action="24.0.0.24.0.0.0.0" instanceAttribute="0" tickAttribute="0" aggressive="0" maxTarget="1" bParty="0" affectResist="0" passive="0"/>
-<spells>
+</spells>

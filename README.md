@@ -188,6 +188,7 @@ Methods:
 --------------------------------------------------------------------------------------------------------------------------
 ### Módulo Items
 
+```
 Type:
     ItemAttrType
 
@@ -206,7 +207,9 @@ Methods:
     number  getPos()
     number  getExtra()
     number  getGrade()
+```
 
+```
 Module:
     iItems
 
@@ -234,3 +237,4 @@ Methods:
     void    SetItemDate(CItem Item, number day)
     number  CheckItemDate(CItem Item)
     void    CheckFairyDate(CItem Item)
+```

@@ -27,6 +27,13 @@
 
 ## API da plataforma
 
+### [Lua](https://www.lua.org)
+-- **Versão**: [5.3](https://www.lua.org/versions.html#5.3)
+#### Modulos nativos habilitados:
+- - [string](https://www.lua.org/manual/5.3/manual.html#6.4)
+- - [table](https://www.lua.org/manual/5.3/manual.html#6.6)
+- - [math](https://www.lua.org/manual/5.3/manual.html#6.7)
+
 ### Módulo Events.
 ```
 Definitions of types:

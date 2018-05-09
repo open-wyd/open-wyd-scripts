@@ -238,3 +238,80 @@ Methods:
     number  CheckItemDate(CItem Item)
     void    CheckFairyDate(CItem Item)
 ```
+
+```
+Definitions of types:
+    FindItemSlotType
+	
+Defines:
+    SLOT_EQUIP
+    SLOT_CARRY
+    SLOT_CARGO
+    SLOT_ALL
+```
+
+```
+Definitions of types:
+    FindItemFlags
+
+Defines:
+    iT_ID
+    iT_ADD
+    iT_VAL
+    iT_ORD
+    iT_OR
+    iT_MORE
+    iT_LESS
+
+    T_ID,
+    T_ADD1,  T_ADD2,  T_ADD3
+    T_VAL1,  T_VAL2,  T_VAL3
+    T_ORD1,  T_ORD2,  T_ORD3
+    T_OR1,   T_OR2,   T_OR3
+    T_MORE1, T_MORE2, T_MORE3
+    T_LESS1, T_LESS2, T_LESS3
+
+    T_ADD     -- Is equal: > T_ADD1|T_ADD2|T_ADD3
+    T_VAL     -- Is equal: > T_VAL1|T_VAL2|T_VAL3
+    T_ORD     -- Is equal: > T_ORD1|T_ORD2|T_ORD3
+    T_OR      -- Is equal: > T_OR1|T_OR2|T_OR3
+    T_MORE    -- Is equal: > T_MORE1|T_MORE2|T_MORE3
+    T_LESS    -- Is equal: > T_LESS1|T_LESS2|T_LESS3
+    T_ADD2VAL -- Is equal: > T_ADD1|T_ADD2|T_ADD3|T_VAL1|T_VAL2|T_VAL3
+    T_FULL    -- Is equal: > T_ID|T_ADD1|T_ADD2|T_ADD3|T_VAL1|T_VAL2|T_VAL3
+```
+
+```
+Type:
+    CSlot
+
+Properties:
+    CItem item
+    number slot
+    number sType
+    boolean isModify
+```
+
+```
+Type:
+    FindItem
+
+Constructor:
+    FindItem(Player player)
+
+Methods:
+    number  findItem(const CItem item, number max = 1, number sType = SLOT_CARRY, number tflag = T_FULL)
+    number  findItemId(number itemID, number max = 1, number sType = SLOT_CARRY, number tflag = T_ID)
+    number  replaceItem(const CItem fromItem, CItem toItem, number max, number sType = SLOT_CARRY, number tflag = T_FULL, number rflag = T_FULL)
+    number  replaceItemId(number fromID, number toId, number max, number sType = SLOT_CARRY, number tflag = T_ID, number rflag = T_ID)
+    number  amount(number id, number min, number max, number sType = SLOT_CARRY, number unit = 1, number maxA = 1)
+    CItem   getItem(number slot, number sType = SLOT_CARRY)
+    CSlot   getSlot(number slot, number sType = SLOT_CARRY)
+    number  getSlotCount(number sType = SLOT_CARRY)
+    number  getItemsCount(number sType = SLOT_CARRY)
+    boolean checkItem(CItem item)
+    boolean checkSlot(number slot, number sType = SLOT_CARRY)
+    number  clearItems(number count, number sType = SLOT_CARRY)
+    void    clear()
+    void    resume()
+```

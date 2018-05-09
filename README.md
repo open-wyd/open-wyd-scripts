@@ -27,7 +27,7 @@
 
 ## API da plataforma
 
-### Módulo de eventos.
+### Módulo Events.
 ```
 Definitions of types:
     EVENT_TASK
@@ -101,3 +101,26 @@ Methods:
 ```
 --------------------------------------------------------------------------------------------------------------------------
 
+### Módulo iGameServer
+```
+module: 
+    iGameServer
+	
+Methods:
+    boolean PutItem(Player player,  CItem item);
+    number  GenerateSummon(Player player, number SummonID, CItem sItem, number Num);
+    number  CreateMob(string MobName, number PosX, number PosY, number Type); 
+    void    GenerateMob(number index, number PosX, number PosY);
+    void    MountProcess(Player player, CItem Mount);
+    void    LinkMountHp(Npc npc);
+    void    ProcessAdultMount(Player player, number HpLost);
+    void    ClearArea(number x1, number y1, number x2, number y2);
+    void    SetArenaDoor(number state);
+    void    SetCastleDoor(number state);
+    void    DeleteMob(Creature creature, number Type);
+    number  CreateItem(number x, number y, CItem item, number rotate, number Create);
+    void    DoRecall(Player player);  
+    boolean DoTeleport(Creature creature, number x, number y, boolean isGreat = false);
+    boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false);
+    void    SummonServer(number tx, number ty);
+```

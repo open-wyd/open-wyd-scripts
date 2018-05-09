@@ -114,20 +114,71 @@ module:
     iGameServer
 	
 Methods:
-    boolean PutItem(Player player,  CItem item);
-    number  GenerateSummon(Player player, number SummonID, CItem sItem, number Num);
-    number  CreateMob(string MobName, number PosX, number PosY, number Type); 
-    void    GenerateMob(number index, number PosX, number PosY);
-    void    MountProcess(Player player, CItem Mount);
-    void    LinkMountHp(Npc npc);
-    void    ProcessAdultMount(Player player, number HpLost);
-    void    ClearArea(number x1, number y1, number x2, number y2);
-    void    SetArenaDoor(number state);
-    void    SetCastleDoor(number state);
-    void    DeleteMob(Creature creature, number Type);
-    number  CreateItem(number x, number y, CItem item, number rotate, number Create);
-    void    DoRecall(Player player);  
-    boolean DoTeleport(Creature creature, number x, number y, boolean isGreat = false);
-    boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false);
-    void    SummonServer(number tx, number ty);
+    boolean PutItem(Player player,  CItem item)
+    number  GenerateSummon(Player player, number SummonID, CItem sItem, number Num)
+    number  CreateMob(string MobName, number PosX, number PosY, number Type)
+    void    GenerateMob(number index, number PosX, number PosY)
+    void    MountProcess(Player player, CItem Mount)
+    void    LinkMountHp(Npc npc)
+    void    ProcessAdultMount(Player player, number HpLost)
+    void    ClearArea(number x1, number y1, number x2, number y2)
+    void    SetArenaDoor(number state)
+    void    SetCastleDoor(number state)
+    void    DeleteMob(Creature creature, number Type)
+    number  CreateItem(number x, number y, CItem item, number rotate, number Create)
+    void    DoRecall(Player player)
+    boolean DoTeleport(Creature creature, number x, number y, boolean isGreat = false)
+    boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false)
+    void    SummonServer(number tx, number ty)
 ```
+--------------------------------------------------------------------------------------------------------------------------
+
+### Módulo iSend
+```
+module: 
+    iSend
+
+Methods:
+    void ExpGain(Creature creature)
+    void ClientMessage(const string message)
+    void ClientMessage(Player player, const string message)
+    void Notice(string message)
+    void NoticeArea(string message, number x1, number y1, number x2, number y2)
+    void GuildNotice(number Guild, string message)
+    void CreateMob(Player player, Creature otherCreature, boolean sAll)
+    void AutoTrade(Player player, number otherconnId)
+    void GridMob(Player player)
+    void Item(Player player, number type, number slotId, CItem item)
+    void Etc(Player player)
+    void CargoCoin(Player player)
+    void ShopList(Player player, Creature creatureShop, number shopType)
+    void ReqParty(Player player, const Creature cLeader, number partyId)
+    void RemoveParty(Player player, number connIdExit)
+    void Carry(Player player)
+    void SetHpMp(Player player)
+    void HpMode(Player player)
+    void PKInfo(Player player, Player target)
+    void Affect(Player player)
+    void CreateItem(Player player, number objectId, boolean sAll = false)
+    void Chat(Creature creature, string message)
+    void EnvEffect(number x1, number y1, number x2, number y2, number effect, number effectParm)
+    void EnvEffectKingdom(number x1, number y1, number x2, number y2, number effect, number effectParm, number Clan)
+    void RemoveMob(Player player, number sour, number type = 0, boolean sAll = false)
+    void RemoveItem(Player player, number objectId, boolean sAll = false)
+    void Emotion(Creature creature, number motion, number parm)
+    void Equip(Creature creature, number connIdSkip = 0)
+    void Score(Creature creature)
+    void GuildList(Player player)
+    void WarInfo(Player player, number clan)
+    void AddParty(Player player, Creature creature, boolean isLeader)
+    void Weather()
+    void Say(Creature creature, string message)
+    void ClientSignal(Player player, number id, number signal)
+    void ClientSignalParm(Player player, number id, number signal, number parm)
+    void ClientSignalParm2(Player player, number id, number signal, number parm, number parm2)
+    void ClientSignalParm3(Player player, number id, number signal, number parm, number parm2, number parm3)
+    void SignalParmArea(number x1, number y1, number x2, number y2, number id, number signal, number parm)
+    void ClientSignalnumberParm2(Player player, number id, number signal, number parm, number parm2)
+    void numberSignalParm2Area(number x1, number y1, number x2, number y2, number id, number signal, number parm1, number parm2)
+```
+    

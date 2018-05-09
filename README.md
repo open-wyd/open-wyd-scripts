@@ -29,7 +29,9 @@
 
 ### Módulo de eventos.
 ```
-Definitions of types: 
+Definitions of types:
+    EVENT_TASK
+Defines:
     EVENT_TASK_NONE
     EVENT_TASK_EXECUTE
     EVENT_TASK_LOAD

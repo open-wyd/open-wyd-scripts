@@ -6,11 +6,13 @@
 - ##### **Contexto global**
 - **global.lua**: Contexto global (valores constantes, parâmetros para as funções, ...)
 - **language.lua**: Informações sobre idiomas utilizado nos scritpts.
+
 --------------------------------------------------------------------------------------------------------------------------
 - ##### **Pastas**
 - **Configuação**
 - - **Data**: Arquivos gerais de configuração do servidor.
 - - - **Creatures**: Arquivos .xml que possui as configurações das criaturas no jogo, ex: [Aki.xml](https://github.com/open-wyd/open-wyd-scripts/blob/master/Data/Creatures/Aki.xml). 
+
 --------------------------------------------------------------------------------------------------------------------------
 - **Modulos**
 - **Events**: Modulo de eventos, detém todos os tipos de eventos no jogo ex: [up-level.lua](https://github.com/open-wyd/open-wyd-scripts/blob/master/Events/scripts/up-level/up-level.lua).
@@ -23,10 +25,9 @@
 - - **arquivo xml**, **Libs** e  **scripts**: Funcionalidades similar ao descrito pelo modulo **Events**.
 - **Teleports**: Modulo de teletransportes, ex: [ArmiaToNoaton.lua](https://github.com/open-wyd/open-wyd-scripts/blob/master/Teleports/scripts/Armia/ArmiaToNoaton.lua)
 - - **arquivo xml**, **Libs** e  **scripts**: Funcionalidades similar ao descrito pelo modulo **Events**.
---------------------------------------------------------------------------------------------------------------------------
 
 ## API da plataforma
-
+--------------------------------------------------------------------------------------------------------------------------
 ### [Lua](https://www.lua.org)
 -- **Versão**: [5.3](https://www.lua.org/versions.html#5.3)
 #### Modulos nativos habilitados:
@@ -34,6 +35,7 @@
 - - [table](https://www.lua.org/manual/5.3/manual.html#6.6)
 - - [math](https://www.lua.org/manual/5.3/manual.html#6.7)
 
+--------------------------------------------------------------------------------------------------------------------------
 ### Módulo Events.
 ```
 Definitions of types:
@@ -91,6 +93,7 @@ Methods:
     void    sendTime(number sec, boolean inZone)
     void    sendEventMapEffect(number effectId)
 ```
+
 ```
 Type: 
 	ScriptEvent
@@ -106,8 +109,8 @@ Methods:
     number  scheduledTask(number delay, EVENT_TASK eTask, number envId = 0)
     boolean removeScheduler(number sId)
 ```
---------------------------------------------------------------------------------------------------------------------------
 
+--------------------------------------------------------------------------------------------------------------------------
 ### Módulo iGameServer
 ```
 module: 
@@ -131,8 +134,8 @@ Methods:
     boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false)
     void    SummonServer(number tx, number ty)
 ```
---------------------------------------------------------------------------------------------------------------------------
 
+--------------------------------------------------------------------------------------------------------------------------
 ### Módulo iSend
 ```
 module: 
@@ -181,4 +184,53 @@ Methods:
     void ClientSignalnumberParm2(Player player, number id, number signal, number parm, number parm2)
     void numberSignalParm2Area(number x1, number y1, number x2, number y2, number id, number signal, number parm1, number parm2)
 ```
-    
+
+--------------------------------------------------------------------------------------------------------------------------
+### Módulo Items
+
+Type:
+    ItemAttrType
+
+Methods:
+    number  getId()
+    string  getName()
+    number  getReqLvl()
+    number  getReqStr()
+    number  getReqnumber()
+    number  getReqDex()
+    number  getReqCon()
+    boolean hasEffect(number EffectId)
+    number  getEffect(number EffectId)
+    number  getPrice()
+    number  getUnique()
+    number  getPos()
+    number  getExtra()
+    number  getGrade()
+
+Module:
+    iItems
+
+Methods:
+    boolean IsLoaded()
+    number  Count()
+    ItemAttrType GetItemById(number id)
+    string  GetItemDumpStr(CItem item)
+    void    SetItemBonus(CItem dest, number level, number dropBonus = 0, boolean isBaseAttribute = false)
+    number  GetItemAbilityNosanc( CItem item, number Type)
+    number  GetItemAbility(CItem item, number Type)
+    number  GetStaticItemAbility( CItem item, number Type)
+    number  GetBonusItemAbility( CItem item, number Type)
+    number  GetBonusItemAbilityNosanc( CItem item, number Type)
+    number  GetItemSanc(CItem item)
+    number  GetItemGem(CItem item)
+    number  GetItemSancSuccess( CItem item)
+    number  SetItemSanc(CItem dest, number sanc, number success)
+    void    SetItemAmount(CItem item, number amount)
+    number  GetIndex(CItem item)
+    number  GetGuild(CItem item)
+    number  GetSubGuild(number item)
+    number  VisualItemCode(CItem Item, number mnt)
+    number  VisualAnctCode(CItem Item)
+    void    SetItemDate(CItem Item, number day)
+    number  CheckItemDate(CItem Item)
+    void    CheckFairyDate(CItem Item)

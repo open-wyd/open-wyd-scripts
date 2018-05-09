@@ -24,3 +24,63 @@
 - **Teleports**: Modulo de teletransportes, ex: [ArmiaToNoaton.lua](https://github.com/open-wyd/open-wyd-scripts/blob/master/Teleports/scripts/Armia/ArmiaToNoaton.lua)
 - - **arquivo xml**, **Libs** e  **scripts**: Funcionalidades similar ao descrito pelo modulo **Events**.
 --------------------------------------------------------------------------------------------------------------------------
+
+## API da plataforma
+
+### Módulo de eventos.
+```
+Definitions of types: 
+    EVENT_TASK_NONE
+    EVENT_TASK_EXECUTE
+    EVENT_TASK_LOAD
+    EVENT_TASK_START
+    EVENT_TASK_STOP
+    EVENT_TASK_FINNALY
+```
+
+```
+Type: 
+	EnvironmentEvent
+
+Constructor:
+    EnvironmentEvent()
+   
+Properties:
+    number    envId
+    CPosition from
+    CPosition to
+    CPosition center
+    Player    owner
+    Npc       npc
+    
+Methods:
+    string  getName()
+    void    setName(string newName)
+    number  getEnvId()
+    number  getEventTaskId()
+    number  getTime()
+    void    setTime(number newTime)
+    boolean isStarted()
+    void    start()
+    void    stop()
+    void    resetNpc()
+    void    addMonster(string creatureName, number maxCreatures, number centerx, number centery, boolean randomPos = true)
+    void    addRespawn(string respawnName, number respawnId, number centerx, number centery, boolean randomPos = true)
+    void    executeSpawn(number respawnId)
+    number  executeCreature(number creatureId)
+    boolean addPlayer(ScriptEvent scriptEvent, Player player, CPosition pos)
+    boolean addGroup(ScriptEvent scriptEvent, Player player, CPosition pos)
+    boolean removePlayer(Player player, CPosition pos)
+    number  removeAllPlayer(CPosition pos)
+    number  checkPlayer()
+    number  checkSpawn(number respawnId)
+    void    addTask(ScriptEvent scriptEvent)
+    boolean addScheduler(number delay, ScriptEvent scriptEvent)
+    boolean removeTask()
+    boolean InZone(CPosition pos)
+    boolean InZone(Player player)
+    void    sendTime(number sec, boolean inZone)
+    void    sendEventMapEffect(number effectId)
+```
+--------------------------------------------------------------------------------------------------------------------------
+

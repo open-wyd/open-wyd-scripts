@@ -190,6 +190,54 @@ Methods:
 
 ```
 Type:
+    CItem
+
+Constructor:
+    CItem()
+    CItem(number id)
+	CItem(CItem cpyItem)
+
+Methods:
+    void reset()
+    void reset(number id)
+    void reset(CItem cpyItem)
+    
+    number getId()
+    void setId(number id)
+    
+    boolean isBetween(number fromId, number toId)
+    boolean isBetween(CItem fromId,  CItem toId)
+    boolean hasAdd(number effectid)
+    
+    number getAddValue(number effectid)
+    boolean setAddValue(number effectid, number val)
+    void setAddValue(number slot, number effectid, number val)
+    number getValue(number slot)
+    void setValue(number slot, number val)
+    
+    number getLeaderType()
+    number getSubGuild()
+    boolean isGuildLeader()
+    number getGuildChannel()
+    number getGuildId()
+    number getGuildIndex()
+    void setGuildIndex(number index)
+    void setGuildIndex(number chid, number guildid)
+    
+    number getMountHp()
+    void setMountHp(number hp)
+    number getMountLife()
+    void setMountLife(number life)
+    number getMountLevel()
+    void setMountLevel(number lvl)
+    number getMountExp()
+    void setMountExp(number exp)
+    number getMountFood()
+    void setMountFood(number food)
+```
+
+```
+Type:
     ItemAttrType
 
 Methods:
@@ -238,6 +286,9 @@ Methods:
     number  CheckItemDate(CItem Item)
     void    CheckFairyDate(CItem Item)
 ```
+
+--------------------------------------------------------------------------------------------------------------------------
+### Módulo FindItem
 
 ```
 Definitions of types:

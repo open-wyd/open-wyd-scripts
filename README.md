@@ -195,12 +195,12 @@ Type:
 Constructor:
     CItem()
     CItem(number id)
-	CItem(CItem cpyItem)
+    CItem(CItem cpy)
 
 Methods:
     void reset()
     void reset(number id)
-    void reset(CItem cpyItem)
+    void reset(CItem cpy)
     
     number getId()
     void setId(number id)
@@ -365,4 +365,29 @@ Methods:
     number  clearItems(number count, number sType = SLOT_CARRY)
     void    clear()
     void    resume()
+```
+
+--------------------------------------------------------------------------------------------------------------------------
+### Módulo CPosition
+
+```
+Type:
+    CPosition
+
+Constructor:
+    CPosition()
+    CPosition(number x, number y)
+    CPosition(CPosition cpy)
+
+Properties:
+    number x
+    number y
+	
+Methods:
+    void reset()
+    void set(number x, number y)
+    boolean validate()
+    boolean isBetween(CPosition from, CPosition to)
+    boolean isBetween(number fromX, number fromY, number toX, number toY)
+    boolean .eq (CPosition a)
 ```

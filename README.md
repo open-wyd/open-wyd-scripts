@@ -82,5 +82,20 @@ Methods:
     void    sendTime(number sec, boolean inZone)
     void    sendEventMapEffect(number effectId)
 ```
+```
+Type: 
+	ScriptEvent
+
+Methods:
+    void    reset()
+    string  getName()
+    boolean addPlayer(Player player, number envId)
+    boolean removePlayer(Player player, number envId)
+    void    nextEnv(EnvironmentEvent envFrom, EnvironmentEvent envTo)
+    void    addTask(number envId)
+    number  addScheduler(number delay, number envId = 0)
+    number  scheduledTask(number delay, EVENT_TASK eTask, number envId = 0)
+    boolean removeScheduler(number sId)
+```
 --------------------------------------------------------------------------------------------------------------------------
 

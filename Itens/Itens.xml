@@ -31,4 +31,6 @@
 	<item eventid="170" script="Agua A/Agua-a-s-boss.lua" />
 	
     <item eventid="191" script="kaizen.lua" />
+	<item eventid="195" script="HuntingScrolls.lua" />
+	
 </Itens>

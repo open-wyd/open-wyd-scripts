@@ -27,7 +27,7 @@ function OnUse(Op, Slot, Beg, player)
 	
 	local mp = itemAttr:getEffect(EF_MP);
 	if (mp > 0) then
-		player:addRecoveryMp(500);
+		player:addRecoveryMp(mp);
 	end
 	
 	iSend.SetHpMp(player);

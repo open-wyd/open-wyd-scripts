@@ -394,32 +394,6 @@ Methods:
 
 --------------------------------------------------------------------------------------------------------------------------
 ### Módulos para a definição do tipo Creature
-```
-Type:
-   ScoreAttr
-
-Properties:
-    number Level
-    number Ac
-    number Damage
-
-    number  Merchant
-    number  AttackRun
-    number  Direction
-    number  ChaosRate
-
-    number MaxHp
-    number MaxMp
-    number Hp
-    number Mp
-
-    number Str
-    number number
-    number Dex
-    number Con
-
-    number  Special[4]
-```
 
 ```
 Definitions of types:
@@ -532,8 +506,6 @@ Methods:
     void setRegenHP(number value)
     void setRegenMP(number value)
     void setResist(number rId, number value) -- The mob's resistencies, to fire / ice / thunder / magic
-
-    ScoreAttr BaseScore
     
     -- Get current score informations.
     number getDefense()
@@ -546,7 +518,7 @@ Methods:
     number getHp()
     number getMp()
     number getStr()
-    number getnumber()
+    number getInt()
     number getDex()
     number getCon()
     number getSpecial(number sId) -- The mob's special ponumbers, affects it's skill tiers
@@ -562,7 +534,7 @@ Methods:
     void setHp(number  value)
     void setMp(number  value)
     void setStr(number  value)
-    void setnumber(number  value)
+    void setInt(number  value)
     void setDex(number  value)
     void setCon(number  value)
     void setSpecial(number sId, number value) -- The mob's special ponumbers, affects it's skill tiers

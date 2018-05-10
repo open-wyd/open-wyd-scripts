@@ -391,3 +391,277 @@ Methods:
     boolean isBetween(number fromX, number fromY, number toX, number toY)
     boolean .eq (CPosition a)
 ```
+
+--------------------------------------------------------------------------------------------------------------------------
+### Módulos para a definição do tipo Creature
+```
+Type:
+   ScoreAttr
+
+Properties:
+    number Level
+    number Ac
+    number Damage
+
+    number  Merchant
+    number  AttackRun
+    number  Direction
+    number  ChaosRate
+
+    number MaxHp
+    number MaxMp
+    number Hp
+    number Mp
+
+    number Str
+    number number
+    number Dex
+    number Con
+
+    number  Special[4]
+```
+
+```
+Definitions of types:
+    CreatureStatusModeType
+
+Defines:
+    MOB_EMPTY
+    MOB_USERDOCK
+    MOB_USER
+    MOB_IDLE
+    MOB_PEACE
+    MOB_COMBAT
+    MOB_RETURN
+    MOB_FLEE
+    MOB_ROAM
+    MOB_WAITDB
+```
+
+```
+Definitions of types:
+    ConditionType
+
+Defines:
+    CONDITION_AFFECT
+    CONDITION_TICK
+```
+
+```
+Type:
+    Condition
+
+Properties:
+    number type
+    number value
+    number level
+    number time
+```
+
+```
+Type:
+    CreatureEvent
+
+Methods:
+    ScriptEvent getCurrentEvent()
+    boolean hasDoingEvent()
+    boolean leaveEvent()
+    void resetEvent()
+```
+
+```
+Type:
+    Creature.__index = CreatureEvent
+
+Methods:
+    -- Polymorphisms workaround
+    Creature getCreature()
+    Player getPlayer()
+    Npc getNpc()
+
+    -- Session Id on the game.
+    number getId()
+    
+    -- Status of the creature in game.
+    CreatureStatusModeType getStatus()
+
+    -- Get Informations about the creature.
+    string getName()
+    number getLevel()
+    number getClan()
+    number getMerchant()
+    number getGuild()
+    number getClass()
+    number getRsv()
+    number getQuest()
+    number getCoin()
+    number getExp()
+    CPosition getSavePos()
+    number getLearnedSkill()
+    number getMagic()
+    number getScoreBonus()
+    number getSpecialBonus()
+    number getSkillBonus()
+    number getCritical()
+    number getSaveMana()
+    number getGuildLevel()
+    number getRegenHP()
+    number getRegenMP()
+    number getResist(number rId) -- The mob's resistencies, to fire / ice / thunder / magic
+
+    -- Set Informations about the creature.
+    void setName(string value)
+    void setLevel(number value)
+    void setClan(number value)
+    void setMerchant(number value)
+    void setGuild(number value)
+    void setClass(number value)
+    void setRsv(number value)
+    void setQuest(number value)
+    void setCoin(number value)
+    void setExp(number value)
+    void setSavePos(CPosition value)
+    void setLearnedSkill(number value)
+    void setMagic(number value)
+    void setScoreBonus(number value)
+    void setSpecialBonus(number value)
+    void setSkillBonus(number value)
+    void setCritical(number value)
+    void setSaveMana(number value)
+    void setGuildLevel(number value)
+    void setRegenHP(number value)
+    void setRegenMP(number value)
+    void setResist(number rId, number value) -- The mob's resistencies, to fire / ice / thunder / magic
+
+    ScoreAttr BaseScore
+    
+    -- Get current score informations.
+    number getDefense()
+    number getDamage()
+    number getAttackRun()
+    number getDirection()
+    number getChaosRate()
+    number getMaxHp()
+    number getMaxMp()
+    number getHp()
+    number getMp()
+    number getStr()
+    number getnumber()
+    number getDex()
+    number getCon()
+    number getSpecial(number sId) -- The mob's special ponumbers, affects it's skill tiers
+
+    -- Set current score informations.
+    void setDefense(number  value)
+    void setDamage(number  value)
+    void setAttackRun(number value)
+    void setDirection(number value)
+    void setChaosRate(number value)
+    void setMaxHp(number  value)
+    void setMaxMp(number  value)
+    void setHp(number  value)
+    void setMp(number  value)
+    void setStr(number  value)
+    void setnumber(number  value)
+    void setDex(number  value)
+    void setCon(number  value)
+    void setSpecial(number sId, number value) -- The mob's special ponumbers, affects it's skill tiers
+
+    -- Get equipped items.
+    CItem getPhace()
+    CItem getHelmet()
+    CItem getArmor()
+    CItem getPants()
+    CItem getGloves()
+    CItem getBoots()
+    CItem getRight()
+    CItem getLeft()
+    CItem getRing()
+    CItem getAmulet()
+    CItem getOrb()
+    CItem getRuby()
+    CItem getMedal()
+    CItem getFamiliar()
+    CItem getMount()
+    CItem getMantle()
+
+    -- The items the mob is carrying
+    CItem getCarryItem(number slot)
+
+    -- Gets information about the creature's numbereraction in the world.
+    boolean isAlive()
+    boolean isWalking()
+    boolean isVisible()
+
+    -- killer ponumbers. (Review Needed...)
+    number getGuilty()
+    void   setGuilty(number value)
+    number getCurKill()
+    void   setCurKill(number value)
+    number getTotKill()
+    void   setTotKill(number value)
+    number getPKPonumber()
+    void   setPKPonumber(number value)
+
+    -- Creature owner, ex: summoner. (Review Needed...)
+    Creature getCreatureOwner()
+
+    -- Methods of the Party/Group.
+    boolean isPartyLeader()
+    Creature getPartyLeader()
+    void leaveParty()
+
+    -- Method of the conditions (game buffers).
+    boolean canAddCondition()
+    boolean hasCondition(number type)
+    boolean addCondition(number type, number value, number level, number affecttime)
+    boolean addSkillCondition(number skillnum, number tickTime, number level, ConditionType mode)
+    boolean removeCondition(number type)
+    void removeToxicCondition()
+
+    -- Creates the creature's scoring.
+    void doBuildCurrentScore()
+    
+    -- Information about your position.
+    number getLastMoveTime()
+    CPosition getLastPosition()
+    CPosition getCurrentPosition()
+    CPosition getNextPosition()
+
+    -- Methods for enemies.
+    boolean hasEnemy()
+    EnemyListType getEnemyList()
+    Creature getTargetEnemy()
+    boolean isEnemyTarget(Creature enemy)
+    void setEnemyTarget(Creature enemy)
+    boolean isEnemy(Creature enemy)
+    void addEnemy(Creature enemy)
+    void setEnemy(Creature from, Creature to)
+    void removeEnemy(Creature enemy)
+    void removeAllEnemys()
+```
+
+```
+Type:
+    Player.__index = Creature
+    
+Methods:
+    number getPromotionId()
+    void setPromotionId(number value)
+    boolean hasQuest(number quest)
+    void addQuest(number quest)
+    void removeQuest(number quest)   
+    boolean  applyHp()
+    boolean  applyMp()
+    void  setReqHp()
+    void  setReqMp()
+```
+
+```
+Type:
+    Npc.__index = Creature
+    
+Methods:
+   Creature getSummoner()
+   boolean  IsSummon()
+```

@@ -1,4 +1,4 @@
-<creature name="Representante" level="80" merchant="4" clan="2" class="1" experience="25000" gold="9999" >
+<creature name="Representante" level="80" merchant="4" clan="2" class="1" experience="25000" gold="9999" eventId="5">
 	<health now="10000" max="10000" regen="0" />
 	<status str="5" dex="100" int="100" con="0" />
 	<special special1="255" special2="1" special3="106" special4="2" />

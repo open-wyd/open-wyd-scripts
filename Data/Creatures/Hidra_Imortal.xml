@@ -13,8 +13,6 @@
 		<corpse id="218" brightness="4" />
 	</look>
 	<loot>
-		<item rateId="8" id="49">
-		</item>
 		<item rateId="24" id="1192">
 			<effect id="102" value="3"/>
 			<effect id="171" value="4"/>

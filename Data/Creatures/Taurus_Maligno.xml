@@ -7,30 +7,4 @@
 		<corpse id="237" brightness="6" />
 		<rigth_weapon id="711" brightness="9" />
 	</look>
-	<loot>
-		<item rateId="0" id="199">
-			<effect id="199" value="0"/>
-		</item>
-		<item rateId="1" id="199">
-			<effect id="199" value="0"/>
-		</item>
-		<item rateId="2" id="199">
-			<effect id="199" value="0"/>
-		</item>
-		<item rateId="3" id="199">
-		</item>
-		<item rateId="16" id="199">
-			<effect id="199" value="0"/>
-		</item>
-		<item rateId="17" id="199">
-			<effect id="199" value="0"/>
-		</item>
-		<item rateId="18" id="199">
-			<effect id="199" value="0"/>
-		</item>
-		<item rateId="19" id="199">
-		</item>
-		<item rateId="59" id="199">
-		</item>
-	</loot>
 </creature>

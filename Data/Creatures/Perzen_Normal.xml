@@ -51,17 +51,6 @@
 		</item>
 		<item pos="30" id="450">
 		</item>
-		<item pos="32" id="45">
-			<effect id="46" value="0"/>
-		</item>
-		<item pos="33" id="46">
-			<effect id="47" value="0"/>
-		</item>
-		<item pos="34" id="47">
-			<effect id="48" value="0"/>
-		</item>
-		<item pos="35" id="48">
-		</item>
 		<item pos="54" id="1787">
 			<effect id="43" value="1"/>
 			<effect id="61" value="15"/>

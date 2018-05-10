@@ -20,8 +20,6 @@
 		<left_weapon id="725" brightness="6" />
 	</look>
 	<loot>
-		<item rateId="8" id="97">
-		</item>
 		<item rateId="24" id="1162">
 			<effect id="103" value="5"/>
 			<effect id="141" value="4"/>

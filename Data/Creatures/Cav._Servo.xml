@@ -19,8 +19,6 @@
 		<rigth_weapon id="724" brightness="6" />
 	</look>
 	<loot>
-		<item rateId="8" id="99">
-		</item>
 		<item rateId="24" id="2176">
 			<effect id="105" value="5"/>
 			<effect id="129" value="8"/>

@@ -20,8 +20,6 @@
 		<kingdom id="738" brightness="0" />
 	</look>
 	<loot>
-		<item rateId="56" id="99">
-		</item>
 		<item rateId="59" id="412">
 			<effect id="157" value="1"/>
 		</item>

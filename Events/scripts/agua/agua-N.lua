@@ -2,7 +2,7 @@ local EventItem = { CItem:new(3174), CItem:new(3175), CItem:new(3176), CItem:new
 local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ) };
 
 -- Sala 1
-Env[1].envID = 1;
+Env[1].envId = 1;
 Env[1]:setName("Orc's, sala 1");
 Env[1].from.x = 1112;
 Env[1].from.y = 3544;
@@ -12,7 +12,7 @@ Env[1].center.x = 1122;
 Env[1].center.y = 3554;
 Env[1]:addRespawn( "Orc's", 100 , 1122,3554 );
 -- Sala 2
-Env[2].envID = 2;
+Env[2].envId = 2;
 Env[2]:setName("Troll's, sala 2");
 Env[2].from.x = 1076;
 Env[2].from.y = 3544;
@@ -22,7 +22,7 @@ Env[2].center.x = 1086;
 Env[2].center.y = 3554;
 Env[2]:addRespawn( "Troll's", 101 , 1086,3554 );
 -- Sala 3
-Env[3].envID = 3;
+Env[3].envId = 3;
 Env[3]:setName("Hunter_Troll's, sala 3");
 Env[3].from.x = 1040;
 Env[3].from.y = 3544;
@@ -32,7 +32,7 @@ Env[3].center.x = 1050;
 Env[3].center.y = 3554;
 Env[3]:addRespawn( "Hunter_Troll's", 102 , 1050,3554 );
 -- Sala 4
-Env[4].envID = 4;
+Env[4].envId = 4;
 Env[4]:setName("Dreadtaurs's, sala 4");
 Env[4].from.x = 1040;
 Env[4].from.y = 3508;
@@ -42,7 +42,7 @@ Env[4].center.x = 1050;
 Env[4].center.y = 3518;
 Env[4]:addRespawn( "_Dreadtaurs's", 103 , 1050,3518 );
 -- Sala 5
-Env[5].envID = 5;
+Env[5].envId = 5;
 Env[5]:setName("Cyclops's, sala 5");
 Env[5].from.x = 1040;
 Env[5].from.y = 3472;
@@ -52,7 +52,7 @@ Env[5].center.x = 1050;
 Env[5].center.y = 3482;
 Env[5]:addRespawn( "_Cyclops's", 104 , 1050,3482 );
 -- Sala 6
-Env[6].envID = 6;
+Env[6].envId = 6;
 Env[6]:setName("OrcMage's, sala 6");
 Env[6].from.x = 1076;
 Env[6].from.y = 3472;
@@ -62,7 +62,7 @@ Env[6].center.x = 1086;
 Env[6].center.y = 3482;
 Env[6]:addRespawn( "_OrcMage's", 105 , 1086,3482 );
 -- Sala 7
-Env[7].envID = 7;
+Env[7].envId = 7;
 Env[7]:setName("Caveira's, sala 7");
 Env[7].from.x = 1112;
 Env[7].from.y = 3472;
@@ -72,7 +72,7 @@ Env[7].center.x = 1122;
 Env[7].center.y = 3482;
 Env[7]:addRespawn( "_Caveira's", 106 , 1122,3482 );
 -- Sala 8
-Env[8].envID = 8;
+Env[8].envId = 8;
 Env[8]:setName("Stone_Golem's, sala 8");
 Env[8].from.x = 1112;
 Env[8].from.y = 3508;
@@ -82,7 +82,7 @@ Env[8].center.x = 1122;
 Env[8].center.y = 3518;
 Env[8]:addRespawn( "_Boss's", 107 , 1122,3518 );
 -- Sala 9 Boss
-Env[9].envID = 9;
+Env[9].envId = 9;
 Env[9]:setName("Stone_Golem's, sala 9");
 Env[9].from.x = 1076;
 Env[9].from.y = 3508;
@@ -97,67 +97,64 @@ Env[9]:addRespawn( "Boss's 1", 111 , 1086,3518 );
 
 local bossID = 0;
 
-function onExecute( this, envID )
+function onExecute( this, envId )
 	
-	--Log( this..", envID Started, player: "..envID:getName( ) );
-	
-	local checkPlayer = Env[envID]:checkPlayer( );
+	local checkPlayer = Env[envId]:checkPlayer( );
 	local checkSpawn;
 	
-	if( envID ~= 9 ) then
-		checkSpawn = Env[envID]:checkSpawn( -1 );
+	if( envId ~= 9 ) then
+		checkSpawn = Env[envId]:checkSpawn( -1 );
 	else
-		checkSpawn = Env[envID]:checkSpawn( bossID );
+		checkSpawn = Env[envId]:checkSpawn( bossID );
 	end
 	
 	if( checkSpawn <= 0 ) then
-		if ( envID ~= 9 and checkPlayer > 0 )then
-			if(  Env[envID].owner ~= nil ) then
-				iGameServer.PutItem(Env[envID].owner, EventItem[envID]);
+		if ( envId ~= 9 and checkPlayer > 0 )then
+			if(  Env[envId].owner ~= nil ) then
+				iGameServer.PutItem(Env[envId].owner, EventItem[envId]);
 			end
-			Env[envID]:removeAllPlayer( ExitAguaPos );
-			Env[envID].owner = nil;
-			Env[envID]:stop( );
+			Env[envId]:removeAllPlayer( ExitAguaPos );
+			Env[envId].owner = nil;
+			Env[envId]:stop( );
 		else
-			if( Env[envID]:getTime( ) < iGetCurrentTime( ) ) then
-				Env[envID]:removeAllPlayer( ExitAguaPos );
-				Env[envID].owner = nil;
-				Env[envID]:stop( );
+			if( Env[envId]:getTime( ) < iGetCurrentTime( ) ) then
+				Env[envId]:removeAllPlayer( ExitAguaPos );
+				Env[envId].owner = nil;
+				Env[envId]:stop( );
 			else
-				this:addTask( envID );
+				this:addTask( envId );
 			end
 		end
-	elseif( Env[envID]:getTime( ) < iGetCurrentTime( ) ) then
+	elseif( Env[envId]:getTime( ) < iGetCurrentTime( ) ) then
 		if ( checkPlayer > 0 )then
-			Env[envID]:removeAllPlayer( ExitAguaPos );
+			Env[envId]:removeAllPlayer( ExitAguaPos );
 		end
-		Env[envID].owner = nil;
-		Env[envID]:stop( );
+		Env[envId].owner = nil;
+		Env[envId]:stop( );
 	elseif( checkPlayer > 0 ) then
-		this:addTask( envID );
+		this:addTask( envId );
 	else
-		Env[envID].owner = nil;
-		Env[envID]:stop( );
+		Env[envId].owner = nil;
+		Env[envId]:stop( );
 	end
-	--Log( "checkPlayer: "..checkPlayer.." checkSpawn:"..checkSpawn.." OnExecute...time: "..event.Time.." WorldTime: ".. iGetCurrentTime( ) )	
 end
 
-function onAddPlayer( this, envID, player )
+function onAddPlayer( this, envId, player )
 	
-	if(	Env[envID]:checkPlayer( ) <= 0 ) then
-		if( Env[envID]:addGroup( this, player, Env[envID].center ) ) then
-			Env[envID]:setTime( iGetCurrentTime( )+EndAguaEventNSec );
-			Env[envID]:sendTime( EndAguaEventSec, true );
-			Env[envID]:start( );
-			Env[envID].owner = player;	
-			if( envID ~= 9 ) then
-				Env[envID]:executeSpawn( -1 );
+	if(	Env[envId]:checkPlayer( ) <= 0 ) then
+		if( Env[envId]:addGroup( this, player, Env[envId].center ) ) then
+			Env[envId]:setTime( iGetCurrentTime( )+EndAguaEventNSec );
+			Env[envId]:sendTime( EndAguaEventSec, true );
+			Env[envId]:start( );
+			Env[envId].owner = player;	
+			if( envId ~= 9 ) then
+				Env[envId]:executeSpawn( -1 );
 			else
 				bossID = iRandomNumber(108,111);
-				Env[envID]:executeSpawn( bossID );
+				Env[envId]:executeSpawn( bossID );
 			end
-			this:addTask( envID );
-			iSend.ClientMessage(player, "você esta participando do evento Água(N) \""..Env[envID]:getName( ).."\"");
+			this:addTask( envId );
+			iSend.ClientMessage(player, "você esta participando do evento Água(N) \""..Env[envId]:getName( ).."\"");
 			return TRUE;
 		end
 		return FALSE;
@@ -166,13 +163,13 @@ function onAddPlayer( this, envID, player )
 	return FALSE;
 end
 
-function onRemovePlayer( this, envID, player )
+function onRemovePlayer( this, envId, player )
 	
-	if( Env[envID].owner ~= nil and Env[envID].owner == player ) then
-		Env[envID].owner = nil;
+	if( Env[envId].owner ~= nil and Env[envId].owner == player ) then
+		Env[envId].owner = nil;
 	end
 	
-	if( Env[envID]:removePlayer( player, ExitAguaPos ) ) then
+	if( Env[envId]:removePlayer( player, ExitAguaPos ) ) then
 		return TRUE;
 	end
 	

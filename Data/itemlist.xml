@@ -2922,7 +2922,7 @@
     <item id="4043" name="Emblema_da_Proteção" mesh="2850" N0="33" V0="0" N1="43" V1="9" />
     <item id="4044" name="Emblema_da_Honra" mesh="2848" N0="33" V0="0" N1="43" V1="9" />
     <item id="4045" name="NONAME" mesh="2720" price="4000000" />
-    <item id="4046" name="Remédio_da_Coragem" mesh="54" price="60000" N0="33" V0="0" N1="43" V1="9" />
+    <item id="4046" name="Remédio_da_Coragem" mesh="54" price="60000" N0="33" V0="0" N1="43" V1="9" N2="38" V2="230"/>
     <item id="4047" name="Cupom_de_Bônus" mesh="2822" N0="18" V0="255" N1="33" V1="0" N2="43" V2="9" />
     <item id="4048" name="Bonus_Coupon2" mesh="2822" N0="18" V0="255" N1="33" V1="0" N2="43" V2="9" />
     <item id="4049" name="WP_Coupon" mesh="2822" N0="18" V0="255" N1="33" V1="0" />

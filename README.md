@@ -133,6 +133,7 @@ Methods:
     boolean DoTeleport(Creature creature, number x, number y, boolean isGreat = false)
     boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false)
     void    SummonServer(number tx, number ty)
+    number  TryLevelUpWithEffects(Player player)
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -620,6 +621,7 @@ Type:
 Methods:
     number getPromotionId()
     void setPromotionId(number value)
+    CItem getItem(number slot, number placeType)
     boolean hasQuest(number quest)
     void addQuest(number quest)
     void removeQuest(number quest)   
@@ -627,6 +629,8 @@ Methods:
     boolean  applyMp()
     void  setReqHp()
     void  setReqMp()
+    boolean addExp(number value)
+    number tryLevelUp()
 ```
 
 ```

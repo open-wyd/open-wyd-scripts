@@ -51,6 +51,8 @@ params.find.flag = {
     --T_FULL = T_ID+T_ADD1+T_ADD2+T_ADD3+T_VAL1+T_VAL2+T_VAL3
 };
 
+EF_HP = 4
+EF_MP = 5
 EF_AMOUNT = 61
 
 ITEM_PLACE_EQUIP = 0;

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <Itens>
+	<item eventid="1" script="recovery.lua" />
 	<item eventid="11" script="return_scrolls.lua" />
 	
 	<item eventid="131" script="Agua N/Agua-n-s-1.lua" />

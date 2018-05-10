@@ -118,12 +118,12 @@ module:
 	
 Methods:
     boolean PutItem(Player player,  CItem item)
-    number  GenerateSummon(Player player, number SummonId, CItem sItem, number num)
-    number  CreateMob(string MobName, number PosX, number PosY, number Type)
-    void    GenerateMob(number index, number PosX, number PosY)
-    void    MountProcess(Player player, CItem Mount)
+    number  GenerateSummon(Player player, number summonId, CItem sItem, number num)
+    number  CreateMob(string creatureName, number posX, number posY, number type)
+    void    GenerateMob(number index, number posX, number posY)
+    void    MountProcess(Player player, CItem mount)
     void    LinkMountHp(Npc npc)
-    void    ProcessAdultMount(Player player, number HpLost)
+    void    ProcessAdultMount(Player player, number hpLost)
     void    ClearArea(number x1, number y1, number x2, number y2)
     void    SetArenaDoor(number state)
     void    SetCastleDoor(number state)

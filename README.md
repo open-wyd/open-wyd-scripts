@@ -118,7 +118,7 @@ module:
 	
 Methods:
     boolean PutItem(Player player,  CItem item)
-    number  GenerateSummon(Player player, number SummonID, CItem sItem, number Num)
+    number  GenerateSummon(Player player, number SummonId, CItem sItem, number num)
     number  CreateMob(string MobName, number PosX, number PosY, number Type)
     void    GenerateMob(number index, number PosX, number PosY)
     void    MountProcess(Player player, CItem Mount)
@@ -352,9 +352,9 @@ Constructor:
 
 Methods:
     number  findItem(const CItem item, number max = 1, number sType = SLOT_CARRY, number tflag = T_FULL)
-    number  findItemId(number itemID, number max = 1, number sType = SLOT_CARRY, number tflag = T_ID)
+    number  findItemId(number itemId, number max = 1, number sType = SLOT_CARRY, number tflag = T_ID)
     number  replaceItem(const CItem fromItem, CItem toItem, number max, number sType = SLOT_CARRY, number tflag = T_FULL, number rflag = T_FULL)
-    number  replaceItemId(number fromID, number toId, number max, number sType = SLOT_CARRY, number tflag = T_ID, number rflag = T_ID)
+    number  replaceItemId(number fromId, number toId, number max, number sType = SLOT_CARRY, number tflag = T_ID, number rflag = T_ID)
     number  amount(number id, number min, number max, number sType = SLOT_CARRY, number unit = 1, number maxA = 1)
     CItem   getItem(number slot, number sType = SLOT_CARRY)
     CSlot   getSlot(number slot, number sType = SLOT_CARRY)

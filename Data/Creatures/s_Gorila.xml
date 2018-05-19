@@ -1,0 +1,16 @@
+<summon name="Gorila" id="5" level="4" merchant="0" clan="4" class="1" experience="0" gold="0" >
+	<health now="200" max="200" regen="0" />
+	<status str="6" dex="100" int="2000" con="0" />
+	<special special1="255" special2="1" special3="122" special4="2" />
+	<strategy damage="50" magic="0" critical="255" attack_speed="0" move_speed="3" defense="45"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="-1" />
+		<resistence fire="-1" />
+		<resistence ice="-1" />
+	</resistences>
+	<look>
+		<corpse id="245" brightness="0" />
+		<guild id="508" brightness="0" />
+	</look>
+</creature>

@@ -1,4 +1,4 @@
-<creature name="Gate_Keeper" level="3" merchant="0" clan="3" class="1" experience="0" gold="0" >
+<creature name="Gate_Keeper" level="300" merchant="0" clan="3" class="1" experience="0" gold="0" >
 	<health now="500" max="500" regen="0" />
 	<status str="5" dex="0" int="0" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />

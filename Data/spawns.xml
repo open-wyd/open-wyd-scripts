@@ -12331,8 +12331,8 @@
 		<walk segment="0" wait="9" range="0" x="2148" y="2068" say=""/>
 		<walk segment="1" wait="8" range="0" x="2148" y="2070" say=""/>
 	</spawn>
-	<spawn id="3500" interval="4" max="1" min_group="0" max_group="0" leader="Gold_Dragon" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="0" x="2068" y="2068" say=""/>
+	<spawn id="3500" interval="1" max="1" min_group="0" max_group="0" leader="Gold_Dragon" route_type="0" formation="0">
+	<walk segment="0" wait="9" range="0" x="2068" y="2068" say=""/>
 	</spawn>
 	<spawn id="3501" interval="1" max="1" min_group="0" max_group="0" leader="Balmus" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2107" y="2144" say=""/>
@@ -12368,8 +12368,8 @@
 	<spawn id="3511" interval="1" max="1" min_group="0" max_group="0" leader="Guarda_Carga_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2466" y="1990" say=""/>
 	</spawn>
-	<spawn id="3512" interval="1" max="1" min_group="0" max_group="0" leader="Ropelion" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2452" y="1995" say=""/>
+	<spawn id="3512" interval="1" max="1" min_group="0" max_group="0" leader="Ropelion" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="0" x="2462" y="2003" say=""/>
 	</spawn>
 	<spawn id="3513" interval="1" max="1" min_group="0" max_group="0" leader="Lila" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2452" y="2001" say=""/>
@@ -14057,9 +14057,6 @@
 	<spawn id="4044" interval="1" max="2" min_group="0" max_group="0" leader="Gargula_Gigante" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="3879" y="3610" say=""/>
 	</spawn>
-	<spawn id="4049" interval="1" max="1" min_group="0" max_group="0" leader="Unicornio_Puro" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="0" x="2194" y="2093" say=""/>
-	</spawn>
 	<spawn id="4050" interval="1" max="1" min_group="0" max_group="0" leader="Treinador__" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2234" y="1566" say=""/>
 	</spawn>
@@ -14087,4 +14084,7 @@
 	<spawn id="4058" interval="1" max="1" min_group="0" max_group="0" leader="Cons._Real" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="1761" y="1725" say=""/>
 	</spawn>
+	<spawn id="4059" interval="1" max="1" min_group="0" max_group="0" leader="Kibita" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="0" x="2132" y="2102" say=""/>
+</spawn>
 </spawns>

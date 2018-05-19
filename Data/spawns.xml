@@ -12353,7 +12353,7 @@
 	<spawn id="3506" interval="1" max="1" min_group="0" max_group="0" leader="Mestre_Archi" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2078" y="2124" say=""/>
 	</spawn>
-	<spawn id="3507" interval="1" max="1" min_group="0" max_group="0" leader="reiners" route_type="2" formation="0">
+	<spawn id="3507" interval="1" max="1" min_group="0" max_group="0" leader="Reiners" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2468" y="1998" say=""/>
 	</spawn>
 	<spawn id="3508" interval="1" max="1" min_group="0" max_group="0" leader="Mount_Captor" route_type="2" formation="0">
@@ -12374,7 +12374,7 @@
 	<spawn id="3513" interval="1" max="1" min_group="0" max_group="0" leader="Lila" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2452" y="2001" say=""/>
 	</spawn>
-	<spawn id="3514" interval="1" max="1" min_group="0" max_group="0" leader="reimers" route_type="2" formation="0">
+	<spawn id="3514" interval="1" max="1" min_group="0" max_group="0" leader="Reimers" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2456" y="2001" say=""/>
 	</spawn>
 	<spawn id="3515" interval="1" max="1" min_group="0" max_group="0" leader="Luvian" route_type="2" formation="0">
@@ -14066,9 +14066,6 @@
 	<spawn id="4052" interval="1" max="1" min_group="0" max_group="0" leader="Jasmine" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2474" y="1693" say=""/>
 	</spawn>
-	<spawn id="4053" interval="1" max="1" min_group="0" max_group="0" leader="Helena" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="0" x="1064" y="1718" say=""/>
-	</spawn>
 	<spawn id="4054" interval="1" max="1" min_group="0" max_group="0" leader="Mestre_Ferreiro" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="3669" y="3119" say=""/>
 	</spawn>
@@ -14086,5 +14083,8 @@
 	</spawn>
 	<spawn id="4059" interval="1" max="1" min_group="0" max_group="0" leader="Kibita" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2132" y="2102" say=""/>
-</spawn>
+	</spawn>
+	<spawn id="4060" interval="1" max="1" min_group="0" max_group="0" leader="GodGovernment" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="0" x="1052" y="1718" say=""/>
+	</spawn>
 </spawns>

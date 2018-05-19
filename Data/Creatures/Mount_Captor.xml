@@ -1,4 +1,4 @@
-<creature name="Mount_Captor" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+<creature name="C._de_Montaria" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
 	<health now="9000" max="9000" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />
@@ -12,81 +12,53 @@
 	</look>
 	<shopItems>
 		<item pos="0" id="2420">
-			<effect id="61" value="10"/>
-			<effect id="117" value="9"/>
+			<effect id="61" value="5"/>
 		</item>
 		<item pos="1" id="2421">
-			<effect id="61" value="10"/>
-			<effect id="118" value="9"/>
+			<effect id="61" value="5"/>
 		</item>
 		<item pos="2" id="2422">
-			<effect id="61" value="10"/>
-			<effect id="119" value="9"/>
+			<effect id="61" value="5"/>
 		</item>
 		<item pos="3" id="2423">
-			<effect id="61" value="10"/>
-			<effect id="120" value="9"/>
+			<effect id="61" value="5"/>
 		</item>
 		<item pos="4" id="2424">
-			<effect id="61" value="10"/>
-			<effect id="121" value="9"/>
+			<effect id="61" value="5"/>
 		</item>
 		<item pos="5" id="2425">
-			<effect id="61" value="10"/>
+			<effect id="61" value="5"/>
 		</item>
-		<item pos="27" id="2426">
-			<effect id="61" value="10"/>
+		<item pos="6" id="2426">
+			<effect id="61" value="5"/>
+		</item>
+		<item pos="7" id="2436">
+			<effect id="61" value="5"/>
 			<effect id="132" value="9"/>
 		</item>
-		<item pos="28" id="2436">
-			<effect id="61" value="10"/>
+		<item pos="8" id="2437">
+			<effect id="61" value="5"/>
 			<effect id="133" value="9"/>
 		</item>
-		<item pos="29" id="2437">
-			<effect id="61" value="10"/>
+		<item pos="27" id="2438">
+			<effect id="61" value="5"/>
 			<effect id="134" value="9"/>
 		</item>
-		<item pos="30" id="2438">
-			<effect id="61" value="10"/>
+		<item pos="28" id="2429">
+			<effect id="61" value="5"/>
 			<effect id="135" value="9"/>
 		</item>
-		<item pos="31" id="2439">
-			<effect id="61" value="10"/>
+		<item pos="29" id="2430">
+			<effect id="61" value="5"/>
 			<effect id="136" value="9"/>
 		</item>
-		<item pos="32" id="2440">
-			<effect id="61" value="10"/>
-		</item>
-		<item pos="54" id="2441">
-			<effect id="61" value="10"/>
+		<item pos="54" id="2427">
+			<effect id="61" value="5"/>
 			<effect id="138" value="9"/>
 		</item>
-		<item pos="55" id="2442">
-			<effect id="61" value="10"/>
+		<item pos="55" id="2428">
+			<effect id="61" value="5"/>
 			<effect id="139" value="9"/>
-		</item>
-		<item pos="56" id="2443">
-			<effect id="61" value="10"/>
-			<effect id="140" value="9"/>
-		</item>
-		<item pos="57" id="2444">
-			<effect id="61" value="10"/>
-			<effect id="141" value="9"/>
-		</item>
-		<item pos="58" id="2445">
-			<effect id="61" value="10"/>
-			<effect id="142" value="9"/>
-		</item>
-		<item pos="59" id="2446">
-			<effect id="61" value="10"/>
-			<effect id="143" value="9"/>
-		</item>
-		<item pos="60" id="2447">
-			<effect id="61" value="10"/>
-			<effect id="144" value="9"/>
-		</item>
-		<item pos="61" id="2448">
-			<effect id="61" value="10"/>
 		</item>
 	</shopItems>
 </creature>

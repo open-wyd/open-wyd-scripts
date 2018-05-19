@@ -1,0 +1,14 @@
+<creature name="GodGovernment" level="300" merchant="68" clan="6" class="1" experience="0" gold="0" >
+	<health now="32000" max="32000" regen="204" />
+	<status str="5" dex="100" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="0" attack_speed="160" move_speed="0" defense="3000"/>
+	<look>
+		<corpse id="271" brightness="0" />
+		<helmet id="272" brightness="0" />
+		<armor id="273" brightness="0" />
+		<pants id="274" brightness="0" />
+		<glove id="275" brightness="0" />
+		<boots id="276" brightness="0" />
+	</look>
+</creature>

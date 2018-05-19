@@ -1,4 +1,4 @@
-<creature name="reimers" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+<creature name="Reimers" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
 	<health now="9000" max="9000" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />

@@ -1,4 +1,4 @@
-<summon name="Drag�o_Negro" id="6" level="4" merchant="0" clan="4" class="1" experience="0" gold="0" >
+﻿<summon name="Dragão_Negro" id="6" level="4" merchant="0" clan="4" class="1" experience="0" gold="0" >
 	<health now="5000" max="5000" regen="0" />
 	<status str="12" dex="300" int="300" con="100" />
 	<special special1="255" special2="7" special3="108" special4="5" />
@@ -13,4 +13,4 @@
 		<rigth_weapon id="913" brightness="0" />
 		<guild id="508" brightness="0" />
 	</look>
-</creature>
+</summon>

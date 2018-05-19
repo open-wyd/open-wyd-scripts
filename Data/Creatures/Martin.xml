@@ -31,11 +31,8 @@
 			<effect id="61" value="10"/>
 			<effect id="154" value="1"/>
 		</item>
-		<item pos="5" id="410">
-			<effect id="155" value="1"/>
-		</item>
-		<item pos="6" id="411">
-			<effect id="61" value="10"/>
+		<item pos="5" id="787">
+			<effect id="168" value="2"/>
 		</item>
 		<item pos="27" id="400">
 			<effect id="149" value="1"/>
@@ -47,6 +44,12 @@
 			<effect id="150" value="1"/>
 		</item>
 		<item pos="30" id="406">
+		</item>
+		<item pos="31" id="410">
+			<effect id="155" value="1"/>
+		</item>
+		<item pos="32" id="411">
+			<effect id="61" value="10"/>
 		</item>
 	</shopItems>
 </creature>

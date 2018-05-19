@@ -19,24 +19,12 @@
 		<item pos="1" id="691">
 			<effect id="61" value="20"/>
 		</item>
-		<item pos="3" id="415">
-			<effect id="154" value="1"/>
-		</item>
-		<item pos="4" id="410">
+		<item pos="3" id="410">
 			<effect id="155" value="1"/>
 		</item>
-		<item pos="5" id="411">
+		<item pos="4" id="411">
 			<effect id="61" value="10"/>
 			<effect id="188" value="2"/>
-		</item>
-		<item pos="6" id="700">
-			<effect id="187" value="2"/>
-		</item>
-		<item pos="7" id="699">
-			<effect id="8" value="3"/>
-		</item>
-		<item pos="8" id="776">
-			<effect id="61" value="10"/>
 		</item>
 		<item pos="27" id="3134">
 			<effect id="61" value="12"/>

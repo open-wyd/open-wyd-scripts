@@ -629,6 +629,8 @@ Methods:
     boolean  applyMp()
     void  setReqHp()
     void  setReqMp()
+    void  addRecoveryHp(number value)
+    void  addRecoveryMp(number value)
     boolean addExp(number value)
     number tryLevelUp()
 ```

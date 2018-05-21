@@ -1,4 +1,4 @@
-<creature name="Lainy_" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+<creature name="Lucy" level="2" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
 	<health now="9000" max="9000" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />
@@ -12,15 +12,19 @@
 		<boots id="143" brightness="0" />
 	</look>
 	<shopItems>
-		<item pos="0" id="1596">
+		<item pos="0" id="4016">
 		</item>
-		<item pos="2" id="1599">
+		<item pos="1" id="4017">
 		</item>
-		<item pos="4" id="1602">
+		<item pos="2" id="4018">
 		</item>
-		<item pos="6" id="1605">
+		<item pos="28" id="3386">
 		</item>
-		<item pos="27" id="1608">
+		<item pos="29" id="3387">
+		</item>
+		<item pos="30" id="3388">
+		</item>
+		<item pos="31" id="3388">
 		</item>
 	</shopItems>
 </creature>

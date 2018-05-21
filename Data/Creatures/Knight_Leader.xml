@@ -1,4 +1,4 @@
-<creature name="Knight_Leader" level="1" merchant="19" clan="3" class="1" experience="0" gold="0" >
+<creature name="Cap.Cavaleiros" level="1" merchant="19" clan="3" class="1" experience="0" gold="0" >
 	<health now="19000" max="19000" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />

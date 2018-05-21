@@ -20,21 +20,25 @@
 	<shopItems>
 		<item pos="0" id="1418">
 		</item>
-		<item pos="2" id="1421">
+		<item pos="1" id="1421">
 		</item>
-		<item pos="4" id="1424">
+		<item pos="2" id="1427">
 		</item>
-		<item pos="6" id="1430">
+		<item pos="3" id="1424">
 		</item>
-		<item pos="8" id="4016">
+		<item pos="4" id="1430">
 		</item>
-		<item pos="27" id="1256">
+		<item pos="7" id="4016">
+		</item>
+		<item pos="28" id="1256">
 		</item>
 		<item pos="29" id="1268">
 		</item>
+		<item pos="30" id="1292">
+		</item>
 		<item pos="31" id="1280">
 		</item>
-		<item pos="33" id="1304">
+		<item pos="32" id="1304">
 		</item>
 	</shopItems>
 </creature>

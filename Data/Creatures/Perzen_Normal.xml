@@ -1,93 +1,15 @@
-<creature name="Perzen_Normal" level="65" merchant="1" clan="3" class="1" experience="25000" gold="9999" >
+<creature name="Perzen_Normal" level="65" merchant="100" clan="3" class="1" experience="25000" gold="9999" >
 	<health now="15000" max="15000" regen="0" />
 	<status str="4" dex="80" int="70" con="700" />
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="12000" magic="0" critical="0" attack_speed="16" move_speed="2" defense="12563"/>
 	<look>
-		<corpse id="31" brightness="0" />
-		<helmet id="1660" brightness="6" />
-		<armor id="1660" brightness="6" />
-		<pants id="1660" brightness="6" />
-		<glove id="1660" brightness="6" />
-		<boots id="1660" brightness="6" />
-		<rigth_weapon id="2847" brightness="9" />
+		<corpse id="11" brightness="0" />
+		<helmet id="1341" brightness="9" />
+		<armor id="1344" brightness="9" />
+		<pants id="1347" brightness="9" />
+		<glove id="1350" brightness="9" />
+		<boots id="1353" brightness="9" />
+		<rigth_weapon id="2850" brightness="9" />
 	</look>
-	<shopItems>
-		<item pos="0" id="2300">
-			<effect id="253" value="8"/>
-		</item>
-		<item pos="1" id="2301">
-			<effect id="254" value="8"/>
-		</item>
-		<item pos="2" id="2302">
-			<effect id="255" value="8"/>
-		</item>
-		<item pos="3" id="2303">
-		</item>
-		<item pos="4" id="2304">
-			<effect id="1" value="9"/>
-		</item>
-		<item pos="5" id="2305">
-			<effect id="2" value="9"/>
-		</item>
-		<item pos="6" id="2306">
-			<effect id="7" value="9"/>
-		</item>
-		<item pos="7" id="2311">
-			<effect id="56" value="12"/>
-		</item>
-		<item pos="8" id="3128">
-		</item>
-		<item pos="27" id="411">
-			<effect id="61" value="10"/>
-			<effect id="8" value="3"/>
-		</item>
-		<item pos="28" id="776">
-			<effect id="61" value="10"/>
-			<effect id="188" value="2"/>
-		</item>
-		<item pos="29" id="700">
-			<effect id="194" value="1"/>
-		</item>
-		<item pos="30" id="450">
-		</item>
-		<item pos="54" id="1787">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-			<effect id="252" value="6"/>
-		</item>
-		<item pos="55" id="1788">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-			<effect id="253" value="6"/>
-		</item>
-		<item pos="56" id="1789">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-			<effect id="254" value="6"/>
-		</item>
-		<item pos="57" id="1790">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-			<effect id="255" value="6"/>
-		</item>
-		<item pos="58" id="1791">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-		</item>
-		<item pos="59" id="1792">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-			<effect id="1" value="7"/>
-		</item>
-		<item pos="60" id="1793">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-			<effect id="2" value="7"/>
-		</item>
-		<item pos="61" id="1794">
-			<effect id="43" value="1"/>
-			<effect id="61" value="15"/>
-		</item>
-	</shopItems>
 </creature>

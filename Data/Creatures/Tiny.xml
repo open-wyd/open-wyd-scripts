@@ -1,15 +1,14 @@
-<creature name="M._de_Montaria" level="3" merchant="58" clan="3" class="0" experience="25000" gold="9999" >
+<creature name="Tiny" level="2" merchant="0" clan="3" class="1" experience="25000" gold="9999" >
 	<health now="9000" max="9000" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="500" magic="0" critical="255" attack_speed="0" move_speed="1" defense="500"/>
 	<look>
-		<corpse id="18" brightness="0" />
-		<helmet id="13" brightness="9" />
-		<armor id="145" brightness="0" />
+		<corpse id="68" brightness="0" />
+		<helmet id="0" brightness="0" />
+		<armor id="111" brightness="0" />
 		<pants id="112" brightness="0" />
 		<glove id="113" brightness="0" />
 		<boots id="114" brightness="0" />
-		<rigth_weapon id="895" brightness="0" />
 	</look>
 </creature>

@@ -1,4 +1,4 @@
-<creature name="Comb.Balmus" level="300" merchant="6" clan="3" class="1" experience="9999" gold="0" >
+<creature name="Projnnah" level="300" merchant="6" clan="3" class="1" experience="9999" gold="0" >
 	<health now="32000" max="32000" regen="0" />
 	<status str="0" dex="255" int="0" con="7" />
 	<special special1="255" special2="0" special3="7" special4="0" />

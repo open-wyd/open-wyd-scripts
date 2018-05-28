@@ -1,0 +1,15 @@
+<creature name="Sacerd._Amelia" level="80" merchant="100" clan="0" class="1" experience="25000" gold="9999" >
+	<health now="10000" max="10000" regen="0" />
+	<status str="5" dex="100" int="100" con="0" />
+	<special special1="255" special2="1" special3="106" special4="2" />
+	<strategy damage="0" magic="0" critical="0" attack_speed="160" move_speed="2" defense="8000"/>
+	<look>
+		<corpse id="11" brightness="0" />
+		<helmet id="0" brightness="0" />
+		<armor id="1331" brightness="0" />
+		<pants id="1334" brightness="0" />
+		<glove id="1337" brightness="0" />
+		<boots id="1340" brightness="0" />
+		<rigth_weapon id="2129" brightness="0" />
+	</look>
+</creature>

@@ -21,7 +21,17 @@ ms = {
 	end
 }
 
+function getTicketMin( value ) 
+	return value * 7.5;
+end
 
+function getTicketHours( value ) 
+	return getTicketMin(60) * value;
+end
+
+function getTicketDays( value ) 
+	return getTicketHours( 24 ) * value;
+end
 
 params = { find = {flag = {}}, slot = {flag = {}}, party = {}};
 params.find.flag = {
@@ -90,3 +100,8 @@ params.eventMap = {
 params.party = {
 	members = {all = 0, player = 1, npc = 2};
 };
+
+quest = {
+    BencaoDeDeus = 1,
+    CasteloOrc = 2;
+}

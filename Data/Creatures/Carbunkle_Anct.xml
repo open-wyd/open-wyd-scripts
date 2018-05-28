@@ -28,5 +28,7 @@
 		<item rateId="55" id="1570">
 			<effect id="102" value="4"/>
 		</item>
+		<item rateId="56" id="420">
+		</item>
 	</loot>
 </creature>

@@ -1,0 +1,15 @@
+<creature name="Dragão_Dourado" level="80" merchant="4" clan="3" class="1" experience="0" gold="0" >
+	<health now="10000" max="10000" regen="0" />
+	<status str="5" dex="100" int="100" con="0" />
+	<special special1="255" special2="1" special3="106" special4="2" />
+	<strategy damage="500" magic="0" critical="0" attack_speed="160" move_speed="0" defense="3000"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="-1" />
+		<resistence fire="-1" />
+		<resistence ice="-1" />
+	</resistences>
+	<look>
+		<corpse id="200" brightness="9" />
+	</look>
+</creature>

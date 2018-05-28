@@ -55,4 +55,3 @@ function getClassIdByCorpseId(player)
 	
 	return -1;
 end
-

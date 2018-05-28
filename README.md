@@ -587,6 +587,7 @@ Methods:
     -- Method of the conditions (game buffers).
     boolean canAddCondition()
     boolean hasCondition(number type)
+    Condition getCondition(number type)
     boolean addCondition(number type, number value, number level, number affecttime)
     boolean addSkillCondition(number skillnum, number tickTime, number level, ConditionType mode)
     boolean removeCondition(number type)

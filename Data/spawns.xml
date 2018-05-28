@@ -3099,7 +3099,7 @@
 	<spawn id="1020" interval="1" max="1" min_group="0" max_group="0" leader="Tera" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2476" y="1688" say=""/>
 	</spawn>
-	<spawn id="1021" interval="1" max="1" min_group="0" max_group="0" leader="Smith_" route_type="2" formation="0">
+	<spawn id="1021" interval="1" max="1" min_group="0" max_group="0" leader="Ferreiro_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2500" y="1684" say=""/>
 		<walk segment="1" wait="8" range="0" x="2500" y="1686" say=""/>
 	</spawn>
@@ -3111,7 +3111,7 @@
 		<walk segment="0" wait="9" range="0" x="2466" y="1686" say=""/>
 		<walk segment="1" wait="8" range="0" x="2468" y="1686" say=""/>
 	</spawn>
-	<spawn id="1024" interval="1" max="1" min_group="0" max_group="0" leader="Rainy_" route_type="2" formation="0">
+	<spawn id="1024" interval="1" max="1" min_group="0" max_group="0" leader="Lainy_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2500" y="1690" say=""/>
 		<walk segment="1" wait="8" range="0" x="2500" y="1692" say=""/>
 	</spawn>
@@ -3119,29 +3119,29 @@
 		<walk segment="0" wait="9" range="0" x="2550" y="1716" say=""/>
 		<walk segment="1" wait="8" range="0" x="2550" y="1718" say=""/>
 	</spawn>
-	<spawn id="1026" interval="1" max="1" min_group="0" max_group="0" leader="Town_Watcher" route_type="2" formation="0">
+	<spawn id="1026" interval="1" max="1" min_group="0" max_group="0" leader="Vigia" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2488" y="1744" say=""/>
 	</spawn>
-	<spawn id="1027" interval="1" max="1" min_group="0" max_group="0" leader="Town_Watcher" route_type="2" formation="0">
+	<spawn id="1027" interval="1" max="1" min_group="0" max_group="0" leader="Vigia" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2482" y="1744" say=""/>
 	</spawn>
-	<spawn id="1028" interval="1" max="1" min_group="0" max_group="0" leader="Town_Watcher_" route_type="2" formation="0">
+	<spawn id="1028" interval="1" max="1" min_group="0" max_group="0" leader="Vigia_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2441" y="1722" say=""/>
 	</spawn>
-	<spawn id="1029" interval="1" max="1" min_group="0" max_group="0" leader="Town_Watcher_" route_type="2" formation="0">
+	<spawn id="1029" interval="1" max="1" min_group="0" max_group="0" leader="Vigia_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2441" y="1715" say=""/>
 	</spawn>
-	<spawn id="1030" interval="1" max="1" min_group="0" max_group="0" leader="Town_Watcher_" route_type="2" formation="0">
+	<spawn id="1030" interval="1" max="1" min_group="0" max_group="0" leader="Vigia_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2577" y="1731" say=""/>
 	</spawn>
-	<spawn id="1031" interval="1" max="1" min_group="0" max_group="0" leader="Town_Watcher_" route_type="2" formation="0">
+	<spawn id="1031" interval="1" max="1" min_group="0" max_group="0" leader="Vigia_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2577" y="1724" say=""/>
 	</spawn>
 	<spawn id="1032" interval="1" max="1" min_group="0" max_group="0" leader="Hera" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2595" y="1724" say=""/>
 		<walk segment="1" wait="8" range="0" x="2595" y="1728" say=""/>
 	</spawn>
-	<spawn id="1033" interval="1" max="1" min_group="0" max_group="0" leader="Kara" route_type="0" formation="0">
+	<spawn id="1033" interval="1" max="1" min_group="0" max_group="0" leader="Comb.Kara" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2538" y="1714" say=""/>
 	</spawn>
 	<spawn id="1034" interval="1" max="2" min_group="1" max_group="1" leader="Javali_" follower="Javali__" route_type="2" formation="0">
@@ -3180,19 +3180,19 @@
 		<walk segment="0" wait="9" range="0" x="2452" y="1764" say=""/>
 		<walk segment="1" wait="8" range="0" x="2448" y="1778" say=""/>
 	</spawn>
-	<spawn id="1043" interval="1" max="1" min_group="0" max_group="0" leader="Knights_Leader" route_type="2" formation="0">
+	<spawn id="1043" interval="1" max="1" min_group="0" max_group="0" leader="Cap.Mercenário" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2445" y="1721" say=""/>
 		<walk segment="1" wait="8" range="0" x="2446" y="1717" say=""/>
 	</spawn>
-	<spawn id="1044" interval="1" max="1" min_group="0" max_group="0" leader="Shaman" route_type="2" formation="0">
+	<spawn id="1044" interval="1" max="1" min_group="0" max_group="0" leader="Shamã" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2506" y="1727" say=""/>
 		<walk segment="1" wait="8" range="0" x="2508" y="1728" say=""/>
 	</spawn>
-	<spawn id="1045" interval="1" max="1" min_group="0" max_group="0" leader="Jeffi" route_type="2" formation="0">
+	<spawn id="1045" interval="1" max="1" min_group="0" max_group="0" leader="Jephi" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2516" y="1728" say=""/>
 		<walk segment="1" wait="8" range="0" x="2514" y="1727" say=""/>
 	</spawn>
-	<spawn id="1046" interval="1" max="1" min_group="0" max_group="0" leader="Compounder" route_type="2" formation="0">
+	<spawn id="1046" interval="1" max="1" min_group="0" max_group="0" leader="Compositor" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2530" y="1734" say=""/>
 		<walk segment="1" wait="8" range="0" x="2530" y="1732" say=""/>
 	</spawn>
@@ -12188,7 +12188,7 @@
 		<walk segment="1" wait="6" range="5" x="1322" y="1680" say=""/>
 		<walk segment="2" wait="6" range="5" x="1324" y="1684" say=""/>
 	</spawn>
-	<spawn id="3460" interval="1" max="1" min_group="0" max_group="0" leader="Wieland" route_type="2" formation="0">
+	<spawn id="3460" interval="1" max="1" min_group="0" max_group="0" leader="Berlund" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="1056" y="1738" say=""/>
 	</spawn>
 	<spawn id="3461" interval="1" max="1" min_group="0" max_group="0" leader="Hestia" route_type="2" formation="0">
@@ -12319,7 +12319,7 @@
 		<walk segment="0" wait="9" range="0" x="2146" y="2116" say=""/>
 		<walk segment="1" wait="3" range="0" x="2146" y="2118" say=""/>
 	</spawn>
-	<spawn id="3497" interval="1" max="1" min_group="0" max_group="0" leader="Knight_Leader" route_type="2" formation="0">
+	<spawn id="3497" interval="1" max="1" min_group="0" max_group="0" leader="Cap.Cavaleiros" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2144" y="2122" say=""/>
 		<walk segment="1" wait="4" range="0" x="2144" y="2124" say=""/>
 	</spawn>
@@ -12327,14 +12327,14 @@
 		<walk segment="0" wait="9" range="0" x="2138" y="2124" say=""/>
 		<walk segment="1" wait="4" range="0" x="2136" y="2124" say=""/>
 	</spawn>
-	<spawn id="3499" interval="1" max="1" min_group="0" max_group="0" leader="Mestre_de_Hab" route_type="2" formation="0">
+	<spawn id="3499" interval="1" max="1" min_group="0" max_group="0" leader="Mestre_Haby" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2148" y="2068" say=""/>
 		<walk segment="1" wait="8" range="0" x="2148" y="2070" say=""/>
 	</spawn>
-	<spawn id="3500" interval="1" max="1" min_group="0" max_group="0" leader="Gold_Dragon" route_type="0" formation="0">
+	<spawn id="3500" interval="1" max="1" min_group="0" max_group="0" leader="Dragão_Dourado" route_type="0" formation="0">
 	<walk segment="0" wait="9" range="0" x="2068" y="2068" say=""/>
 	</spawn>
-	<spawn id="3501" interval="1" max="1" min_group="0" max_group="0" leader="Balmus" route_type="0" formation="0">
+	<spawn id="3501" interval="1" max="1" min_group="0" max_group="0" leader="Comb.Balmus" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2107" y="2144" say=""/>
 	</spawn>
 	<spawn id="3502" interval="1" max="1" min_group="0" max_group="0" leader="Gate_Keeper" route_type="2" formation="0">
@@ -12343,7 +12343,7 @@
 	<spawn id="3503" interval="1" max="1" min_group="0" max_group="0" leader="Gate_Keeper" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2111" y="2136" say=""/>
 	</spawn>
-	<spawn id="3504" interval="1" max="1" min_group="0" max_group="0" leader="Martin" route_type="2" formation="0">
+	<spawn id="3504" interval="1" max="1" min_group="0" max_group="0" leader="Martin_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2116" y="2150" say=""/>
 		<walk segment="1" wait="4" range="0" x="2114" y="2150" say=""/>
 	</spawn>
@@ -12389,7 +12389,7 @@
 	<spawn id="3520" interval="1" max="1" min_group="0" max_group="0" leader="Perzen_Mistico" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="3" x="2132" y="2081" say=""/>
 	</spawn>
-	<spawn id="3521" interval="1" max="1" min_group="0" max_group="0" leader="July" route_type="2" formation="0">
+	<spawn id="3521" interval="1" max="1" min_group="0" max_group="0" leader="Juli" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="2481" y="1647" say=""/>
 	</spawn>
 	<spawn id="3522" interval="1" max="1" min_group="0" max_group="0" leader="Coveiro" route_type="2" formation="0">
@@ -13874,7 +13874,7 @@
 		<walk segment="0" wait="9" range="4" x="2644" y="2084" say=""/>
 		<walk segment="1" wait="8" range="4" x="2630" y="1958" say=""/>
 	</spawn>
-	<spawn id="3988" interval="1" max="1" min_group="0" max_group="0" leader="Treinador___" route_type="0" formation="0">
+	<spawn id="3988" interval="1" max="1" min_group="0" max_group="0" leader="Diretor_Treinam" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2247" y="1596" say=""/>
 	</spawn>
 	<spawn id="3989" interval="1" max="4" min_group="0" max_group="0" leader="Taurus_Maldito" route_type="2" formation="0">
@@ -14045,7 +14045,7 @@
 	<spawn id="4044" interval="1" max="2" min_group="0" max_group="0" leader="Gargula_Gigante" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="3879" y="3610" say=""/>
 	</spawn>
-	<spawn id="4050" interval="1" max="1" min_group="0" max_group="0" leader="Treinador__" route_type="0" formation="0">
+	<spawn id="4050" interval="1" max="1" min_group="0" max_group="0" leader="Chefe_Treinamento" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2234" y="1566" say=""/>
 	</spawn>
 	<spawn id="4056" interval="1" max="1" min_group="0" max_group="0" leader="Shiner" route_type="0" formation="0">
@@ -14078,7 +14078,7 @@
 	<spawn id="4066" interval="1" max="1" min_group="0" max_group="0" leader="Carbunkle_Wind" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="4" x="2598" y="2080" say=""/>
 	</spawn>
-	<spawn id="4067" interval="1" max="1" min_group="0" max_group="0" leader="Empis" route_type="2" formation="0">
+	<spawn id="4067" interval="1" max="1" min_group="0" max_group="0" leader="Comb.Empis" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="2458" y="1985" say=""/>
 	</spawn>
 	<spawn id="4068" interval="1" max="1" min_group="0" max_group="0" leader="Ehre" route_type="2" formation="0">
@@ -14100,7 +14100,8 @@
 		<walk segment="0" wait="9" range="3" x="2489" y="1694" say=""/>
 	</spawn>
 	<spawn id="4074" interval="1" max="1" min_group="0" max_group="0" leader="Martin" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="3" x="3642" y="3109" say=""/>
+		<walk segment="0" wait="9" range="0" x="3642" y="3109" say=""/>
+		<walk segment="1" wait="4" range="0" x="3643" y="3112" say=""/>
 	</spawn>
 	<spawn id="4075" interval="1" max="1" min_group="0" max_group="0" leader="Tiny" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="3" x="3651" y="3120" say=""/>
@@ -14114,7 +14115,7 @@
 	<spawn id="4078" interval="1" max="1" min_group="0" max_group="0" leader="Guarda_Carga_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="3660" y="3136" say=""/>
 	</spawn>
-	<spawn id="4079" interval="1" max="1" min_group="0" max_group="0" leader="July" route_type="2" formation="0">
+	<spawn id="4079" interval="1" max="1" min_group="0" max_group="0" leader="Juli" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="3650" y="3141" say=""/>
 	</spawn>
 	<spawn id="4080" interval="1" max="1" min_group="0" max_group="0" leader="Lindy" route_type="2" formation="0">
@@ -14128,5 +14129,29 @@
 	</spawn>
 	<spawn id="4083" interval="1" max="1" min_group="0" max_group="0" leader="Guarda_Carga_" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="3242" y="1684" say=""/>
+	</spawn>
+	<spawn id="4084" interval="1" max="1" min_group="0" max_group="0" leader="Carbunkle_Wind" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="2130" y="2034" say=""/>
+	</spawn>
+	<spawn id="4085" interval="1" max="1" min_group="0" max_group="0" leader="Carbunkle_Wind" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="2087" y="2001" say=""/>
+	</spawn>
+	<spawn id="4086" interval="1" max="1" min_group="0" max_group="0" leader="Carbunkle_Wind" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="2143" y="1970" say=""/>
+	</spawn>
+	<spawn id="4087" interval="1" max="1" min_group="0" max_group="0" leader="Carbunkle_Wind" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="2103" y="1952" say=""/>
+	</spawn>
+	<spawn id="4088" interval="1" max="1" min_group="0" max_group="0" leader="Guarda" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="1965" y="1581" say=""/>
+	</spawn>
+	<spawn id="4089" interval="1" max="1" min_group="0" max_group="0" leader="Sacerd._Amelia" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="1973" y="1580" say=""/>
+	</spawn>
+	<spawn id="4090" interval="1" max="1" min_group="0" max_group="0" leader="Sacerdote_Jester" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="2626" y="1984" say=""/>
+	</spawn>
+	<spawn id="4091" interval="1" max="1" min_group="0" max_group="0" leader="Sacerdote_Kruno" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="4" x="2662" y="1971" say=""/>
 	</spawn>
 </spawns>

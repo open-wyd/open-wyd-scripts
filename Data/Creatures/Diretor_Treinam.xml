@@ -1,0 +1,17 @@
+<creature name="Diretor_Treinam" level="1" merchant="100" clan="3" class="1" experience="350" gold="9999" >
+	<health now="9000" max="9000" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="500" magic="0" critical="255" attack_speed="0" move_speed="1" defense="9000"/>
+	<look>
+		<corpse id="58" brightness="0" />
+		<helmet id="164" brightness="0" />
+		<armor id="1176" brightness="0" />
+		<pants id="1176" brightness="0" />
+		<glove id="1176" brightness="0" />
+		<boots id="1176" brightness="0" />
+		<rigth_weapon id="2102" brightness="0" />
+		<left_weapon id="1708" brightness="0" />
+		<kingdom id="4006" brightness="0" />
+	</look>
+</creature>

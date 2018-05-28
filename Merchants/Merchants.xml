@@ -8,4 +8,7 @@
 	<merchant eventid="6" script="Gold_Dragon.lua" />
 	<merchant eventid="7" script="JEFFI.lua" />	
 	<merchant eventid="8" script="Mount_Master.lua" />
+	<merchant eventid="9" script="Carbuncle.lua" />
+	<merchant eventid="10" script="Juli.lua" />
+	
 </Merchants>

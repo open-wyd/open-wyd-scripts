@@ -23,7 +23,7 @@ function OnUse(op, slot, begType, player)
 	end
 
 	local sancValue = iItems.GetItemSanc(item);
-	if (sancValue < 0 or sancValue >= REF_11 || (item:getId() == 769 and sancValue >= 9)) then
+	if (sancValue < 0 or sancValue >= REF_11 or (item:getId() == 769 and sancValue >= 9)) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Cant_Refine_More);
 		return false;
 	end
@@ -50,7 +50,7 @@ function OnUse(op, slot, begType, player)
 			local ItemGrade = iItems.GetItemAbility(item, EF_ITEMLEVEL);
 			if (ItemGrade >= 1 and ItemGrade <= 5) then
 				sancValue = sancValue + sancGrade[ItemGrade];
-				if (sancValue > 9)
+				if (sancValue > 9) then
 					sancValue = 9;
 				end
 			else
@@ -112,9 +112,10 @@ function OnUse(op, slot, begType, player)
 			sancsucess = sancsucess + 1;
 		end
 		
-		if(sancValue != REF_10)
+		if(sancValue ~= REF_10) then
 			iItems.SetItemSanc(item, sancValue, sancsucess);
-
+		end
+		
 		if ((player:getPhace():getId() / 10) == 0) then
 			iSend.Emotion(player, 15, 0);
 		else

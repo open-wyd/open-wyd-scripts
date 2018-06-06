@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <Itens>
 	<item eventid="1" script="recovery.lua" />
+	<item eventid="4" script="Oriharukon_Powder.lua" />
+	<item eventid="5" script="Laktorerium_Powder.lua" />
 	<item eventid="11" script="return_scrolls.lua" />
 	
 	<item eventid="131" script="Agua N/Agua-n-s-1.lua" />
@@ -33,9 +35,7 @@
 	<item eventid="168" script="Agua A/Agua-a-s-8.lua" />
 	<item eventid="170" script="Agua A/Agua-a-s-boss.lua" />
 	
-    	<item eventid="191" script="kaizen.lua" />
-	<item eventid="195" script="hunting_scrolls.lua" />
-	
+    <item eventid="191" script="kaizen.lua" />
 	<item eventid="198" script="exp_box.lua" />
 	
 </Itens>

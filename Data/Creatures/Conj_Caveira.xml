@@ -60,5 +60,7 @@
 		<item rateId="55" id="1460">
 			<effect id="102" value="0"/>
 		</item>
+		<item rateId="10" id="4040">
+		</item>
 	</loot>
 </creature>

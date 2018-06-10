@@ -210,8 +210,6 @@ Methods:
     boolean isBetween(CItem fromId,  CItem toId)
     boolean hasAdd(number effectid)
     
-	number getSlotByAdd(number effectid)
-	number getSlotByAddRange(number fromId, number toId)
     number getAddValue(number effectid)
     boolean setAddValue(number effectid, number val)
     void setAddValue(number slot, number effectid, number val)
@@ -278,7 +276,6 @@ Methods:
     number  GetItemSanc(CItem item)
     number  GetItemGem(CItem item)
     number  GetItemSancSuccess( CItem item)
-	number  GetSuccessRate(CItem item, number sancType)
     number  SetItemSanc(CItem dest, number sanc, number success)
     void    SetItemAmount(CItem item, number amount)
     number  GetIndex(CItem item)
@@ -590,7 +587,6 @@ Methods:
     -- Method of the conditions (game buffers).
     boolean canAddCondition()
     boolean hasCondition(number type)
-    Condition getCondition(number type)
     boolean addCondition(number type, number value, number level, number affecttime)
     boolean addSkillCondition(number skillnum, number tickTime, number level, ConditionType mode)
     boolean removeCondition(number type)

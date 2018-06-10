@@ -30,10 +30,9 @@ kaizenItemsConfig[4121] = {	-- Pedra_Espiritual_dos_Elfos
 		reward = {gold = 900000, experience = 300000},
 	};
 
-function OnUse(Op, Slot, Beg, player)
-	
-	local item = player:getItem(Slot, Beg);
-	local kaizen =  kaizenItemsConfig[item:getId()];
+function OnUse(player, pSrc, pNumber, pDest)
+
+	local kaizen =  kaizenItemsConfig[pSrc.itemId];
 	local lvl = player:getLevel()
 	local ev  = player:getPromotionId();
 	

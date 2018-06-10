@@ -12,14 +12,13 @@ local function canUsePotion(player)
 	return true;
 end
 
-function OnUse(Op, Slot, Beg, player)
-	
+function OnUse(player, pSrc, pNumber, pDest)
+
 	if(canUsePotion(player) == false) then
 		return FALSE;
 	end
 	
-	local item = player:getItem(Slot, Beg);
-	local itemAttr = iItems.GetItemById(item:getId());
+	local itemAttr = iItems.GetItemById(pSrc.itemId);
 	
 	if (player:getHp() > 0) then
 		player:addRecoveryHp(itemAttr:getEffect(EF_HP));

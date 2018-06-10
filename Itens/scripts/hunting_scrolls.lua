@@ -18,13 +18,10 @@ HuntingScrolls[3436] = { CPosition:new(2367 , 4024), CPosition:new(2236 , 4044),
 -- Nipple
 HuntingScrolls[3437] = { CPosition:new(3664 , 3024), CPosition:new(3582 , 3007), CPosition:new(3514 , 3008), CPosition:new(3819 , 2977), CPosition:new(3517 , 2889), CPosition:new(3745 , 2977), CPosition:new(3639 , 2877), CPosition:new(3650 , 2727), CPosition:new(3660 , 2773), CPosition:new(3746 , 2879) };
 
-
-function OnUse(Op, Slot, Beg, player)
+function OnUse(player, pSrc, pNumber, pDest)
+	local scroll =  HuntingScrolls[pSrc.itemId];
 	
-	local item = player:getItem(Slot, Beg);
-	local scroll =  HuntingScrolls[item:getId()];
-	
-	if(iGameServer.DoTeleport(player, scroll[Op])) then
+	if(iGameServer.DoTeleport(player, scroll[pNumber])) then
 		return TRUE;
 	else
 		return FALSE;

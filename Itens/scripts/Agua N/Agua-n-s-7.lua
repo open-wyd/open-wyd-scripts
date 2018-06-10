@@ -1,5 +1,5 @@
 local event = iGetEvent("agua-N");
 
-function OnUse( Op, Slot, Beg, player )
+function OnUse(player, pSrc, pNumber, pDest)
 	return sendToWater(player, event, 7);
 end

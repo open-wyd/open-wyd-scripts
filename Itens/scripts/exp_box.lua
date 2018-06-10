@@ -1,5 +1,5 @@
 _AddBonusExp = "Adicionou 2 horas de BÔNUS EXP.";
-function OnUse( Op, Slot, Beg, player )
+function OnUse(player, pSrc, pNumber, pDest)
 	if( (not player:hasCondition(39)) ) then
 		player:addCondition(39, 100, 100, getTicketHours(2));
 		iSend.ClientMessage(player, _AddBonusExp);

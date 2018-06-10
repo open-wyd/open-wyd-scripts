@@ -1,8 +1,8 @@
 local sancGrade = {1, 1, 1, 1, 1};
 
-function OnUse(op, slot, begType, player)
+function OnUse(player, pSrc, pNumber, pDest)
 	
-	local item = player:getItem(slot, begType);
+	local item = player:getItem(pDest.slot, pDest.type);
 	
 	if(iItems.GetItemAbility(item, EF_VOLATILE) ~= 0) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Only_To_Equips);
@@ -117,7 +117,7 @@ function OnUse(op, slot, begType, player)
 		end
 	end
 	
-	iSend.Item(player, begType, slot, item);
+	iSend.Item(player, pDest.type, pDest.slot, item);
 	
 	return TRUE;
 end

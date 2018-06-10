@@ -107,7 +107,9 @@ params.party = {
 	members = {all = 0, player = 1, npc = 2};
 };
 
-quest = {
-    BencaoDeDeus = 1,
-    CasteloOrc = 2;
+global_OWS = {
+	questList = {
+		BencaoDeDeus = 1 << 1,
+		PilulaOrc 	 = 1 << 2
+	}
 }

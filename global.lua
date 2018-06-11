@@ -108,6 +108,14 @@ params.party = {
 };
 
 global_OWS = {
+	protocol = {
+		defines = {
+			ESCENE_FIELD = 30000
+		},
+		opcode = {
+			MSG_SoundEffect = 931 
+		}
+	},
 	questList = {
 		BencaoDeDeus = 1 << 1,
 		PilulaOrc 	 = 1 << 2

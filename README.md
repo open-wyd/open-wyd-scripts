@@ -233,8 +233,8 @@ Methods:
     void setMountLevel(number lvl)
     number getMountExp()
     void setMountExp(number exp)
-    number getMountFood()
-    void setMountFood(number food)
+    number getMountFeed()
+    void setMountFeed(number feed)
 ```
 
 ```

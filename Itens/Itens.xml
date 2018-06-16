@@ -8,6 +8,7 @@
 	<item eventid="9" script="ore_legendary.lua" />
 	<item eventid="11" script="return_scrolls.lua" />
 	<item eventid="12" script="gem_of_lodestar.lua" />
+	<item eventid="13" script="warp_scroll.lua" />
 	<item eventid="15" script="feed.lua" />
 	<item eventid="16" script="essence_of_pet.lua" />
 	

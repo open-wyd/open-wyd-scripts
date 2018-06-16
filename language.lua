@@ -186,6 +186,7 @@ MessageStringTable._DN_get_D_exp_and_gold           = "Voce ganhou %d de experiê
 MessageStringTable._NN_Kingdom                      = "Voce foi teleportado para o reino."
 MessageStringTable._NN_King                         = "Voce foi teleportado para o rei."
 MessageStringTable._NN_Set_Warp                     = "Posicao salvada."
+MessageStringTable._NN_Not_Was_Set_Warp             = "Não possui uma posição salva."
 MessageStringTable._DS_S_Challanged                 = "%d Gold %s O Desafio foi solicitado!"
 MessageStringTable._NN_Need_Master                  = "Necessario o lider da sua guilda como lider do seu grupo."
 MessageStringTable._DN_Need_D_Sapphire2             = "Voce Precisa de %d Safiras!"

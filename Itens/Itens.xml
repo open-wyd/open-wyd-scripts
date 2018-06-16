@@ -32,6 +32,9 @@
 	<item eventid="28" script="Agua M/Agua-m-s-8.lua" />
 	<item eventid="30" script="Agua M/Agua-m-s-boss.lua" />
 	
+	<item eventid="63" script="Roasted_Chicken.lua" />
+	<item eventid="64" script="Roasted_Chicken.lua" />
+	
 	<item eventid="161" script="Agua A/Agua-a-s-1.lua" />
 	<item eventid="162" script="Agua A/Agua-a-s-2.lua" />
 	<item eventid="163" script="Agua A/Agua-a-s-3.lua" />
@@ -42,6 +45,7 @@
 	<item eventid="168" script="Agua A/Agua-a-s-8.lua" />
 	<item eventid="170" script="Agua A/Agua-a-s-boss.lua" />
 	
+	<item eventid="185" script="silver_Coins-and-Bars.lua" />
 	<item eventid="190" script="repliction.lua" />
     <item eventid="191" script="kaizen.lua" />
 	<item eventid="195" script="hunting_scrolls.lua" />

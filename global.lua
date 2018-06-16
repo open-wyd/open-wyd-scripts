@@ -22,7 +22,7 @@ ms = {
 }
 
 function getTicketMin( value ) 
-	return value * 7.5;
+	return math.floor(value * 7.5);
 end
 
 function getTicketHours( value ) 

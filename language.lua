@@ -293,3 +293,4 @@ MessageStringTable._NN_Need_5_materials             = "Voce precisa coletar os 5
 MessageStringTable._NN_snowimp_create_success       = "Griupam criado com Sucesso!"
 MessageStringTable._NN_snowimp_need_2MGold          = "Voce precisa de 2 milhoes de gold para criar um Griupan."
 MessageStringTable._NN_Only_mortal_or_god_level_req = "Somente para mortais/Arch com Level de %i até %i."
+MessageStringTable._NS_GETEXP						= "Recebeu %d de exp!"

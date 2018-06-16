@@ -10,7 +10,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 	local mapFramePos = {x = currentPosition.x/128, y = currentPosition.y/128};
 	local isForceSave = (mapFramePos.x == 9 and mapFramePos.y == 1) or (mapFramePos.x == 8 and mapFramePos.y == 2);
 	
-	if (isForceSave == false and (iGameServer.GetMapArenaId(currentPosition) ~= global_OWS.map.zoneIdList.None or iGameServer.GetMapArenaId(currentPosition) ~= global_OWS.map.zoneIdList.None)) then
+	if (isForceSave == false and (iGameServer.GetMapArenaId(currentPosition) ~= global_OWS.map.zoneIdList.None or iGameServer.GetMapVillageId(currentPosition) ~= global_OWS.map.zoneIdList.None)) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Cant_Use_That_Here);
 		return FALSE;
 	end			

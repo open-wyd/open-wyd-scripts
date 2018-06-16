@@ -38,7 +38,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 	mountItem:setMountFeed(100);
 	
 	if (mountItem:isBetween(2360, 2390)) then
-		local rate = SancRateList[mountItem:getMountLevel()/10];
+		local rate = SancRateList[math.floor((mountItem:getMountLevel()/10) + 1)];
 		local randomRate = math.random(0, 101);
 		
 		if (randomRate > rate) then

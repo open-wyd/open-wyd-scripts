@@ -4,6 +4,8 @@
 	<item eventid="4" script="Oriharukon_Powder.lua" />
 	<item eventid="5" script="Laktorerium_Powder.lua" />
 	<item eventid="6" script="magical_pill.lua" />
+	<item eventid="8" script="eye_wax.lua" />
+	<item eventid="9" script="ore_legendary.lua" />
 	<item eventid="11" script="return_scrolls.lua" />
 	<item eventid="12" script="gem_of_lodestar.lua" />
 	<item eventid="15" script="feed.lua" />

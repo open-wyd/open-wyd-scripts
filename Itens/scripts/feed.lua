@@ -55,7 +55,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 	if (mountItem:isBetween(2330, 2360)) then
 		iGameServer.MountProcess(player, nil);
 	elseif (mountItem:isBetween(2360, 2390)) then
-		iGameServer.ProcessAdultMount(player, nil);
+		iGameServer.ProcessAdultMount(player, 0);
 	end
 	
 	iSend.ClientSignalParm(player, global_OWS.protocol.defines.ESCENE_FIELD, global_OWS.protocol.opcode.MSG_SoundEffect, 270);

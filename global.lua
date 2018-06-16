@@ -108,6 +108,16 @@ params.party = {
 };
 
 global_OWS = {
+	map = {
+		zoneIdList = {
+			None  		= -1,
+			Armia 		= 0,
+			Azran 		= 1,
+			Erion 		= 2,
+			Nippleheim 	= 3,
+			Noatum 		= 4
+		}
+	},
 	protocol = {
 		defines = {
 			ESCENE_FIELD = 30000

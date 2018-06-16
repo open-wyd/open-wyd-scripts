@@ -134,6 +134,13 @@ Methods:
     boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false)
     void    SummonServer(number tx, number ty)
     number  TryLevelUpWithEffects(Player player)
+	number  GetMapAttribute(CPosition pos)
+	number  GetMapAttribute(number x, number y)
+	boolean HasTheySeeEachOther(Creature creature, Creature otherCreature)
+	number  GetMapArenaId(number x, number y)
+	number  GetMapArenaId(CPosition pos)
+	number  GetMapVillageId(number x, number y)
+	number  GetMapVillageId(CPosition pos)
 ```
 
 --------------------------------------------------------------------------------------------------------------------------

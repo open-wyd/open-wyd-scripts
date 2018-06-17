@@ -12,16 +12,11 @@
 	<volatile id="15" script="feed.lua" />
 	<volatile id="16" script="essence_of_pet.lua" />
 	<volatile id="19" script="firecracker.lua" />
-	
 	<volatilelist idList="21~30, 131~140, 161~170" script="water_scroll.lua" />
-	
-	<volatile id="63" script="Roasted_Chicken.lua" />
-	<volatile id="64" script="Roasted_Chicken.lua" />
-	
+	<volatilelist id="63,64" script="Roasted_Chicken.lua" />
 	<volatile id="185" script="silver_Coins-and-Bars.lua" />
 	<volatile id="190" script="repliction.lua" />
-    <volatile id="191" script="kaizen.lua" />
+	<volatile id="191" script="kaizen.lua" />
 	<volatile id="195" script="hunting_scrolls.lua" />
 	<volatile id="198" script="exp_box.lua" />
-	
 </Itens>

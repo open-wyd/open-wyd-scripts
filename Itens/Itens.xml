@@ -13,6 +13,8 @@
 	<volatile id="16" script="essence_of_pet.lua" />
 	<volatile id="19" script="firecracker.lua" />
 	<volatilelist idList="21~30, 131~140, 161~170" script="water_scroll.lua" />
+	<volatilerange fromId="31" toId="36" script="skill_books.lua" />
+	<volatile id="58" script="health_potion.lua" />
 	<volatilelist idList="63,64" script="Roasted_Chicken.lua" />
 	<volatile id="185" script="silver_Coins-and-Bars.lua" />
 	<volatile id="190" script="repliction.lua" />

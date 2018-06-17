@@ -11,6 +11,7 @@
 	<item eventid="13" script="warp_scroll.lua" />
 	<item eventid="15" script="feed.lua" />
 	<item eventid="16" script="essence_of_pet.lua" />
+	<item eventid="19" script="firecracker.lua" />
 	
 	<item eventid="131" script="Agua N/Agua-n-s-1.lua" />
 	<item eventid="132" script="Agua N/Agua-n-s-2.lua" />

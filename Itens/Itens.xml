@@ -22,5 +22,6 @@
 	<volatile id="190" script="repliction.lua" />
 	<volatile id="191" script="kaizen.lua" />
 	<volatile id="195" script="hunting_scrolls.lua" />
+	<volatile id="196" script="hatch_accelerator.lua" />
 	<volatile id="198" script="exp_box.lua" />
 </Itens>

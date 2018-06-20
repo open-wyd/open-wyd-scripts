@@ -12,6 +12,7 @@
 	<volatile id="15" script="feed.lua" />
 	<volatile id="16" script="essence_of_pet.lua" />
 	<volatile id="19" script="firecracker.lua" />
+	<volatile id="20" script="duel_letter.lua" />
 	<volatilelist idList="21~30, 131~140, 161~170" script="water_scroll.lua" />
 	<volatilelist idList="10, 52, 53, 55, 56, 57, 200, 201, 202" script="kappa_potion.lua" />
 	<volatilerange fromId="31" toId="36" script="skill_books.lua" />

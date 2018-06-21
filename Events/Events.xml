@@ -5,6 +5,6 @@
 	<water name="agua-A" script="agua/agua-A.lua" /> 
 	<event name="up-level" script="up-level/up-level.lua" />
 	<event name="duel_letter" script="duel_letter.lua" />
-	
-	
+	<event name="nightmare" script="nightmare.lua" />
+	<event name="hallOfKefra" script="hallOfKefra.lua" />
 </Events>

@@ -108,6 +108,10 @@ params.party = {
 };
 
 global_OWS = {
+	environmetIdList = {
+		HallOfKephraEnvId = 100,
+		InitialCustomEnvId = 100000
+	},
 	map = {
 		zoneIdList = {
 			None  		= -1,
@@ -127,7 +131,8 @@ global_OWS = {
 		}
 	},
 	questList = {
-		BencaoDeDeus = 1 << 1,
-		PilulaOrc 	 = 1 << 2
+		BencaoDeDeus 		 = 1 << 1,
+		PilulaOrc 	 		 = 1 << 2,
+		HallOfKefraIsAllowed = 1 << 3
 	}
 }

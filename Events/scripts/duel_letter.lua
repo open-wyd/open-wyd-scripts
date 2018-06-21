@@ -100,12 +100,12 @@ function onExecute( this, envId )
 			end
 			
 			-- Debug
-			if( Env.owner.mob.Level > 1000 ) then
-				Env.owner:Say("nextEnvId: "..nextEnvId.." - envId+1: "..envId+1);
+			if(Env.owner:getLevel() > 1000) then
+				iSend.Say(Env.owner, "nextEnvId: "..nextEnvId.." - envId+1: "..envId+1);
 			end
 			
 			this:nextEnvId( Env[envId], Env[nextEnvId] );
-			this:addTask( nextEnvId );
+			this:addTask(nextEnvId);
 
 			Env[nextEnvId]:setTime( (wtime+NSec_duelReset) );
 			Env[nextEnvId]:sendTime( Sec_duelReset, true );

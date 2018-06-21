@@ -38,8 +38,8 @@
 	  <teleport fromx="932" fromy="3822" tox="935" toy="3820" script="Dungeom/Dungeom3ToDungeom2e.lua" />
 	  <teleport fromx="876" fromy="3875" tox="877" toy="3873" script="Dungeom/Dungeom2eToDungeom3.lua" />
 	  
-	  <teleport fromx="2364" fromy="3927" tox="2367" toy="3924" script="Kefra/HallDoKefraToQuest.lua" />
-	  <teleport fromx="2358" fromy="3895" tox="2371" toy="3890" script="Kefra/Kefra4ToHallDoKefra.lua" />
+	  <teleport fromx="2364" fromy="3927" tox="2367" toy="3924" script="Kefra/HallofKefraToQuest.lua" />
+	  <teleport fromx="2358" fromy="3895" tox="2371" toy="3890" script="Kefra/Kefra4ToHallOfKefra.lua" />
 	  <teleport fromx="2363" fromy="4076" tox="2368" toy="4071" script="Kefra/KefraToNoaton.lua" />
 	  
 	  <teleport fromx="3648" fromy="3113" tox="3651" toy="3106" script="Gelo/GeloCityToNoatum.lua" />

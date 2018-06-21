@@ -580,8 +580,8 @@ Methods:
     void   setCurKill(number value)
     number getTotKill()
     void   setTotKill(number value)
-    number getPKPonumber()
-    void   setPKPonumber(number value)
+    number getPKPoint()
+    void   setPKPoint(number value)
 
     -- Creature owner, ex: summoner. (Review Needed...)
     Creature getCreatureOwner()

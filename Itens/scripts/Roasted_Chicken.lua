@@ -1,4 +1,4 @@
-_AddBonusPVM = "Adicionou 2 horas de BÔNUS PvM (ataqque contra monstros).";
+_AddBonusPVM = "Adicionou 2 horas de BÔNUS PvM (ataque contra monstros).";
 function OnUse(player, pSrc, pNumber, pDest)
 	if( (not player:hasCondition(30)) ) then
 		player:addCondition(30, 100, 100, getTicketHours(2));

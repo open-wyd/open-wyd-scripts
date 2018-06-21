@@ -1,0 +1,125 @@
+<creature name="Amago" level="2" merchant="1" clan="3" class="1" experience="0" gold="0" >
+	<health now="50" max="50" regen="0" />
+	<status str="5" dex="0" int="100" con="0" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="5000" magic="0" critical="255" attack_speed="0" move_speed="1" defense="3000"/>
+	<look>
+		<corpse id="59" brightness="255" />
+		<helmet id="120" brightness="255" />
+		<armor id="121" brightness="255" />
+		<pants id="122" brightness="255" />
+		<glove id="123" brightness="255" />
+		<boots id="124" brightness="255" />
+	</look>
+	<shopItems>
+		<item pos="0" id="2408">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="1" id="2410">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="2" id="2411">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="3" id="2412">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="4" id="2413">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="5" id="2414">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="6" id="2415">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="7" id="2416">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="8" id="2417">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="27" id="2391">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="28" id="2392">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="29" id="2393">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="30" id="2394">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="31" id="2395">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="32" id="2396">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="33" id="2397">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>		
+		<item pos="34" id="2398">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="35" id="2419">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>
+		<item pos="54" id="2399">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="55" id="2400">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="56" id="2401">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="57" id="2402">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="58" id="2403">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="59" id="2404">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="60" id="2405">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="61" id="2406">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		<item pos="62" id="2407">
+			<effect id="61" value="100"/>
+			<effect id="179" value="2"/>
+		</item>			
+		
+	</shopItems>
+</creature>

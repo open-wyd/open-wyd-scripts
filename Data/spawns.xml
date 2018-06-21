@@ -14154,4 +14154,16 @@
 	<spawn id="4091" interval="1" max="1" min_group="0" max_group="0" leader="Sacerdote_Kruno" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="4" x="2662" y="1971" say=""/>
 	</spawn>
+	<spawn id="4092" interval="1" max="1" min_group="0" max_group="0" leader="AAAAmago" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="0" x="2124" y="2101" say=""/>
+		<walk segment="1" wait="8" range="0" x="2144" y="2098" say=""/>
+	</spawn>
+	<spawn id="4093" interval="1" max="1" min_group="0" max_group="0" leader="AAAApotion" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="0" x="2123" y="2101" say=""/>
+		<walk segment="1" wait="8" range="0" x="2123" y="2098" say=""/>
+	</spawn>
+	<spawn id="4094" interval="1" max="1" min_group="0" max_group="0" leader="AAAAeggs" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="0" x="2122" y="2101" say=""/>
+		<walk segment="1" wait="8" range="0" x="2122" y="2098" say=""/>
+	</spawn>
 </spawns>

@@ -98,49 +98,11 @@
 			<effect id="102" value="0"/>
 			<effect id="142" value="3"/>
 		</item>
-		<item rateId="36" id="910">
-			<effect id="2" value="45"/>
-		</item>
-		<item rateId="38" id="869">
-			<effect id="2" value="45"/>
-		</item>
-		<item rateId="40" id="2398">
-			<effect id="99" value="9"/>
-		</item>
-		<item rateId="41" id="2403">
-			<effect id="56" value="3"/>
-		</item>
-		<item rateId="42" id="824">
-			<effect id="2" value="45"/>
-		</item>
-		<item rateId="44" id="854">
-			<effect id="60" value="20"/>
-		</item>
-		<item rateId="46" id="884">
-			<effect id="2" value="45"/>
-		</item>
-		<item rateId="49" id="839">
-			<effect id="2" value="45"/>
-		</item>
-		<item rateId="51" id="899">
-			<effect id="60" value="20"/>
-			<effect id="133" value="3"/>
-		</item>
-		<item rateId="52" id="901">
-			<effect id="60" value="20"/>
-		</item>
-		<item rateId="54" id="935">
-			<effect id="2" value="45"/>
-		</item>
-		<item rateId="60" id="2309">
-			<effect id="10" value="9"/>
-		</item>
 		<item rateId="61" id="2314">
 		</item>
 		<item rateId="10" id="4042">
 		</item>
 		<item rateId="10" id="4042">
-		</item>
 		</item>
 	</loot>
 </creature>

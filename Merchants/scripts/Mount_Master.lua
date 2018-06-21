@@ -39,7 +39,7 @@ function OnUse(npc, player, confirm)
 		iSend.Say(npc, "Ele foi Curado");
 		mount:setMountHp(20);
 		mount:setMountLife(vitality);
-		mount:setMountFood(5);
+		mount:setMountFeed(5);
 	else
 		iSend.Say(npc, "Desculpe, nao pude salva-lo.");
 		mount:reset();

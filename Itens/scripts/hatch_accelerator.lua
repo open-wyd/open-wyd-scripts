@@ -1,21 +1,31 @@
 function OnUse( player, pSrc, pNumber, pDest)
-	local mount = player:getMount();
-	local ref = iItems.GetItemSanc(mount);
+	local item = player:getMount();
 	
-	if( mount:isBetween(2300, 2330) and pDest.type == 0 and pDest.slot == 14 ) then
-		if( iItems.GetBonusItemAbility(mount, EF_INCUDELAY) >= 1 ) then
-			--organiza os adds e zera o EF_INCUDELAY
-			mount:setAddValue(1, EF_SANC, ref);
-			mount:setAddValue(2, EF_INCUDELAY, 0);
-			mount:setAddValue(3, 0, 0);
-			iSend.ClientMessage(player, "Tempo de incubação zerado! Agora refine com Poeira de Ori ou Lac.");
-			iSend.Item(player, pDest.type, pDest.slot, mount);
-			return TRUE;
+	if( item:isBetween(2300, 2330) and pDest.type == 0 and pDest.slot == 14 ) then
+		local INCUBATE = iItems.GetBonusItemAbility(item, EF_INCUBATE);
+		local SANC = iItems.GetItemSanc(item);
+		if( INCUBATE > SANC+1 ) then
+			local INCUDELAY = math.random(1,9);
+			item:setAddValue(0, EF_SANC, SANC+1);
+			item:setAddValue(1, EF_INCUBATE, INCUBATE);
+			item:setAddValue(2, EF_INCUDELAY, INCUDELAY);
+			iSend.ClientMessage(player, MessageStringTable._NN_Refine_Success);
 		else
-			iSend.ClientMessage(player, "Tempo de incubação já está zerado, refine com Poeira de Ori ou Lac.");
+			item:setId(item:getId() + 30);
+			item:setMountHp(20000)
+			item:setMountLevel(1)
+			item:setMountLife(math.random(10, 30));
+			item:setMountFeed(30); 
+			item:setMountExp(1);
+			iSend.ClientMessage(player, MessageStringTable._NN_INCUBATED);
+			iGameServer.MountProcess(player, item);	
 		end
+		
+		iSend.Emotion(player, 14, 3);
+		iSend.Item(player, pDest.type, pDest.slot, item);		
+		return TRUE;
 	else
-		iSend.ClientMessage(player, "Uso exclusivo em Ovos de montaria.");	
+		iSend.ClientMessage(player, "Uso exclusivo em Ovos de montaria.");
 	end
 	
 	return FALSE;

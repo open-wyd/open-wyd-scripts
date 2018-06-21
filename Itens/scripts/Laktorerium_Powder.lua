@@ -47,7 +47,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 		
 		item:setAddValue(addSlot, EF_SANC, 0);
 	end
-
+	
 	local rateSucess = iItems.GetSuccessRate(item, 0) - math.random(0, 100);
 	if (rateSucess >= 0) then
 		if(sancValue == REF_10) then
@@ -100,10 +100,6 @@ function OnUse(player, pSrc, pNumber, pDest)
 		iSend.ClientMessage(player, string.format("%s", MessageStringTable._NN_Fail_To_Refine));
 		
 		iLog(string.format("Refine fail %d+%d - %d", item:getId(), sancValue, item:getSlotByAdd(EF_SANC)));
-		
-		if (item:isBetween(2300, 2330)) then
-			item:setAddValue(2, EF_INCUDELAY, math.random(1,9));
-		end
 
 		local sancsucess = iItems.GetItemSancSuccess(item);
 		if (math.random(0, 4) <= 2) then

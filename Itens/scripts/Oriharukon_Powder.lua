@@ -29,6 +29,9 @@ function OnUse(player, pSrc, pNumber, pDest)
 		local addSlot = item:getSlotByAdd(EF_SANC);
 		if(addSlot < 0) then
 			addSlot = item:getSlotByAddRange(116, 125);
+			if(addSlot < 0) then
+				addSlot = item:getSlotByAdd(0);
+			end
 		end
 		
 		if(addSlot < 0) then
@@ -62,12 +65,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 		iSend.ClientMessage(player, MessageStringTable._NN_Refine_Success);
 
 		if (item:isBetween(2300, 2330)) then
-			local incuValue = math.random() & 0x80000003;
-			if (incuValue < 0) then
-				incuValue = ((incuValue - 1) | 0xFC) + 1;
-			end
-			
-			item:setAddValue(2, EF_INCUDELAY, incuValue);
+			item:setAddValue(2, EF_INCUDELAY, math.random(1,9));
 
 			local incubate = iItems.GetBonusItemAbility(item, EF_INCUBATE);
 
@@ -77,11 +75,11 @@ function OnUse(player, pSrc, pNumber, pDest)
 				item:setMountHp(20000)
 				item:setMountLevel(1)
 				item:setMountLife(math.random(10, 30));
-				item:setMountFood(30);
+				item:setMountFeed(30);
 				item:setMountExp(1);
 
 				iSend.ClientMessage(player, MessageStringTable._NN_INCUBATED);
-				iGameServer.MountProcess(player, nil);
+				iGameServer.MountProcess(player, item);
 			end
 		end
 		
@@ -92,13 +90,8 @@ function OnUse(player, pSrc, pNumber, pDest)
 		
 		iLog(string.format("Refine fail %d+%d - %d", item:getId(), sancValue, item:getSlotByAdd(EF_SANC)));
 		
-		if (item:isBetween(2300, 2330)) then			
-			local incuValue = math.random() & 0x80000003;
-			if (incuValue < 0) then
-				incuValue = ((incuValue - 1) | 0xFC) + 1;
-			end
-			
-			item:setAddValue(2, EF_INCUDELAY, incuValue);
+		if (item:isBetween(2300, 2330)) then
+			item:setAddValue(2, EF_INCUDELAY, math.random(1,9));
 		end
 
 		local sancsucess = iItems.GetItemSancSuccess(item);

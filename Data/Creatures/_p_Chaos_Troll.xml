@@ -1,0 +1,10 @@
+<creature name="_p_Chaos_Troll" level="800" merchant="0" clan="5" class="1" experience="71000" gold="50000" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="4" dex="30" int="50" con="550" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1600" magic="0" critical="255" attack_speed="2" move_speed="2" defense="2950"/>
+	<look>
+		<corpse id="213" brightness="9" />
+		<rigth_weapon id="719" brightness="9" />
+	</look>
+</creature>

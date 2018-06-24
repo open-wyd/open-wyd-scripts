@@ -1,0 +1,10 @@
+<creature name="_p_Cyclop" level="900" merchant="0" clan="5" class="1" experience="130000" gold="50000" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="6" dex="100" int="100" con="1800" />
+	<special special1="255" special2="1" special3="255" special4="1" />
+	<strategy damage="2980" magic="0" critical="255" attack_speed="2" move_speed="2" defense="3600"/>
+	<look>
+		<corpse id="234" brightness="6" />
+		<rigth_weapon id="702" brightness="255" />
+	</look>
+</creature>

@@ -51,7 +51,7 @@ Defines:
 
 ```
 Type: 
-	EnvironmentEvent
+    EnvironmentEvent
 
 Constructor:
     EnvironmentEvent()
@@ -75,16 +75,14 @@ Methods:
     void    start()
     void    stop()
     void    resetNpc()
-    void    addMonster(string creatureName, number maxCreatures, number centerx, number centery, boolean randomPos = true)
-    void    addRespawn(string respawnName, number respawnId, number centerx, number centery, boolean randomPos = true)
-    void    executeSpawn(number respawnId)
-    number  executeCreature(number creatureId)
+    void    addSpawn(string name, number id, SpawnPtr spawn, number posX, number posY, boolean randomPos = true)
+    void    executeSpawn(number id)
     boolean addPlayer(ScriptEvent scriptEvent, Player player, CPosition pos)
     boolean addGroup(ScriptEvent scriptEvent, Player player, CPosition pos)
     boolean removePlayer(Player player, CPosition pos)
     number  removeAllPlayer(CPosition pos)
     number  checkPlayer()
-    number  checkSpawn(number respawnId)
+    number  checkSpawn(number id)
     void    addTask(ScriptEvent scriptEvent)
     boolean addScheduler(number delay, ScriptEvent scriptEvent)
     boolean removeTask()
@@ -96,7 +94,7 @@ Methods:
 
 ```
 Type: 
-	ScriptEvent
+    ScriptEvent
 
 Methods:
     void    reset()
@@ -111,11 +109,120 @@ Methods:
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
+### Módulo Spawn.
+
+```
+Type:
+    WalkShiftAttrPtr, WalkShiftAttrConstPtr
+
+Properties:
+    CPosition pos
+    number range
+    number wait
+    string say
+```
+
+```
+Type:
+    WalkShift
+
+Methods:
+    number getShiftCount()
+    WalkShiftAttrConstPtr getById(number id)
+    void add(WalkShiftAttrPtr walkShift)
+```
+
+```
+Type:
+    SpawnAction
+
+    Definitions of types:
+        SpawnActionType
+    
+    Defines:
+        None
+        Fight
+        Flee
+        Die
+Methods:
+    string at(SpawnActionType type, number index)
+    string getRandom(SpawnActionType type)
+    void add(SpawnActionType type, string action)
+```
+
+```
+Type:
+    SpawnPtr
+
+Methods:
+    number getId()
+    number getInterval()
+    number getMax()
+    number getMinGroup()
+    number getMaxGroup()
+    number getFormation()
+    number getRouteType()
+
+    WalkShiftConstPtr getWalkShift()
+    CPosition getFirstPosition()
+
+    SpawnAction& getAction()
+    CreatureTypeConst getLeader()
+    CreatureTypeConst getFollower()
+```
+
+```
+Type:
+    Builder
+
+Methods:
+    boolean hasError()
+    string getLastError()
+    void resetError()
+```
+
+```
+Type:
+    SpawnBuilder.__index = Builder
+
+Methods:
+    SpawnPtr perform()
+
+    SpawnBuilder setId(number value)
+    SpawnBuilder setInterval(number value)
+    SpawnBuilder setMax(number value)
+    SpawnBuilder setMinGroup(number value)
+    SpawnBuilder setMaxGroup(number value)
+    SpawnBuilder setFormation(number value)
+    SpawnBuilder setRouteType(number value)
+    SpawnBuilder setPosition(const CPosition& pos, boolean canCreateDefaultWalkShift = false)
+    SpawnBuilder setPosition(number x, number y, boolean canCreateDefaultWalkShift = false)
+    SpawnBuilder addWalkShift(CPosition pos, number range, number wait, string say = "")
+    SpawnBuilder setAction(SpawnAction.SpawnActionType type, string msgAction)
+    SpawnBuilder setLeader(string name)
+    SpawnBuilder setFollower(string name)
+```
+
+```
+Type:
+    SpawnManager
+
+Methods:
+    SpawnManager instance()
+
+    void reset()
+    number getSpawnCount()
+    boolean add(SpawnPtr spawn)
+    boolean remove(SpawnPtr spawn)
+    boolean loadFromXml(string filename)
+```
+
+--------------------------------------------------------------------------------------------------------------------------
 ### Módulo iGameServer
 ```
 module: 
     iGameServer
-	
+
 Methods:
     boolean PutItem(Player player,  CItem item)
     number  GenerateSummon(Player player, number summonId, CItem sItem, number num)
@@ -134,13 +241,13 @@ Methods:
     boolean DoTeleport(Creature creature,  CPosition targetPos, boolean isGreat = false)
     void    SummonServer(number tx, number ty)
     number  TryLevelUpWithEffects(Player player)
-	number  GetMapAttribute(CPosition pos)
-	number  GetMapAttribute(number x, number y)
-	boolean HasTheySeeEachOther(Creature creature, Creature otherCreature)
-	number  GetMapArenaId(number x, number y)
-	number  GetMapArenaId(CPosition pos)
-	number  GetMapVillageId(number x, number y)
-	number  GetMapVillageId(CPosition pos)
+    number  GetMapAttribute(CPosition pos)
+    number  GetMapAttribute(number x, number y)
+    boolean HasTheySeeEachOther(Creature creature, Creature otherCreature)
+    number  GetMapArenaId(number x, number y)
+    number  GetMapArenaId(CPosition pos)
+    number  GetMapVillageId(number x, number y)
+    number  GetMapVillageId(CPosition pos)
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -301,7 +408,7 @@ Methods:
 ```
 Definitions of types:
     FindItemSlotType
-	
+    
 Defines:
     SLOT_EQUIP
     SLOT_CARRY
@@ -390,7 +497,7 @@ Constructor:
 Properties:
     number x
     number y
-	
+    
 Methods:
     void reset()
     void set(number x, number y)

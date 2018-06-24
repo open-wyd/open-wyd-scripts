@@ -1,0 +1,138 @@
+<creature name="_Pesadelo.Arzam" level="993" merchant="0" clan="5" class="1" experience="250000" gold="80000" direction="0" >
+	<health now="32000" max="32000" regen="30" />
+	<status str="9000" dex="9000" int="9000" con="3500" />
+	<special special1="255" special2="6" special3="255" special4="7" />
+	<strategy damage="12000" magic="0" critical="255" attack_speed="2" move_speed="2" defense="14500"/>
+	<resistences>
+		<resistence holy="52" />
+		<resistence lightning="52" />
+		<resistence fire="52" />
+		<resistence ice="52" />
+	</resistences>
+	<look>
+		<corpse id="397" brightness="9" />
+		<rigth_weapon id="859" brightness="0" />
+		<eventitem id="786" brightness="255" />
+	</look>
+	<loot>
+		<item rateId="0" id="1672">
+			<effect id="103" value="0"/>
+			<effect id="137" value="6"/>
+		</item>
+		<item rateId="1" id="1673">
+			<effect id="103" value="0"/>
+			<effect id="138" value="6"/>
+		</item>
+		<item rateId="2" id="1674">
+			<effect id="103" value="0"/>
+			<effect id="139" value="6"/>
+		</item>
+		<item rateId="3" id="1675">
+			<effect id="103" value="0"/>
+			<effect id="140" value="6"/>
+		</item>
+		<item rateId="4" id="1676">
+			<effect id="103" value="0"/>
+			<effect id="141" value="6"/>
+		</item>
+		<item rateId="5" id="1677">
+			<effect id="103" value="0"/>
+			<effect id="142" value="6"/>
+		</item>
+		<item rateId="6" id="1678">
+			<effect id="103" value="0"/>
+		</item>
+		<item rateId="12" id="1680">
+			<effect id="103" value="0"/>
+			<effect id="145" value="6"/>
+		</item>
+		<item rateId="13" id="1681">
+			<effect id="103" value="0"/>
+			<effect id="146" value="6"/>
+		</item>
+		<item rateId="14" id="1682">
+			<effect id="103" value="0"/>
+		</item>
+		<item rateId="16" id="1684">
+			<effect id="103" value="0"/>
+			<effect id="149" value="6"/>
+		</item>
+		<item rateId="17" id="1685">
+			<effect id="103" value="0"/>
+			<effect id="150" value="6"/>
+		</item>
+		<item rateId="18" id="1686">
+			<effect id="103" value="0"/>
+			<effect id="151" value="6"/>
+		</item>
+		<item rateId="19" id="1687">
+			<effect id="103" value="0"/>
+			<effect id="152" value="6"/>
+		</item>
+		<item rateId="20" id="1688">
+			<effect id="103" value="0"/>
+			<effect id="153" value="6"/>
+		</item>
+		<item rateId="21" id="1689">
+			<effect id="103" value="0"/>
+			<effect id="154" value="6"/>
+		</item>
+		<item rateId="22" id="1690">
+			<effect id="103" value="0"/>
+			<effect id="155" value="6"/>
+		</item>
+		<item rateId="23" id="1691">
+			<effect id="103" value="0"/>
+			<effect id="104" value="3"/>
+		</item>
+		<item rateId="24" id="872">
+			<effect id="103" value="1"/>
+			<effect id="44" value="3"/>
+		</item>
+		<item rateId="25" id="812">
+			<effect id="103" value="1"/>
+			<effect id="147" value="3"/>
+		</item>
+		<item rateId="26" id="915">
+			<effect id="103" value="1"/>
+			<effect id="145" value="3"/>
+		</item>
+		<item rateId="27" id="913">
+			<effect id="103" value="1"/>
+			<effect id="146" value="3"/>
+		</item>
+		<item rateId="28" id="914">
+			<effect id="103" value="1"/>
+			<effect id="137" value="3"/>
+		</item>
+		<item rateId="29" id="905">
+			<effect id="103" value="1"/>
+			<effect id="119" value="3"/>
+		</item>
+		<item rateId="30" id="887">
+			<effect id="103" value="1"/>
+			<effect id="89" value="3"/>
+		</item>
+		<item rateId="31" id="857">
+			<effect id="103" value="1"/>
+		</item>
+		<item rateId="48" id="842">
+			<effect id="103" value="1"/>
+			<effect id="59" value="3"/>
+		</item>
+		<item rateId="49" id="827">
+			<effect id="103" value="1"/>
+			<effect id="44" value="3"/>
+		</item>
+		<item rateId="50" id="812">
+			<effect id="103" value="1"/>
+		</item>
+		<item rateId="57" id="420">
+			<effect id="43" value="9"/>
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="58" id="413">
+			<effect id="43" value="9"/>
+		</item>
+	</loot>
+</creature>

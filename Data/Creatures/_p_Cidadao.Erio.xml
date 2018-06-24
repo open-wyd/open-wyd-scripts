@@ -1,0 +1,16 @@
+<creature name="_p_Cidadao.Erio" level="3" merchant="11" clan="6" class="0" experience="0" gold="0" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="0" int="100" con="100" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="4500" magic="0" critical="255" attack_speed="2" move_speed="2" defense="1000"/>
+	<look>
+		<corpse id="2" brightness="0" />
+		<helmet id="115" brightness="0" />
+		<armor id="131" brightness="0" />
+		<pants id="127" brightness="0" />
+		<glove id="128" brightness="0" />
+		<boots id="129" brightness="0" />
+		<left_weapon id="864" brightness="0" />
+		<eventitem id="786" brightness="3" />
+	</look>
+</creature>

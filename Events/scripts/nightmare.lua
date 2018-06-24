@@ -1,6 +1,25 @@
+local spawnList = {N={}, M={}, A={}};
+spawnList.N.Soldier = SpawnBuilder:new():setPosition(1308, 335):setMax(20):setMinGroup(3):setMaxGroup(5):setLeader("_p_Chaos_Troll"):setFollower("_p_Chaos_Troll"):perform();
+spawnList.N.Boss	= SpawnBuilder:new():setPosition(1308, 335):setMax(1):setLeader("_Pesadelo.Erion"):perform();
+spawnList.N.Npc 	= SpawnBuilder:new():setPosition(1308, 335):setMax(5):setLeader("_p_Cidadao.Erio"):perform();
+
+assert(spawnList.N.Soldier ~= nil or spawnList.N.Boss ~= nil or spawnList.N.Npc ~= nil);
+
+spawnList.M.Soldier = SpawnBuilder:new():setPosition(1151, 383):setMax(30):setMinGroup(3):setMaxGroup(5):setLeader("_p_Moloch"):setFollower("_p_Moloch"):perform();
+spawnList.M.Boss	= SpawnBuilder:new():setPosition(1151, 383):setMax(1):setLeader("_Pesadelo.Armia"):perform();
+spawnList.M.Npc 	= SpawnBuilder:new():setPosition(1151, 383):setMax(5):setLeader("_p_Cidadao.Arm"):perform();
+
+assert(spawnList.M.Soldier ~= nil or spawnList.M.Boss ~= nil or spawnList.M.Npc ~= nil);
+
+spawnList.A.Soldier = SpawnBuilder:new():setPosition(1210, 180):setMax(40):setMinGroup(3):setMaxGroup(5):setLeader("_p_Cyclop"):setFollower("_p_Cyclop"):perform();
+spawnList.A.Boss	= SpawnBuilder:new():setPosition(1210, 180):setMax(1):setLeader("_Pesadelo.Arzam"):perform();
+spawnList.A.Npc 	= SpawnBuilder:new():setPosition(1210, 180):setMax(8):setLeader("_p_Cidadao.Arza"):perform();
+
+assert(spawnList.A.Soldier ~= nil or spawnList.A.Boss ~= nil or spawnList.A.Npc ~= nil);
+
 local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ) };
 
--- Pesadelo 1
+-- Nightmare N
 Env[1].envId = 1;
 Env[1]:setName("Pesadelo dos Abitantes de Erion, N");
 Env[1].from.x = 1292;
@@ -9,18 +28,18 @@ Env[1].to.x = 1325;
 Env[1].to.y = 365;
 Env[1].center.x = 1308;
 Env[1].center.y = 335;
-Env[1]:addRespawn( "chaos troll 1", 153 , 1305,354 );
-Env[1]:addRespawn( "npc 1", 		154 , 1305,354 );
-Env[1]:addRespawn( "chaos troll 2", 153 , 1316,346 );
-Env[1]:addRespawn( "npc 2", 		154 , 1316,346 );
-Env[1]:addRespawn( "chaos troll 3",	153 , 1302,337 );
-Env[1]:addRespawn( "npc 3", 		154 , 1302,337 );
-Env[1]:addRespawn( "chaos troll 4", 153 , 1313,329 );
-Env[1]:addRespawn( "npc 4", 		154 , 1313,329 );
-Env[1]:addRespawn( "chaos troll 5", 153 , 1309,312 );
-Env[1]:addRespawn( "npc 5", 		154 , 1309,312 );
-Env[1]:addRespawn( "Boss", 			155 , 1308,335 );
--- Sala 2
+Env[1]:addSpawn("chaos troll 1", 153, spawnList.N.Soldier, 1305, 354);
+Env[1]:addSpawn("npc 1",         154, spawnList.N.Npc,     1305, 354);
+Env[1]:addSpawn("chaos troll 2", 153, spawnList.N.Soldier, 1316, 346);
+Env[1]:addSpawn("npc 2",         154, spawnList.N.Npc,     1316, 346);
+Env[1]:addSpawn("chaos troll 3", 153, spawnList.N.Soldier, 1302, 337);
+Env[1]:addSpawn("npc 3",         154, spawnList.N.Npc,     1302, 337);
+Env[1]:addSpawn("chaos troll 4", 153, spawnList.N.Soldier, 1313, 329);
+Env[1]:addSpawn("npc 4",         154, spawnList.N.Npc,     1313, 329);
+Env[1]:addSpawn("chaos troll 5", 153, spawnList.N.Soldier, 1309, 312);
+Env[1]:addSpawn("npc 5",         154, spawnList.N.Npc,     1309, 312);
+Env[1]:addSpawn("Boss",          155, spawnList.N.Boss,    1308, 335);
+-- Nightmare M
 Env[2].envId = 2;
 Env[2]:setName("Pesadelo dos Abitantes de Armia, M");
 Env[2].from.x = 1023;
@@ -29,18 +48,18 @@ Env[2].to.x = 1151;
 Env[2].to.y = 383;
 Env[2].center.x = 1077;
 Env[2].center.y = 308;
-Env[2]:addRespawn( "moloch 1",  156 , 1107,322 );
-Env[2]:addRespawn( "npc 1", 	157 , 1107,322 );
-Env[2]:addRespawn( "moloch 2", 	156 , 1116,283 );
-Env[2]:addRespawn( "npc 2", 	157 , 1116,283 );
-Env[2]:addRespawn( "moloch 3", 	156 , 1090,320 );
-Env[2]:addRespawn( "npc 3", 	157 , 1090,320 );
-Env[2]:addRespawn( "moloch 4", 	156 , 1062,311 );
-Env[2]:addRespawn( "npc 4", 	157 , 1062,311 );
-Env[2]:addRespawn( "moloch 5", 	156 , 1055,327 );
-Env[2]:addRespawn( "npc 5", 	157 , 1055,327 );
-Env[2]:addRespawn( "Boss", 		158 , 1077,308 );
--- Sala 3
+Env[2]:addSpawn("moloch 1", 156, spawnList.M.Soldier, 1107, 322);
+Env[2]:addSpawn("npc 1",    157, spawnList.M.Npc,     1107, 322);
+Env[2]:addSpawn("moloch 2", 156, spawnList.M.Soldier, 1116, 283);
+Env[2]:addSpawn("npc 2",    157, spawnList.M.Npc,     1116, 283);
+Env[2]:addSpawn("moloch 3", 156, spawnList.M.Soldier, 1090, 320);
+Env[2]:addSpawn("npc 3",    157, spawnList.M.Npc,     1090, 320);
+Env[2]:addSpawn("moloch 4", 156, spawnList.M.Soldier, 1062, 311);
+Env[2]:addSpawn("npc 4",    157, spawnList.M.Npc,     1062, 311);
+Env[2]:addSpawn("moloch 5", 156, spawnList.M.Soldier, 1055, 327);
+Env[2]:addSpawn("npc 5",    157, spawnList.M.Npc,     1055, 327);
+Env[2]:addSpawn("Boss",     158, spawnList.M.Boss,    1077, 308);
+-- Nightmare A
 Env[3].envId = 3;
 Env[3]:setName("Pesadelo dos Abitantes de Arzam, A");
 Env[3].from.x = 1158;
@@ -49,82 +68,106 @@ Env[3].to.x = 1271;
 Env[3].to.y = 214;
 Env[3].center.x = 1210;
 Env[3].center.y = 180;
-Env[3]:addRespawn( "Cyclop 1", 	159 , 1235,178 );
-Env[3]:addRespawn( "npc 1", 	160 , 1235,178 );
-Env[3]:addRespawn( "Cyclop 2", 	159 , 1220,178 );
-Env[3]:addRespawn( "npc 2", 	160 , 1220,178 );
-Env[3]:addRespawn( "Cyclop 3", 	159 , 1212,197 );
-Env[3]:addRespawn( "npc 3", 	160 , 1212,197 );
-Env[3]:addRespawn( "Cyclop 4", 	159 , 1227,153 );
-Env[3]:addRespawn( "npc 4", 	160 , 1227,153 );
-Env[3]:addRespawn( "Cyclop 5", 	159 , 1209,157 );
-Env[3]:addRespawn( "npc 5", 	160 , 1209,157 );
-Env[3]:addRespawn( "Cyclop 6", 	159 , 1192,153 );
-Env[3]:addRespawn( "npc 6", 	160 , 1192,153 );
-Env[3]:addRespawn( "Cyclop 7", 	159 , 1172,174 );
-Env[3]:addRespawn( "npc 7", 	160 , 1172,174 );
-Env[3]:addRespawn( "Cyclop 8", 	159 , 1185,194 );
-Env[3]:addRespawn( "npc 8", 	160 , 1172,174 );
-Env[3]:addRespawn( "boss", 	161 , 1210,180 );
+Env[3]:addSpawn("Cyclop 1", 159, spawnList.A.Soldier, 1235, 178);
+Env[3]:addSpawn("npc 1",    160, spawnList.A.Npc,     1235, 178);
+Env[3]:addSpawn("Cyclop 2", 159, spawnList.A.Soldier, 1220, 178);
+Env[3]:addSpawn("npc 2",    160, spawnList.A.Npc,     1220, 178);
+Env[3]:addSpawn("Cyclop 3", 159, spawnList.A.Soldier, 1212, 197);
+Env[3]:addSpawn("npc 3",    160, spawnList.A.Npc,     1212, 197);
+Env[3]:addSpawn("Cyclop 4", 159, spawnList.A.Soldier, 1227, 153);
+Env[3]:addSpawn("npc 4",    160, spawnList.A.Npc,     1227, 153);
+Env[3]:addSpawn("Cyclop 5", 159, spawnList.A.Soldier, 1209, 157);
+Env[3]:addSpawn("npc 5",    160, spawnList.A.Npc,     1209, 157);
+Env[3]:addSpawn("Cyclop 6", 159, spawnList.A.Soldier, 1192, 153);
+Env[3]:addSpawn("npc 6",    160, spawnList.A.Npc,     1192, 153);
+Env[3]:addSpawn("Cyclop 7", 159, spawnList.A.Soldier, 1172, 174);
+Env[3]:addSpawn("npc 7",    160, spawnList.A.Npc,     1172, 174);
+Env[3]:addSpawn("Cyclop 8", 159, spawnList.A.Soldier, 1185, 194);
+Env[3]:addSpawn("npc 8",    160, spawnList.A.Npc,     1172, 174);
+Env[3]:addSpawn("boss",     161, spawnList.A.Boss);
 
-local spawns = { {153,154,155}, {156,157,158}, {159,160,161} };
-local initBoss = (20*(60*1000));
-local bossTime = { 0,0,0 };
-local spawnUnit = { 20, 30, 40 }; 
-local initTime = { {0,0},{0,0},{0,0} };
+local intervalForStart = 5;
+local spawns = {{153,154,155}, {156,157,158}, {159,160,161}};
+local initBoss = (18*(60*1000));;
+local bossTime = {0,0,0};
+local spawnUnit = {20, 30, 40}; 
+local steps = {{callback = nil, timer = 0}, {callback = nil, timer = 0}, {callback = nil, timer = 0}};
 local wtime = 0;
 
-function onExecute(this, envId)
+local function finalizeEvent(envId)
+	Env[envId]:removeAllPlayer(ResPawnsBasePos);
+	Env[envId]:resetNpc();
+	Env[envId]:stop();
+	bossTime[envId] = 0;
+	steps[envId].callback = nil;
+end
+-- Step 5 - Wait boss died.
+local function cb_WaitBossDied(envId)
+	-- If boss not is present, then finalize event.
+	return (Env[envId]:checkSpawn(spawns[envId][3]) > 0);
+end
+-- Step 4 - Spawn Boss
+local function cb_SpawnBoss(envId)
+	Env[envId]:resetNpc();
+	Env[envId]:executeSpawn(spawns[envId][3]);
+	steps[envId].callback = cb_WaitBossDied;
+	return true;
+end
+-- Step 3 - Defend citizens
+local function cb_DefendCitizens(envId)
+	if(Env[envId]:checkSpawn(spawns[envId][2]) <= 0) then -- check if exist citizens. 
+		return false;
+	end
 
-	wtime = iGetCurrentTime();
-	if(initTime[envId][1] ~= 2) then
-		if( initTime[envId][1] == 0 and initTime[envId][2] < wtime) then
-			initTime[envId][1] = 1;
-			initTime[envId][2] = wtime+ (60*1000);
-			Env[envId]:executeSpawn(spawns[envId][2]);
-			Env[envId]:sendTime( 60, true );
-		elseif(initTime[envId][1] == 1 and initTime[envId][2] < wtime) then
-			initTime[envId][1] = 2;
-			Env[envId]:executeSpawn(spawns[envId][1]);
-			Env[envId]:sendTime(sec_Nightmare, true);
+	if(bossTime[envId] < wtime) then
+		steps[envId].callback = cb_SpawnBoss;
+	else
+		if(Env[envId]:checkSpawn(spawns[envId][1]) < spawnUnit[envId]) then
+			Env[envId]:executeSpawn(spawns[envId][1]);  -- Respawn soldiers.
 		end
+	end
+	return true;
+end
+-- Step 2 - First spawn of nightmare soldiers and send the timer.
+local function cb_SpawnNightmareSoldiers(envId)
+	if(steps[envId].timer < wtime) then
+		Env[envId]:executeSpawn(spawns[envId][1]);
+		Env[envId]:sendTime(sec_Nightmare, true);
+		
+		steps[envId].callback = cb_DefendCitizens;
+	end
+	return true;
+end
+-- Step 1 - Spawn all Npcs citizens
+local function cb_SpawnCitizens(envId)
+	if(steps[envId].timer < wtime) then
+		Env[envId]:executeSpawn(spawns[envId][2]);
+		Env[envId]:sendTime(intervalForStart, true);
+		
+		steps[envId].callback = cb_SpawnNightmareSoldiers;
+		steps[envId].timer = wtime + (intervalForStart * 1000);
+	end
+	return true;
+end
+
+function onExecute(this, envId)
+	
+	wtime = iGetCurrentTime();
+	if(Env[envId]:getTime() <= wtime) then
+		return finalizeEvent(envId);
+	end
+	
+	-- If players not is present, then finalize event.
+	if(Env[envId]:checkPlayer() <= 0) then 
+		return finalizeEvent(envId);
+	end
+	
+	if(steps[envId].callback(envId)) then
 		this:addTask(envId);
 		return TRUE;
 	end
 	
-	local checkMonster = Env[envId]:checkSpawn(spawns[envId][1]);
-	local checkNpc = Env[envId]:checkSpawn(spawns[envId][2]);
-	local checkPlayer = Env[envId]:checkPlayer();
-	
-	if(Env[envId]:getTime() > wtime) then
-		if(checkNpc > 0 and checkPlayer > 0) then
-		
-			if(bossTime[envId] ~= 0) then
-				if( bossTime[envId] < wtime ) then
-					Env[envId]:resetNpc( );
-					Env[envId]:executeSpawn(spawns[envId][3]);
-					bossTime[envId] = 0;
-				elseif(checkMonster < spawnUnit[envId]) then
-					Env[envId]:executeSpawn(spawns[envId][1]);
-				end
-				
-				this:addTask( envId );
-				return TRUE;
-			else
-				if(Env[envId]:checkSpawn(spawns[envId][3]) > 0) then
-					this:addTask( envId );
-					return TRUE;
-				end
-			end
-		end
-	end
-	
-	Env[envId]:removeAllPlayer( ResPawnsBasePos );
-	Env[envId]:resetNpc( );
-	Env[envId]:stop( );
-	bossTime[envId] = 0;
-	initTime[envId][1] = 0;
-	return TRUE;
+	return finalizeEvent(envId);
 end
 
 function onAddPlayer(this, envId, player)
@@ -133,11 +176,11 @@ function onAddPlayer(this, envId, player)
 		if( Env[envId]:addGroup( this, player, Env[envId].center ) ) then
 			wtime = iGetCurrentTime( );
 			Env[envId]:setTime(wtime + nSec_Nightmare);
-			Env[envId]:sendTime( 60, true );
+			Env[envId]:sendTime(intervalForStart, true);
 			Env[envId]:start( );
-			bossTime[envId] = wtime+initBoss;
-			initTime[envId][1] = 0;
-			initTime[envId][2] = wtime+(60*1000);
+			bossTime[envId] = (wtime + initBoss);
+			steps[envId].callback = cb_SpawnCitizens;
+			steps[envId].timer = (intervalForStart * 1000);
 			this:addTask( envId );
 			iSend.ClientMessage(player, "você esta participando do evento \""..Env[envId]:getName( ).."\"");
 			return TRUE;

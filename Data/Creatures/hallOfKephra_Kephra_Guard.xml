@@ -1,0 +1,28 @@
+<creature name="Kephra_Guard" level="995" merchant="0" clan="1" class="1" experience="80000" gold="80000" direction="0" >
+	<health now="32000" max="32000" regen="0" />
+	<status str="4" dex="100" int="100" con="-1500" />
+	<special special1="255" special2="255" special3="255" special4="255" />
+	<strategy damage="6352" magic="0" critical="255" attack_speed="0" move_speed="1" defense="5000"/>
+	<resistences>
+		<resistence holy="111" />
+		<resistence lightning="70" />
+		<resistence fire="70" />
+		<resistence ice="40" />
+	</resistences>
+	<look>
+		<corpse id="363" brightness="0" />
+		<rigth_weapon id="861" brightness="0" />
+		<left_weapon id="861" brightness="0" />
+		<eventitem id="786" brightness="5" />
+	</look>
+	<loot>
+		<item rateId="0" id="4028">
+		</item>
+		<item rateId="58" id="412">
+			<effect id="61" value="6"/>
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="59" id="413">
+		</item>
+	</loot>
+</creature>

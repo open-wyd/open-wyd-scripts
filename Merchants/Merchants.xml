@@ -10,5 +10,6 @@
 	<merchant eventid="8" script="Mount_Master.lua" />
 	<merchant eventid="9" script="Carbuncle.lua" />
 	<merchant eventid="10" script="Juli.lua" />
+	<merchant eventid="11" script="Survivor_hallOfKephra.lua" />
 	
 </Merchants>

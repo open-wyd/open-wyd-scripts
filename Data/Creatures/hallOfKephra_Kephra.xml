@@ -1,0 +1,100 @@
+<creature name="Kephra" level="999" merchant="0" clan="1" class="1" experience="2000000" gold="80000" direction="0" >
+	<health now="32000" max="32000" regen="231" />
+	<status str="9000" dex="16000" int="16000" con="4500" />
+	<special special1="255" special2="255" special3="255" special4="255" />
+	<strategy damage="32000" magic="110" critical="255" attack_speed="0" move_speed="8" defense="4000"/>
+	<resistences>
+		<resistence holy="111" />
+		<resistence lightning="26" />
+		<resistence fire="26" />
+		<resistence ice="26" />
+	</resistences>
+	<look>
+		<corpse id="362" brightness="0" />
+		<eventitem id="786" brightness="0" />
+	</look>
+	<loot>
+		<item rateId="0" id="826">
+			<effect id="103" value="1"/>
+			<effect id="169" value="3"/>
+		</item>
+		<item rateId="1" id="937">
+			<effect id="103" value="1"/>
+			<effect id="144" value="3"/>
+		</item>
+		<item rateId="2" id="912">
+			<effect id="103" value="1"/>
+			<effect id="135" value="3"/>
+		</item>
+		<item rateId="3" id="903">
+			<effect id="103" value="1"/>
+			<effect id="73" value="3"/>
+		</item>
+		<item rateId="4" id="841">
+			<effect id="103" value="1"/>
+		</item>
+		<item rateId="8" id="6261">
+			<effect id="222" value="24"/>
+		</item>
+		<item rateId="9" id="6366">
+			<effect id="51" value="13"/>
+		</item>
+		<item rateId="10" id="3379">
+			<effect id="51" value="13"/>
+		</item>
+		<item rateId="11" id="3379">
+		</item>
+		<item rateId="24" id="826">
+			<effect id="103" value="2"/>
+			<effect id="73" value="3"/>
+		</item>
+		<item rateId="25" id="841">
+			<effect id="103" value="2"/>
+		</item>
+		<item rateId="32" id="937">
+			<effect id="103" value="2"/>
+			<effect id="73" value="3"/>
+		</item>
+		<item rateId="33" id="841">
+			<effect id="103" value="2"/>
+		</item>
+		<item rateId="40" id="912">
+			<effect id="103" value="2"/>
+		</item>
+		<item rateId="48" id="811">
+			<effect id="103" value="4"/>
+			<effect id="88" value="3"/>
+		</item>
+		<item rateId="49" id="856">
+			<effect id="103" value="4"/>
+			<effect id="103" value="3"/>
+		</item>
+		<item rateId="50" id="871">
+			<effect id="103" value="4"/>
+			<effect id="118" value="3"/>
+		</item>
+		<item rateId="51" id="886">
+			<effect id="103" value="4"/>
+		</item>
+		<item rateId="56" id="4011">
+			<effect id="164" value="1"/>
+		</item>
+		<item rateId="57" id="420">
+		</item>
+		<item rateId="59" id="541">
+			<effect id="18" value="9"/>
+		</item>
+		<item rateId="60" id="2322">
+			<effect id="19" value="9"/>
+		</item>
+		<item rateId="61" id="2323">
+			<effect id="20" value="9"/>
+		</item>
+		<item rateId="62" id="2324">
+			<effect id="21" value="9"/>
+		</item>
+		<item rateId="63" id="2325">
+			<effect id="26" value="0"/>
+		</item>
+	</loot>
+</creature>

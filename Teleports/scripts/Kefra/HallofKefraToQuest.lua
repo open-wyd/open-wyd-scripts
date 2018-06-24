@@ -1,6 +1,6 @@
 function OnUse( player )
 
-	if( iGetGlobalEnvInt64(74) ~= 1 ) then
+	if(iGetGlobalEnvInt64(global_OWS.environmetIdList.HallOfKephraEnvId) ~= 1) then
 		iSend.ClientMessage(player, "O Kefra precisa ser derrotado antes de prosseguir.");
 		return FALSE;
 	end

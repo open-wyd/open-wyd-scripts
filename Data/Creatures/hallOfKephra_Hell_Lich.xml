@@ -1,0 +1,26 @@
+<creature name="Hell_Lich" level="800" merchant="0" clan="1" class="1" experience="20000" gold="500" direction="0" >
+	<health now="30255" max="32000" regen="52" />
+	<status str="9000" dex="9000" int="9000" con="1600" />
+	<special special1="255" special2="255" special3="255" special4="255" />
+	<strategy damage="7500" magic="0" critical="255" attack_speed="0" move_speed="1" defense="5000"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="50" />
+		<resistence fire="50" />
+		<resistence ice="50" />
+	</resistences>
+	<look>
+		<corpse id="364" brightness="0" />
+		<rigth_weapon id="1926" brightness="9" />
+		<acessory id="786" brightness="0" />
+		<eventitem id="786" brightness="0" />
+	</look>
+	<loot>
+		<item rateId="0" id="4028">
+		</item>
+		<item rateId="56" id="413">
+		</item>
+		<item rateId="58" id="4026">
+		</item>
+	</loot>
+</creature>

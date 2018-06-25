@@ -2,7 +2,7 @@ local duelEvent = iGetEvent("duel_letter");
 
 local function sendToDuelEvent(player, level)
 
-	if(player:getCurrentPosition():isBetween(1045, 1689, 1047, 1691)) then
+	if(player:getCurrentPosition():isBetween(1045, 1689, 1047, 1691) or player:getLevel() > 1000) then
 		if(duelEvent:addPlayer(player, level)) then
 			return TRUE;
 		else

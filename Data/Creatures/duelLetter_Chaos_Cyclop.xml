@@ -1,0 +1,114 @@
+<creature name="_Chaos_Cyclop" level="800" merchant="0" clan="1" class="1" experience="250000" gold="44553" direction="0" >
+	<health now="14900" max="14900" regen="0" />
+	<status str="5" dex="30" int="70" con="600" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1000" magic="0" critical="255" attack_speed="48" move_speed="10" defense="1200"/>
+	<resistences>
+		<resistence fire="-30" />
+	</resistences>
+	<look>
+		<corpse id="233" brightness="9" />
+		<rigth_weapon id="709" brightness="9" />
+	</look>
+	<loot>
+		<item rateId="0" id="1462">
+			<effect id="103" value="0"/>
+			<effect id="76" value="6"/>
+		</item>
+		<item rateId="1" id="1612">
+			<effect id="103" value="0"/>
+			<effect id="139" value="4"/>
+		</item>
+		<item rateId="2" id="1163">
+			<effect id="103" value="0"/>
+		</item>
+		<item rateId="7" id="1312">
+			<effect id="100" value="0"/>
+		</item>
+		<item rateId="24" id="867">
+			<effect id="103" value="0"/>
+			<effect id="67" value="3"/>
+		</item>
+		<item rateId="25" id="835">
+			<effect id="103" value="0"/>
+			<effect id="82" value="3"/>
+		</item>
+		<item rateId="26" id="850">
+			<effect id="103" value="0"/>
+			<effect id="171" value="6"/>
+		</item>
+		<item rateId="27" id="1707">
+		</item>
+		<item rateId="32" id="1168">
+			<effect id="103" value="0"/>
+			<effect id="141" value="4"/>
+		</item>
+		<item rateId="33" id="1165">
+			<effect id="103" value="0"/>
+			<effect id="139" value="4"/>
+		</item>
+		<item rateId="34" id="1163">
+			<effect id="103" value="0"/>
+			<effect id="145" value="4"/>
+		</item>
+		<item rateId="35" id="1169">
+			<effect id="103" value="0"/>
+			<effect id="142" value="4"/>
+		</item>
+		<item rateId="36" id="1166">
+			<effect id="103" value="0"/>
+			<effect id="44" value="5"/>
+		</item>
+		<item rateId="37" id="1324">
+			<effect id="103" value="0"/>
+			<effect id="34" value="5"/>
+		</item>
+		<item rateId="38" id="1314">
+			<effect id="103" value="0"/>
+			<effect id="32" value="5"/>
+		</item>
+		<item rateId="39" id="1312">
+			<effect id="103" value="0"/>
+			<effect id="42" value="5"/>
+		</item>
+		<item rateId="40" id="1322">
+			<effect id="103" value="0"/>
+			<effect id="194" value="5"/>
+		</item>
+		<item rateId="41" id="1474">
+			<effect id="103" value="0"/>
+			<effect id="184" value="5"/>
+		</item>
+		<item rateId="42" id="1464">
+			<effect id="103" value="0"/>
+			<effect id="182" value="5"/>
+		</item>
+		<item rateId="43" id="1462">
+			<effect id="103" value="0"/>
+			<effect id="192" value="5"/>
+		</item>
+		<item rateId="44" id="1472">
+			<effect id="103" value="0"/>
+			<effect id="78" value="6"/>
+		</item>
+		<item rateId="45" id="1614">
+			<effect id="103" value="0"/>
+			<effect id="76" value="6"/>
+		</item>
+		<item rateId="46" id="1612">
+			<effect id="103" value="0"/>
+			<effect id="86" value="6"/>
+		</item>
+		<item rateId="47" id="1622">
+			<effect id="103" value="0"/>
+		</item>
+		<item rateId="61" id="424">
+			<effect id="156" value="1"/>
+		</item>
+		<item rateId="62" id="412">
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="63" id="413">
+		</item>
+	</loot>
+</creature>

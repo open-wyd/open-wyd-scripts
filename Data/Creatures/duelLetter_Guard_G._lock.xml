@@ -1,0 +1,132 @@
+<creature name="_Guard_G._lock" level="800" merchant="0" clan="1" class="1" experience="210000" gold="50000" direction="0" >
+	<health now="31000" max="31000" regen="0" />
+	<status str="4" dex="90" int="70" con="450" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="1765" magic="0" critical="255" attack_speed="80" move_speed="2" defense="2500"/>
+	<resistences>
+		<resistence holy="-10" />
+		<resistence lightning="-10" />
+		<resistence ice="10" />
+	</resistences>
+	<look>
+		<corpse id="294" brightness="7" />
+		<rigth_weapon id="711" brightness="7" />
+		<eventitem id="786" brightness="0" />
+	</look>
+	<loot>
+		<item rateId="28" id="823">
+			<effect id="103" value="0"/>
+			<effect id="40" value="3"/>
+		</item>
+		<item rateId="29" id="808">
+			<effect id="103" value="0"/>
+			<effect id="130" value="3"/>
+		</item>
+		<item rateId="30" id="898">
+			<effect id="103" value="0"/>
+			<effect id="70" value="3"/>
+		</item>
+		<item rateId="31" id="838">
+			<effect id="103" value="0"/>
+			<effect id="169" value="4"/>
+		</item>
+		<item rateId="32" id="1193">
+			<effect id="103" value="0"/>
+			<effect id="175" value="4"/>
+		</item>
+		<item rateId="33" id="1199">
+			<effect id="103" value="0"/>
+			<effect id="172" value="4"/>
+		</item>
+		<item rateId="34" id="1196">
+			<effect id="103" value="0"/>
+			<effect id="157" value="4"/>
+		</item>
+		<item rateId="35" id="1181">
+			<effect id="103" value="0"/>
+			<effect id="176" value="4"/>
+		</item>
+		<item rateId="36" id="1200">
+			<effect id="103" value="0"/>
+			<effect id="179" value="4"/>
+		</item>
+		<item rateId="37" id="1203">
+			<effect id="103" value="0"/>
+			<effect id="167" value="4"/>
+		</item>
+		<item rateId="38" id="1191">
+			<effect id="103" value="0"/>
+			<effect id="177" value="4"/>
+		</item>
+		<item rateId="39" id="1201">
+			<effect id="103" value="0"/>
+			<effect id="173" value="4"/>
+		</item>
+		<item rateId="40" id="1197">
+			<effect id="103" value="0"/>
+			<effect id="49" value="5"/>
+		</item>
+		<item rateId="41" id="1329">
+			<effect id="103" value="0"/>
+			<effect id="47" value="5"/>
+		</item>
+		<item rateId="42" id="1327">
+			<effect id="103" value="0"/>
+			<effect id="57" value="5"/>
+		</item>
+		<item rateId="43" id="1337">
+			<effect id="103" value="0"/>
+			<effect id="209" value="5"/>
+		</item>
+		<item rateId="44" id="1489">
+			<effect id="103" value="0"/>
+			<effect id="199" value="5"/>
+		</item>
+		<item rateId="45" id="1479">
+			<effect id="103" value="0"/>
+			<effect id="197" value="5"/>
+		</item>
+		<item rateId="46" id="1477">
+			<effect id="103" value="0"/>
+			<effect id="103" value="6"/>
+		</item>
+		<item rateId="47" id="1639">
+			<effect id="103" value="0"/>
+			<effect id="187" value="4"/>
+		</item>
+		<item rateId="48" id="1211">
+			<effect id="103" value="0"/>
+			<effect id="66" value="5"/>
+		</item>
+		<item rateId="49" id="1346">
+			<effect id="103" value="0"/>
+			<effect id="216" value="5"/>
+		</item>
+		<item rateId="50" id="1496">
+			<effect id="103" value="0"/>
+			<effect id="110" value="6"/>
+		</item>
+		<item rateId="51" id="1646">
+			<effect id="103" value="0"/>
+		</item>
+		<item rateId="53" id="1637">
+			<effect id="103" value="0"/>
+			<effect id="91" value="6"/>
+		</item>
+		<item rateId="54" id="1627">
+			<effect id="102" value="0"/>
+			<effect id="93" value="6"/>
+		</item>
+		<item rateId="55" id="1629">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="61" id="425">
+			<effect id="156" value="1"/>
+		</item>
+		<item rateId="62" id="412">
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="63" id="413">
+		</item>
+	</loot>
+</creature>

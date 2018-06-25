@@ -1,0 +1,15 @@
+<creature name="_Cruel_Zakum" level="800" merchant="0" clan="1" class="1" experience="200000" gold="50000" direction="0" >
+	<health now="12800" max="12800" regen="0" />
+	<status str="5" dex="30" int="100" con="1050" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="2200" magic="0" critical="0" attack_speed="32" move_speed="6" defense="1400"/>
+	<look>
+		<corpse id="258" brightness="6" />
+		<rigth_weapon id="719" brightness="6" />
+		<eventitem id="786" brightness="9" />
+	</look>
+	<loot>
+		<item rateId="57" id="410">
+		</item>
+	</loot>
+</creature>

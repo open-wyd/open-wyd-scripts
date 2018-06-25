@@ -89,10 +89,6 @@ function OnUse(player, pSrc, pNumber, pDest)
 		iSend.ClientMessage(player, string.format("%s", MessageStringTable._NN_Fail_To_Refine));
 		
 		iLog(string.format("Refine fail %d+%d - %d", item:getId(), sancValue, item:getSlotByAdd(EF_SANC)));
-		
-		if (item:isBetween(2300, 2330)) then
-			item:setAddValue(2, EF_INCUDELAY, math.random(1,9));
-		end
 
 		local sancsucess = iItems.GetItemSancSuccess(item);
 		if (math.random(0, 4) <= 2) then

@@ -10,7 +10,6 @@ Env[1].to.x = 2426;
 Env[1].to.y = 2132;
 Env[1].center.x = 2398;
 Env[1].center.y = 2105;
-Env[1]:addRespawn( "War Taurus", 126 , 0,0 );
 -- Sala 2
 Env[2].envId = 2;
 Env[2]:setName("Jardin Dos Deuses");
@@ -50,7 +49,7 @@ Env[5].center.y = 4041;
 
 function onExecute( this, envId )
 	
-	if ( Env[envId]:checkPlayer( ) > 0 )then 
+	if (Env[envId]:checkPlayer( ) > 0)then 
 		Env[envId]:removeAllPlayer( exitUpLevelPos );
 	end
 	

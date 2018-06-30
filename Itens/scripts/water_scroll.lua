@@ -4,7 +4,7 @@ local waterAEvent = iGetEvent("agua-A");
 
 local function sendToWater(player, event, level)
 
-	if(player:getCurrentPosition():isBetween(1964, 1772, 1967, 1775)) then
+	if(player:getCurrentPosition():isBetween(1964, 1772, 1967, 1775) or player:getLevel() > 1000) then
 		if(event:addPlayer(player, level)) then
 			return TRUE;
 		else

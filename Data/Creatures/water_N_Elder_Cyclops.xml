@@ -1,0 +1,150 @@
+<creature name="Elder_Cyclops" level="370" merchant="0" clan="1" class="1" experience="90000" gold="40000" direction="0" >
+	<health now="9500" max="9500" regen="0" />
+	<status str="4" dex="30" int="50" con="1050" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="600" magic="0" critical="255" attack_speed="0" move_speed="2" defense="1500"/>
+	<resistences>
+		<resistence fire="-30" />
+	</resistences>
+	<look>
+		<corpse id="234" brightness="5" />
+		<rigth_weapon id="716" brightness="9" />
+		<left_weapon id="1915" brightness="9" />
+	</look>
+	<loot>
+		<item rateId="24" id="824">
+			<effect id="101" value="0"/>
+			<effect id="142" value="3"/>
+		</item>
+		<item rateId="25" id="910">
+			<effect id="101" value="0"/>
+			<effect id="140" value="3"/>
+		</item>
+		<item rateId="26" id="908">
+			<effect id="102" value="0"/>
+			<effect id="165" value="3"/>
+		</item>
+		<item rateId="27" id="933">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="29" id="1650">
+			<effect id="101" value="0"/>
+			<effect id="117" value="6"/>
+		</item>
+		<item rateId="30" id="1653">
+			<effect id="101" value="0"/>
+			<effect id="105" value="6"/>
+		</item>
+		<item rateId="31" id="1641">
+			<effect id="101" value="0"/>
+			<effect id="159" value="4"/>
+		</item>
+		<item rateId="32" id="1183">
+			<effect id="101" value="0"/>
+			<effect id="156" value="4"/>
+		</item>
+		<item rateId="33" id="1180">
+			<effect id="101" value="0"/>
+			<effect id="144" value="4"/>
+		</item>
+		<item rateId="34" id="1168">
+			<effect id="102" value="0"/>
+			<effect id="141" value="4"/>
+		</item>
+		<item rateId="35" id="1165">
+			<effect id="102" value="0"/>
+			<effect id="49" value="5"/>
+		</item>
+		<item rateId="36" id="1329">
+			<effect id="101" value="0"/>
+			<effect id="47" value="5"/>
+		</item>
+		<item rateId="37" id="1327">
+			<effect id="101" value="0"/>
+			<effect id="199" value="5"/>
+		</item>
+		<item rateId="38" id="1479">
+			<effect id="101" value="0"/>
+			<effect id="197" value="5"/>
+		</item>
+		<item rateId="39" id="1477">
+			<effect id="101" value="0"/>
+			<effect id="93" value="6"/>
+		</item>
+		<item rateId="40" id="1629">
+			<effect id="101" value="0"/>
+			<effect id="91" value="6"/>
+		</item>
+		<item rateId="41" id="1627">
+			<effect id="101" value="0"/>
+			<effect id="34" value="5"/>
+		</item>
+		<item rateId="42" id="1314">
+			<effect id="102" value="0"/>
+			<effect id="32" value="5"/>
+		</item>
+		<item rateId="43" id="1312">
+			<effect id="102" value="0"/>
+			<effect id="184" value="5"/>
+		</item>
+		<item rateId="44" id="1464">
+			<effect id="102" value="0"/>
+			<effect id="182" value="5"/>
+		</item>
+		<item rateId="45" id="1462">
+			<effect id="102" value="0"/>
+			<effect id="78" value="6"/>
+		</item>
+		<item rateId="46" id="1614">
+			<effect id="102" value="0"/>
+			<effect id="76" value="6"/>
+		</item>
+		<item rateId="47" id="1612">
+			<effect id="102" value="0"/>
+			<effect id="191" value="4"/>
+		</item>
+		<item rateId="48" id="1215">
+			<effect id="101" value="0"/>
+			<effect id="194" value="4"/>
+		</item>
+		<item rateId="49" id="1218">
+			<effect id="101" value="0"/>
+			<effect id="70" value="5"/>
+		</item>
+		<item rateId="50" id="1350">
+			<effect id="101" value="0"/>
+			<effect id="73" value="5"/>
+		</item>
+		<item rateId="51" id="1353">
+			<effect id="101" value="0"/>
+			<effect id="61" value="5"/>
+		</item>
+		<item rateId="52" id="1341">
+			<effect id="101" value="0"/>
+			<effect id="220" value="5"/>
+		</item>
+		<item rateId="53" id="1500">
+			<effect id="101" value="0"/>
+			<effect id="223" value="5"/>
+		</item>
+		<item rateId="54" id="1503">
+			<effect id="101" value="0"/>
+			<effect id="211" value="5"/>
+		</item>
+		<item rateId="55" id="1491">
+			<effect id="101" value="0"/>
+		</item>
+		<item rateId="57" id="419">
+		</item>
+		<item rateId="59" id="751">
+		</item>
+		<item rateId="61" id="425">
+			<effect id="156" value="1"/>
+		</item>
+		<item rateId="62" id="412">
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="63" id="413">
+		</item>
+	</loot>
+</creature>

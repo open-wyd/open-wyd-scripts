@@ -1,0 +1,154 @@
+<creature name="Gold_Hydra" level="162" merchant="0" clan="1" class="1" experience="11000" gold="20196" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="6" dex="90" int="50" con="700" />
+	<special special1="40" special2="7" special3="40" special4="7" />
+	<strategy damage="540" magic="0" critical="255" attack_speed="0" move_speed="1" defense="1440"/>
+	<resistences>
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="20" />
+	</resistences>
+	<look>
+		<corpse id="218" brightness="6" />
+	</look>
+	<loot>
+		<item rateId="0" id="1184">
+			<effect id="102" value="0"/>
+			<effect id="157" value="4"/>
+		</item>
+		<item rateId="1" id="1181">
+			<effect id="102" value="0"/>
+			<effect id="39" value="5"/>
+		</item>
+		<item rateId="2" id="1319">
+			<effect id="102" value="0"/>
+			<effect id="36" value="5"/>
+		</item>
+		<item rateId="3" id="1316">
+			<effect id="102" value="0"/>
+			<effect id="189" value="5"/>
+		</item>
+		<item rateId="4" id="1469">
+			<effect id="102" value="0"/>
+			<effect id="186" value="5"/>
+		</item>
+		<item rateId="5" id="1466">
+			<effect id="102" value="0"/>
+			<effect id="83" value="6"/>
+		</item>
+		<item rateId="6" id="1619">
+			<effect id="102" value="0"/>
+			<effect id="80" value="6"/>
+		</item>
+		<item rateId="7" id="1616">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="24" id="884">
+			<effect id="101" value="0"/>
+			<effect id="134" value="3"/>
+		</item>
+		<item rateId="25" id="902">
+			<effect id="101" value="0"/>
+			<effect id="55" value="3"/>
+		</item>
+		<item rateId="26" id="823">
+			<effect id="101" value="0"/>
+			<effect id="40" value="3"/>
+		</item>
+		<item rateId="27" id="808">
+			<effect id="101" value="0"/>
+			<effect id="133" value="3"/>
+		</item>
+		<item rateId="28" id="901">
+			<effect id="102" value="0"/>
+			<effect id="39" value="3"/>
+		</item>
+		<item rateId="29" id="807">
+			<effect id="102" value="0"/>
+			<effect id="129" value="3"/>
+		</item>
+		<item rateId="30" id="897">
+			<effect id="102" value="0"/>
+			<effect id="69" value="3"/>
+		</item>
+		<item rateId="31" id="837">
+			<effect id="102" value="0"/>
+			<effect id="167" value="4"/>
+		</item>
+		<item rateId="32" id="1191">
+			<effect id="101" value="0"/>
+			<effect id="177" value="4"/>
+		</item>
+		<item rateId="33" id="1201">
+			<effect id="101" value="0"/>
+			<effect id="173" value="4"/>
+		</item>
+		<item rateId="34" id="1197">
+			<effect id="101" value="0"/>
+			<effect id="180" value="4"/>
+		</item>
+		<item rateId="35" id="1204">
+			<effect id="101" value="0"/>
+			<effect id="152" value="4"/>
+		</item>
+		<item rateId="36" id="1176">
+			<effect id="102" value="0"/>
+			<effect id="162" value="4"/>
+		</item>
+		<item rateId="37" id="1186">
+			<effect id="102" value="0"/>
+			<effect id="51" value="5"/>
+		</item>
+		<item rateId="38" id="1331">
+			<effect id="101" value="0"/>
+			<effect id="201" value="5"/>
+		</item>
+		<item rateId="39" id="1481">
+			<effect id="101" value="0"/>
+			<effect id="95" value="6"/>
+		</item>
+		<item rateId="40" id="1631">
+			<effect id="101" value="0"/>
+			<effect id="36" value="5"/>
+		</item>
+		<item rateId="41" id="1316">
+			<effect id="102" value="0"/>
+			<effect id="55" value="5"/>
+		</item>
+		<item rateId="42" id="1335">
+			<effect id="102" value="0"/>
+			<effect id="58" value="5"/>
+		</item>
+		<item rateId="43" id="1338">
+			<effect id="102" value="0"/>
+			<effect id="189" value="5"/>
+		</item>
+		<item rateId="44" id="1469">
+			<effect id="102" value="0"/>
+			<effect id="186" value="5"/>
+		</item>
+		<item rateId="45" id="1466">
+			<effect id="102" value="0"/>
+			<effect id="83" value="6"/>
+		</item>
+		<item rateId="46" id="1619">
+			<effect id="102" value="0"/>
+			<effect id="80" value="6"/>
+		</item>
+		<item rateId="47" id="1616">
+			<effect id="102" value="0"/>
+			<effect id="173" value="6"/>
+		</item>
+		<item rateId="48" id="1709">
+		</item>
+		<item rateId="61" id="423">
+			<effect id="156" value="1"/>
+		</item>
+		<item rateId="62" id="412">
+			<effect id="90" value="9"/>
+		</item>
+		<item rateId="63" id="2394">
+		</item>
+	</loot>
+</creature>

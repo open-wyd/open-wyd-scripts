@@ -1,0 +1,122 @@
+<creature name="Dreadtaurs" level="800" merchant="0" clan="1" class="1" experience="80000" gold="50000" direction="0" >
+	<health now="8000" max="9000" regen="0" />
+	<status str="5" dex="30" int="70" con="400" />
+	<special special1="255" special2="6" special3="255" special4="6" />
+	<strategy damage="950" magic="0" critical="255" attack_speed="0" move_speed="2" defense="800"/>
+	<look>
+		<corpse id="236" brightness="4" />
+		<rigth_weapon id="709" brightness="4" />
+	</look>
+	<loot>
+		<item rateId="24" id="908">
+			<effect id="101" value="0"/>
+			<effect id="165" value="3"/>
+		</item>
+		<item rateId="25" id="933">
+			<effect id="101" value="0"/>
+			<effect id="97" value="3"/>
+		</item>
+		<item rateId="26" id="865">
+			<effect id="102" value="0"/>
+			<effect id="52" value="3"/>
+		</item>
+		<item rateId="27" id="820">
+			<effect id="102" value="0"/>
+			<effect id="127" value="3"/>
+		</item>
+		<item rateId="28" id="895">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="32" id="1147">
+			<effect id="102" value="0"/>
+			<effect id="110" value="4"/>
+		</item>
+		<item rateId="33" id="1134">
+			<effect id="102" value="0"/>
+			<effect id="135" value="4"/>
+		</item>
+		<item rateId="34" id="1159">
+			<effect id="102" value="0"/>
+			<effect id="4" value="5"/>
+		</item>
+		<item rateId="35" id="1284">
+			<effect id="102" value="0"/>
+			<effect id="17" value="5"/>
+		</item>
+		<item rateId="36" id="1297">
+			<effect id="102" value="0"/>
+			<effect id="29" value="5"/>
+		</item>
+		<item rateId="37" id="1309">
+			<effect id="102" value="0"/>
+			<effect id="166" value="5"/>
+		</item>
+		<item rateId="38" id="1446">
+			<effect id="102" value="0"/>
+			<effect id="176" value="5"/>
+		</item>
+		<item rateId="39" id="1456">
+			<effect id="102" value="0"/>
+			<effect id="60" value="6"/>
+		</item>
+		<item rateId="40" id="1596">
+			<effect id="102" value="0"/>
+			<effect id="70" value="6"/>
+		</item>
+		<item rateId="41" id="1606">
+			<effect id="102" value="0"/>
+			<effect id="66" value="6"/>
+		</item>
+		<item rateId="42" id="1602">
+			<effect id="102" value="0"/>
+			<effect id="140" value="4"/>
+		</item>
+		<item rateId="43" id="1164">
+			<effect id="102" value="0"/>
+			<effect id="138" value="4"/>
+		</item>
+		<item rateId="44" id="1162">
+			<effect id="102" value="0"/>
+			<effect id="151" value="4"/>
+		</item>
+		<item rateId="45" id="1175">
+			<effect id="102" value="0"/>
+			<effect id="41" value="5"/>
+		</item>
+		<item rateId="46" id="1321">
+			<effect id="102" value="0"/>
+			<effect id="37" value="5"/>
+		</item>
+		<item rateId="47" id="1317">
+			<effect id="102" value="0"/>
+			<effect id="191" value="5"/>
+		</item>
+		<item rateId="48" id="1471">
+			<effect id="102" value="0"/>
+			<effect id="187" value="5"/>
+		</item>
+		<item rateId="49" id="1467">
+			<effect id="102" value="0"/>
+			<effect id="85" value="6"/>
+		</item>
+		<item rateId="50" id="1621">
+			<effect id="102" value="0"/>
+			<effect id="81" value="6"/>
+		</item>
+		<item rateId="51" id="1617">
+			<effect id="102" value="0"/>
+			<effect id="88" value="6"/>
+		</item>
+		<item rateId="52" id="1624">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="61" id="425">
+			<effect id="156" value="1"/>
+		</item>
+		<item rateId="62" id="412">
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="63" id="413">
+		</item>
+	</loot>
+</creature>

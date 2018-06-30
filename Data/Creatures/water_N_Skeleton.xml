@@ -1,0 +1,271 @@
+<creature name="Skeleton" level="800" merchant="0" clan="1" class="1" experience="93000" gold="50000" direction="0" >
+	<health now="10500" max="11500" regen="0" />
+	<status str="5" dex="60" int="70" con="400" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="980" magic="0" critical="255" attack_speed="0" move_speed="2" defense="700"/>
+	<resistences>
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="10" />
+	</resistences>
+	<look>
+		<corpse id="260" brightness="6" />
+		<helmet id="261" brightness="6" />
+		<armor id="262" brightness="6" />
+		<pants id="263" brightness="6" />
+		<glove id="264" brightness="6" />
+		<boots id="265" brightness="6" />
+		<rigth_weapon id="723" brightness="6" />
+		<left_weapon id="725" brightness="6" />
+	</look>
+	<loot>
+		<item rateId="0" id="2191">
+			<effect id="3" value="20"/>
+			<effect id="26" value="12"/>
+			<effect id="144" value="8"/>
+		</item>
+		<item rateId="1" id="2192">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="145" value="8"/>
+		</item>
+		<item rateId="2" id="2193">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="146" value="8"/>
+		</item>
+		<item rateId="3" id="2194">
+			<effect id="2" value="24"/>
+			<effect id="53" value="3"/>
+			<effect id="147" value="8"/>
+		</item>
+		<item rateId="4" id="2195">
+			<effect id="74" value="12"/>
+			<effect id="163" value="8"/>
+		</item>
+		<item rateId="5" id="2211">
+			<effect id="3" value="20"/>
+			<effect id="26" value="12"/>
+			<effect id="164" value="8"/>
+		</item>
+		<item rateId="6" id="2212">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="165" value="8"/>
+		</item>
+		<item rateId="7" id="2213">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+		</item>
+		<item rateId="12" id="2214">
+			<effect id="2" value="24"/>
+			<effect id="53" value="3"/>
+			<effect id="167" value="8"/>
+		</item>
+		<item rateId="13" id="2215">
+			<effect id="74" value="12"/>
+			<effect id="183" value="8"/>
+		</item>
+		<item rateId="14" id="2231">
+			<effect id="3" value="20"/>
+			<effect id="26" value="12"/>
+			<effect id="184" value="8"/>
+		</item>
+		<item rateId="15" id="2232">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="185" value="8"/>
+		</item>
+		<item rateId="16" id="2233">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="186" value="8"/>
+		</item>
+		<item rateId="17" id="2234">
+			<effect id="2" value="24"/>
+			<effect id="53" value="3"/>
+			<effect id="187" value="8"/>
+		</item>
+		<item rateId="18" id="2235">
+			<effect id="74" value="12"/>
+			<effect id="123" value="8"/>
+		</item>
+		<item rateId="19" id="2171">
+			<effect id="3" value="20"/>
+			<effect id="26" value="12"/>
+			<effect id="124" value="8"/>
+		</item>
+		<item rateId="20" id="2172">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="125" value="8"/>
+		</item>
+		<item rateId="21" id="2173">
+			<effect id="2" value="24"/>
+			<effect id="71" value="50"/>
+			<effect id="126" value="8"/>
+		</item>
+		<item rateId="22" id="2174">
+			<effect id="2" value="24"/>
+			<effect id="53" value="3"/>
+			<effect id="127" value="8"/>
+		</item>
+		<item rateId="23" id="2175">
+			<effect id="74" value="12"/>
+			<effect id="143" value="8"/>
+		</item>
+		<item rateId="24" id="2191">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="144" value="8"/>
+		</item>
+		<item rateId="25" id="2192">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="145" value="8"/>
+		</item>
+		<item rateId="26" id="2193">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="144" value="8"/>
+		</item>
+		<item rateId="27" id="2192">
+			<effect id="53" value="3"/>
+			<effect id="60" value="8"/>
+			<effect id="143" value="8"/>
+		</item>
+		<item rateId="28" id="2191">
+			<effect id="60" value="8"/>
+			<effect id="74" value="12"/>
+			<effect id="163" value="8"/>
+		</item>
+		<item rateId="29" id="2211">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="164" value="8"/>
+		</item>
+		<item rateId="30" id="2212">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="165" value="8"/>
+		</item>
+		<item rateId="31" id="2213">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="166" value="8"/>
+		</item>
+		<item rateId="32" id="2214">
+			<effect id="53" value="3"/>
+			<effect id="60" value="8"/>
+			<effect id="167" value="8"/>
+		</item>
+		<item rateId="33" id="2215">
+			<effect id="60" value="8"/>
+			<effect id="74" value="12"/>
+			<effect id="183" value="8"/>
+		</item>
+		<item rateId="34" id="2231">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="184" value="8"/>
+		</item>
+		<item rateId="35" id="2232">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="185" value="8"/>
+		</item>
+		<item rateId="36" id="2233">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="186" value="8"/>
+		</item>
+		<item rateId="37" id="2234">
+			<effect id="53" value="3"/>
+			<effect id="60" value="8"/>
+			<effect id="187" value="8"/>
+		</item>
+		<item rateId="38" id="2235">
+			<effect id="60" value="8"/>
+			<effect id="74" value="12"/>
+		</item>
+		<item rateId="40" id="2171">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="124" value="8"/>
+		</item>
+		<item rateId="41" id="2172">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="125" value="8"/>
+		</item>
+		<item rateId="42" id="2173">
+			<effect id="3" value="20"/>
+			<effect id="60" value="8"/>
+			<effect id="126" value="8"/>
+		</item>
+		<item rateId="43" id="2174">
+			<effect id="53" value="3"/>
+			<effect id="60" value="8"/>
+			<effect id="127" value="8"/>
+		</item>
+		<item rateId="44" id="2175">
+			<effect id="1" value="60"/>
+			<effect id="8" value="74"/>
+			<effect id="12" value="0"/>
+			<effect id="64" value="6"/>
+		</item>
+		<item rateId="45" id="1600">
+			<effect id="103" value="0"/>
+			<effect id="74" value="6"/>
+		</item>
+		<item rateId="46" id="1610">
+			<effect id="103" value="0"/>
+			<effect id="62" value="6"/>
+		</item>
+		<item rateId="47" id="1598">
+			<effect id="103" value="0"/>
+			<effect id="88" value="4"/>
+		</item>
+		<item rateId="48" id="1112">
+			<effect id="103" value="0"/>
+			<effect id="112" value="4"/>
+		</item>
+		<item rateId="49" id="1136">
+			<effect id="103" value="0"/>
+			<effect id="100" value="4"/>
+		</item>
+		<item rateId="50" id="1124">
+			<effect id="103" value="0"/>
+			<effect id="238" value="4"/>
+		</item>
+		<item rateId="51" id="1262">
+			<effect id="103" value="0"/>
+			<effect id="250" value="4"/>
+		</item>
+		<item rateId="52" id="1274">
+			<effect id="103" value="0"/>
+			<effect id="6" value="5"/>
+		</item>
+		<item rateId="53" id="1286">
+			<effect id="103" value="0"/>
+			<effect id="180" value="5"/>
+		</item>
+		<item rateId="54" id="1460">
+			<effect id="103" value="0"/>
+			<effect id="170" value="5"/>
+		</item>
+		<item rateId="55" id="1450">
+			<effect id="103" value="0"/>
+		</item>
+		<item rateId="58" id="412">
+		</item>
+		<item rateId="60" id="413">
+			<effect id="170" value="1"/>
+		</item>
+		<item rateId="61" id="426">
+		</item>
+		<item rateId="63" id="1730">
+		</item>
+	</loot>
+</creature>

@@ -1,0 +1,62 @@
+<creature name="Gagoil" level="206" merchant="0" clan="1" class="1" experience="11000" gold="50000" direction="0" >
+	<health now="17000" max="17000" regen="0" />
+	<status str="4" dex="90" int="70" con="650" />
+	<special special1="104" special2="1" special3="104" special4="1" />
+	<strategy damage="725" magic="0" critical="255" attack_speed="0" move_speed="2" defense="1790"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="-10" />
+		<resistence ice="10" />
+	</resistences>
+	<look>
+		<corpse id="295" brightness="0" />
+	</look>
+	<loot>
+		<item rateId="3" id="900">
+		</item>
+		<item rateId="24" id="1193">
+			<effect id="102" value="0"/>
+			<effect id="175" value="4"/>
+		</item>
+		<item rateId="25" id="1199">
+			<effect id="102" value="0"/>
+			<effect id="172" value="4"/>
+		</item>
+		<item rateId="26" id="1196">
+			<effect id="102" value="0"/>
+			<effect id="132" value="3"/>
+		</item>
+		<item rateId="27" id="900">
+		</item>
+		<item rateId="32" id="1193">
+			<effect id="102" value="0"/>
+			<effect id="175" value="4"/>
+		</item>
+		<item rateId="33" id="1199">
+			<effect id="102" value="0"/>
+			<effect id="172" value="4"/>
+		</item>
+		<item rateId="34" id="1196">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="40" id="1193">
+			<effect id="102" value="0"/>
+			<effect id="175" value="4"/>
+		</item>
+		<item rateId="41" id="1199">
+			<effect id="102" value="0"/>
+			<effect id="172" value="4"/>
+		</item>
+		<item rateId="42" id="1196">
+			<effect id="102" value="0"/>
+		</item>
+		<item rateId="61" id="425">
+			<effect id="156" value="1"/>
+		</item>
+		<item rateId="62" id="412">
+			<effect id="157" value="1"/>
+		</item>
+		<item rateId="63" id="413">
+		</item>
+	</loot>
+</creature>

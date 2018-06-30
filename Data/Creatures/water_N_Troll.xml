@@ -1,0 +1,13 @@
+<creature name="Troll" level="800" merchant="0" clan="1" class="1" experience="50000" gold="50000" direction="0" >
+	<health now="9000" max="10000" regen="0" />
+	<status str="4" dex="30" int="50" con="1000" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="930" magic="0" critical="255" attack_speed="0" move_speed="2" defense="800"/>
+	<resistences>
+		<resistence holy="-1" />
+	</resistences>
+	<look>
+		<corpse id="208" brightness="3" />
+		<rigth_weapon id="718" brightness="3" />
+	</look>
+</creature>

@@ -1,3 +1,23 @@
+local spawnList = {};
+-- Room's
+spawnList[100] = CreateSpawn({pos={x=1122, y=3554, hasWaypoint=true}, max=24, minGroup=12, leader="water_N_Orc_Knight", follower="water_N_Orc_Knight"});
+spawnList[101] = CreateSpawn({pos={x=1086, y=3554, hasWaypoint=true}, max=24, minGroup=12, leader="water_N_Troll", follower="water_N_Troll"});
+spawnList[102] = CreateSpawn({pos={x=1050, y=3554, hasWaypoint=true}, max=10, minGroup=9,  leader="water_N_Hunter_Troll", follower="water_N_Hunter_Troll"});
+spawnList[103] = CreateSpawn({pos={x=1050, y=3518, hasWaypoint=true}, max=24, minGroup=12, leader="water_N_Dreadtaurs", follower="water_N_Dreadtaurs"});
+spawnList[104] = CreateSpawn({pos={x=1050, y=3482, hasWaypoint=true}, max=8,  minGroup=7,  leader="water_N_Cyclops", follower="water_N_Cyclops"});
+spawnList[105] = CreateSpawn({pos={x=1086, y=3482, hasWaypoint=true}, max=12, minGroup=11, leader="water_N_OrcMage", follower="water_N_OrcMage"});
+spawnList[106] = CreateSpawn({pos={x=1122, y=3482, hasWaypoint=true}, max=10, minGroup=9,  leader="water_N_Skeleton", follower="water_N_Skeleton"});
+spawnList[107] = CreateSpawn({pos={x=1122, y=3518, hasWaypoint=true}, max=7,  minGroup=6,  leader="water_N_Stone_Golem", follower="water_N_Stone_Golem"});
+-- Boss
+spawnList[108] = CreateSpawn({pos={x=1086, y=3518, hasWaypoint=true}, max=10, minGroup=9,  leader="water_N_Cruel-Cyclops", follower="water_N_Elder_Cyclops"});
+spawnList[109] = CreateSpawn({pos={x=1086, y=3518, hasWaypoint=true}, max=8,  minGroup=7,  leader="water_N_Death_Knight", follower="water_N_Dark_Knight"});
+spawnList[110] = CreateSpawn({pos={x=1086, y=3518, hasWaypoint=true}, max=8,  minGroup=7,  leader="water_N_Wise_Gagoil", follower="water_N_Gagoil"});
+spawnList[111] = CreateSpawn({pos={x=1086, y=3518, hasWaypoint=true}, max=10, minGroup=9,  leader="water_N_Gold_Hydra", follower="water_N_Gold_Hydra"});
+
+for key, value in pairs(spawnList) do
+	assert(value ~= nil, "Error on create SpawnId: "..key);
+end
+
 local EventItem = { CItem:new(3174), CItem:new(3175), CItem:new(3176), CItem:new(3177), CItem:new(3178), CItem:new(3179), CItem:new(3180), CItem:new(3181) };
 local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ) };
 
@@ -10,7 +30,7 @@ Env[1].to.x = 1132;
 Env[1].to.y = 3564;
 Env[1].center.x = 1122;
 Env[1].center.y = 3554;
-Env[1]:addRespawn( "Orc's", 100 , 1122,3554 );
+Env[1]:addSpawn( "Orc's", 100, spawnList[100]);
 -- Sala 2
 Env[2].envId = 2;
 Env[2]:setName("Troll's, sala 2");
@@ -20,7 +40,7 @@ Env[2].to.x = 1096;
 Env[2].to.y = 3564;
 Env[2].center.x = 1086;
 Env[2].center.y = 3554;
-Env[2]:addRespawn( "Troll's", 101 , 1086,3554 );
+Env[2]:addSpawn( "Troll's", 101, spawnList[101]);
 -- Sala 3
 Env[3].envId = 3;
 Env[3]:setName("Hunter_Troll's, sala 3");
@@ -30,7 +50,7 @@ Env[3].to.x = 1060;
 Env[3].to.y = 3564;
 Env[3].center.x = 1050;
 Env[3].center.y = 3554;
-Env[3]:addRespawn( "Hunter_Troll's", 102 , 1050,3554 );
+Env[3]:addSpawn( "Hunter_Troll's", 102, spawnList[102]);
 -- Sala 4
 Env[4].envId = 4;
 Env[4]:setName("Dreadtaurs's, sala 4");
@@ -40,7 +60,7 @@ Env[4].to.x = 1060;
 Env[4].to.y = 3528;
 Env[4].center.x = 1050;
 Env[4].center.y = 3518;
-Env[4]:addRespawn( "_Dreadtaurs's", 103 , 1050,3518 );
+Env[4]:addSpawn( "_Dreadtaurs's", 103, spawnList[103]);
 -- Sala 5
 Env[5].envId = 5;
 Env[5]:setName("Cyclops's, sala 5");
@@ -50,7 +70,7 @@ Env[5].to.x = 1060;
 Env[5].to.y = 3492;
 Env[5].center.x = 1050;
 Env[5].center.y = 3482;
-Env[5]:addRespawn( "_Cyclops's", 104 , 1050,3482 );
+Env[5]:addSpawn( "_Cyclops's", 104, spawnList[104]);
 -- Sala 6
 Env[6].envId = 6;
 Env[6]:setName("OrcMage's, sala 6");
@@ -60,17 +80,17 @@ Env[6].to.x = 1096;
 Env[6].to.y = 3492;
 Env[6].center.x = 1086;
 Env[6].center.y = 3482;
-Env[6]:addRespawn( "_OrcMage's", 105 , 1086,3482 );
+Env[6]:addSpawn( "_OrcMage's", 105, spawnList[105]);
 -- Sala 7
 Env[7].envId = 7;
-Env[7]:setName("Caveira's, sala 7");
+Env[7]:setName("Skeleton's, sala 7");
 Env[7].from.x = 1112;
 Env[7].from.y = 3472;
 Env[7].to.x = 1132;
 Env[7].to.y = 3492;
 Env[7].center.x = 1122;
 Env[7].center.y = 3482;
-Env[7]:addRespawn( "_Caveira's", 106 , 1122,3482 );
+Env[7]:addSpawn( "_Skeleton's", 106, spawnList[106]);
 -- Sala 8
 Env[8].envId = 8;
 Env[8]:setName("Stone_Golem's, sala 8");
@@ -80,7 +100,7 @@ Env[8].to.x = 1132;
 Env[8].to.y = 3528;
 Env[8].center.x = 1122;
 Env[8].center.y = 3518;
-Env[8]:addRespawn( "_Boss's", 107 , 1122,3518 );
+Env[8]:addSpawn( "_Stone_Golem's", 107, spawnList[107]);
 -- Sala 9 Boss
 Env[9].envId = 9;
 Env[9]:setName("Stone_Golem's, sala 9");
@@ -90,10 +110,10 @@ Env[9].to.x = 1096;
 Env[9].to.y = 3528;
 Env[9].center.x = 1086;
 Env[9].center.y = 3518;
-Env[9]:addRespawn( "Boss's 1", 108 , 1086,3518 );
-Env[9]:addRespawn( "Boss's 1", 109 , 1086,3518 );
-Env[9]:addRespawn( "Boss's 1", 110 , 1086,3518 );
-Env[9]:addRespawn( "Boss's 1", 111 , 1086,3518 );
+Env[9]:addSpawn( "Boss's 1", 108, spawnList[108]);
+Env[9]:addSpawn( "Boss's 2", 109, spawnList[109]);
+Env[9]:addSpawn( "Boss's 3", 110, spawnList[110]);
+Env[9]:addSpawn( "Boss's 4", 111, spawnList[111]);
 
 local bossID = 0;
 

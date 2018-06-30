@@ -1,0 +1,22 @@
+<creature name="Odd_Frog" level="420" merchant="0" clan="1" class="1" experience="87000" gold="0" direction="0" >
+	<health now="9800" max="9800" regen="0" />
+	<status str="6" dex="30" int="100" con="700" />
+	<special special1="255" special2="1" special3="255" special4="1" />
+	<strategy damage="485" magic="0" critical="255" attack_speed="0" move_speed="3" defense="1360"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="20" />
+		<resistence fire="-20" />
+		<resistence ice="-20" />
+	</resistences>
+	<look>
+		<corpse id="252" brightness="3" />
+		<helmet id="115" brightness="0" />
+		<armor id="253" brightness="0" />
+		<pants id="254" brightness="0" />
+		<glove id="255" brightness="0" />
+		<boots id="256" brightness="0" />
+		<rigth_weapon id="721" brightness="0" />
+		<left_weapon id="721" brightness="0" />
+	</look>
+</creature>

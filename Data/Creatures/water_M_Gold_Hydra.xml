@@ -1,0 +1,22 @@
+<creature name="Gold_Hydra" level="504" merchant="0" clan="1" class="1" experience="100000" gold="0" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="6" dex="90" int="50" con="700" />
+	<special special1="40" special2="7" special3="40" special4="7" />
+	<strategy damage="540" magic="0" critical="255" attack_speed="0" move_speed="1" defense="1440"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="20" />
+	</resistences>
+	<look>
+		<corpse id="260" brightness="6" />
+	</look>
+	<loot>
+		<item rateId="62" id="412">
+			<effect id="90" value="9"/>
+		</item>
+		<item rateId="63" id="2394">
+		</item>
+	</loot>
+</creature>

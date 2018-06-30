@@ -1,0 +1,20 @@
+<creature name="Dark_Elf_Witch" level="450" merchant="0" clan="1" class="1" experience="98000" gold="0" direction="0" >
+	<health now="12500" max="12500" regen="0" />
+	<status str="6" dex="90" int="90" con="400" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="800" magic="0" critical="255" attack_speed="0" move_speed="2" defense="1900"/>
+	<resistences>
+		<resistence lightning="20" />
+		<resistence fire="10" />
+		<resistence ice="-10" />
+	</resistences>
+	<look>
+		<corpse id="284" brightness="5" />
+		<helmet id="284" brightness="0" />
+		<armor id="286" brightness="0" />
+		<pants id="284" brightness="0" />
+		<glove id="284" brightness="0" />
+		<boots id="284" brightness="0" />
+		<rigth_weapon id="732" brightness="9" />
+	</look>
+</creature>

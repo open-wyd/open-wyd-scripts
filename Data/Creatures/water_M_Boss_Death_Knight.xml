@@ -1,0 +1,17 @@
+<creature name="Death_Knight" level="500" merchant="0" clan="1" class="1" experience="100000" gold="0" direction="0" >
+	<health now="28000" max="32000" regen="0" />
+	<status str="4" dex="90" int="90" con="1500" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="2500" magic="0" critical="255" attack_speed="0" move_speed="2" defense="3000"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="40" />
+		<resistence fire="40" />
+		<resistence ice="40" />
+	</resistences>
+	<look>
+		<corpse id="283" brightness="9" />
+		<rigth_weapon id="733" brightness="9" />
+		<eventitem id="769" brightness="9" />
+	</look>
+</creature>

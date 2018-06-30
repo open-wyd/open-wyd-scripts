@@ -1,0 +1,15 @@
+<creature name="Grim_Lock" level="440" merchant="0" clan="1" class="1" experience="95000" gold="0" direction="0" >
+	<health now="11000" max="11000" regen="0" />
+	<status str="4" dex="90" int="70" con="450" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="600" magic="0" critical="255" attack_speed="0" move_speed="2" defense="1690"/>
+	<resistences>
+		<resistence holy="-10" />
+		<resistence lightning="-10" />
+		<resistence ice="10" />
+	</resistences>
+	<look>
+		<corpse id="294" brightness="4" />
+		<rigth_weapon id="711" brightness="4" />
+	</look>
+</creature>

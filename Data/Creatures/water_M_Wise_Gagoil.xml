@@ -1,0 +1,23 @@
+<creature name="Wise_Gagoil" level="502" merchant="0" clan="1" class="1" experience="100000" gold="0" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="4" dex="80" int="70" con="900" />
+	<special special1="107" special2="1" special3="107" special4="1" />
+	<strategy damage="3400" magic="0" critical="255" attack_speed="0" move_speed="2" defense="3200"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="10" />
+		<resistence fire="10" />
+		<resistence ice="30" />
+	</resistences>
+	<look>
+		<corpse id="295" brightness="250" />
+		<eventitem id="769" brightness="9" />
+	</look>
+	<loot>
+		<item rateId="56" id="769">
+			<effect id="164" value="1"/>
+		</item>
+		<item rateId="57" id="420">
+		</item>
+	</loot>
+</creature>

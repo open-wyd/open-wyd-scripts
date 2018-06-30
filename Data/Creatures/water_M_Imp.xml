@@ -1,0 +1,10 @@
+<creature name="Imp" level="430" merchant="0" clan="1" class="1" experience="90000" gold="0" direction="0" >
+	<health now="10800" max="10800" regen="0" />
+	<status str="5" dex="30" int="100" con="-1000" />
+	<special special1="255" special2="7" special3="106" special4="2" />
+	<strategy damage="625" magic="0" critical="0" attack_speed="0" move_speed="3" defense="1480"/>
+	<look>
+		<corpse id="239" brightness="5" />
+		<rigth_weapon id="702" brightness="9" />
+	</look>
+</creature>

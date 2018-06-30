@@ -1,6 +1,6 @@
-local waterNEvent = iGetEvent("agua-N");
-local waterMEvent = iGetEvent("agua-M");
-local waterAEvent = iGetEvent("agua-A");
+local waterNEvent = iGetEvent("water-N");
+local waterMEvent = iGetEvent("water-M");
+local waterAEvent = iGetEvent("water-A");
 
 local function sendToWater(player, event, level)
 

@@ -1,0 +1,16 @@
+<creature name="Undead_Troll" level="410" merchant="0" clan="1" class="1" experience="85000" gold="0" direction="0" >
+	<health now="9000" max="9900" regen="0" />
+	<status str="5" dex="90" int="75" con="1000" />
+	<special special1="255" special2="6" special3="255" special4="7" />
+	<strategy damage="561" magic="0" critical="255" attack_speed="0" move_speed="2" defense="1366"/>
+	<resistences>
+		<resistence holy="10" />
+		<resistence lightning="-10" />
+		<resistence fire="-20" />
+		<resistence ice="10" />
+	</resistences>
+	<look>
+		<corpse id="306" brightness="3" />
+		<rigth_weapon id="702" brightness="9" />
+	</look>
+</creature>

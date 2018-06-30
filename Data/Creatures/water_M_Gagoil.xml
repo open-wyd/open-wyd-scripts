@@ -1,0 +1,14 @@
+<creature name="Gagoil" level="460" merchant="0" clan="1" class="1" experience="100000" gold="0" direction="0" >
+	<health now="19900" max="19900" regen="0" />
+	<status str="4" dex="90" int="70" con="650" />
+	<special special1="104" special2="1" special3="104" special4="1" />
+	<strategy damage="890" magic="0" critical="255" attack_speed="0" move_speed="2" defense="2200"/>
+	<resistences>
+		<resistence holy="-10" />
+		<resistence lightning="-10" />
+		<resistence ice="10" />
+	</resistences>
+	<look>
+		<corpse id="295" brightness="6" />
+	</look>
+</creature>

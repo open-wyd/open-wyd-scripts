@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <Events>
-	<event name="agua-N" script="water/water-N.lua" />
-	<!-- <water name="agua-M" script="agua/agua-M.lua" />  -->
-	<!-- <water name="agua-A" script="agua/agua-A.lua" />  -->
+	<event name="water-N" script="water/water-N.lua" />
+	<event name="water-M" script="water/water-M.lua" />
+	<!-- <event name="water-A" script="water/water-A.lua" />  -->
 	<event name="up-level" script="up-level.lua" />
 	<event name="duel_letter" script="duel_letter.lua" />
 	<event name="nightmare" script="nightmare.lua" />

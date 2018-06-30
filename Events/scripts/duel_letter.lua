@@ -1,24 +1,24 @@
 local spawnList = {};
-spawnList[124]  = SpawnBuilder:new():setPosition(808, 3678):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Chaos_Orc"):setFollower("duelLetter_Chaos_Orc"):perform();
-spawnList[125]	= SpawnBuilder:new():setPosition(808, 3678):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Froggy_Knight"):setFollower("duelLetter_Froggy_Knight"):perform();
-spawnList[126] 	= SpawnBuilder:new():setPosition(808, 3678):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_War_Taurs"):setFollower("duelLetter_War_Taurs"):perform();
+spawnList[124] = CreateSpawn({pos={x=808, y=3678, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Chaos_Orc", follower="duelLetter_Chaos_Orc"});
+spawnList[125] = CreateSpawn({pos={x=808, y=3678, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Froggy_Knight", follower="duelLetter_Froggy_Knight"});
+spawnList[126] = CreateSpawn({pos={x=808, y=3678, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_War_Taurs", follower="duelLetter_War_Taurs"});
 
-spawnList[127]  = SpawnBuilder:new():setPosition(865, 3678):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Elf_Berserker"):setFollower("duelLetter_Elf_Berserker"):perform();
-spawnList[128]	= SpawnBuilder:new():setPosition(865, 3678):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_U._Skeleton"):setFollower("duelLetter_U._Skeleton"):perform();
-spawnList[129] 	= SpawnBuilder:new():setPosition(865, 3678):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Chaos_Cyclop"):setFollower("duelLetter_Chaos_Cyclop"):perform();
+spawnList[127] = CreateSpawn({pos={x=865, y=3678, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Elf_Berserker", follower="duelLetter_Elf_Berserker"});
+spawnList[128] = CreateSpawn({pos={x=865, y=3678, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_U._Skeleton", follower="duelLetter_U._Skeleton"});
+spawnList[129] = CreateSpawn({pos={x=865, y=3678, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Chaos_Cyclop", follower="duelLetter_Chaos_Cyclop"});
 
-spawnList[130]  = SpawnBuilder:new():setPosition(865, 3623):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Wild_Ghoul"):setFollower("duelLetter_Wild_Ghoul"):perform();
-spawnList[131]	= SpawnBuilder:new():setPosition(865, 3623):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Dark.S.Golem"):setFollower("duelLetter_Dark.S.Golem"):perform();
-spawnList[132] 	= SpawnBuilder:new():setPosition(865, 3623):setMax(100):setMinGroup(50):setMaxGroup(100):setLeader("duelLetter_Blue_Hydra"):setFollower("duelLetter_Blue_Hydra"):perform();
+spawnList[130] = CreateSpawn({pos={x=865, y=3623, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Wild_Ghoul", follower="duelLetter_Wild_Ghoul"});
+spawnList[131] = CreateSpawn({pos={x=865, y=3623, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Dark.S.Golem", follower="duelLetter_Dark.S.Golem"});
+spawnList[132] = CreateSpawn({pos={x=865, y=3623, hasWaypoint=true}, max=50, minGroup=50, leader="duelLetter_Blue_Hydra", follower="duelLetter_Blue_Hydra"});
 
-spawnList[133]  = SpawnBuilder:new():setPosition(800, 3607):setMax(100):setMinGroup(4):setMaxGroup(4):setLeader("duelLetter_Wild_Taurus"):setFollower("duelLetter_Wild_Taurus"):perform();
-spawnList[134]	= SpawnBuilder:new():setPosition(807, 3620):setMax(1):setMinGroup(1):setMaxGroup(1):setLeader("duelLetter_Cruel_Zakum"):perform();
+spawnList[133] = CreateSpawn({pos={x=800, y=3607}, max=100, minGroup=4, leader="duelLetter_Wild_Taurus", follower="duelLetter_Wild_Taurus"});
+spawnList[134] = CreateSpawn({pos={x=807, y=3620, hasWaypoint=true}, max=1, minGroup=1, leader="duelLetter_Cruel_Zakum"});
 
-spawnList[135] 	= SpawnBuilder:new():setPosition(800, 3607):setMax(100):setMinGroup(4):setMaxGroup(4):setLeader("duelLetter_Guard_G._lock"):setFollower("duelLetter_Guard_G._lock"):perform();
-spawnList[136] 	= SpawnBuilder:new():setPosition(807, 3620):setMax(1):setMinGroup(1):setMaxGroup(1):setLeader("duelLetter_W._Gargoyle_K"):perform();
+spawnList[135] = CreateSpawn({pos={x=800, y=3607}, max=100, minGroup=4, leader="duelLetter_Guard_G._lock", follower="duelLetter_Guard_G._lock"});
+spawnList[136] = CreateSpawn({pos={x=807, y=3620, hasWaypoint=true}, max=1, minGroup=1, leader="duelLetter_W._Gargoyle_K"});
 
-spawnList[137] 	= SpawnBuilder:new():setPosition(800, 3607):setMax(100):setMinGroup(4):setMaxGroup(4):setLeader("duelLetter_U.Hell_Chief"):setFollower("duelLetter_U.Hell_Chief"):perform();
-spawnList[138] 	= SpawnBuilder:new():setPosition(807, 3620):setMax(1):setMinGroup(1):setMaxGroup(1):setLeader("duelLetter_Rujeper_B._K"):perform();
+spawnList[137] = CreateSpawn({pos={x=800, y=3607}, max=100, minGroup=4, leader="duelLetter_U.Hell_Chief", follower="duelLetter_U.Hell_Chief"});
+spawnList[138] = CreateSpawn({pos={x=807, y=3620, hasWaypoint=true}, max=1, minGroup=1, leader="duelLetter_Rujeper_B._K"});
 
 for key, value in pairs(spawnList) do
 	assert(value ~= nil, "Error on create SpawnId: "..key);

@@ -1,19 +1,19 @@
 local spawnList = {N={}, M={}, A={}};
-spawnList.N.Soldier = SpawnBuilder:new():setPosition(1308, 335):setMax(20):setMinGroup(3):setMaxGroup(5):setLeader("_p_Chaos_Troll"):setFollower("_p_Chaos_Troll"):perform();
-spawnList.N.Boss	= SpawnBuilder:new():setPosition(1308, 335):setMax(1):setLeader("_Pesadelo.Erion"):perform();
-spawnList.N.Npc 	= SpawnBuilder:new():setPosition(1308, 335):setMax(5):setLeader("_p_Cidadao.Erio"):perform();
+spawnList.N.Soldier = CreateSpawn({pos={x=1308, y=335}, max=20, minGroup=3, maxGroup=5, leader="_p_Chaos_Troll", follower="_p_Chaos_Troll"});
+spawnList.N.Boss	= CreateSpawn({pos={x=1308, y=335}, max=1, minGroup=1, leader="_Pesadelo.Erion"});
+spawnList.N.Npc 	= CreateSpawn({pos={x=1308, y=335}, max=5, minGroup=1, leader="_p_Cidadao.Erio"});
 
 assert(spawnList.N.Soldier ~= nil or spawnList.N.Boss ~= nil or spawnList.N.Npc ~= nil);
 
-spawnList.M.Soldier = SpawnBuilder:new():setPosition(1151, 383):setMax(30):setMinGroup(3):setMaxGroup(5):setLeader("_p_Moloch"):setFollower("_p_Moloch"):perform();
-spawnList.M.Boss	= SpawnBuilder:new():setPosition(1151, 383):setMax(1):setLeader("_Pesadelo.Armia"):perform();
-spawnList.M.Npc 	= SpawnBuilder:new():setPosition(1151, 383):setMax(5):setLeader("_p_Cidadao.Arm"):perform();
+spawnList.M.Soldier = CreateSpawn({pos={x=1151, y=383}, max=30, minGroup=3, maxGroup=5, leader="_p_Moloch", follower="_p_Moloch"});
+spawnList.M.Boss	= CreateSpawn({pos={x=1151, y=383}, max=1, minGroup=1, leader="_Pesadelo.Armia"});
+spawnList.M.Npc 	= CreateSpawn({pos={x=1151, y=383}, max=5, minGroup=1, leader="_p_Cidadao.Arm"});
 
 assert(spawnList.M.Soldier ~= nil or spawnList.M.Boss ~= nil or spawnList.M.Npc ~= nil);
 
-spawnList.A.Soldier = SpawnBuilder:new():setPosition(1210, 180):setMax(40):setMinGroup(3):setMaxGroup(5):setLeader("_p_Cyclop"):setFollower("_p_Cyclop"):perform();
-spawnList.A.Boss	= SpawnBuilder:new():setPosition(1210, 180):setMax(1):setLeader("_Pesadelo.Arzam"):perform();
-spawnList.A.Npc 	= SpawnBuilder:new():setPosition(1210, 180):setMax(8):setLeader("_p_Cidadao.Arza"):perform();
+spawnList.A.Soldier = CreateSpawn({pos={x=1210, y=180}, max=40, minGroup=3, maxGroup=5, leader="_p_Cyclop", follower="_p_Cyclop"});
+spawnList.A.Boss	= CreateSpawn({pos={x=1210, y=180}, max=1, minGroup=1, leader="_Pesadelo.Arzam"});
+spawnList.A.Npc 	= CreateSpawn({pos={x=1210, y=180}, max=8, minGroup=1, leader="_p_Cidadao.Arza"})
 
 assert(spawnList.A.Soldier ~= nil or spawnList.A.Boss ~= nil or spawnList.A.Npc ~= nil);
 

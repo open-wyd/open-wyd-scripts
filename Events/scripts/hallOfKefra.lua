@@ -1,12 +1,7 @@
 local spawnNames = {"Kefra", "Guardião de Kefra", "Lich_Crunt"};
-local kephraSpawn      = SpawnBuilder:new():setPosition(2366, 3905):setMax(1):
-							setLeader("hallOfKephra_Kephra"):perform();
-
-local KephraGuardSpawn = SpawnBuilder:new():setPosition(1308, 335):setMax(100):setMinGroup(3):setMaxGroup(3):
-							setLeader("hallOfKephra_Kephra_Guard"):setFollower("hallOfKephra_Kephra_Guard"):perform();
-
-local lichCruntSpawn   = SpawnBuilder:new():setPosition(1308, 335):setMax(100):setMinGroup(3):setMaxGroup(3):
-							setLeader("hallOfKephra_Hell_Lich"):setFollower("hallOfKephra_Hell_Lich"):perform();
+local kephraSpawn      = CreateSpawn({pos={x=2366, y=3931}, max=1,   minGroup=1, leader="hallOfKephra_Kephra"});
+local KephraGuardSpawn = CreateSpawn({pos={x=2366, y=3905}, max=100, minGroup=3, leader="hallOfKephra_Kephra_Guard", follower="hallOfKephra_Kephra_Guard"});
+local lichCruntSpawn   = CreateSpawn({pos={x=2366, y=3905}, max=100, minGroup=3, leader="hallOfKephra_Hell_Lich", follower="hallOfKephra_Hell_Lich"});
 
 assert(kephraSpawn ~= nil or KephraGuardSpawn ~= nil or lichCruntSpawn ~= nil);
 
@@ -19,33 +14,33 @@ Env.to.x = 2391;
 Env.to.y = 3955;
 Env.center.x = 2366;
 Env.center.y = 3905;
-Env:addSpawn(spawnNames[1], 162, kephraSpawn);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2365, 3910);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2370, 3910);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2365, 3940);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2365, 3942);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2363, 3931);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2364, 3935);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2375, 3931);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2374, 3935);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2357, 3924);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2355, 3922);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2373, 3924);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2372, 3922);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2358, 3937);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2355, 3938);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2373, 3935);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2375, 3937);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2380, 3915);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2377, 3917);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2380, 3946);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2377, 3945);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2346, 3918);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2347, 3917);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2346, 3946);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2347, 3948);
-Env:addSpawn(spawnNames[2], 163, KephraGuardSpawn, 2364, 3948);
-Env:addSpawn(spawnNames[3], 165, lichCruntSpawn,   2365, 3945);
+Env:addSpawn(spawnNames[1], 1, kephraSpawn);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2365, 3910);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2370, 3910);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2365, 3940);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2365, 3942);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2363, 3931);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2364, 3935);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2375, 3931);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2374, 3935);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2357, 3924);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2355, 3922);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2373, 3924);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2372, 3922);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2358, 3937);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2355, 3938);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2373, 3935);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2375, 3937);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2380, 3915);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2377, 3917);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2380, 3946);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2377, 3945);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2346, 3918);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2347, 3917);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2346, 3946);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2347, 3948);
+Env:addSpawn(spawnNames[2], 2, KephraGuardSpawn, 2364, 3948);
+Env:addSpawn(spawnNames[3], 3, lichCruntSpawn,   2365, 3945);
 
 local run = false;
 local lastKephraEnemy = nil;
@@ -71,18 +66,18 @@ end
 
 function onExecute( this, envId )
 
-	local checkBoss = Env:checkSpawn(162);
-	local checkSpawn1 = Env:checkSpawn(163);
-	local checkSpawn2 = Env:checkSpawn(164);
-	local checkSpawn3 = Env:checkSpawn(165);
+	local checkBoss = Env:checkSpawn(1);
+	local checkSpawn1 = Env:checkSpawn(2);
+	local checkSpawn2 = Env:checkSpawn(3);
+	local checkSpawn3 = Env:checkSpawn(3);
 	
 	if(checkBoss > 0) then
 		if(checkSpawn1 < 60) then
-			Env:executeSpawn(163);
+			Env:executeSpawn(2);
 		end
 
 		if(checkSpawn3 < 60) then
-			Env:executeSpawn(165);
+			Env:executeSpawn(3);
 		end
 		
 		this:addTask(envId);

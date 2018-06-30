@@ -1,0 +1,18 @@
+<creature name="Assas.Taron" level="501" merchant="0" clan="2" class="1" experience="10000" gold="100000" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="100" int="75" con="950" />
+	<special special1="101" special2="1" special3="101" special4="1" />
+	<strategy damage="2550" magic="0" critical="255" attack_speed="0" move_speed="3" defense="5400"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="65" />
+		<resistence fire="65" />
+		<resistence ice="65" />
+	</resistences>
+	<look>
+		<corpse id="313" brightness="2" />
+		<rigth_weapon id="749" brightness="7" />
+		<eventitem id="786" brightness="2" />
+		<mount id="2378" brightness="0" />
+	</look>
+</creature>

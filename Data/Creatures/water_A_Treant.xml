@@ -1,0 +1,17 @@
+<creature name="Treant" level="800" merchant="0" clan="1" class="1" experience="170000" gold="19388" direction="0" >
+	<health now="31000" max="31000" regen="0" />
+	<status str="5" dex="100" int="100" con="400" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="2680" magic="0" critical="255" attack_speed="0" move_speed="2" defense="5600"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="65" />
+		<resistence fire="65" />
+		<resistence ice="65" />
+	</resistences>
+	<look>
+		<corpse id="374" brightness="6" />
+		<rigth_weapon id="748" brightness="9" />
+		<eventitem id="786" brightness="3" />
+	</look>
+</creature>

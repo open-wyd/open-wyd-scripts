@@ -1,0 +1,16 @@
+﻿<creature name="Gárgula.Fogo" level="501" merchant="0" clan="1" class="1" experience="125000" gold="100000" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="4" dex="90" int="90" con="1200" />
+	<special special1="255" special2="7" special3="108" special4="2" />
+	<strategy damage="3800" magic="0" critical="255" attack_speed="0" move_speed="2" defense="5500"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="55" />
+		<resistence fire="55" />
+		<resistence ice="55" />
+	</resistences>
+	<look>
+		<corpse id="310" brightness="7" />
+		<eventitem id="786" brightness="0" />
+	</look>
+</creature>

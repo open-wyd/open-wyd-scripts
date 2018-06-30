@@ -1,0 +1,18 @@
+<creature name="Ladrao_Tauron" level="501" merchant="0" clan="2" class="1" experience="160000" gold="100000" direction="0" >
+	<health now="30000" max="30000" regen="0" />
+	<status str="5" dex="100" int="70" con="850" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="2430" magic="0" critical="255" attack_speed="0" move_speed="3" defense="4975"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="65" />
+		<resistence fire="65" />
+		<resistence ice="65" />
+	</resistences>
+	<look>
+		<corpse id="312" brightness="2" />
+		<rigth_weapon id="1922" brightness="9" />
+		<eventitem id="786" brightness="0" />
+		<mount id="2378" brightness="0" />
+	</look>
+</creature>

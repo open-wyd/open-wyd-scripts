@@ -2,7 +2,7 @@
 <Events>
 	<event name="water-N" script="water/water-N.lua" />
 	<event name="water-M" script="water/water-M.lua" />
-	<!-- <event name="water-A" script="water/water-A.lua" />  -->
+	<event name="water-A" script="water/water-A.lua" />
 	<event name="up-level" script="up-level.lua" />
 	<event name="duel_letter" script="duel_letter.lua" />
 	<event name="nightmare" script="nightmare.lua" />

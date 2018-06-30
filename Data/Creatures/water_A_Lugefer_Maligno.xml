@@ -1,0 +1,23 @@
+<creature name="Lugefer_Maligno" level="800" merchant="0" clan="2" class="1" experience="110000" gold="500000" direction="0" >
+	<health now="32000" max="32000" regen="0" />
+	<status str="5" dex="100" int="100" con="2100" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="5000" magic="0" critical="255" attack_speed="208" move_speed="4" defense="7000"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="75" />
+		<resistence fire="75" />
+		<resistence ice="75" />
+	</resistences>
+	<look>
+		<corpse id="175" brightness="9" />
+		<helmet id="175" brightness="9" />
+		<armor id="175" brightness="9" />
+		<pants id="175" brightness="9" />
+		<glove id="175" brightness="9" />
+		<boots id="175" brightness="9" />
+		<rigth_weapon id="913" brightness="255" />
+		<eventitem id="769" brightness="9" />
+		<mount id="2370" brightness="0" />
+	</look>
+</creature>

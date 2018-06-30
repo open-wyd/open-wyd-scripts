@@ -1,0 +1,15 @@
+<creature name="Golem_de_Fogo" level="800" merchant="0" clan="1" class="1" experience="132000" gold="50000" direction="0" >
+	<health now="20000" max="20000" regen="0" />
+	<status str="3" dex="90" int="50" con="800" />
+	<special special1="255" special2="7" special3="255" special4="7" />
+	<strategy damage="910" magic="0" critical="255" attack_speed="0" move_speed="1" defense="3500"/>
+	<resistences>
+		<resistence holy="-1" />
+		<resistence lightning="10" />
+		<resistence fire="-20" />
+		<resistence ice="-10" />
+	</resistences>
+	<look>
+		<corpse id="298" brightness="3" />
+	</look>
+</creature>

@@ -1,4 +1,4 @@
-<creature name="Eggs" level="2" merchant="1" clan="3" class="1" experience="0" gold="0" >
+<creature name="Eggs" level="2" merchant="9" clan="3" class="1" experience="0" gold="0" eventId="11">
 	<health now="50" max="50" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />

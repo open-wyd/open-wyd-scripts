@@ -1,17 +1,5 @@
 <?xml version = "1.0" ?>
 <spawns>
-	<spawn id="0" interval="-1" max="100" min_group="4" max_group="7" leader="Ciclope_Forte" follower="Ciclope_Forte" route_type="2" formation="0">
-		<walk segment="0" wait="10" range="5" x="2635" y="1726" say=""/>
-		<walk segment="1" wait="10" range="10" x="2625" y="1726" say=""/>
-	</spawn>
-	<spawn id="1" interval="-1" max="100" min_group="3" max_group="6" leader="Ciclop_Selvagem" follower="Arq_Ciclope" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="5" x="2635" y="1726" say=""/>
-		<walk segment="1" wait="10" range="13" x="2627" y="1726" say=""/>
-	</spawn>
-	<spawn id="2" interval="-1" max="100" min_group="2" max_group="5" leader="Ciclope_Wild" follower="Mago_Ciclope" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="5" x="2635" y="1726" say=""/>
-		<walk segment="1" wait="10" range="13" x="2627" y="1726" say=""/>
-	</spawn>
 	<spawn id="3" interval="20" max="1" min_group="0" max_group="0" leader="Orc_Guerreiro" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2138" y="1941" say=""/>
 		<walk segment="1" wait="8" range="2" x="2142" y="1947" say=""/>
@@ -19,84 +7,11 @@
 	<spawn id="4" interval="2" max="2" min_group="0" max_group="0" leader="Zakum_Lord" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="12" x="2239" y="1186" say=""/>
 	</spawn>
-	<spawn id="5" interval="-1" max="100" min_group="4" max_group="7" leader="Orc_Sniper_" follower="Orc_Forte" route_type="2" formation="0">
-		<walk segment="0" wait="10" range="5" x="2635" y="1726" say=""/>
-		<walk segment="1" wait="10" range="10" x="2625" y="1726" say=""/>
-	</spawn>
-	<spawn id="6" interval="-1" max="100" min_group="3" max_group="6" leader="Orc_Selvagem" follower="Orc_Mago" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="5" x="2635" y="1726" say=""/>
-		<walk segment="1" wait="10" range="13" x="2627" y="1726" say=""/>
-	</spawn>
-	<spawn id="7" interval="-1" max="100" min_group="2" max_group="5" leader="Orc_Wild" follower="Orc_Mago" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="5" x="2635" y="1726" say=""/>
-		<walk segment="1" wait="10" range="13" x="2627" y="1726" say=""/>
-	</spawn>
 	<spawn id="8" interval="10" max="1" min_group="0" max_group="0" leader="King_Harabard" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="1750" y="1574" say=""/>
 	</spawn>
 	<spawn id="9" interval="10" max="1" min_group="0" max_group="0" leader="King_Glantuar" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="1750" y="1880" say=""/>
-	</spawn>
-	<spawn id="10" interval="-1" max="24" min_group="12" max_group="12" leader="Elfo_Negro_" follower="Elfo_Negro_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1250" y="3680" say=""/>
-	</spawn>
-	<spawn id="11" interval="-1" max="24" min_group="12" max_group="12" leader="Troll_Ghoul_" follower="Troll_Ghoul_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1214" y="3680" say=""/>
-	</spawn>
-	<spawn id="12" interval="-1" max="24" min_group="12" max_group="12" leader="Anf_Ninja_" follower="Anf_Ninja_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1178" y="3680" say=""/>
-	</spawn>
-	<spawn id="13" interval="-1" max="24" min_group="12" max_group="12" leader="Tauron___" follower="Tauron___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1178" y="3644" say=""/>
-	</spawn>
-	<spawn id="14" interval="-1" max="24" min_group="12" max_group="12" leader="Grim_Lock_" follower="Grim_Lock_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1178" y="3608" say=""/>
-	</spawn>
-	<spawn id="15" interval="-1" max="24" min_group="12" max_group="12" leader="Bruxa_Elfica_" follower="Bruxa_Elfica_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1214" y="3608" say=""/>
-	</spawn>
-	<spawn id="16" interval="-1" max="12" min_group="6" max_group="6" leader="Gargula_" follower="Gargula_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1250" y="3608" say=""/>
-	</spawn>
-	<spawn id="17" interval="-1" max="8" min_group="4" max_group="4" leader="Aqua_Golem_" follower="Aqua_Golem_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="1250" y="3644" say=""/>
-	</spawn>
-	<spawn id="18" interval="-1" max="6" min_group="2" max_group="5" leader="Cav._Mortal_" follower="Tauron___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="1214" y="3644" say=""/>
-	</spawn>
-	<spawn id="19" interval="-1" max="9" min_group="7" max_group="7" leader="Cav._Mortal_" follower="Tauron___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="1214" y="3644" say=""/>
-	</spawn>
-	<spawn id="20" interval="-1" max="9" min_group="7" max_group="7" leader="Gargula_Sabio_" follower="Gargula_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="1214" y="3644" say=""/>
-	</spawn>
-	<spawn id="21" interval="-1" max="10" min_group="9" max_group="9" leader="Hidra_Dourada_" follower="Hidra_Dourada_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="1214" y="3644" say=""/>
-	</spawn>
-	<spawn id="22" interval="-1" max="1" min_group="0" max_group="0" leader="prona" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2595" y="1734" say=""/>
-	</spawn>
-	<spawn id="23" interval="-1" max="1" min_group="0" max_group="0" leader="Tower_of_Thor" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1051" y="1690" say=""/>
-	</spawn>
-	<spawn id="24" interval="-1" max="1" min_group="0" max_group="0" leader="Tower_of_Thor" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1046" y="1690" say=""/>
-	</spawn>
-	<spawn id="25" interval="-1" max="1" min_group="0" max_group="0" leader="Tower_of_Thor" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1124" y="1708" say=""/>
-	</spawn>
-	<spawn id="26" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Gremlin" follower="Agmo_Gremlin" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="122" y="253" say=""/>
-	</spawn>
-	<spawn id="27" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Krill" follower="Agmo_Krill" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="254" y="403" say=""/>
-	</spawn>
-	<spawn id="28" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Krill" follower="Agmo_Krill" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="404" y="494" say=""/>
-	</spawn>
-	<spawn id="29" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Krill" follower="Agmo_Krill" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="495" y="624" say=""/>
-		<walk segment="1" wait="15" range="0" x="495" y="621" say=""/>
 	</spawn>
 	<spawn id="30" interval="500" max="3" min_group="3" max_group="3" leader="Agmo_Troll" follower="Agmo_Troll" route_type="1" formation="0">
 		<walk segment="0" wait="9" range="0" x="1000" y="1109" say=""/>
@@ -161,100 +76,6 @@
 	</spawn>
 	<spawn id="50" interval="1000" max="3" min_group="3" max_group="3" leader="Agmo_Froggy" follower="Agmo_Froggy" route_type="1" formation="0">
 		<walk segment="0" wait="9" range="0" x="2527" y="2607" say=""/>
-	</spawn>
-	<spawn id="51" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Froggy" follower="Agmo_Froggy" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="2608" y="2684" say=""/>
-	</spawn>
-	<spawn id="52" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Hidra" follower="Agmo_Hidra" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="2685" y="2773" say=""/>
-	</spawn>
-	<spawn id="53" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Hidra" follower="Agmo_Hidra" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="2774" y="2871" say=""/>
-	</spawn>
-	<spawn id="54" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Hidra" follower="Agmo_Hidra" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="2872" y="2940" say=""/>
-		<walk segment="1" wait="15" range="0" x="2240" y="2940" say=""/>
-	</spawn>
-	<spawn id="55" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Hidra" follower="Agmo_Hidra" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="2941" y="3001" say=""/>
-	</spawn>
-	<spawn id="56" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Golem" follower="Agmo_Golem" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3002" y="3064" say=""/>
-	</spawn>
-	<spawn id="57" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Golem" follower="Agmo_Golem" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3065" y="3120" say=""/>
-	</spawn>
-	<spawn id="58" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Argos" follower="Agmo_Argos" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3326" y="3375" say=""/>
-	</spawn>
-	<spawn id="59" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_TrollChief" follower="Agmo_TrollChief" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3376" y="3435" say=""/>
-	</spawn>
-	<spawn id="60" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_TrollChief" follower="Agmo_TrollChief" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3436" y="3493" say=""/>
-	</spawn>
-	<spawn id="61" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Elf" follower="Agmo_Elf" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3494" y="3559" say=""/>
-	</spawn>
-	<spawn id="62" interval="-1" max="3" min_group="3" max_group="3" leader="Agmo_Elf" follower="Agmo_Elf" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3560" y="3622" say=""/>
-	</spawn>
-	<spawn id="63" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="64" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="65" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="66" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="67" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="68" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="69" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="70" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="71" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="72" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="73" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="74" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="75" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="76" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="77" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="78" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="79" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="80" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
-	</spawn>
-	<spawn id="81" interval="-1" max="7" min_group="6" max_group="6" leader="Agmo_Elf" follower="Agmo_Elf" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2240" y="1324" say=""/>
 	</spawn>
 	<spawn id="82" interval="1" max="1" min_group="0" max_group="0" leader="Gremlin" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="6" x="2184" y="2129" say=""/>
@@ -3203,14 +3024,6 @@
 		<walk segment="3" wait="0" range="0" x="2380" y="1602" say=""/>
 		<walk segment="4" wait="20" range="2" x="2392" y="1592" say=""/>
 	</spawn>
-	<spawn id="1048" interval="-1" max="1" min_group="0" max_group="0" leader="Merc_Zakum" route_type="1" formation="0">
-		<walk segment="0" wait="0" range="0" x="866" y="999" say=""/>
-		<walk segment="1" wait="0" range="0" x="866" y="666" say=""/>
-		<walk segment="2" wait="0" range="0" x="866" y="999" say=""/>
-	</spawn>
-	<spawn id="1049" interval="-1" max="1" min_group="0" max_group="0" leader="Merc_Carbunkle" route_type="1" formation="0">
-		<walk segment="0" wait="0" range="0" x="866" y="999" say=""/>
-	</spawn>
 	<spawn id="1050" interval="500" max="1" min_group="0" max_group="0" leader="Merc_Zakum" route_type="1" formation="0">
 		<walk segment="0" wait="0" range="0" x="866" y="999" say=""/>
 	</spawn>
@@ -6088,12 +5901,6 @@
 	<spawn id="1889" interval="1" max="1" min_group="0" max_group="0" leader="Troll_Zumbi" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="280" y="3812" say=""/>
 	</spawn>
-	<spawn id="1890" interval="-1" max="1" min_group="0" max_group="0" leader="Aki" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1309" y="312" say=""/>
-	</spawn>
-	<spawn id="1891" interval="-1" max="5" min_group="5" max_group="5" leader="Arq_Caveira" follower="Arq_Caveira" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="1309" y="312" say=""/>
-	</spawn>
 	<spawn id="1892" interval="1" max="1" min_group="0" max_group="0" leader="Arq_Caveira" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="269" y="3820" say=""/>
 	</spawn>
@@ -8527,248 +8334,6 @@
 	<spawn id="2432" interval="2" max="2" min_group="0" max_group="0" leader="Anf_Assassino" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="828" y="4021" say=""/>
 	</spawn>
-	<spawn id="2433" interval="-1" max="20" min_group="5" max_group="5" leader="Morlock__" follower="Morlock__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1305" y="355" say=""/>
-	</spawn>
-	<spawn id="2434" interval="-1" max="20" min_group="5" max_group="5" leader="Cav._Negro_" follower="Cav._Negro_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1317" y="346" say=""/>
-	</spawn>
-	<spawn id="2435" interval="-1" max="20" min_group="5" max_group="5" leader="Elfo_ABJ_" follower="Elfo_ABJ_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1301" y="336" say=""/>
-	</spawn>
-	<spawn id="2436" interval="-1" max="20" min_group="5" max_group="5" leader="Aqua_Golem__" follower="Aqua_Golem__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1310" y="325" say=""/>
-	</spawn>
-	<spawn id="2437" interval="-1" max="20" min_group="5" max_group="5" leader="Gargula__" follower="Gargula__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1309" y="310" say=""/>
-	</spawn>
-	<spawn id="2438" interval="-1" max="1" min_group="0" max_group="0" leader="Dark_Shadow_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1309" y="310" say=""/>
-	</spawn>
-	<spawn id="2439" interval="-1" max="25" min_group="5" max_group="5" leader="Tauron__" follower="Tauron__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1106" y="323" say=""/>
-	</spawn>
-	<spawn id="2440" interval="-1" max="20" min_group="5" max_group="5" leader="Aranha_Inf__" follower="Aranha_Inf__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1110" y="288" say=""/>
-	</spawn>
-	<spawn id="2441" interval="-1" max="30" min_group="5" max_group="5" leader="GrubSwarm_" follower="GrubSwarm_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1092" y="309" say=""/>
-	</spawn>
-	<spawn id="2442" interval="-1" max="20" min_group="5" max_group="5" leader="Gargula_Sabio__" follower="Gargula_Sabio__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1059" y="295" say=""/>
-	</spawn>
-	<spawn id="2443" interval="-1" max="20" min_group="5" max_group="5" leader="Xeno_Cropper_" follower="Xeno_Cropper_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1057" y="328" say=""/>
-	</spawn>
-	<spawn id="2444" interval="-1" max="1" min_group="0" max_group="0" leader="Dark_Shadow__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="1" x="1085" y="303" say=""/>
-	</spawn>
-	<spawn id="2445" interval="-1" max="20" min_group="5" max_group="5" leader="Demon_Lord__" follower="Demon_Lord__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1210" y="156" say=""/>
-	</spawn>
-	<spawn id="2446" interval="-1" max="20" min_group="5" max_group="5" leader="Aranha_Rubra_" follower="Aranha_Rubra_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1243" y="179" say=""/>
-	</spawn>
-	<spawn id="2447" interval="-1" max="20" min_group="5" max_group="5" leader="Kalintz(H)_" follower="Kalintz(H)_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1212" y="199" say=""/>
-	</spawn>
-	<spawn id="2448" interval="-1" max="20" min_group="5" max_group="5" leader="Manticora_" follower="Manticora_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1183" y="192" say=""/>
-	</spawn>
-	<spawn id="2449" interval="-1" max="20" min_group="5" max_group="5" leader="Cav._Mortal__" follower="Cav._Mortal__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1173" y="176" say=""/>
-	</spawn>
-	<spawn id="2450" interval="-1" max="1" min_group="0" max_group="0" leader="Dark_Shadow___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="1" x="1209" y="180" say=""/>
-	</spawn>
-	<spawn id="2451" interval="-1" max="25" min_group="24" max_group="24" leader="Meio_Orc__" follower="Meio_Orc__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="801" y="3684" say=""/>
-	</spawn>
-	<spawn id="2452" interval="-1" max="25" min_group="24" max_group="24" leader="Meio_Orc__" follower="Meio_Orc__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="816" y="3684" say=""/>
-	</spawn>
-	<spawn id="2453" interval="-1" max="25" min_group="24" max_group="24" leader="Meio_Orc__" follower="Meio_Orc__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="808" y="3667" say=""/>
-	</spawn>
-	<spawn id="2454" interval="-1" max="25" min_group="24" max_group="24" leader="Caveira_" follower="Caveira_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="861" y="3683" say=""/>
-	</spawn>
-	<spawn id="2455" interval="-1" max="25" min_group="24" max_group="24" leader="Caveira_" follower="Caveira_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="872" y="3681" say=""/>
-	</spawn>
-	<spawn id="2456" interval="-1" max="25" min_group="24" max_group="24" leader="Caveira_Lanc_" follower="Caveira_Lanc_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="861" y="3628" say=""/>
-	</spawn>
-	<spawn id="2457" interval="-1" max="25" min_group="24" max_group="24" leader="Caveira_Lanc_" follower="Caveira_Lanc_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="870" y="3626" say=""/>
-	</spawn>
-	<spawn id="2458" interval="-1" max="25" min_group="24" max_group="24" leader="Caveira_Lanc_" follower="Caveira_Lanc_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="866" y="3619" say=""/>
-	</spawn>
-	<spawn id="2459" interval="-1" max="12" min_group="11" max_group="11" leader="Minotauro_" follower="Minotauro_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3629" say=""/>
-	</spawn>
-	<spawn id="2460" interval="-1" max="12" min_group="11" max_group="11" leader="Minotauro_" follower="Minotauro_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3610" say=""/>
-	</spawn>
-	<spawn id="2461" interval="-1" max="1" min_group="0" max_group="0" leader="Troll_Caos___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3620" say=""/>
-	</spawn>
-	<spawn id="2462" interval="-1" max="1" min_group="0" max_group="0" leader="Troll_Caos__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3620" say=""/>
-	</spawn>
-	<spawn id="2463" interval="-1" max="25" min_group="24" max_group="24" leader="Elfo_Negro__" follower="Elfo_Negro__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="801" y="3684" say=""/>
-	</spawn>
-	<spawn id="2464" interval="-1" max="25" min_group="24" max_group="24" leader="Elfo_Negro__" follower="Elfo_Negro__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="816" y="3684" say=""/>
-	</spawn>
-	<spawn id="2465" interval="-1" max="25" min_group="24" max_group="24" leader="Elfo_Negro__" follower="Elfo_Negro__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="808" y="3667" say=""/>
-	</spawn>
-	<spawn id="2466" interval="-1" max="25" min_group="24" max_group="24" leader="Rei_Taurus__" follower="Rei_Taurus__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="861" y="3683" say=""/>
-	</spawn>
-	<spawn id="2467" interval="-1" max="25" min_group="24" max_group="24" leader="Rei_Taurus__" follower="Rei_Taurus__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="872" y="3681" say=""/>
-	</spawn>
-	<spawn id="2468" interval="-1" max="25" min_group="24" max_group="24" leader="Rei_Taurus__" follower="Rei_Taurus__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="866" y="3670" say=""/>
-	</spawn>
-	<spawn id="2469" interval="-1" max="25" min_group="24" max_group="24" leader="Hidra_" follower="Hidra_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="861" y="3628" say=""/>
-	</spawn>
-	<spawn id="2470" interval="-1" max="25" min_group="24" max_group="24" leader="Hidra_" follower="Hidra_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="870" y="3626" say=""/>
-	</spawn>
-	<spawn id="2471" interval="-1" max="25" min_group="24" max_group="24" leader="Hidra_" follower="Hidra_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="866" y="3619" say=""/>
-	</spawn>
-	<spawn id="2472" interval="-1" max="12" min_group="11" max_group="11" leader="Ciclope_Cruel__" follower="Ciclope_Cruel__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3629" say=""/>
-	</spawn>
-	<spawn id="2473" interval="-1" max="12" min_group="11" max_group="11" leader="Ciclope_Cruel__" follower="Ciclope_Cruel__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3610" say=""/>
-	</spawn>
-	<spawn id="2474" interval="-1" max="1" min_group="0" max_group="0" leader="Zakum__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3620" say=""/>
-	</spawn>
-	<spawn id="2475" interval="-1" max="1" min_group="0" max_group="0" leader="Zakum_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3620" say=""/>
-	</spawn>
-	<spawn id="2476" interval="-1" max="25" min_group="24" max_group="24" leader="Elfo_Negro_Abj_" follower="Elfo_Negro_Abj_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="801" y="3684" say=""/>
-	</spawn>
-	<spawn id="2477" interval="-1" max="25" min_group="24" max_group="24" leader="Elfo_Negro_Abj_" follower="Elfo_Negro_Abj_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="816" y="3684" say=""/>
-	</spawn>
-	<spawn id="2478" interval="-1" max="25" min_group="24" max_group="24" leader="Elfo_Negro_Abj_" follower="Elfo_Negro_Abj_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="808" y="3667" say=""/>
-	</spawn>
-	<spawn id="2479" interval="-1" max="25" min_group="24" max_group="24" leader="Tauron_____" follower="Tauron_____" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="861" y="3683" say=""/>
-	</spawn>
-	<spawn id="2480" interval="-1" max="25" min_group="24" max_group="24" leader="Tauron_____" follower="Tauron_____" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="872" y="3681" say=""/>
-	</spawn>
-	<spawn id="2481" interval="-1" max="25" min_group="24" max_group="24" leader="Tauron_____" follower="Tauron_____" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="866" y="3670" say=""/>
-	</spawn>
-	<spawn id="2482" interval="-1" max="25" min_group="24" max_group="24" leader="Morlock_" follower="Morlock_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="861" y="3628" say=""/>
-	</spawn>
-	<spawn id="2483" interval="-1" max="25" min_group="24" max_group="24" leader="Morlock_" follower="Morlock_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="870" y="3626" say=""/>
-	</spawn>
-	<spawn id="2484" interval="-1" max="25" min_group="24" max_group="24" leader="Morlock_" follower="Morlock_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="866" y="3619" say=""/>
-	</spawn>
-	<spawn id="2485" interval="-1" max="12" min_group="11" max_group="11" leader="Aranha_Inferno_" follower="Aranha_Inferno_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3629" say=""/>
-	</spawn>
-	<spawn id="2486" interval="-1" max="12" min_group="11" max_group="11" leader="Aranha_Inferno_" follower="Aranha_Inferno_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3610" say=""/>
-	</spawn>
-	<spawn id="2487" interval="-1" max="1" min_group="0" max_group="0" leader="Lugefer__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3620" say=""/>
-	</spawn>
-	<spawn id="2488" interval="-1" max="1" min_group="0" max_group="0" leader="Lugefer_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="3" x="806" y="3620" say=""/>
-	</spawn>
-	<spawn id="2489" interval="-1" max="24" min_group="12" max_group="12" leader="Meio_Orc___" follower="Meio_Orc___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1120" y="3554" say=""/>
-	</spawn>
-	<spawn id="2490" interval="-1" max="24" min_group="12" max_group="12" leader="Troll_Cacador" follower="Troll_Cacador" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1085" y="3552" say=""/>
-	</spawn>
-	<spawn id="2491" interval="-1" max="24" min_group="12" max_group="12" leader="Chefe_Ghoul__" follower="Chefe_Ghoul__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1050" y="3553" say=""/>
-	</spawn>
-	<spawn id="2492" interval="-1" max="24" min_group="12" max_group="12" leader="Ciclope_Arq__" follower="Ciclope_Arq__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1049" y="3518" say=""/>
-	</spawn>
-	<spawn id="2493" interval="-1" max="24" min_group="12" max_group="12" leader="Conj_Caveira_" follower="Conj_Caveira_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1049" y="3481" say=""/>
-	</spawn>
-	<spawn id="2494" interval="-1" max="24" min_group="12" max_group="12" leader="Grim_Lock_D" follower="Grim_Lock_D" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1085" y="3482" say=""/>
-	</spawn>
-	<spawn id="2495" interval="-1" max="24" min_group="12" max_group="12" leader="Ciclope_Anc" follower="Ciclope_Anc" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1121" y="3482" say=""/>
-	</spawn>
-	<spawn id="2496" interval="-1" max="24" min_group="12" max_group="12" leader="Anf_Assassino_" follower="Anf_Assassino_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1121" y="3518" say=""/>
-	</spawn>
-	<spawn id="2497" interval="-1" max="4" min_group="3" max_group="3" leader="Morlock___" follower="Elfo_ABJ__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1087" y="3518" say=""/>
-	</spawn>
-	<spawn id="2498" interval="-1" max="4" min_group="3" max_group="3" leader="Troll_Ghoul__" follower="Argos_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1087" y="3518" say=""/>
-	</spawn>
-	<spawn id="2499" interval="-1" max="4" min_group="3" max_group="3" leader="Mestre_ABJ" follower="Servo_Elfo_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1087" y="3518" say=""/>
-	</spawn>
-	<spawn id="2500" interval="-1" max="6" min_group="6" max_group="6" leader="Aqua_Golem___" follower="Aqua_Golem___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1087" y="3518" say=""/>
-	</spawn>
-	<spawn id="2501" interval="-1" max="24" min_group="12" max_group="12" leader="Gargula_" follower="Gargula_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1378" y="3554" say=""/>
-	</spawn>
-	<spawn id="2502" interval="-1" max="24" min_group="12" max_group="12" leader="Golem_de_F_" follower="Golem_de_F_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1342" y="3554" say=""/>
-	</spawn>
-	<spawn id="2503" interval="-1" max="24" min_group="12" max_group="12" leader="Cav._Negro__" follower="Cav._Negro__" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="2" x="1305" y="3554" say=""/>
-	</spawn>
-	<spawn id="2504" interval="-1" max="20" min_group="10" max_group="10" leader="Dragao_Lich_" follower="Dragao_Lich_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1305" y="3518" say=""/>
-		<walk segment="1" wait="8" range="4" x="717" y="3518" say=""/>
-	</spawn>
-	<spawn id="2505" interval="-1" max="10" min_group="5" max_group="5" leader="Tauron_" follower="Tauron_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1305" y="3482" say=""/>
-	</spawn>
-	<spawn id="2506" interval="-1" max="10" min_group="5" max_group="5" leader="Morlock____" follower="Morlock____" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1341" y="3480" say=""/>
-	</spawn>
-	<spawn id="2507" interval="-1" max="15" min_group="5" max_group="5" leader="Aeon_Tauron_" follower="Aeon_Tauron_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1378" y="3480" say=""/>
-	</spawn>
-	<spawn id="2508" interval="-1" max="15" min_group="5" max_group="5" leader="Verme_da_Areia" follower="Verme_da_Areia" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1378" y="3517" say=""/>
-		<walk segment="1" wait="8" range="4" x="1378" y="3617" say=""/>
-	</spawn>
-	<spawn id="2509" interval="-1" max="4" min_group="3" max_group="3" leader="Lugefer_Maligno" follower="Gargula_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1342" y="3517" say=""/>
-	</spawn>
-	<spawn id="2510" interval="-1" max="4" min_group="3" max_group="3" leader="Ladrao_Tauron_" follower="Tauron___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1342" y="3517" say=""/>
-	</spawn>
-	<spawn id="2511" interval="-1" max="4" min_group="3" max_group="3" leader="Assass._Tauron" follower="Tauron___" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1342" y="3517" say=""/>
-	</spawn>
-	<spawn id="2512" interval="-1" max="8" min_group="7" max_group="7" leader="Treant_" follower="Treant_" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="4" x="1342" y="3517" say=""/>
-	</spawn>
 	<spawn id="2513" interval="2" max="2" min_group="0" max_group="0" leader="Golem_de_Fogo" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="668" y="3988" say=""/>
 	</spawn>
@@ -10835,12 +10400,6 @@
 	<spawn id="3144" interval="1" max="1" min_group="0" max_group="0" leader="Morlock" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="1404" y="3754" say=""/>
 	</spawn>
-	<spawn id="3145" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3494" y="3559" say=""/>
-	</spawn>
-	<spawn id="3146" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3494" y="3559" say=""/>
-	</spawn>
 	<spawn id="3147" interval="1" max="1" min_group="0" max_group="0" leader="Morlock" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="1412" y="3820" say=""/>
 	</spawn>
@@ -10933,21 +10492,6 @@
 	</spawn>
 	<spawn id="3177" interval="1" max="1" min_group="0" max_group="0" leader="Morlock" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="1444" y="3782" say=""/>
-	</spawn>
-	<spawn id="3178" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3560" y="3622" say=""/>
-	</spawn>
-	<spawn id="3179" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3560" y="3622" say=""/>
-	</spawn>
-	<spawn id="3180" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3560" y="3622" say=""/>
-	</spawn>
-	<spawn id="3181" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="9" range="0" x="3560" y="3622" say=""/>
-	</spawn>
-	<spawn id="3182" interval="-1" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="1" formation="0">
-		<walk segment="0" wait="-1" range="0" x="3560" y="3622" say=""/>
 	</spawn>
 	<spawn id="3183" interval="3" max="1" min_group="0" max_group="0" leader="Flame_Gargula" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="3" x="1462" y="3778" say=""/>
@@ -11047,30 +10591,6 @@
 		<walk segment="1" wait="8" range="0" x="2125" y="2040" say=""/>
 		<walk segment="2" wait="8" range="0" x="2121" y="2037" say=""/>
 		<walk segment="3" wait="10" range="0" x="2125" y="2037" say=""/>
-	</spawn>
-	<spawn id="3215" interval="-1" max="3" min_group="0" max_group="0" leader="Frenzy_Ghoul" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3216" interval="-1" max="3" min_group="0" max_group="0" leader="Frenzy_Cabuncle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3217" interval="-1" max="3" min_group="0" max_group="0" leader="Frenzy_Taurs" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3218" interval="-1" max="3" min_group="0" max_group="0" leader="Frenzy_Hidra" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3219" interval="-1" max="3" min_group="0" max_group="0" leader="Frenzy_Frog" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3220" interval="-1" max="3" min_group="0" max_group="0" leader="Frenzy_Golem" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3221" interval="-1" max="3" min_group="0" max_group="0" leader="DeathKnight_K" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
-	</spawn>
-	<spawn id="3222" interval="-1" max="4" min_group="3" max_group="3" leader="Demon_Lord_King" follower="Frenzy_Cabuncle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
 	</spawn>
 	<spawn id="3223" interval="1" max="2" min_group="0" max_group="0" leader="Tauron" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="1162" y="1700" say=""/>
@@ -12281,9 +11801,6 @@
 	</spawn>
 	<spawn id="3485" interval="3" max="1" min_group="0" max_group="0" leader="Lugefer" route_type="2" formation="0">
 		<walk segment="0" wait="6" range="4" x="1372" y="1836" say=""/>
-	</spawn>
-	<spawn id="3486" interval="-1" max="3" min_group="0" max_group="0" leader="Santa_Carbunkle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="2244" y="1274" say=""/>
 	</spawn>
 	<spawn id="3487" interval="1" max="1" min_group="0" max_group="0" leader="Galford" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2080" y="2090" say=""/>

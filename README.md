@@ -582,46 +582,30 @@ Methods:
     number getGuild()
     number getClass()
     number getRsv()
-    number getQuest()
     number getCoin()
     number getExp()
-    CPosition getSavePos()
     number getLearnedSkill()
     number getMagic()
-    number getScoreBonus()
-    number getSpecialBonus()
-    number getSkillBonus()
     number getCritical()
     number getSaveMana()
     number getGuildLevel()
-    number getRegenHP()
-    number getRegenMP()
-    number getResist(number rId) -- The mob's resistencies, to fire / ice / thunder / magic
+    number getResist(number rId) -- The creature's resistencies, to fire / ice / thunder / magic
 
     -- Set Informations about the creature.
-    void setName(string value)
     void setLevel(number value)
     void setClan(number value)
     void setMerchant(number value)
     void setGuild(number value)
     void setClass(number value)
     void setRsv(number value)
-    void setQuest(number value)
     void setCoin(number value)
     void setExp(number value)
-    void setSavePos(CPosition value)
     void setLearnedSkill(number value)
     void setMagic(number value)
-    void setScoreBonus(number value)
-    void setSpecialBonus(number value)
-    void setSkillBonus(number value)
     void setCritical(number value)
-    void setSaveMana(number value)
     void setGuildLevel(number value)
-    void setRegenHP(number value)
-    void setRegenMP(number value)
-    void setResist(number rId, number value) -- The mob's resistencies, to fire / ice / thunder / magic
-    
+    void setResist(number rId, number value) -- The creature's resistencies, to fire / ice / thunder / magic
+
     -- Get current score informations.
     number getDefense()
     number getDamage()
@@ -636,7 +620,7 @@ Methods:
     number getInt()
     number getDex()
     number getCon()
-    number getSpecial(number sId) -- The mob's special ponumbers, affects it's skill tiers
+    number getSpecial(number sId) -- The creature's special ponumbers, affects it's skill tiers
 
     -- Set current score informations.
     void setDefense(number  value)
@@ -652,7 +636,7 @@ Methods:
     void setInt(number  value)
     void setDex(number  value)
     void setCon(number  value)
-    void setSpecial(number sId, number value) -- The mob's special ponumbers, affects it's skill tiers
+    void setSpecial(number sId, number value) -- The creature's special ponumbers, affects it's skill tiers
 
     -- Get equipped items.
     CItem getPhace()
@@ -671,9 +655,6 @@ Methods:
     CItem getFamiliar()
     CItem getMount()
     CItem getMantle()
-
-    -- The items the mob is carrying
-    CItem getCarryItem(number slot)
 
     -- Gets information about the creature's numbereraction in the world.
     boolean isAlive()
@@ -735,10 +716,31 @@ Type:
 Methods:
     number getPromotionId()
     void setPromotionId(number value)
+
     CItem getItem(number slot, number placeType)
+    CItem getCarryItem(number slot)
+
+    CPosition getSavePos()
+    number getScoreBonus()
+    number getSpecialBonus()
+    number getSkillBonus()
+    number getRegenHP()
+    number getRegenMP()
+
+    void setName(string value)
+    void setSavePos(CPosition value)
+    void setScoreBonus(number value)
+    void setSpecialBonus(number value)
+    void setSkillBonus(number value)
+    void setRegenHP(number value)
+    void setRegenMP(number value)
+    void setSaveMana(number value)
+
+    number getQuest()
+    void setQuest(number value)
     boolean hasQuest(number quest)
     void addQuest(number quest)
-    void removeQuest(number quest)   
+    void removeQuest(number quest)
     boolean  applyHp()
     boolean  applyMp()
     void  setReqHp()

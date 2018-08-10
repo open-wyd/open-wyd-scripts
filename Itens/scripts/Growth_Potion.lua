@@ -20,8 +20,7 @@ end
 function OnUse(player, pSrc, pNumber, pDest)
 	local mountItem = player:getMount();
 	local vits = mountItem:getMountLife();
-	local newLife;
-	if(	pDest.type == 0 and pDest.slot == 14 ) then
+	if( pDest.type == 0 and pDest.slot == 14 ) then
 		if( mountItem:isBetween(2330, 2359) == true ) then
 			if( getGrowthIdByMountId(mountItem:getId()) == (pSrc.itemId - 3343) ) then
 				if( mountItem:getMountHp( ) > 0 ) then
@@ -42,7 +41,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 						iSend.ClientMessage(player, "Vitalidade inválida para usar Catalisador, precisa ter 1 ou mais." );
 					end
 				else
-					iSend.ClientMessage(player, "Montaria está morta. Precisa estar viva para tornar Montaria.");
+					iSend.ClientMessage(player, "Cria está morta. Precisa estar viva para torná-la Adulta.");
 				end
 			else
 				iSend.ClientMessage(player, "Este catalizador não é desta montaria.");

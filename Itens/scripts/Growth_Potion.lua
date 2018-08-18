@@ -35,16 +35,16 @@ function OnUse(player, pSrc, pNumber, pDest)
 						iGameServer.MountProcess(player, nil);
 						iSend.Emotion(player, 14, 3);
 						iSend.Item(player, pDest.type, pDest.slot, mountItem);
-						iSend.ClientMessage(player, "!Montaria virou Adulta! Ela tem ["..math.floor(mountItem:getMountLife()).."] Vit's. N√£o esque√ßa de dar ra√ß√£o!");
+						iSend.ClientMessage(player, "!Montaria virou Adulta! Ela tem ["..math.floor(mountItem:getMountLife()).."] Vit's. N„o esqueÁa de dar raÁ„o!");
 						return TRUE;						
 					else
-						iSend.ClientMessage(player, "Vitalidade inv√°lida para usar Catalisador, precisa ter 1 ou mais." );
+						iSend.ClientMessage(player, "Vitalidade inv·lida para usar Catalisador, precisa ter 1 ou mais." );
 					end
 				else
-					iSend.ClientMessage(player, "Cria est√° morta. Precisa estar viva para torn√°-la Adulta.");
+					iSend.ClientMessage(player, "Cria est· morta. Precisa estar viva para torn·-la Adulta.");
 				end
 			else
-				iSend.ClientMessage(player, "Este catalizador n√£o √© desta montaria.");
+				iSend.ClientMessage(player, "Este catalizador n„o È desta montaria.");
 			end
 		else
 			iSend.ClientMessage(player, "Somente para crias de montarias.");

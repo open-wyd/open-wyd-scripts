@@ -21,9 +21,9 @@ resetArea = { --reset mobs
 				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}, --kaizen
 				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}, --hydras
 				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}}, --elfos
-	MANTLENEWBIE = { from { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}, --capa verde
-	KINGDOMMANTLE = { from { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}, --capa do reino
-	MOLARGARGULA = { from { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}}; --quest gargula em Dungem
+	MANTLENEWBIE = { from  = { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}, --capa verde
+	KINGDOMMANTLE = { from = { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}, --capa do reino
+	MOLARGARGULA = { from  = { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}}; --quest gargula em Dungem
 
 --spawnConfig {
 --    pos = {			   <Pos - Configuration of the start position of the spawn.>

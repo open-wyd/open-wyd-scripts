@@ -719,7 +719,8 @@ Methods:
 
     CItem getItem(number slot, number placeType)
     CItem getCarryItem(number slot)
-
+	
+	string getUserName()
     CPosition getSavePos()
     number getScoreBonus()
     number getSpecialBonus()

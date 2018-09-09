@@ -1,4 +1,4 @@
-local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ) };
+local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ),  EnvironmentEvent:new( ), EnvironmentEvent:new( ) };
 local exitUpLevelPos = CPosition:new(0,0);
 
 -- Sala 1
@@ -46,6 +46,24 @@ Env[5].to.x = 1348;
 Env[5].to.y = 4054;
 Env[5].center.x = 1324;
 Env[5].center.y = 4041;
+-- Sala 6
+Env[6].envId = 6;
+Env[6]:setName("Formatura de Cavaleiros Aprendizes");
+Env[6].from.x = 2230;
+Env[6].from.y = 1562;
+Env[6].to.x = 2258;
+Env[6].to.y = 1592;
+Env[6].center.x = 2244;
+Env[6].center.y = 1577;
+-- Sala 7
+Env[7].envId = 7;
+Env[7]:setName("Benção de Deus");
+Env[7].from.x = 2639;
+Env[7].from.y = 1964;
+Env[7].to.x = 2670;
+Env[7].to.y = 2003;
+Env[7].center.x = 2652;
+Env[7].center.y = 1983;
 
 function onExecute( this, envId )
 	

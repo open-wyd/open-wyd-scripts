@@ -15,6 +15,15 @@ NSec_duelReset = Sec_duelReset * 1000;
 sec_Nightmare = (20 * 60);
 nSec_Nightmare = (sec_Nightmare*1000) + 2000;
 
+resetArea = { --reset mobs
+	UPLEVEL = { {from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}, --cemitério
+				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}, --benção de deus
+				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}, --kaizen
+				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}, --hydras
+				{from = { x = 2100, y = 2100 }, to = { x = 2100, y = 2100}}}, --elfos
+	MANTLENEWBIE = { from { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}, --capa verde
+	KINGDOMMANTLE = { from { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}, --capa do reino
+	MOLARGARGULA = { from { x = 2100, y = 2100}, to = { x = 2100, y = 2100}}}; --quest gargula em Dungem
 
 --spawnConfig {
 --    pos = {			   <Pos - Configuration of the start position of the spawn.>

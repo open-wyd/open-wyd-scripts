@@ -16,13 +16,13 @@ function OnUse(player, pSrc, pNumber, pDest)
 						iSend.Item(player, pDest.type, pDest.slot, mountItem);
 						return TRUE;						
 					else
-						iSend.ClientMessage(player, "Vitalidade invÃ¡lida para usar Restaurador, precisa ter 1 ou mais." );
+						iSend.ClientMessage(player, "Vitalidade inválida para usar Restaurador, precisa ter 1 ou mais." );
 					end
 				else
-					iSend.ClientMessage(player, "Montaria estÃ¡ morta. Precisa estar viva para usar Restaurador.");
+					iSend.ClientMessage(player, "Montaria está morta. Precisa estar viva para usar Restaurador.");
 				end
 			else
-				iSend.ClientMessage(player, "Este Restaurador nÃ£o Ã© desta montaria.");
+				iSend.ClientMessage(player, "Este Restaurador não é desta montaria.");
 			end
 		else
 			iSend.ClientMessage(player, "Somente para montarias adultas.");

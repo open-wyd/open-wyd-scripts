@@ -131,8 +131,12 @@ global_OWS = {
 		}
 	},
 	questList = {
-		BencaoDeDeus 		 = 1 << 1,
-		PilulaOrc 	 		 = 1 << 2,
-		HallOfKefraIsAllowed = 1 << 3
+		BencaoDeDeus 		 		= 1 << 1,
+		PilulaOrc 	 		 		= 1 << 2,
+		HallOfKefraIsAllowed 		= 1 << 3,
+		TrainerOfNewbier_Leader 	= 1 << 4,
+		TrainerOfNewbier_Trainer1	= 1 << 5,
+		TrainerOfNewbier_Trainer2	= 1 << 6,
+		TrainerOfNewbier_Trainer3	= 1 << 7
 	}
 }

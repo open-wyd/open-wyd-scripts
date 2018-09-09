@@ -285,8 +285,11 @@
 285  _NN_Ally_Stop	Aliança_parada
 286  _SS_Ally_Canceled	[%s] cancelou a alianca com [%s].
 287  _SS_Ally_Declared	[%s] declarou alianca com [%s].
+
 289  _NN_Cant_Declare_Ally	Nao pode declarar alianca.
 290  _SSNN_GuildWarResult	Guilda %s derrotou %s na Guerra.
 291  _NN_Need_5_materials	Voce precisa coletar os 5 ingredientes.
 292  _NN_snowimp_create_success	Griupam criado com Sucesso!
 293  _NN_snowimp_need_2MGold	Voce precisa de 2 milhoes de gold para criar um Griupan.
+294  _NN_invalid_Life_Recovery1	Vitalidade inválida para usar Restaurador, precisa ter 1 ou mais.
+295  _NN_invalid_Life_Recovery2	Montaria está morta. Precisa estar viva para usar Restaurador.

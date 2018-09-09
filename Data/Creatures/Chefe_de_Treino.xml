@@ -1,4 +1,4 @@
-<creature name="Chefe_de_Treino" level="3" merchant="43" clan="6" class="1" experience="25000" gold="9999" >
+<creature name="Chefe_de_Treino" level="3" merchant="43" clan="6" class="1" experience="25000" gold="9999" eventId="12">
 	<health now="9000" max="9000" regen="0" />
 	<status str="5" dex="0" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />

@@ -11,5 +11,8 @@
 	<merchant eventid="9" script="Carbuncle.lua" />
 	<merchant eventid="10" script="Juli.lua" />
 	<merchant eventid="11" script="Survivor_hallOfKephra.lua" />
+	<merchant eventid="12" script="Trainer_of_Newbie.lua" />
+	<merchant eventid="13" script="up-level/Director_Green_Mantle.lua" />
+	<merchant eventid="14" script="up-level/Priest_Jester.lua" />
 	
 </Merchants>

@@ -1,4 +1,4 @@
-<creature name="Servo_Carbuncle" level="65" merchant="0" clan="1" class="1" experience="18000" gold="9999" >
+<creature name="Servo_Carbuncle" level="355" merchant="0" clan="1" class="1" experience="18000" gold="9999" >
 	<health now="2000" max="2000" regen="0" />
 	<status str="4" dex="80" int="70" con="200" />
 	<special special1="255" special2="7" special3="255" special4="7" />

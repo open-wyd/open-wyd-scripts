@@ -248,6 +248,7 @@ Methods:
     number  GetMapArenaId(CPosition pos)
     number  GetMapVillageId(number x, number y)
     number  GetMapVillageId(CPosition pos)
+    number  GetSkillPointsConsumedByCreature(Creature creature)
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -606,6 +607,38 @@ Methods:
     void setGuildLevel(number value)
     void setResist(number rId, number value) -- The creature's resistencies, to fire / ice / thunder / magic
 
+    -- Get base score informations.
+    number getBaseDefense()
+    number getBaseDamage()
+    number getBaseAttackRun()
+    number getBaseDirection()
+    number getBaseChaosRate()
+    number getBaseMaxHp()
+    number getBaseMaxMp()
+    number getBaseHp()
+    number getBaseMp()
+    number getBaseStr()
+    number getBaseInt()
+    number getBaseDex()
+    number getBaseCon()
+    number getBaseSpecial(number sId) -- The creature's special points, affects it's skill tiers
+
+    -- Set base score informations.
+    void setBaseDefense(number value)
+    void setBaseDamage(number value)
+    void setBaseAttackRun(number value)
+    void setBaseDirection(number value)
+    void setBaseChaosRate(number value)
+    void setBaseMaxHp(number value)
+    void setBaseMaxMp(number value)
+    void setBaseHp(number value)
+    void setBaseMp(number value)
+    void setBaseStr(number value)
+    void setBaseInt(number value)
+    void setBaseDex(number value)
+    void setBaseCon(number value)
+    void setBaseSpecial(number sId, number value); -- The creature's special points, affects it's skill tiers
+	
     -- Get current score informations.
     number getDefense()
     number getDamage()
@@ -720,7 +753,7 @@ Methods:
     CItem getItem(number slot, number placeType)
     CItem getCarryItem(number slot)
 	
-	string getUserName()
+    string getUserName()
     CPosition getSavePos()
     number getScoreBonus()
     number getSpecialBonus()

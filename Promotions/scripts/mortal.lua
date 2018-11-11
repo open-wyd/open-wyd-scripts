@@ -9,6 +9,13 @@ local IncrementalAttrByClass = {
 	[3]={HP = 1, MP = 1, Defense = 1}
 }
 
+local InitScorePoints = {
+	[0]=25,
+	[1]=23,
+	[2]=26,
+	[3]=36,
+};
+
 local ScoreBonusList = {
 	{from=0, to=256, bonusByLevel=5},
 	{from=257, to=301, bonusByLevel=10},
@@ -26,7 +33,7 @@ local SkillBonusList = {
 --                Promotion entry point                --
 ---------------------------------------------------------
 -- [this function is optional]
-function OnGainExp(experience, player) -- TODO: Correct the potential of infinite loop (recursive use of the Creature->addExp)
+function OnGainExp(player, experience) -- TODO: Correct the potential of infinite loop (recursive use of the Creature->addExp)
 	return experience;
 end
 
@@ -69,7 +76,8 @@ end
 function OnScoreBonusMaker(player)
 	local scorePointInUse = (player:getBaseStr() + player:getBaseInt() + player:getBaseDex() + player:getBaseCon());
 	local totalPoints = getTotalBonusPoint(player:getLevel(), ScoreBonusList);
-	player:setScoreBonus(totalPoints - scorePointInUse);
+	
+	player:setScoreBonus((totalPoints + InitScorePoints[player:getClass()]) - scorePointInUse);
 end
 
 -- [this function is required]

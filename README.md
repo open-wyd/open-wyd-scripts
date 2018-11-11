@@ -248,7 +248,7 @@ Methods:
     number  GetMapArenaId(CPosition pos)
     number  GetMapVillageId(number x, number y)
     number  GetMapVillageId(CPosition pos)
-	number  GetSkillPointsConsumedByCreature(Creature creature)
+    number  GetSkillPointsConsumedByCreature(Creature creature)
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -623,7 +623,7 @@ Methods:
     number getBaseCon()
     number getBaseSpecial(number sId) -- The creature's special points, affects it's skill tiers
 
-	-- Set base score informations.
+    -- Set base score informations.
     void setBaseDefense(number value)
     void setBaseDamage(number value)
     void setBaseAttackRun(number value)
@@ -753,7 +753,7 @@ Methods:
     CItem getItem(number slot, number placeType)
     CItem getCarryItem(number slot)
 	
-	string getUserName()
+    string getUserName()
     CPosition getSavePos()
     number getScoreBonus()
     number getSpecialBonus()

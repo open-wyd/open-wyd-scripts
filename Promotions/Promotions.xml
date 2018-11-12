@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <Promotions>
-    <promotion id="0" name="mortal" script="mortal.lua" />
+    <promotion id="0" name="Mortal" script="mortal.lua" explist="explist/mortal.xml"/>
+	<promotion id="1" name="Arch" script="arch.lua" explist="explist/arch.xml"/>
 </Promotions>

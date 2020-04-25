@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Conditions>
+	<Condition ticktype="1" script="001_CONDITION_SLOWNESS.lua" />
+</Conditions>

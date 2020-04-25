@@ -8,6 +8,9 @@ kappaAttrList = {
 	[3319]={conditionValue=1, conditionTime=getTicketHours(20)}, -- Kappa 20h
 	[3320]={conditionValue=2, conditionTime=getTicketHours(20)}, -- Competent 20h
 	[3321]={conditionValue=3, conditionTime=getTicketHours(20)}, -- Mental 20h
+	[3361]={conditionValue=2, conditionTime=getTicketDays(7)},  -- Sephira Potion (7d ays)
+	[3362]={conditionValue=2, conditionTime=getTicketDays(14)},  -- Sephira Potion (14 days)
+	[3363]={conditionValue=2, conditionTime=getTicketDays(30)},  -- Sephira Potion (30 days)
 };
 		
 function OnUse(player, pSrc, pNumber, pDest)

@@ -43,3 +43,5 @@ loginmsg = "Welcome to Open WYD. For help visit http://openwyd.com.br"
 -- max number of players allowed
 maxplayers = "1000"
 
+drop_item = false;
+

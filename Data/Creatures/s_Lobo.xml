@@ -1,6 +1,6 @@
 <summon name="Lobo" id="2" level="5" merchant="0" clan="4" class="1" experience="0" gold="0" >
 	<health now="8000" max="8000" regen="0" />
-	<status str="6" dex="10" int="100" con="0" />
+	<status str="6" dex="100" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="20" magic="0" critical="255" attack_speed="0" move_speed="3" defense="50"/>
 	<look>

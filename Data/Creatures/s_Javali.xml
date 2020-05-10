@@ -1,6 +1,6 @@
 <summon name="Javali" id="1" level="3" merchant="0" clan="2" class="1" experience="10000" gold="9000" >
 	<health now="70" max="70" regen="0" />
-	<status str="6" dex="10" int="50" con="500" />
+	<status str="6" dex="100" int="50" con="500" />
 	<special special1="255" special2="7" special3="255" special4="7" />
 	<strategy damage="7" magic="0" critical="255" attack_speed="0" move_speed="1" defense="2"/>
 	<look>

@@ -1,4 +1,4 @@
-<creature name="Perzen_Normal" level="65" merchant="100" clan="3" class="1" experience="25000" gold="9999" >
+<creature name="Perzen_Normal" level="65" merchant="100" clan="3" class="1" experience="25000" gold="9999" eventId="21">
 	<health now="15000" max="15000" regen="0" />
 	<status str="4" dex="80" int="70" con="700" />
 	<special special1="255" special2="7" special3="255" special4="7" />

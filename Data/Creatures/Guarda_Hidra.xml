@@ -1,15 +1,14 @@
-<creature name="Guarda" level="80" merchant="100" clan="0" class="1" experience="25000" gold="9999" eventId="18" >
+<creature name="Guarda_Hidra" level="80" merchant="100" clan="0" class="1" experience="25000" gold="9999" eventId="4" >
 	<health now="10000" max="10000" regen="0" />
 	<status str="5" dex="100" int="100" con="0" />
 	<special special1="255" special2="1" special3="106" special4="2" />
 	<strategy damage="0" magic="0" critical="0" attack_speed="160" move_speed="2" defense="8000"/>
 	<look>
-		<corpse id="60" brightness="0" />
-		<helmet id="130" brightness="0" />
+		<corpse id="64" brightness="1" />
 		<armor id="126" brightness="0" />
 		<pants id="127" brightness="0" />
 		<glove id="128" brightness="0" />
 		<boots id="129" brightness="0" />
-		<rigth_weapon id="986" brightness="0" />
+		<rigth_weapon id="868" brightness="6" />
 	</look>
 </creature>

@@ -24,10 +24,15 @@
 	
 	<volatilerange fromId="173" toId="175" script="nightmare.lua" />
 	<volatile id="185" script="silver_Coins-and-Bars.lua" />
+	<volatile id="188" script="territory_ticket.lua" />
 	<volatile id="190" script="repliction.lua" />
 	<volatile id="191" script="kaizen.lua" />
+	<volatile id="192" script="Opportunity_Compound.lua" />
+	<volatile id="193" script="Balance_Compound.lua" />
+	<volatile id="194" script="molar-do-gargula.lua" />
 	<volatile id="195" script="hunting_scrolls.lua" />
 	<volatile id="196" script="hatch_accelerator.lua" />
 	<volatile id="198" script="exp_box.lua" />
 	<volatile id="203" script="Cao_Remission_Letter.lua" />
+	
 </Itens>

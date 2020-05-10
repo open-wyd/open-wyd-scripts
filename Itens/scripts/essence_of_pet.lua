@@ -16,17 +16,17 @@ function OnUse(player, pSrc, pNumber, pDest)
 	if (pDest.type ~= 0 or pDest.slot ~= 14) then
 		return FALSE;
 	end
-
+	
 	local mountItem = player:getMount();
 	if (mountItem:isBetween(2330, 2390) == false or mountItem:getMountHp() <= 0) then
 		return FALSE;
 	end
-
+	
 	if (getEssencePetIdByMountId(mountItem:getId()) ~= ((pSrc.itemId - 2390) % 30)) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Mount_Not_Match);
 		return FALSE;
 	end
-
+	
 	local level = mountItem:getMountLevel();
 	if (level >= 120 and mountItem:isBetween(2360, 2390)) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Cant_Upgrade_More);
@@ -58,16 +58,16 @@ function OnUse(player, pSrc, pNumber, pDest)
 			
 			iGameServer.ProcessAdultMount(player, 0);
 			iSend.Item(player, pDest.type, pDest.slot, mountItem);
-			return;
+			return TRUE;
 		end
 		
 		iLog("Mount refine success "..mountItem:getId().."+"..mountItem:getMountLevel().." ["..player:getName().." / "..iItems.GetItemDumpStr(mountItem).."]");
 	end
-
+	
 	level = level + 1;
 	mountItem:setMountLevel(level);
 	mountItem:setMountExp(1);
-
+	
 	if ((level >= 25 and mountItem:getId() == 2330) or (level >= 35 and mountItem:getId() == 2331) or (level >= 100 and mountItem:isBetween(2332, 2360))) then
 		
 		mountItem:setId(mountItem:getId() + 30);
@@ -77,13 +77,13 @@ function OnUse(player, pSrc, pNumber, pDest)
 		mountItem:setMountExp(0);
 		 
 		iSend.ClientMessage(player, MessageStringTable._NN_Mount_Growth);
-		iGameServer.MountProcess(player, nil);
+		iGameServer.MountProcess(player, mountItem);
 	end
 
 	iSend.Emotion(player, 14, 3);
 
 	if (mountItem:isBetween(2330, 2360)) then
-		iGameServer.MountProcess(player, nil);
+		iGameServer.MountProcess(player, mountItem);
 	elseif (mountItem:isBetween(2360, 2390)) then
 		iGameServer.ProcessAdultMount(player, 0);
 	end

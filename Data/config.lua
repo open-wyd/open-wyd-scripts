@@ -33,8 +33,8 @@ exhaustedadd = 200
 party_exp_mul = 5
 
 -- rates (experience, skill, magic level, loot and spawn)
-rate_exp_free = 20;
-rate_loot_free = 8;
+rate_exp_free = 0;
+rate_loot_free = 1;
 rate_gold_free = 1;
 
 -- login message
@@ -44,4 +44,3 @@ loginmsg = "Welcome to Open WYD. For help visit http://openwyd.com.br"
 maxplayers = "1000"
 
 drop_item = false;
-

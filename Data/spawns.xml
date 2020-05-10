@@ -3017,12 +3017,20 @@
 		<walk segment="0" wait="9" range="0" x="2530" y="1734" say=""/>
 		<walk segment="1" wait="8" range="0" x="2530" y="1732" say=""/>
 	</spawn>
-	<spawn interval="8" max="5" min_group="4" max_group="4" leader="Soldado_Merc" follower="Soldado_Merc" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="0" x="2444" y="1718" say=""/>
-		<walk segment="1" wait="5" range="0" x="2422" y="1718" say=""/>
-		<walk segment="2" wait="5" range="0" x="2379" y="1616" say=""/>
-		<walk segment="3" wait="0" range="0" x="2380" y="1602" say=""/>
-		<walk segment="4" wait="20" range="2" x="2392" y="1592" say=""/>
+	<spawn interval="1" max="15" min_group="8" max_group="8" leader="Soldado_Merc" follower="Soldado_Merc" route_type="1" formation="0">
+		<walk segment="0" wait="0" range="10" x="2444" y="1718" say="aqui 1"/>
+		<walk segment="1" wait="0" range="10" x="2434" y="1718" say="aqui 2"/>
+		<walk segment="2" wait="0" range="10" x="2424" y="1718" say="aqui 3"/>
+		<walk segment="3" wait="0" range="10" x="2414" y="1718" say="aqui 4"/>
+		<walk segment="4" wait="0" range="10" x="2404" y="1708" say="aqui 5"/>
+		<walk segment="5" wait="0" range="10" x="2399" y="1701" say="aqui 5"/>
+		<walk segment="6" wait="0" range="10" x="2392" y="1693" say="aqui 5"/>
+		<walk segment="7" wait="0" range="10" x="2386" y="1678" say="aqui 5"/>
+		<walk segment="8" wait="0" range="10" x="2380" y="1660" say="aqui 5"/>
+		<walk segment="9" wait="0" range="10" x="2376" y="1646" say="aqui 5"/>
+		<walk segment="10" wait="0" range="10" x="2378" y="1612" say="aqui 5"/>
+		<walk segment="11" wait="0" range="10" x="2384" y="1599" say="aqui 5"/>
+		<walk segment="12" wait="0" range="10" x="2393" y="1594" say="aqui 5"/>
 	</spawn>
 	<spawn interval="500" max="1" min_group="0" max_group="0" leader="Merc_Zakum" route_type="1" formation="0">
 		<walk segment="0" wait="0" range="0" x="866" y="999" say=""/>
@@ -11918,7 +11926,7 @@
 	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Batedor" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="454" y="3910" say="Level_requerido_é_186_-_256."/>
 	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Guarda" route_type="2" formation="0">
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Guarda_Hidra" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="668" y="3768" say="Level_requerido_é_260_-_300."/>
 	</spawn>
 	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Representante" route_type="2" formation="0">
@@ -13243,42 +13251,58 @@
 		<walk segment="2" wait="8" range="1" x="818" y="3994" say=""/>
 		<walk segment="3" wait="8" range="1" x="818" y="4000" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	
+	<!-- QUEST Formatura do Cavaleiro Aprendiz -->
+	
+	<spawn interval="3" max="2" min_group="3" max_group="3" leader="Taurus_Maligno" follower="Rei_Taurus" route_type="1" formation="0">
 		<walk segment="0" wait="9" range="1" x="2251" y="1584" say=""/>
+		<walk segment="0" wait="9" range="1" x="2251" y="1580" say=""/>
+		<walk segment="0" wait="9" range="1" x="2251" y="1577" say=""/>
+		<walk segment="0" wait="9" range="1" x="2248" y="1577" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2251" y="1572" say=""/>
+		<walk segment="0" wait="9" range="1" x="2249" y="1576" say=""/>
+		<walk segment="0" wait="9" range="1" x="2251" y="1580" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2245" y="1577" say=""/>
+		<walk segment="0" wait="9" range="1" x="2245" y="1579" say=""/>
+		<walk segment="0" wait="9" range="1" x="2249" y="1580" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="1" x="2237" y="1587" say=""/>
-	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="1" x="2241" y="1577" say=""/>
-	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2235" y="1570" say=""/>
+		<walk segment="0" wait="9" range="1" x="2238" y="1574" say=""/>
+		<walk segment="0" wait="9" range="1" x="2236" y="1570" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	<spawn interval="3" max="2" min_group="3" max_group="3" leader="Taurus_Maligno" follower="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2240" y="1571" say=""/>
-	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="1" x="2245" y="1575" say=""/>
+		<walk segment="0" wait="9" range="1" x="2248" y="1579" say=""/>
+	</spawn>	
+	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2246" y="1571" say=""/>
+		<walk segment="0" wait="9" range="1" x="2243" y="1571" say=""/>
+		<walk segment="0" wait="9" range="1" x="2243" y="1573" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	<spawn interval="3" max="2" min_group="2" max_group="2" leader="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2258" y="1577" say=""/>
+		<walk segment="0" wait="9" range="1" x="2258" y="1579" say=""/>
+		<walk segment="0" wait="9" range="1" x="2258" y="1584" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+	<spawn interval="3" max="3" min_group="4" max_group="4" leader="Taurus_Maligno" follower="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2244" y="1583" say=""/>
-	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="1" x="2248" y="1583" say=""/>
+		<walk segment="0" wait="9" range="1" x="2250" y="1583" say=""/>
+	</spawn>	
+	<spawn interval="3" max="3" min_group="4" max_group="4" leader="Taurus_Maligno" follower="Rei_Taurus" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="1" x="2233" y="1577" say=""/>
+		<walk segment="0" wait="9" range="1" x="2239" y="1579" say=""/>
+		<walk segment="0" wait="9" range="1" x="2239" y="1583" say=""/>
 	</spawn>
-	<spawn interval="3" max="1" min_group="0" max_group="0" leader="Taurus_Maligno" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="1" x="2244" y="1588" say=""/>
-	</spawn>
+	
+	<!-- Final dos Mobs - Formatura do Cavaleiro Aprendiz -->
+	
 	<spawn interval="2" max="2" min_group="0" max_group="0" leader="Gargula" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="734" y="4054" say=""/>
 	</spawn>
@@ -13682,5 +13706,15 @@
 	<spawn interval="1" max="1" min_group="0" max_group="0" leader="AAAAeggs" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="2122" y="2101" say=""/>
 		<walk segment="1" wait="8" range="0" x="2122" y="2098" say=""/>
+	</spawn>
+	
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Unicornio_Puro_Katana" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="0" x="2449" y="2081" say=""/>
+	</spawn>
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Unicornio_Puro_Caveira" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="0" x="2444" y="2130" say=""/>
+	</spawn>
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Unicornio_Puro_Orc" route_type="0" formation="0">
+		<walk segment="0" wait="9" range="0" x="2471" y="2153" say=""/>
 	</spawn>
 </spawns>

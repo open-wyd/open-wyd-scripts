@@ -145,6 +145,10 @@ global_OWS = {
 		TrainerOfNewbier_Leader 	= 1 << 4,
 		TrainerOfNewbier_Trainer1	= 1 << 5,
 		TrainerOfNewbier_Trainer2	= 1 << 6,
-		TrainerOfNewbier_Trainer3	= 1 << 7
+		TrainerOfNewbier_Trainer3	= 1 << 7,
+		OpportunityCompound			= 1 << 8,
+		BalanceCompound				= 1 << 9,
+		MolarGargol                 = 1 << 10,
+		Unicorn						= 1 << 11
 	}
 }

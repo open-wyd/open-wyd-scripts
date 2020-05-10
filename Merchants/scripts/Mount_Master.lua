@@ -6,7 +6,7 @@ function OnUse(npc, player, confirm)
 		return;
 	end
 	
-	if (mount:getValue(0) > 0) then
+	if (mount:getMountHp() > 0) then
 		iSend.Say(npc, "A montaria ainda está viva!");
 		return;
 	end

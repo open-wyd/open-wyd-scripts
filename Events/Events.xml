@@ -7,4 +7,5 @@
 	<event name="duel_letter" script="duel_letter.lua" />
 	<event name="nightmare" script="nightmare.lua" />
 	<event name="hallOfKefra" script="hallOfKefra.lua" />
+	<event name="territory_ticket" script="territory_ticket.lua" />
 </Events>

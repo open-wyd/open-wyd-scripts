@@ -1,4 +1,4 @@
-local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ),  EnvironmentEvent:new( ), EnvironmentEvent:new( ) };
+local Env = { EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ),  EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( ), EnvironmentEvent:new( )};
 local exitUpLevelPos = CPosition:new(0,0);
 
 -- Sala 1
@@ -64,6 +64,15 @@ Env[7].to.x = 2670;
 Env[7].to.y = 2003;
 Env[7].center.x = 2652;
 Env[7].center.y = 1983;
+-- Sala 8
+Env[8].envId = 8;
+Env[8]:setName("Quest Equilíbrio da força");
+Env[8].from.x = 1990;
+Env[8].from.y = 1586;
+Env[8].to.x = 1948;
+Env[8].to.y = 1616;
+Env[8].center.x = 1966;
+Env[8].center.y = 1606;
 
 function onExecute( this, envId )
 	

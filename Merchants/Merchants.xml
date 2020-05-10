@@ -14,5 +14,10 @@
 	<merchant eventid="12" script="Trainer_of_Newbie.lua" />
 	<merchant eventid="13" script="up-level/Director_Green_Mantle.lua" />
 	<merchant eventid="14" script="up-level/Priest_Jester.lua" />
-	
+	<merchant eventid="15" script="Npcs_Cape.lua" />
+	<merchant eventid="16" script="Npcs_Compound_Reset.lua" />
+	<merchant eventid="18" script="up-level/Guard_Balance_Force.lua" />
+	<merchant eventid="19" script="Sephirot.lua" />
+	<merchant eventid="20" script="Unicorn.lua" />
+	<merchant eventid="21" script="Perzens.lua" />
 </Merchants>

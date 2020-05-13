@@ -20,4 +20,6 @@
 	<merchant eventid="19" script="Sephirot.lua" />
 	<merchant eventid="20" script="Unicorn.lua" />
 	<merchant eventid="21" script="Perzens.lua" />
+	<merchant eventid="22" script="Mestre_Haby.lua" />
+	<merchant eventid="23" script="Silver_Dragon.lua" />
 </Merchants>

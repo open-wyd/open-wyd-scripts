@@ -1,4 +1,4 @@
-<creature name="Kibita" level="80" merchant="74" clan="3" class="1" experience="0" gold="0" >
+<creature name="Kibita" level="80" merchant="74" clan="3" class="1" experience="0" gold="0" eventId="22" >
 	<health now="9000" max="9000" regen="204" />
 	<status str="5" dex="100" int="100" con="0" />
 	<special special1="255" special2="7" special3="255" special4="7" />

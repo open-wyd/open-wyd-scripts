@@ -784,7 +784,12 @@ Methods:
     boolean hasQuest(number quest)
     void addQuest(number quest)
     void removeQuest(number quest)
-	
+
+    boolean  hasEnvI64(number key) const;
+    number getEnvI64(number key) const;
+    void setEnvI64(number key, number value);
+    void removeEnvI64(number key);
+
     boolean  applyHp()
     boolean  applyMp()
     void  setReqHp()

@@ -708,6 +708,7 @@ Methods:
     Creature getCreatureOwner()
 
     -- Methods of the Party/Group.
+    boolean isPartying()
     boolean isPartyLeader()
     Creature getPartyLeader()
     void leaveParty()
@@ -760,6 +761,10 @@ Methods:
     number getSkillBonus()
     number getRegenHP()
     number getRegenMP()
+    number getHold();
+    number getFame();
+    number getSoulType();
+    number getCitizenshipId();
 
     void setName(string value)
     void setSavePos(CPosition value)
@@ -769,12 +774,17 @@ Methods:
     void setRegenHP(number value)
     void setRegenMP(number value)
     void setSaveMana(number value)
+    void setHold(number value);
+    void setFame(number value);
+    void setSoulType(number value);
+    void setCitizenshipId(number value);
 
     number getQuest()
     void setQuest(number value)
     boolean hasQuest(number quest)
     void addQuest(number quest)
     void removeQuest(number quest)
+	
     boolean  applyHp()
     boolean  applyMp()
     void  setReqHp()
@@ -790,6 +800,9 @@ Type:
     Npc.__index = Creature
     
 Methods:
+   
+   number getEventId();
+   number getEventValue();
    Creature getSummoner()
    boolean  IsSummon()
 ```

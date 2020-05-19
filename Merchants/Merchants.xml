@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <Merchants>
-    <merchant eventid="1" script="up-level/Kaizen_1.lua" />
+  
+  <merchant eventid="1" script="up-level/Kaizen_1.lua" />
 	<merchant eventid="2" script="up-level/Kaizen_2.lua" />
 	<merchant eventid="3" script="up-level/Kaizen_3.lua" />
 	<merchant eventid="4" script="up-level/Kaizen_4.lua" />
@@ -20,5 +21,8 @@
 	<merchant eventid="19" script="Sephirot.lua" />
 	<merchant eventid="20" script="Unicorn.lua" />
 	<merchant eventid="21" script="Perzens.lua" />
-	<merchant eventid="22" script="Kibita.lua" />
+	<merchant eventid="22" script="Mestre_Haby.lua" />
+	<merchant eventid="23" script="Silver_Dragon.lua" />
+	<merchant eventid="24" script="Kibita.lua" />
+
 </Merchants>

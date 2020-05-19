@@ -3,49 +3,46 @@
 --	<item id="1723" name="Straw"
 --	<item id="1724" name="Hat"
 --	<item id="1725" name="Carrot"
-
 --	<item id="1726" name="Grewpain"
 
-function OnUse(npc, player, confirm)
+local RequiredItems = {
+		[1721] = {quantity = 10}, 
+		[1722] = {quantity = 2}, 
+		[1723] = {quantity = 4}, 
+		[1724] = {quantity = 1}, 
+		[1725] = {quantity = 1}		
+};
+
+local PutItem = CItem:new(1726);
+
+function OnUse(npc, player, fItem, confirm)
 	
 	local namePlayer = player:getName();
+	local currentCoin = player:getCoin();
+	local fItem = FindItem:new(player);
 	
-	local snowBall = fItem:findItemId(1721, 10)
-	if(snowBall < 10) then 
-		local itemAttr = iItems.GetItemById(???);
-		isendSay(npc, namePlayer..", você precisa trazer "..itemAttr:getName());
-		return;
+	if(player:getCoin() < 2000000) then
+		iSend.Say(npc, namePlayer..", preciso que traga 2.000.000 de gold");
+		return; 
 	end
 	
-	local twig = fItem:findItemId(1722, 1)
-	if(twig < 2) then
-		local itemAttr = iItems.GetItemById(???);
-		isendSay(npc, namePlayer..", você precisa trazer "..itemAttr:getName());
-		return;
-	end
-	
-	local straw = fItem:findItemId(1723, 1)
-	if(straw < 4) then
-		local itemAttr = iItems.GetItemById(???);
-		isendSay(npc, namePlayer..", você precisa trazer "..itemAttr:getName());
-		return;
-	end
-	
-	local hat = fItem:findItemId(1724, 1)
-	if(Hat < 1) then
-		local itemAttr = iItems.GetItemById(???);
-		isendSay(npc, namePlayer..", você precisa trazer "..itemAttr:getName());
-		return;
+	for key, value in pairs(RequiredItems) do
+		if(fItem:findItemId(key, value.quantity) < value.quantity) then
+			local itemAttr = iItems.GetItemById(key);
+			iSend.Say(npc, player:getName()..", preciso de "..value.quantity.." "..itemAttr:getName());
+			return;
+		end
 	end	
-	
-	local carrot = fItem:findItemId(1725, 1)
-	if(carrot < 1) then
-		local itemAttr = iItems.GetItemById(???);
-		isendSay(npc, namePlayer..", você precisa trazer "..itemAttr:getName());
-		return;
+
+	if(iGameServer.PutItem(player, PutItem) == true) then
+		player:setCoin(player:getCoin() - 2000000)
+		fItem:clearItems(18)
+		fItem:resume();
+		iSend.Say(npc, "Obrigado!!"..player:getName().." você merece essa recompensa");
+		iSend.Etc(player);
+	else
+		iSend.ClientMessage(player, "Inventario esta sem espaço.");
 	end
-	
-	handledItem:reset(rule.repItemId);
 	
 	iSend.Equip(player);
 	iSend.Score(player);
@@ -53,5 +50,4 @@ function OnUse(npc, player, confirm)
 
 	iSend.Say(npc, "Você realizou a quest.");
 
-	
 end	

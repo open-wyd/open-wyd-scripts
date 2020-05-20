@@ -2310,31 +2310,31 @@
 		<walk segment="0" wait="9" range="6" x="2512" y="1876" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2456" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2456" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2466" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2466" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2476" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2476" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2486" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2486" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2496" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2496" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2504" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2504" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2512" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2512" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2524" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2524" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="6" x="2536" y="1866" say=""/>
+		<walk segment="0" wait="9" range="6" x="2536" y="1865" say=""/>
 	</spawn>
 	<spawn interval="1" max="3" min_group="1" max_group="1" leader="Cacador_Troll" follower="Troll" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="2528" y="1888" say=""/>
@@ -9538,14 +9538,11 @@
 		<walk segment="2" wait="8" range="0" x="1689" y="1840" say=""/>
 		<walk segment="3" wait="10" range="0" x="1689" y="1846" say=""/>
 	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Black_Oracle" route_type="6" formation="0">
-		<walk segment="0" wait="9" range="0" x="1714" y="1850" say=""/>
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Blue_Oracle" route_type="6" formation="0">
+		<walk segment="0" wait="9" range="0" x="1760" y="1564" say=""/>
 	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Black_Oracle" route_type="6" formation="0">
-		<walk segment="0" wait="9" range="0" x="1760" y="1868" say=""/>
-	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Black_Oracle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1760" y="1890" say=""/>
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Blue_Oracle" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="0" x="1760" y="1582" say=""/>
 	</spawn>
 	<spawn interval="10" max="2" min_group="1" max_group="1" leader="Pikeman" follower="Virago" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="4" x="1688" y="1660" say=""/>
@@ -9736,14 +9733,11 @@
 		<walk segment="2" wait="8" range="0" x="1689" y="1616" say=""/>
 		<walk segment="3" wait="10" range="0" x="1689" y="1610" say=""/>
 	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Black_Oracle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1714" y="1604" say=""/>
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Red_Oracle" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="0" x="1760" y="1868" say=""/>
 	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Black_Oracle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1760" y="1582" say=""/>
-	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Black_Oracle" route_type="2" formation="0">
-		<walk segment="0" wait="9" range="0" x="1760" y="1564" say=""/>
+	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Red_Oracle" route_type="2" formation="0">
+		<walk segment="0" wait="9" range="0" x="1760" y="1890" say=""/>
 	</spawn>
 	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Kingdom_Brocker" route_type="2" formation="0">
 		<walk segment="0" wait="9" range="0" x="1742" y="1850" say=""/>
@@ -13588,12 +13582,6 @@
 	</spawn>
 	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Chefe_Treinamento" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="2234" y="1566" say=""/>
-	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Shiner" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="0" x="1757" y="1880" say=""/>
-	</spawn>
-	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Shiner_" route_type="0" formation="0">
-		<walk segment="0" wait="9" range="0" x="1757" y="1573" say=""/>
 	</spawn>
 	<spawn interval="1" max="1" min_group="0" max_group="0" leader="Cons._Real" route_type="0" formation="0">
 		<walk segment="0" wait="9" range="0" x="1761" y="1725" say=""/>

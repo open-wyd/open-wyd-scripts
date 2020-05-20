@@ -77,7 +77,7 @@ function OnUse(npc, player, confirm)
 		return;
 	end
 	
-	local isPermanent = (player:getLevel() >= 370);
+	local isPermanent = (player:getLevel() >= 369);
 	local fItem = FindItem:new(player);
 	local reqItemId = 420;
 	
@@ -85,7 +85,7 @@ function OnUse(npc, player, confirm)
 		reqItemId = (5334 + player:getClass());
 	end
 	
-	if(fItem:findItemId(reqItemId, 1) <= 1) then
+	if(fItem:findItemId(reqItemId, 1) < 1) then
 		local itemAttr = iItems.GetItemById(reqItemId);
 		iSend.ClientMessage(player, 'Traga-me o item "'..itemAttr:getName()..'\"');
 		return;

@@ -95,9 +95,9 @@ EsferasRules [67] = {
 function OnUse(npc, player, confirm)
 	
 	local esferasRules = EsferasRules[npc:getLevel()];
-	
+
 	if(esferasRules == nil) then
-		Ilog("wrong trainer ruleId "..npc:getLevel());
+		iLog("wrong trainer ruleId "..npc:getLevel());
 		return FALSE;
 	elseif(esferasRules:check(player, npc) == false) then
 		local itemAttr = iItems.GetItemById(esferasRules.eventItemId);

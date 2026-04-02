@@ -31,9 +31,9 @@ function OnUse(player, pSrc, pNumber, pDest)
 	
 	local item = player:getItem(pSrc.slot, pSrc.type);
 	local lanRule = LanRules[item:getId()];
-	
+
 	if(lanRule == nil) then
-		Ilog("wrong lan ruleId "..item:getId());
+		iLog("wrong lan ruleId "..item:getId());
 		return;
 	end
 	

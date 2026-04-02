@@ -25,7 +25,7 @@ TrainerRules[36] = {
 		putItem:setAddValue(EF_AMOUNT, 5);
 		
 		if(iGameServer.PutItem(player, putItem) == false) then
-			iSend.ClientMessage(player, "Inventario esta sem espaço.");
+			iSend.ClientMessage(player, "Inventario esta sem espaï¿½o.");
 			return false;
 		end
 		
@@ -72,7 +72,7 @@ TrainerRules[40] = {
 		end
 		
 		if(isSuccess) then
-			iSend.Say(npc, player:getName()..", isto lhe dara força");
+			iSend.Say(npc, player:getName()..", isto lhe dara forï¿½a");
 			iLog("Trainer2["..player:getName().."] {"..itemLogDumpStr.."}");
 			
 			player:doBuildCurrentScore();
@@ -174,7 +174,7 @@ function OnUse(npc, player, confirm)
 	local trainerRule = TrainerRules[npc:getMerchant()];
 	
 	if(trainerRule == nil) then
-		Ilog("wrong trainer ruleId "..npc:getMerchant());
+		iLog("wrong trainer ruleId "..npc:getMerchant());
 		return FALSE;
 	--elseif(player:hasQuest(trainerRule.eventFlag)) then
 	--	iSend.Say(npc, "Ja realizou esta quest.");
@@ -183,7 +183,7 @@ function OnUse(npc, player, confirm)
 		iSend.Say(npc, "Traga-me o item: "..itemAttr:getName());
 	elseif(trainerRule:onAction(player, npc)) then
 		player:addQuest(trainerRule.eventFlag);
-		iSend.Say(npc, "Você realizou a quest.");
+		iSend.Say(npc, "Vocï¿½ realizou a quest.");
 		return TRUE;
 	end
 	

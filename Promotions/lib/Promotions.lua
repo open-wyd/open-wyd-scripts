@@ -98,7 +98,7 @@ function canEquipItem(player, item, Pos)
         return FALSE;
     elseif (itemMobType == MobTypes.MORTAL and playerMobType ~= MobTypes.MORTAL) then
         return FALSE;
-    elseif (itemMobType == MobTypes.CELESTIAL and (playerMobType == MobTypes.MORTAL or playerMobType == MobTypesARCH)) then
+    elseif (itemMobType == MobTypes.CELESTIAL and (playerMobType == MobTypes.MORTAL or playerMobType == MobTypes.ARCH)) then
         return FALSE;
     elseif (playerMobType ~= MobTypes.MORTAL and Pos == 1 and item:getId() ~= 747 and not item:isBetween(3500, 3507)) then
         return FALSE;
@@ -141,9 +141,6 @@ function canEquipItem(player, item, Pos)
             con < player:getBaseCon()
         );
 
-    if (result == false) then
-        return FALSE;
-    end
-
-    return TRUE;
+    if result then return TRUE; end
+    return FALSE;
 end

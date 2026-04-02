@@ -1,3 +1,1 @@
-function OnUse( player )
-	doTeleport(player, 147, 3781);
-end
+function OnUse(player) teleport(player, "Dungeom2ToDungeom1") end

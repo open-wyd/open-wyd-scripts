@@ -1,3 +1,1 @@
-function OnUse( player )
-	doTeleport(player, 2417, 3867);
-end
+function OnUse(player) teleport(player, "Kefra3abToKefra4") end

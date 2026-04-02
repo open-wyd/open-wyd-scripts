@@ -1,0 +1,2 @@
+-- Conditions module library.
+-- Adicione aqui funções utilitárias compartilhadas entre scripts de Conditions/.

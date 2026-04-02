@@ -37,8 +37,6 @@ function getClassIdByCorpseId(player)
 	else
 		return -1;
 	end
-	
-	return -1;
 end
 
 function getMountScriptId( mountId )

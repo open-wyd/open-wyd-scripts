@@ -124,12 +124,7 @@ function onExecute( this, envId )
 			else
 				Env[nextEnvId]:executeSpawn( envSpawn[eventMode][nextEnvId] );
 			end
-			
-			-- Debug
-			if(Env.owner:getLevel() > 1000) then
-				iSend.Say(Env.owner, "nextEnvId: "..nextEnvId.." - envId+1: "..envId+1);
-			end
-			
+
 			this:nextEnv( Env[envId], Env[nextEnvId] );
 			this:addTask(nextEnvId);
 
@@ -178,7 +173,7 @@ function onAddPlayer(this, envId, player)
 	Env[1]:setTime(chekTime+NSec_duelReset);
 	
 	if(Env[1]:addGroup(this, player, Env[1].center )) then
-		iSend.ClientMessage(player, "você esta participando do evento \""..Env[1]:getName( ).."\"");
+		iSend.ClientMessage(player, "vocï¿½ esta participando do evento \""..Env[1]:getName( ).."\"");
 		Env[1]:sendTime( Sec_duelReset, true );
 		start = true;
 		this:addTask( 1 );

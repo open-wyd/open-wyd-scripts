@@ -1,7 +1,13 @@
+local MOUNT_ITEM_BASE_ID   = 2330  -- ID base dos mounts (range: 2330-2390)
+local MOUNT_ITEM_YOUNG_MAX = 2360  -- Mounts jovens: 2330-2359
+local MOUNT_ITEM_ADULT_MAX = 2390  -- Mounts adultos: 2360-2389
+local MOUNT_MAX_LEVEL      = 120   -- Nível máximo para mounts adultos
+local ESSENCE_BASE_ID      = 2390  -- ID base das essências de pet
+
 local SancRateList = {100, 80, 60, 40, 20, 10, 10, 10, 5, 5, 5, 5};
 
 local function getEssencePetIdByMountId(mountItemId)
-	local mountId = (mountItemId - 2330) % 30;
+	local mountId = (mountItemId - MOUNT_ITEM_BASE_ID) % 30;
 	if(mountId == 28) then	  -- Fixed id for Sleipnir
 		mountId = 21;
 	elseif(mountId == 27) then -- Fixed id for Svadilfire
@@ -18,17 +24,17 @@ function OnUse(player, pSrc, pNumber, pDest)
 	end
 	
 	local mountItem = player:getMount();
-	if (mountItem:isBetween(2330, 2390) == false or mountItem:getMountHp() <= 0) then
+	if (mountItem:isBetween(MOUNT_ITEM_BASE_ID, MOUNT_ITEM_ADULT_MAX) == false or mountItem:getMountHp() <= 0) then
 		return FALSE;
 	end
 	
-	if (getEssencePetIdByMountId(mountItem:getId()) ~= ((pSrc.itemId - 2390) % 30)) then
+	if (getEssencePetIdByMountId(mountItem:getId()) ~= ((pSrc.itemId - ESSENCE_BASE_ID) % 30)) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Mount_Not_Match);
 		return FALSE;
 	end
 	
 	local level = mountItem:getMountLevel();
-	if (level >= 120 and mountItem:isBetween(2360, 2390)) then
+	if (level >= MOUNT_MAX_LEVEL and mountItem:isBetween(MOUNT_ITEM_YOUNG_MAX, MOUNT_ITEM_ADULT_MAX)) then
 		iSend.ClientMessage(player, MessageStringTable._NN_Cant_Upgrade_More);
 		iGameServer.ProcessAdultMount(player, nil);
 		return FALSE;
@@ -37,7 +43,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 	mountItem:setMountHp(20000);
 	mountItem:setMountFeed(100);
 	
-	if (mountItem:isBetween(2360, 2390)) then
+	if (mountItem:isBetween(MOUNT_ITEM_YOUNG_MAX, MOUNT_ITEM_ADULT_MAX)) then
 		local rate = SancRateList[math.floor((mountItem:getMountLevel()/10) + 1)];
 		local randomRate = math.random(0, 101);
 		
@@ -68,7 +74,7 @@ function OnUse(player, pSrc, pNumber, pDest)
 	mountItem:setMountLevel(level);
 	mountItem:setMountExp(1);
 	
-	if ((level >= 25 and mountItem:getId() == 2330) or (level >= 35 and mountItem:getId() == 2331) or (level >= 100 and mountItem:isBetween(2332, 2360))) then
+	if ((level >= 25 and mountItem:getId() == MOUNT_ITEM_BASE_ID) or (level >= 35 and mountItem:getId() == MOUNT_ITEM_BASE_ID + 1) or (level >= 100 and mountItem:isBetween(MOUNT_ITEM_BASE_ID + 2, MOUNT_ITEM_YOUNG_MAX))) then
 		
 		mountItem:setId(mountItem:getId() + 30);
 			
@@ -82,9 +88,9 @@ function OnUse(player, pSrc, pNumber, pDest)
 
 	iSend.Emotion(player, 14, 3);
 
-	if (mountItem:isBetween(2330, 2360)) then
+	if (mountItem:isBetween(MOUNT_ITEM_BASE_ID, MOUNT_ITEM_YOUNG_MAX)) then
 		iGameServer.MountProcess(player, mountItem);
-	elseif (mountItem:isBetween(2360, 2390)) then
+	elseif (mountItem:isBetween(MOUNT_ITEM_YOUNG_MAX, MOUNT_ITEM_ADULT_MAX)) then
 		iGameServer.ProcessAdultMount(player, 0);
 	end
 	

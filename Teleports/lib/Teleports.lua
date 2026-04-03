@@ -58,7 +58,6 @@ TeleportRoutes = {
     ["Kefra3cToKefra4"]       = {x = 2319, y = 3867},
     ["KefraToNoaton"]         = {x = 1312, y = 1903},
     -- Noaton
-    ["NoatonGuildaToCastle"]  = {x = 1107, y = 1721},
     ["NoatonToArmia"]         = {x = 2118, y = 2102},
     ["NoatonToAzran"]         = {x = 2482, y = 1717},
     ["NoatonToErion"]         = {x = 2458, y = 2018},

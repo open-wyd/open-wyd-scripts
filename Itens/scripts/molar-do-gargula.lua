@@ -1,12 +1,12 @@
-	function OnUse(player, pSrc, pNumber, pDest)
+function OnUse(player, pSrc, pNumber, pDest)
 
 	if (player:getLevel() < 199 or player:getLevel() > 205 or player:getPromotionId() ~= 0) then
-		iSend.ClientMessage(player, "Esta quest é apenas para mortais (200-205)");
+		iSend.ClientMessage(player, "Esta quest ï¿½ apenas para mortais (200-205)");
 		return false;
 	end
 	
 	if 	(player:hasQuest(global_OWS.questList.MolarGargol))then
-		iSend.ClientMessage(player, "Você já realizou esta quest.");
+		iSend.ClientMessage(player, "Vocï¿½ jï¿½ realizou esta quest.");
 		return false;
 	end
 

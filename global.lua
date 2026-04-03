@@ -79,6 +79,11 @@ EF_ITEMLEVEL 	= 87;
 EF_MOBTYPE		= 112;
 EF_NOSANC 		= 126;
 
+-- Item IDs: recompensas do Trainer of Newbie
+ITEM_ID_TRAINER_REWARD_1 = 653
+ITEM_ID_TRAINER_REWARD_2 = 481
+ITEM_ID_TRAINER_REWARD_3 = 400
+
 ITEM_PLACE_EQUIP = 0;
 ITEM_PLACE_CARRY = 1;
 ITEM_PLACE_CARGO = 2;
@@ -105,8 +110,8 @@ params.eventTask = {
 
 params.eventMap = {
 	castleWar = {
-		{from = {x = 1039, y = 1679}, to = {x = 1151, y = 1703}}, -- primeiro bloco de posições.
-		{from = {x = 1076, y = 1703}, to = {x = 1151, y = 1776}}  -- Segundo bloco de posições.
+		{from = {x = 1039, y = 1679}, to = {x = 1151, y = 1703}}, -- primeiro bloco de posiï¿½ï¿½es.
+		{from = {x = 1076, y = 1703}, to = {x = 1151, y = 1776}}  -- Segundo bloco de posiï¿½ï¿½es.
 																  -- blocos em diante
 	}
 };
@@ -120,45 +125,45 @@ params.skills = {
 };
 
 params.conditions = {
-	CONDITION_SLOWNESS             = 01, --  Lentidão
+	CONDITION_SLOWNESS             = 01, --  Lentidï¿½o
 	CONDITION_BUT_SPEED            = 02, --  Velocidade(+)
-	CONDITION_LESS_RESISTANCE      = 03, --  Resistência(-)
-	CONDITION_ATTACK_BONUS         = 04, --  Ataque_Bônus
-	CONDITION_LESS_EVASION         = 05, --  Evasão(-)
-	CONDITION_BUT_EVASION          = 06, --  Evasão(+)
+	CONDITION_LESS_RESISTANCE      = 03, --  Resistï¿½ncia(-)
+	CONDITION_ATTACK_BONUS         = 04, --  Ataque_Bï¿½nus
+	CONDITION_LESS_EVASION         = 05, --  Evasï¿½o(-)
+	CONDITION_BUT_EVASION          = 06, --  Evasï¿½o(+)
 	CONDITION_LESS_SPEED           = 07, --  Velocidade(-)
-	CONDITION_JEWELRY              = 08, --  Jóia(s)
+	CONDITION_JEWELRY              = 08, --  Jï¿½ia(s)
 	CONDITION_BUT_DAMAGE           = 09, --  Dano(+)
 	CONDITION_LESS_ATTACK          = 10, --  Ataque(-)
-	CONDITION_MAGIC_SHIELD         = 11, --  Escudo_Mágico
+	CONDITION_MAGIC_SHIELD         = 11, --  Escudo_Mï¿½gico
 	CONDITION_LESS_DEFENSE         = 12, --  Defesa(-)
 	CONDITION_ASSAULT              = 13, --  Assalto
-	CONDITION_OWNED                = 14, --  Possuído
-	CONDITION_BUT_TECHNIQUE        = 15, --  Técnica(+)
-	CONDITION_MUTATION             = 16, --  Transformação
+	CONDITION_OWNED                = 14, --  Possuï¿½do
+	CONDITION_BUT_TECHNIQUE        = 15, --  Tï¿½cnica(+)
+	CONDITION_MUTATION             = 16, --  Transformaï¿½ï¿½o
 	CONDITION_AURA_OF_LIFE         = 17, --  Aura_da_Vida
 	CONDITION_CONTROL_MANA         = 18, --  Controle_de_Mana
 	CONDITION_IMMUNITY             = 19, --  Imunidade
 	CONDITION_POISON               = 20, --  Veneno
-	CONDITION_MEDITATION           = 21, --  Meditação
-	CONDITION_THUNDER              = 22, --  Trovão
+	CONDITION_MEDITATION           = 21, --  Meditaï¿½ï¿½o
+	CONDITION_THUNDER              = 22, --  Trovï¿½o
 	CONDITION_AURA_BESTIAL         = 23, --  Aura_Bestial
 	CONDITION_SAMARITAN            = 24, --  Samaritano
-	CONDITION_ELEMENTAL_PROTECTION = 25, --  Proteção_Elemental
-	CONDITION_BUT_EVASION2         = 26, --  Evasão(+)
+	CONDITION_ELEMENTAL_PROTECTION = 25, --  Proteï¿½ï¿½o_Elemental
+	CONDITION_BUT_EVASION2         = 26, --  Evasï¿½o(+)
 	CONDITION_FREEZE               = 27, --  Congelamento
 	CONDITION_INVISIBILITY         = 28, --  Invisibilidade
 	CONDITION_EDGE_OF_SOUL         = 29, --  Limite_da_Alma
-	CONDITION_PVM_BONUS            = 30, --  Bônus_PvM
+	CONDITION_PVM_BONUS            = 30, --  Bï¿½nus_PvM
 	CONDITION_GOLDEN_SHIELD        = 31, --  Escudo_Dourado
 	CONDITION_CANCELLATION         = 32, --  Cancelamento
-	CONDITION_TRANSFORMATION       = 33, --  Transformação
+	CONDITION_TRANSFORMATION       = 33, --  Transformaï¿½ï¿½o
 	CONDITION_FOOD                 = 34, --  Comida
-	CONDITION_HP_MP_BONUS          = 35, --  Bônus_HP/MP
+	CONDITION_HP_MP_BONUS          = 35, --  Bï¿½nus_HP/MP
 	CONDITION_GRAB_POISONOUS       = 36, --  Veneno
-	CONDITION_CONNECT_SPECTRAL     = 37, --  Ligação_Espectral
-	CONDITION_EXCHANGE_OF_SPIRIT   = 38, --  Troca_de_Espírito
-	CONDITION_EXP_BONUS            = 39  --  Bônus_EXP
+	CONDITION_CONNECT_SPECTRAL     = 37, --  Ligaï¿½ï¿½o_Espectral
+	CONDITION_EXCHANGE_OF_SPIRIT   = 38, --  Troca_de_Espï¿½rito
+	CONDITION_EXP_BONUS            = 39  --  Bï¿½nus_EXP
 	-- Atordoado
 	-- Esquiva(-)
 	-- Magia_Misteriosa
@@ -167,7 +172,7 @@ params.conditions = {
 	-- Congelar
 	-- Chama_Resistente
 	-- Sangrar
-	-- Última_Resistência
+	-- ï¿½ltima_Resistï¿½ncia
 };
 
 global_OWS = {

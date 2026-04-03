@@ -32,9 +32,15 @@ local SkillBonusList = {
 ---------------------------------------------------------
 --                Promotion entry point                --
 ---------------------------------------------------------
+local _gainExpLocked = false
+
 -- [this function is optional]
-function OnGainExp(player, experience) -- TODO: Correct the potential of infinite loop (recursive use of the Creature->addExp)
-	return experience;
+function OnGainExp(player, experience)
+	if _gainExpLocked then return experience end
+	_gainExpLocked = true
+	local result = experience
+	_gainExpLocked = false
+	return result
 end
 
 -- [this function is required]

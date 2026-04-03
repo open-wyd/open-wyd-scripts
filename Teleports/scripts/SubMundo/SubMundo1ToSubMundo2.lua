@@ -1,3 +1,1 @@
-function OnUse( player )
-    doTeleport(player, 1304, 3819);
-end
+function OnUse(player) teleport(player, "SubMundo1ToSubMundo2") end

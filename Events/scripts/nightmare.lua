@@ -88,7 +88,7 @@ Env[3]:addSpawn("boss",     161, spawnList.A.Boss);
 
 local intervalForStart = 5;
 local spawns = {{153,154,155}, {156,157,158}, {159,160,161}};
-local initBoss = (18*(60*1000));;
+local BOSS_SPAWN_DELAY = ms.min(18)
 local bossTime = {0,0,0};
 local spawnUnit = {20, 30, 40}; 
 local steps = {{callback = nil, timer = 0}, {callback = nil, timer = 0}, {callback = nil, timer = 0}};
@@ -178,16 +178,16 @@ function onAddPlayer(this, envId, player)
 			Env[envId]:setTime(wtime + nSec_Nightmare);
 			Env[envId]:sendTime(intervalForStart, true);
 			Env[envId]:start( );
-			bossTime[envId] = (wtime + initBoss);
+			bossTime[envId] = (wtime + BOSS_SPAWN_DELAY);
 			steps[envId].callback = cb_SpawnCitizens;
 			steps[envId].timer = (intervalForStart * 1000);
 			this:addTask( envId );
-			iSend.ClientMessage(player, "você esta participando do evento \""..Env[envId]:getName( ).."\"");
+			iSend.ClientMessage(player, "vocï¿½ esta participando do evento \""..Env[envId]:getName( ).."\"");
 			return TRUE;
 		end
 		return FALSE;
 	end
-	iSend.ClientMessage(player, "este evento já esta sendo realizado, aguarde.");
+	iSend.ClientMessage(player, "este evento jï¿½ esta sendo realizado, aguarde.");
 	return FALSE;
 end
 
